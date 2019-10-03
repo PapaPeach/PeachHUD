@@ -1,0 +1,125 @@
+"Resource/UI/HudObjectiveKothTimePanel.res"
+{	
+	"BlueTimer"
+	{
+		"ControlName"				"CTFHudTimeStatus"
+		"fieldName"					"BlueTimer"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"2"
+		"wide"						"110"
+		"tall"						"150"
+		"visible"					"1"
+		"enabled"					"1"
+		"delta_item_x"				"22"
+		"delta_item_start_y"		"50"
+		"delta_item_end_y"			"70"
+		"PositiveColor"				"0 255 0 255"
+		"NegativeColor"				"255 0 0 255"
+		"delta_lifetime"			"1.5"
+		"delta_item_font"			"HudFontMedium"
+		
+		"TimePanelValue"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"TimePanelValue"
+			"font"					"Size 15"
+			"fgcolor"				"WhiteTransparent"
+			"xpos"					"30"
+			"ypos"					"2"
+			"zpos"					"3"
+			"wide"					"50"
+			"tall"					"25"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"center"
+			"labelText"				"0:00"
+		}
+	}
+	
+	"BlueBar"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"BlueBar"
+		"xpos"						"-30"
+		"ypos"						"7"
+		"zpos"						"3"
+		"wide"						"50"
+		"tall"						"16"
+		"visible"					"1"
+		"enabled"					"1"
+		"border"					"BlueTransparent70"
+		
+		"pin_to_sibling"			"BlueTimer"
+	}
+
+	"RedTimer"
+	{
+		"ControlName"				"CTFHudTimeStatus"
+		"fieldName"					"RedTimer"
+		"xpos"						"50"
+		"ypos"						"0"
+		"zpos"						"2"
+		"wide"						"110"
+		"tall"						"150"
+		"visible"					"1"
+		"enabled"					"1"
+		"delta_item_x"				"22"
+		"delta_item_start_y"		"50"
+		"delta_item_end_y"			"70"
+		"PositiveColor"				"0 255 0 255"
+		"NegativeColor"				"255 0 0 255"
+		"delta_lifetime"			"1.5"
+		"delta_item_font"			"HudFontMedium"
+		
+		"TimePanelValue"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"TimePanelValue"
+			"font"					"Size 15"
+			"fgcolor"				"WhiteTransparent"
+			"xpos"					"30"
+			"ypos"					"2"
+			"zpos"					"3"
+			"wide"					"50"
+			"tall"					"25"
+			"visible"				"1"
+			"enabled"				"1"
+			"textAlignment"			"center"
+			"labelText"				"0:00"
+		}
+	}
+	
+	"RedBar"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"RedBar"
+		"xpos"						"-30"
+		"ypos"						"7"
+		"zpos"						"3"
+		"wide"						"50"
+		"tall"						"16"
+		"visible"					"1"
+		"enabled"					"1"
+		"border"					"RedTransparent70"
+		
+		"pin_to_sibling"			"RedTimer"
+	}
+	
+	"ActiveTimerBG"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"ActiveTimerBG"
+		"xpos"						"0"
+		"ypos"						"21"
+		"zpos"						"1"
+		"wide"						"39"
+		"tall"						"2"
+		"visible"					"0"
+		"enabled"					"1"
+		"paintbackground"			"1"
+		"paintbackgroundstyle"		"0"
+		"bgcolor_override"			"OrangeLight"
+		"alpha"						"125"
+	}
+}
