@@ -87,12 +87,11 @@
 	
 	"CountTextShadow"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"CountTextShadow"
+		"ControlName"			"CExLabel"
+		"fieldName"				"CountTextShadow"
 		"font"					"Size 20"
 		"fgcolor"				"Shadows"
 		"labelText"				"%counttext%"
-		"textAlignment" 		"west"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"1"	

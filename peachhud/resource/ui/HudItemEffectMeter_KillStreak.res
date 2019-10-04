@@ -51,6 +51,25 @@
 		"font"					"Size 15"
 	}
 	
+	"KillstreakShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"KillstreakLabelShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"	
+		"wide"					"50"
+		"tall"					"15"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"Streak:"
+		"textAlignment"			"east"	
+		"AllCaps"				"1"
+		"font"					"Size 15"
+		"fgcolor"				"Shadows"
+		"pin_to_sibling"		"KillstreakLabel"
+	}
+	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
@@ -73,6 +92,29 @@
 		"pin_to_sibling"		"KillstreakLabel"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"1"
+		"wide"					"25"
+		"tall"					"15"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Size 16"
+		"fgcolor"				"Shadows"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 	
 	
