@@ -30,6 +30,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Size 18"
+		"fgcolor"				"White"
 	}
 	
 	"AccountValueShadow"
