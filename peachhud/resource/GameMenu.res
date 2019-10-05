@@ -2,7 +2,7 @@
 {
 	"Servers"
 	{
-		"label"			","
+		"label"			"Servers"
 		"command"		"OpenServerBrowser"
 	}
 	
@@ -14,7 +14,7 @@
 	
 	"Items"
 	{
-		"label"			"F"
+		"label"			"Inventory"
 		"command"		"engine open_charinfo"
 	}
 	
@@ -26,7 +26,7 @@
 	
 	"Options"
 	{
-		"label"			"X"
+		"label"			"Options"
 		"command"		"OpenOptionsDialog"
 	}
 	
@@ -80,14 +80,14 @@
 	
 	"Vote"
 	{
-		"label"			"_"
+		"label"			"Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 	}
 	
 	"Mute"
 	{
-		"label"			">"
+		"label"			"Mute"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 	}
@@ -304,7 +304,7 @@
 	
 	"Report"
 	{
-		"label"			"!"
+		"label"			"Report"
 		"command"		"OpenReportPlayerDialog"
 		"tooltip"		"Report Players"
 		"OnlyInGame"	"1"

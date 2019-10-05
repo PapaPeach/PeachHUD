@@ -11,7 +11,7 @@
 		"tall"									"315"
 		"visible"								"1"
 		"PaintBackground"						"0"
-		"border"								"BlueTransparent70"
+		"border"								"BlackTransparent50"
 	}
 	
 	"ScrollableContainer"

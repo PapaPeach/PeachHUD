@@ -227,7 +227,7 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 0"
+		"fillcolor"			"0 0 0 50"
 	}
 	
 	"RightBar"
@@ -243,44 +243,29 @@
 		"border"			"BlackTransparent50"
 	}
 	
-	"PlaySeparatorLine"
+	"InfoSeparatorLine"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"			"PlaySeparatorLine"
-		"xpos"				"r40"
-		"ypos"				"35"
+		"fieldname"			"InfoSeparatorLine"
+		"xpos"				"10"
+		"ypos"				"148"
 		"zpos"				"20"
-		"wide"				"37"
+		"wide"				"325"
 		"tall"				"1"
 		"visible"			"1"
 		"bgcolor_override" 	"WhiteMoreTransparent"
-	}
-	
-	"MainButtonsAnchor"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"MainButtonsAnchor"
-		"xpos"				"r36"
-		"ypos"				"37"
-		"wide"				"30"
-		"tall"				"1"
-		"visible"			"0"
 	}
 	
 	"Servers"
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Servers"
-		"xpos"							"0"
-		"ypos"							"0"
+		"xpos"							"10"
+		"ypos"							"148"
 		"zpos"							"50"
-		"wide"							"30"
+		"wide"							"98"
 		"tall"							"30"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"MainButtonsAnchor"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 
 		"SubButton"
 		{
@@ -288,7 +273,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"30"
+			"wide"						"98"
 			"tall"						"30"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -296,8 +281,8 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
-			"textAlignment"				"center"
+			"font"						"Size 28"
+			"textAlignment"				"west"
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
@@ -374,9 +359,9 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Items"
 		"xpos"							"0"
-		"ypos"							"0"
+		"ypos"							"-7"
 		"zpos"							"50"
-		"wide"							"30"
+		"wide"							"120"
 		"tall"							"30"
 		"visible"						"1"
 		
@@ -390,7 +375,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"30"
+			"wide"						"120"
 			"tall"						"30"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -398,8 +383,8 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
-			"textAlignment"				"center"
+			"font"						"Size 28"
+			"textAlignment"				"west"
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
@@ -421,10 +406,63 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Store"
+		"xpos"							"-16"
+		"ypos"							"-16"
+		"zpos"							"51"
+		"wide"							"16"
+		"tall"							"16"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"Items"
+		"pin_corner_to_sibling" 		"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"16"
+			"tall"						"16"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintborder"				"1"
+			
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override"	"White"
+			
+			"border"					"BlueTransparent70"
+			"border_default"			"BlueTransparent70"
+			"border_armed"				"OrangeTransparent70"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"Options"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Options"
 		"xpos"							"0"
-		"ypos"							"0"
+		"ypos"							"-7"
 		"zpos"							"50"
-		"wide"							"30"
+		"wide"							"100"
 		"tall"							"30"
 		"visible"						"1"
 		
@@ -438,7 +476,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"30"
+			"wide"						"200"
 			"tall"						"30"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -446,56 +484,8 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
-			"textAlignment"				"center"
-			"dulltext"					"0"
-			"brighttext"				"0"
-			"default"					"1"
-			
-			"sound_depressed"			"UI/buttonclick.wav"
-			"sound_released"			"UI/buttonclickrelease.wav"
-			
-			"paintbackground"			"0"
-			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
-			"armedFgColor_override"		"OrangeLight"
-			"depressedFgColor_override"	"OrangeLight"
-			
-			"proportionaltoparent"		"1"
-		}
-	}
-	
-	"Options"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldname"						"Options"
-		"xpos"							"0"
-		"ypos"							"0"
-		"zpos"							"50"
-		"wide"							"30"
-		"tall"							"30"
-		"visible"						"1"
-		
-		"pin_to_sibling" 				"Store"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-
-		"SubButton"
-		{
-			"ControlName"				"CExImageButton"
-			"fieldName"					"SubButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"30"
-			"tall"						"30"
-			"autoResize"				"0"
-			"pinCorner"					"3"
-			"visible"					"1"
-			"enabled"					"1"
-			"tabPosition"				"0"
-			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
-			"textAlignment"				"center"
+			"font"						"Size 28"
+			"textAlignment"				"west"
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
@@ -517,14 +507,58 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Vote"
-		"xpos"							"0"
-		"ypos"							"0"
+		"xpos"							"160"
+		"ypos"							"148"
 		"zpos"							"50"
-		"wide"							"30"
+		"wide"							"65"
+		"tall"							"30"
+		"visible"						"1"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"65"
+			"tall"						"30"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Size 28"
+			"textAlignment"				"west"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			
+			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"armedFgColor_override"		"OrangeLight"
+			"depressedFgColor_override"	"OrangeLight"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"Report"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Report"
+		"xpos"							"0"
+		"ypos"							"-7"
+		"zpos"							"50"
+		"wide"							"85"
 		"tall"							"30"
 		"visible"						"1"
 		
-		"pin_to_sibling" 				"Options"
+		"pin_to_sibling" 				"Vote"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
 
@@ -534,7 +568,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"30"
+			"wide"						"85"
 			"tall"						"30"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -542,8 +576,8 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
-			"textAlignment"				"center"
+			"font"						"Size 28"
+			"textAlignment"				"west"
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
@@ -566,13 +600,13 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Mute"
 		"xpos"							"0"
-		"ypos"							"0"
+		"ypos"							"-7"
 		"zpos"							"50"
-		"wide"							"30"
+		"wide"							"65"
 		"tall"							"30"
 		"visible"						"1"
 		
-		"pin_to_sibling" 				"Vote"
+		"pin_to_sibling" 				"Report"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
 
@@ -582,7 +616,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"30"
+			"wide"						"65"
 			"tall"						"30"
 			"autoResize"				"0"
 			"pinCorner"					"3"
@@ -590,8 +624,8 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
-			"textAlignment"				"center"
+			"font"						"Size 28"
+			"textAlignment"				"west"
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
@@ -609,20 +643,33 @@
 		}
 	}
 	
+	"PlaySeparatorLine"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"PlaySeparatorLine"
+		"xpos"				"r40"
+		"ypos"				"35"
+		"zpos"				"20"
+		"wide"				"37"
+		"tall"				"1"
+		"visible"			"1"
+		"bgcolor_override" 	"WhiteMoreTransparent"
+	}
+	
 	"FriendsContainer"
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"FriendsContainer"
 		"xpos"							"-1"
-		"ypos"							"-45"
+		"ypos"							"-40"
 		"zpos"							"50"
 		"wide"							"37"
-		"tall"							"200"
+		"tall"							"405"
 		"visible"						"1"
 		
 		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
 
 		"TitleLabel"
 		{
@@ -668,7 +715,7 @@
 			"ypos"						"36"
 			"zpos"						"500"
 			"wide"						"37"
-			"tall"						"164"
+			"tall"						"405"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 
@@ -2748,54 +2795,6 @@
 		"visible"						"1"
 		
 		"pin_to_sibling" 				"ConsoleINGAME"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-
-		"SubButton"
-		{
-			"ControlName"				"CExImageButton"
-			"fieldName"					"SubButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"20"
-			"tall"						"25"
-			"autoResize"				"0"
-			"pinCorner"					"3"
-			"visible"					"1"
-			"enabled"					"1"
-			"tabPosition"				"0"
-			"use_proportional_insets" 	"1"
-			"font"						"Symbols 20"
-			"textAlignment"				"center"
-			"dulltext"					"0"
-			"brighttext"				"0"
-			"default"					"1"
-			
-			"sound_depressed"			"UI/buttonclick.wav"
-			"sound_released"			"UI/buttonclickrelease.wav"
-			
-			"paintbackground"			"0"
-			
-			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"BlueLight"
-			"depressedFgColor_override"	"BlueLight"
-			
-			"proportionaltoparent"		"1"
-		}
-	}
-	
-	"Report"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldname"						"Report"
-		"xpos"							"4"
-		"ypos"							"0"
-		"zpos"							"55"
-		"wide"							"20"
-		"tall"							"25"
-		"visible"						"1"
-		
-		"pin_to_sibling" 				"AdvancedOptionsINGAME"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 

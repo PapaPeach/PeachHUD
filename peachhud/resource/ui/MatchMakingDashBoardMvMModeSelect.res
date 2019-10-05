@@ -111,8 +111,8 @@
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
 			
-			"border_default"				"BlueTransparent70"
-			"border_armed"					"OrangeTransparent70"
+			"border_default"				"BlackTransparent70"
+			"border_armed"					"OrangeTransparent50"
 		}
 		
 		"DescriptionBG"
@@ -229,7 +229,7 @@
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
 			
-			"border_default"				"BlueTransparent70"
+			"border_default"				"BlackTransparent70"
 			"border_armed"					"OrangeTransparent70"
 		}
 		

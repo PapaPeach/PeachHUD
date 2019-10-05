@@ -84,7 +84,7 @@
 			"wide"							"400"
 			"tall"							"200"
 			"paintbackground"				"0"
-			"border"						"BlueTransparent70"
+			"border"						"BlackTransparent50"
 
 			"GreyOutPanel"
 			{
@@ -143,7 +143,7 @@
 		"wide"								"400"
 		"tall"								"120"
 		"paintbackground"					"0"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 
 		"TourLootImage"
 		{
@@ -204,7 +204,7 @@
 		"wide"								"400"
 		"tall"								"120"
 		"paintbackground"					"0"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 
 		"InventoryTitleLabel"
 		{
@@ -468,7 +468,7 @@
 		"wide"								"400"
 		"tall"								"120"
 		"paintbackground"					"0"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 
 		"NoMannUpImage"
 		{
@@ -548,8 +548,8 @@
 			"armedFgColor_override"			"White"
 			"depressedFgColor_override"		"White"
 			
-			"border_default"				"RedTransparent70"
-			"border_armed"					"OrangeTransparent70"
+			"border_default"				"RedTransparent50"
+			"border_armed"					"OrangeTransparent50"
 		}
 	}
 
@@ -638,7 +638,7 @@
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
 			"bgcolor_override"	"Blank"
-			"border"		"BlueTransparent70"
+			"border"		"BlackTransparent50"
 
 			"NavToRelay"	"ChallengeList"
 

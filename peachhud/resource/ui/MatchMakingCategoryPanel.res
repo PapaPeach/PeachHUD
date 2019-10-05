@@ -89,7 +89,7 @@
 			"paintbackground"				"1"
 			"paintborder"					"0"
 
-			"defaultBgColor_override"		"BlueLight"
+			"defaultBgColor_override"		"0 0 0 200"
 			"armedBgColor_override"			"OrangeLight"
 			"selectedBGColor_override" 		"OrangeLight"
 		}

@@ -92,6 +92,7 @@
 		"font"					"Size 20"
 		"fgcolor"				"Shadows"
 		"labelText"				"%counttext%"
+		"textAlignment" 		"west"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"1"	
@@ -99,7 +100,6 @@
 		"tall"					"18"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"east"	
 		"labelText"				"%counttext%"
 		"pin_to_sibling"		"CountText"
 		

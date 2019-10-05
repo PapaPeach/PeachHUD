@@ -64,8 +64,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
 		
-		"border_default"				"BlueTransparent70"
-		"border_armed"					"OrangeTransparent70"
+		"border_default"				"BlackTransparent50"
+		"border_armed"					"OrangeTransparent50"
 	}
 
 	"MannUpToolTipButtonHack"
@@ -120,8 +120,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
 		
-		"border_default"				"GreenTransparent70"
-		"border_armed"					"OrangeTransparent70"
+		"border_default"				"BlackTransparent50"
+		"border_armed"					"OrangeTransparent50"
 	}
 
 	"BootCampToolTipButtonHack"
@@ -176,8 +176,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
 		
-		"border_default"				"GreenTransparent70"
-		"border_armed"					"OrangeTransparent70"
+		"border_default"				"BlackTransparent50"
+		"border_armed"					"OrangeTransparent50"
 	}
 
 	"NextButton"
@@ -215,8 +215,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
 		
-		"border_default"				"BlueTransparent70"
-		"border_armed"					"OrangeTransparent70"
+		"border_default"				"BlackTransparent50"
+		"border_armed"					"OrangeTransparent50"
 	}
 
 	"JoinLateCheckButton"

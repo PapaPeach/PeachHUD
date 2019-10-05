@@ -250,18 +250,18 @@
 			"mouseinputenabled"				"0"
 		}
 
-		"BlueBackground"
+		"BlackBackground"
 		{
 			"ControlName"					"EditablePanel"
-			"fieldName"						"BlueBackground"
+			"fieldName"						"BlackBackground"
 			"xpos"							"5"
 			"ypos"							"50"
 			"zpos"							"-1"
 			"wide"							"255"
 			"tall"							"320"
-			"visible"						"1"
+			"visible"						"0"
 			"PaintBackground"				"0"
-			"border"						"BlueTransparent70"
+			"border"						"BlackTransparent50"
 		}
 
 		"GameModesList"
@@ -277,7 +277,7 @@
 			"restrict_width" 				"0"
 			"paintbackground" 				"0"
 			"paintbackgroundtype" 			"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"WhiteMoreTransparent"
 			"alpha"							"255"
 
 			"ScrollBar"
@@ -287,7 +287,7 @@
 				"xpos"						"rs1-1"
 				"ypos"						"0"
 				"tall"						"f0"
-				"wide"						"0"			//3 to enable
+				"wide"						"3"			//3 to enable
 				"zpos"						"1000"
 				"nobuttons"					"1"
 				"proportionaltoparent"		"1"
