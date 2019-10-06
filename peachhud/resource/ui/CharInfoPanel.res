@@ -78,8 +78,8 @@
 		"zpos"								"0"
 		"wide"								"169"
 		"tall"								"31"
-		"visible"							"1"
-		"enabled"							"1"
+		"visible"							"0"
+		"enabled"							"0"
 		"border"							"BlueTransparent50"
 	}
 	

@@ -100,10 +100,9 @@
 		"tall"					"18"
 		"visible"				"1"
 		"enabled"				"1"
-		"labelText"				"%counttext%"
 		"pin_to_sibling"		"CountText"
-		
 	}
+	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"		"CTFImagePanel"

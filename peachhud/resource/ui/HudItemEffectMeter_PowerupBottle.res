@@ -5,8 +5,10 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"182"
-		"ypos"					"r15"
+		"xpos"					"c147"
+		"xpos_minmode"			"182"
+		"ypos"					"r115"
+		"ypos_minmode"			"r15"
 		"wide"					"60"
 		"tall"					"15"
 		"MeterFG"				"White"
@@ -21,8 +23,8 @@
 		"ypos"					"0"
 		"wide"					"50"
 		"tall"					"15"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"PaintBackgroundType"	"3"
 		"bgcolor_override"		"Black"
 	}
@@ -31,7 +33,7 @@
 	{
 		"ControlName"			"CTFImagePanel"
 		"fieldName"				"ItemEffectIcon"
-		"xpos"					"-5"
+		"xpos"					"-8"
 		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"15"
@@ -66,13 +68,23 @@
 		"pin_to_sibling"		"ItemEffectMeterBG"
 	}
 	
-	
-	
-	
-	
-	
-	
-	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"font"					"Size 20"
+		"fgcolor"				"Shadows"
+		"labelText"				"%progresscount%"
+		"textAlignment" 		"west"
+		"xpos"					"-1"
+		"ypos"					"0"
+		"zpos"					"1"	
+		"wide"					"20"
+		"tall"					"18"
+		"visible"				"1"
+		"enabled"				"1"
+		"pin_to_sibling"		"ItemEffectMeterCount"
+	}
 	
 	"ItemEffectMeter"
 	{	

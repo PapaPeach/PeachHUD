@@ -49,6 +49,24 @@
 		"labelText"				"%currency%"
 	}
 	
+		"CurrencyShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"CurrencyShadow"
+		"font"					"Size 15"
+		"fgcolor"				"Shadows"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"15"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"west"	
+		"labelText"				"%currency%"
+		"pin_to_sibling"		"CurrencyGood"
+	}	
+	
 	"BorderBG"
 	{
 		"ControlName"			"EditablePanel"

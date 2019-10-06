@@ -55,7 +55,7 @@
 		"tall"								"30"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 		
 		"pin_to_sibling" 					"TextWindowFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
@@ -172,7 +172,7 @@
 		"tall"								"24"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 		
 		"pin_to_sibling" 					"ok"
 	}

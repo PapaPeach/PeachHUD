@@ -36,8 +36,20 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyShadow"
-		"xpos"					"9999"
+		"font"					"Size 15"
+		"fgcolor"				"Shadows"
+		"xpos"					"-1"
+		"ypos"					"-1"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"15"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"west"	
+		"labelText"				"%currency%"
+		"pin_to_sibling"		"Currency"
 	}	
+	
 	"WhiteBG"
 	{
 		"ControlName"			"EditablePanel"

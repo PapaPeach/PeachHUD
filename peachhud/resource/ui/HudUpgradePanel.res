@@ -110,7 +110,7 @@
 			"visible"						"1"
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"GrayBlue"
 		}
 	
 		"PlayerUpgradeButton"				//INVISIBLE BUT NEEDED I THINK?
@@ -186,7 +186,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"GrayBluDark"
 			"PaintBackgroundType"			"0"
 		}
 		
@@ -240,7 +240,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"BlackTransparent"
 			"PaintBackgroundType"			"0"
 			"alpha"							"175"
 		}
@@ -259,7 +259,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"BlackTransparent"
 			"PaintBackgroundType"			"0"
 			"alpha"							"175"
 		}
@@ -278,7 +278,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"BlackTransparent"
 			"PaintBackgroundType"			"0"
 			"alpha"							"175"
 		}
@@ -297,7 +297,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"BlackTransparent"
 			"PaintBackgroundType"			"0"
 			"alpha"							"175"
 		}
@@ -316,7 +316,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"BlackTransparent"
 			"PaintBackgroundType"			"0"
 			"alpha"							"175"
 		}
@@ -335,7 +335,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"BlueLight"
+			"bgcolor_override"				"BlackTransparent"
 			"PaintBackgroundType"			"0"
 			"alpha"							"175"
 		}
@@ -399,7 +399,7 @@
 			
 			"PaintBackground" 				"0"
 			"PaintBorder" 					"1"
-			"border" 						"BlackTransparent70"
+			"border" 						"BlackTransparent50"
 		}
 		
 		"UpgradeItemsDescriptionLabel"
@@ -440,7 +440,7 @@
 			
 			"PaintBackground"				"0"
 			"PaintBorder"				 	"1"
-			"border" 						"BlackTransparent70"
+			"border" 						"BlackTransparent50"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -459,7 +459,7 @@
 			
 			"PaintBackground" 				"0"
 			"PaintBorder" 					"1"
-			"border" 						"OrangeTransparent70"
+			"border" 						"OrangeTransparent50"
 		}
 		
 		"UpgradeItemsLabel"
@@ -531,7 +531,7 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 			
 			"border_default"				"BlueTransparent70"
-			"border_armed"					"OrangeTransparent70"
+			"border_armed"					"OrangeTransparent50"
 
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
@@ -549,7 +549,7 @@
 			"tall"							"24"
 			"visible"						"1"
 			"enabled"						"1"
-			"border"						"GreenTransparent70"
+			"border"						"GreenTransparent50"
 		}
 		
 		"CreditsIcon"
@@ -632,7 +632,7 @@
 			"sound_released"				"UI/buttonclickrelease.wav"
 			
 			"border_default"				"RedTransparent70"
-			"border_armed"					"OrangeTransparent70"
+			"border_armed"					"OrangeTransparent50"
 			
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"
@@ -667,8 +667,8 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			
-			"border_default"				"BlueTransparent70"
-			"border_armed"					"OrangeTransparent70"
+			"border_default"				"GreenTransparent50"
+			"border_armed"					"OrangeTransparent50"
 			
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"White"

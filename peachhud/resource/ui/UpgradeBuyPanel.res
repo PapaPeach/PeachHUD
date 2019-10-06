@@ -54,7 +54,7 @@
 		
 		"PaintBackground" 					"0"
 		"PaintBorder" 						"1"
-		"border" 							"BlackTransparent70"
+		"border" 							"BlackTransparent50"
 	}
 	
 	"IconBorder"
@@ -184,7 +184,7 @@
 		"armedBgColor_override"				"Blank"
 		"depressedFgColor_override"			"White"
 		"depressedBgColor_override"			"Blank"
-		"selectedFgColor_override"			"OrangeLight"
+		"selectedFgColor_override"			"GreenLight"
 		"selectedBgColor_override"			"Blank"
 		"disabledfgcolor2_override"			"White"
 	}
