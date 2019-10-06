@@ -209,7 +209,7 @@
 	
 	"Hollow Cross"
 	{
-		"visible"									"1"
+		"visible"									"0"
 		
 		"xpos"										"c-25"
 		"ypos"										"c-25"

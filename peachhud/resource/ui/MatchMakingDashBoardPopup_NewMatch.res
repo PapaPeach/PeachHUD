@@ -124,8 +124,8 @@
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
 				
-				"border_default"			"RedTransparent70"
-				"border_armed"				"OrangeTransparent70"
+				"border_default"			"RedTransparent50"
+				"border_armed"				"OrangeTransparent50"
 			}
 
 			"SmallJoinButton"
@@ -170,8 +170,8 @@
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
 				
-				"border_default"			"GreenTransparent70"
-				"border_armed"				"OrangeTransparent70"
+				"border_default"			"GreenTransparent50"
+				"border_armed"				"OrangeTransparent50"
 			}
 
 			"WideJoinButton"
@@ -210,8 +210,8 @@
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
 				
-				"border_default"			"GreenTransparent70"
-				"border_armed"				"OrangeTransparent70"
+				"border_default"			"GreenTransparent50"
+				"border_armed"				"OrangeTransparent50"
 			}
 
 			"JoiningLabel"
@@ -250,7 +250,7 @@
 
 				"radius"					"10"
 				"velocity"					"250"
-				"fgcolor_override"			"BlueLight"
+				"fgcolor_override"			"White"
 			}
 		}
 	}

@@ -54,7 +54,7 @@
 		"tall"								"30"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 		
 		"pin_to_sibling" 					"ClassSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
@@ -74,7 +74,7 @@
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
-		"labelText"							"Select a Class !"
+		"labelText"							"Select a Class"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
 		"dulltext"							"0"
@@ -115,8 +115,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -161,8 +161,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -207,8 +207,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -253,8 +253,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -299,8 +299,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -345,8 +345,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -391,8 +391,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -437,8 +437,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -483,8 +483,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -529,9 +529,9 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlueTransparent70"
-		"border_armed"						"OrangeTransparent70"
-		"border_Selected"					"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_armed"						"OrangeTransparent50"
+		"border_Selected"					"OrangeTransparent50"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"

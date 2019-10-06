@@ -346,7 +346,7 @@
 			"proportionaltoparent"		"1"
 
 			"paintborder"				"1"
-			"border"					"BlueTransparent70"
+			"border"					"Blank"
 		}
 
 		"Frame"

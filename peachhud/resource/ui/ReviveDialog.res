@@ -35,7 +35,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"AllCaps"					"1"
-			"fgcolor"					"BlueLight"
+			"fgcolor"					"White"
 		}
 	
 		"ExplanationLabel"
@@ -89,7 +89,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"BlueTransparent70"
+			"border_default"			"RedTransparent90"
 			"border_armed"				"OrangeTransparent70"
 		}
 

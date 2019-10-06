@@ -69,7 +69,7 @@
 		"tall"								"30"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 		
 		"pin_to_sibling" 					"TeamSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
@@ -94,7 +94,7 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
+		"font"								"Size 12"
 		"fgcolor_override"					"White"
 		
 		"pin_to_sibling" 					"MapNameFrame"

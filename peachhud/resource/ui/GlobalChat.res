@@ -64,7 +64,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"					"BlueLight"
+				"fgcolor_override"					"White"
 			}
 		
 			"UpButton"
@@ -94,7 +94,7 @@
 		"tall"										"15"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
-		"bgcolor_override"							"BlueLight"
+		"bgcolor_override"							"BlackTransparent"
 		"paintbackgroundtype"						"2"
 		"RoundedCorners"							"0"
 		"font"										"Size 12"

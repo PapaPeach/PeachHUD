@@ -54,7 +54,7 @@
 		"tall"								"30"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"BlackTransparent50"
 		
 		"pin_to_sibling" 					"MapInfoFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
@@ -138,8 +138,8 @@
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
-		"border_default"					"BlueTransparent70"
-		"border_armed"						"OrangeTransparent70"
+		"border_default"					"BlackTransparent50"
+		"border_armed"						"OrangeTransparent50"
 
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"

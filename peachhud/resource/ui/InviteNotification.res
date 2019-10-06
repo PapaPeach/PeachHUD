@@ -99,7 +99,7 @@
 
 		"radius"					"10"
 		"velocity"					"60"
-		"fgcolor_override"			"BlueLight"
+		"fgcolor_override"			"White"
 	}
 
 	"AcceptButton"
@@ -137,8 +137,8 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"GreenTransparent70"
-		"border_armed"				"OrangeTransparent70"
+		"border_default"			"GreenTransparent50"
+		"border_armed"				"OrangeTransparent50"
 	}
 
 	"DeclineButton"
@@ -183,7 +183,7 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"RedTransparent70"
-		"border_armed"				"OrangeTransparent70"
+		"border_default"			"RedTransparent50"
+		"border_armed"				"OrangeTransparent50"
 	}
 }

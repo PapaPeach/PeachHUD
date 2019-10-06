@@ -95,7 +95,7 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"BlackTransparent50"
+		"border_default"			"GreenTransparent50"
 		"border_armed"				"OrangeTransparent50"
 
 		"defaultFgColor_override"	"White"
