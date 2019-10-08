@@ -11,7 +11,7 @@ Scheme
 		
 		"Black"									"35 35 35 255"
 		"BlackSolid"							"0 0 0 255"
-		"BlackTransparent"						"0 0 0 150"
+		"BlackTransparent"						"0 0 0 200"
 		"BlackLightTransparent"					"0 0 0 50"
 		
 		"Gray"									"150 150 150 255"

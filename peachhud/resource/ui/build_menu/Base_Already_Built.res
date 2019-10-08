@@ -4,7 +4,7 @@
 {
 	"ItemBackground"
 	{	
-		"bgcolor_override"		"OrangeLight"
+		"bgcolor_override"		"Blank"
 	}
 	
 	"ItemNameLabel"
@@ -16,12 +16,12 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"CantBuildReason"
-		"font"					"Size 12"
+		"font"					"Size 9"
 		"fgcolor"				"White"
 		"xpos"					"-10"
-		"ypos"					"0"
+		"ypos"					"-24"
 		"zpos"					"1"
-		"wide"					"150"
+		"wide"					"60"
 		"tall"					"18"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -29,7 +29,7 @@
 		"enabled"				"1"
 		"AllCaps"				"1"
 		"labelText"				"Already Built"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"pin_to_sibling"		"ItemBackground"

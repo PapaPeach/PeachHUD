@@ -86,11 +86,11 @@
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter"
 		"font"						"Default"
-		"xpos"						"c-40"
-		"ypos"						"r128"
+		"xpos"						"c-20"
+		"ypos"						"c10"
 		"zpos"						"2"
-		"wide"						"80"
-		"tall"						"0"		//6
+		"wide"						"40"
+		"tall"						"2"		//6
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -108,8 +108,8 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"2"
-		"wide"						"20"
-		"tall"						"0"		//6
+		"wide"						"10"
+		"tall"						"2"		//6
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -126,11 +126,11 @@
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter2"
 		"font"						"Default"
-		"xpos"						"1"
+		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"2"
-		"wide"						"20"
-		"tall"						"0"		//6
+		"wide"						"10"
+		"tall"						"2"		//6
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -149,11 +149,11 @@
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter3"
 		"font"						"Default"
-		"xpos"						"1"
+		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"2"
-		"wide"						"20"
-		"tall"						"0"		//6
+		"wide"						"10"
+		"tall"						"2"		//6
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -172,11 +172,11 @@
 		"ControlName"				"ContinuousProgressBar"
 		"fieldName"					"ChargeMeter4"
 		"font"						"Default"
-		"xpos"						"1"
+		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"2"
-		"wide"						"20"
-		"tall"						"0"		//6
+		"wide"						"10"
+		"tall"						"2"		//6
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -201,7 +201,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"ResistIconAnchor"
-		"xpos"						"-20"
+		"xpos"						"-22"
 		"ypos"						"-14"
 		"wide"						"1"
 		"tall"						"50"

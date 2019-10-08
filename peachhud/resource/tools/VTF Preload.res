@@ -140,6 +140,15 @@
 		"enabled"			"1"
 		"image"				"../hud/cart_point_blue_opaque"
 	}
+	"CartHomeBlue"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CartHomeBlue"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/cart_home_blue"
+	}
 	"CartPointNeutral"
 	{
 		"ControlName"		"ImagePanel"
@@ -175,6 +184,15 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/cart_point_red_opaque"
+	}
+		"CartHomeRed"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"CartHomeRed"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/cart_home_red"
 	}
 	
 	///CAPTURE THE FLAG ICONS///

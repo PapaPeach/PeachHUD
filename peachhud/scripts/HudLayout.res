@@ -173,8 +173,8 @@
 	{	
 		"ControlName"				"EditablePanel"
 		"fieldName"					"BuildingAnchor"
-		"xpos"						"-12"
-		"ypos"						"0"
+		"xpos"						"-14"
+		"ypos"						"10"
 		"zpos"						"0"
 		"wide"						"100"
 		"tall"						"0"
@@ -259,10 +259,10 @@
 	
 	"HudMenuEngyBuild"
 	{
-		"xpos"						"0"
-		"ypos"						"c35"
-		"wide"						"150"
-		"tall"						"120"
+		"xpos"				"c-201"
+		"ypos"				"c-56"
+		"wide"				"500"
+		"tall"				"500"
 	}
 	
 	"HudMenuEngyDestroy"

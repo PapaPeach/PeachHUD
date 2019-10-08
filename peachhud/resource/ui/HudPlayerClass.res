@@ -10,7 +10,7 @@
 		"wide"					"f0"
 		"tall"					"480"
 		"visible"				"0"
-		"enabled"				"1"		
+		"enabled"				"0"		
 	}
 	
 	"PlayerStatusClassImage"
