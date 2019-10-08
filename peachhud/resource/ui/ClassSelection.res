@@ -19,8 +19,8 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"ClassMenuAnchor"
-		"xpos"								"-5"
-		"ypos"								"-5"
+		"xpos"								"c0"
+		"ypos"								"c0"
 		"wide"								"5"
 		"tall"								"5"
 		"visible"							"1"
@@ -31,16 +31,14 @@
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"ClassSelectFrame"
-		"xpos"								"0"
-		"ypos"								"0"
+		"xpos"								"-5"
+		"ypos"								"-5"
 		"zpos"								"1"
-		"wide"								"130"
+		"wide"								"p1.02"
 		"tall"								"p1.02"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"GrayBlueBorder"
-		
-		"pin_to_sibling" 					"ClassMenuAnchor"
+		"border"							"BlackTransparent90"
 	}
 	
 	"SelectAClassFrame"
@@ -52,9 +50,9 @@
 		"zpos"								"2"
 		"wide"								"130"
 		"tall"								"30"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlackTransparent50"
+		"visible"							"0"
+		"enabled"							"0"
+		"border"							"BlueTransparent70"
 		
 		"pin_to_sibling" 					"ClassSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
@@ -72,9 +70,9 @@
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
-		"visible"							"1"
-		"enabled"							"1"
-		"labelText"							"Select a Class"
+		"visible"							"0"
+		"enabled"							"0"
+		"labelText"							"Select a Class !"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
 		"dulltext"							"0"
@@ -89,8 +87,8 @@
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"scout"
-		"xpos"								"-8"
-		"ypos"								"-43"
+		"xpos"								"3"
+		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -115,8 +113,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -126,16 +124,16 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"ClassSelectFrame"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling" 					"soldier"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
 	
 	"soldier"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"soldier"
-		"xpos"								"7"
+	"xpos"								"3"
 		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
@@ -161,8 +159,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -172,17 +170,17 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"scout"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+		"pin_to_sibling" 					"pyro"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
 	
 	"pyro"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"pyro"
-		"xpos"								"0"
-		"ypos"								"7"
+		"xpos"								"35"
+		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -207,8 +205,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -218,17 +216,17 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"scout"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling" 					"demoman"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
 	
 	"demoman"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"demoman"
-		"xpos"								"0"
-		"ypos"								"7"
+	"xpos"								"3"
+		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -253,8 +251,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -264,9 +262,9 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"soldier"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling" 					"heavyweapons"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}	
 	
 	"heavyweapons"
@@ -274,7 +272,7 @@
 		"ControlName"						"CExImageButton"
 		"fieldName"							"heavyweapons"
 		"xpos"								"0"
-		"ypos"								"7"
+		"ypos"								"-70"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -299,8 +297,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -310,17 +308,17 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"pyro"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling" 					"ClassMenuAnchor"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
 	"engineer"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"engineer"
-		"xpos"								"0"
-		"ypos"								"7"
+	"xpos"								"3"
+		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -345,8 +343,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -356,17 +354,17 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"demoman"
+		"pin_to_sibling" 					"heavyweapons"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
 	
 	"medic"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"medic"
-		"xpos"								"0"
-		"ypos"								"7"
+		"xpos"								"35"
+		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -391,8 +389,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -402,17 +400,17 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"heavyweapons"
+		"pin_to_sibling" 					"engineer"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
 	
 	"sniper"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"sniper"
-		"xpos"								"0"
-		"ypos"								"7"
+	"xpos"								"3"
+		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -437,8 +435,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -448,17 +446,17 @@
 		"selectonhover"						"1"
 		"keyboardinputenabled"				"0"
 		
-		"pin_to_sibling" 					"engineer"
+		"pin_to_sibling" 					"medic"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 	}
 	
 	"spy"
 	{
 		"ControlName"						"CExImageButton"
 		"fieldName"							"spy"
-		"xpos"								"0"
-		"ypos"								"7"
+	"xpos"								"3"
+		"ypos"								"0"
 		"zpos"								"6"
 		"wide"								"55"
 		"tall"								"50"
@@ -483,55 +481,8 @@
 		"fgcolor"							"White"
 		"fgcolor_override"					"White"
 		
-		"border_default"					"BlackTransparent50"
-		"border_Selected"					"OrangeTransparent50"
-		
-		"sound_depressed"					"UI/buttonclick.wav"
-		"sound_released"					"UI/buttonclickrelease.wav"
-		"sound_armed"						"UI/buttonrollover.wav"
-		
-		"stayselectedonclick"				"1"
-		"selectonhover"						"1"
-		"keyboardinputenabled"				"0"
-		
-		"pin_to_sibling" 					"medic"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
-	}
-	
-	"random"
-	{
-		"ControlName"						"CExImageButton"
-		"fieldName"							"random"
-		"xpos"								"0"
-		"ypos"								"7"
-		"zpos"								"6"
-		"wide"								"55"
-		"tall"								"50"
-		"autoResize"						"0"
-		"pinCorner"							"0"
-		"visible"							"1"
-		"enabled"							"1"
-		"tabPosition"						"0"
-		"textinsetx"						"0"
-		"labelText"							"?"
-		"textAlignment"						"center"
-		"Command"							"select 12"
-		"Default"							"0"
-		"font"								"Symbols 40"
-		"scaleImage"						"1"
-		
-		"image_default"						""
-		"image_armed"						""
-		
-		"paintbackground"					"0"
-		
-		"fgcolor"							"White"
-		"fgcolor_override"					"White"
-		
-		"border_default"					"BlackTransparent50"
-		"border_armed"						"OrangeTransparent50"
-		"border_Selected"					"OrangeTransparent50"
+		"border_default"					"Blank"
+		"border_Selected"					"OrangeTransparent30"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
@@ -543,7 +494,50 @@
 		
 		"pin_to_sibling" 					"sniper"
 		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+	}
+	
+	"random"
+	{
+		"ControlName"						"CExImageButton"
+		"fieldName"							"random"
+		"xpos"								"c-18"
+		"ypos"								"r116"
+		"zpos"								"6"
+		"wide"								"36"
+		"tall"								"36"
+		"autoResize"						"0"
+		"pinCorner"							"0"
+		"visible"							"1"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		"textinsetx"						"0"
+		"labelText"							"?"
+		"textAlignment"						"center"
+		"Command"							"select 12"
+		"Default"							"0"
+		"font"								"Symbols 30"
+		"scaleImage"						"1"
+		
+		"image_default"						""
+		"image_armed"						""
+		
+		"paintbackground"					"0"
+		
+		"fgcolor"							"White"
+		"fgcolor_override"					"White"
+		
+		"border_default"					"Blank"
+		"border_armed"						"OrangeTransparent30"
+		"border_Selected"					"OrangeTransparent30"
+		
+		"sound_depressed"					"UI/buttonclick.wav"
+		"sound_released"					"UI/buttonclickrelease.wav"
+		"sound_armed"						"UI/buttonrollover.wav"
+		
+		"stayselectedonclick"				"1"
+		"selectonhover"						"1"
+		"keyboardinputenabled"				"0"
 	}
 	
 	"EditLoadoutButton"
@@ -609,7 +603,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numScout%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"scout"
@@ -633,7 +627,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numSoldier%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"soldier"
@@ -657,7 +651,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numPyro%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"pyro"
@@ -681,7 +675,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numDemoman%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"demoman"
@@ -705,7 +699,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numHeavy%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"heavyweapons"
@@ -729,7 +723,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numEngineer%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"Engineer"
@@ -753,7 +747,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numMedic%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"Medic"
@@ -777,7 +771,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numSniper%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"Sniper"
@@ -801,7 +795,7 @@
 		"tabPosition"						"0"
 		"labelText"							"%numSpy%"
 		"textAlignment"						"center"
-		"font"								"Size 10"
+		"font"								"Size 16"
 		"fgcolor"							"White"
 		
 		"pin_to_sibling" 					"Spy"
@@ -834,11 +828,12 @@
 		"ControlName"						"CTFPlayerModelPanel"
 		"fieldName"							"TFPlayerModel"
 		
-		"xpos"								"0"
-		"ypos"								"0"
+		"xpos"								"90"
+		"ypos"								"190"
+		"ypos"								"190"
 		"zpos"								"6"
-		"wide"								"127"
-		"tall"								"200"
+		"wide"								"180"
+		"tall"								"280"
 		
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -853,7 +848,7 @@
 		"paintbackgroundenabled" 			"1"
 		"bgcolor_override" 					"Blank"
 		
-		"pin_to_sibling" 					"ClassSelectFrame"
+		"pin_to_sibling" 					"ClassMenuAnchor"
 		
 		"model"
 		{

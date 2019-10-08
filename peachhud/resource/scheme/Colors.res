@@ -29,34 +29,34 @@ Scheme
 		
 		"OrangeLight"							"255 200 55 255"
 		
-		"GreenLight"							"120 160 0 128"
+		"GreenLight"							"120 160 0 127"
 		
 		///////////////////////////////////////////////////////////////////////////////
 		//////////////////////////// ITEM QUALITY COLORS //////////////////////////////
-		///////////////////////////////////////////////////////////////////////////////
+		//////////////////////////// 75%  Default Colors //////////////////////////////
 		
-		"Normal"								"235 235 235 255"
-		"Genuine"								"115 215 140 255"
-		"Unusual"								"215 145 255 255"
-		"Vintage"								"110 165 255 255"
-		"Unique"								"240 230 128 255"
-		"Community"								"145 225 100 255"
-		"Developer"								"255 90 205 255"
-		"SelfMade"								"145 225 100 255"
-		"Customized"							"110 165 255 255"
-		"Strange"								"255 165 105 255"
-		"Completed"								"215 145 255 255"
-		"Haunted"								"60 255 180 255"
-		"Collectors"							"245 70 70 255"
-		"PaintkitWeapon"						"235 235 235 255"
+		"Normal"								"134 134 134 255"
+		"Genuine"								"58 87 64 255"
+		"Unusual"								"101 60 129 255"
+		"Vintage"								"53 68 109 255"
+		"Unique"								"190 160 0 255"
+		"Community"								"84 132 56 255"
+		"Developer"								"124 11 91 255"
+		"SelfMade"								"109 169 75 255"
+		"Customized"							"23 124 191 255"
+		"Strange"								"155 80 36 255"
+		"Completed"								"161 109 191 255"
+		"Haunted"								"42 182 128 255"
+		"Collectors"							"127 0 0 255"
+		"PaintkitWeapon"						"176 176 176 255"
 
-		"GradedWeaponDefault"					"190 190 190 255"
-		"CivilianGrade"							"195 220 255 255"
-		"FreelanceGrade"						"115 200 255 255"
-		"MercenaryGrade"						"70 130 250 255"
-		"CommandoGrade"							"160 125 255 255"
-		"AssassinGrade"							"245 150 255 255"
-		"EliteGrade"							"255 130 130 255"
+		"GradedWeaponDefault"					"143 143 143 255"
+		"CivilianGrade"							"146 165 191 255"
+		"FreelanceGrade"						"86 150 191 255"
+		"MercenaryGrade"						"53 98 188 255"
+		"CommandoGrade"							"120 94 191 255"
+		"AssassinGrade"							"184 113 191 255"
+		"EliteGrade"							"191 98 98 255"
 		
 		"Normal_Hover"							"225 225 225 255"
 		"Genuine_Hover"							"105 205 130 255"

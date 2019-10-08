@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"TFStatsSummary"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"1"
@@ -18,7 +18,7 @@
 		"fieldName"			"Sunset"
 		"xpos"				"0"
 		"ypos"				"0"
-		"zpos"				"1"
+		"zpos"				"0"
 		"wide"				"f0"
 		"tall"				"f0"
 		"visible"			"1"
@@ -50,8 +50,8 @@
 		"zpos"				"11"
 		"wide"				"169"
 		"tall"				"31"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"border"			"BlueTransparent70"
 	}
 
@@ -101,50 +101,7 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	"MainBackground"
 	{
 		"ControlName"		"ImagePanel"

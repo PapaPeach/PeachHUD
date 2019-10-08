@@ -200,7 +200,7 @@
 				"tabPosition"		"0"
 				"paintbackground"	"0"
 				"paintborder"		"1"
-				"border"			"OrangeTransparent70"
+				"border"			"BlueTransparent70"
 			}
 			
 			"ClassCombo"
@@ -276,7 +276,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		"ClassBarBG1A"
 		{
@@ -294,7 +294,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar1A"
 		{
@@ -310,9 +310,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel1A"
 		{
@@ -347,7 +346,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar1B"
 		{
@@ -363,9 +362,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel1B"
 		{
@@ -406,7 +404,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG2A"
@@ -425,7 +423,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar2A"
 		{
@@ -441,9 +439,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel2A"
 		{
@@ -479,7 +476,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar2B"
 		{
@@ -495,9 +492,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel2B"
 		{
@@ -538,7 +534,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG3A"
@@ -557,7 +553,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar3A"
 		{
@@ -573,9 +569,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel3A"
 		{
@@ -611,7 +606,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar3B"
 		{
@@ -627,9 +622,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel3B"
 		{
@@ -670,7 +664,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG4A"
@@ -689,7 +683,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar4A"
 		{
@@ -705,9 +699,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel4A"
 		{
@@ -743,7 +736,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar4B"
 		{
@@ -759,9 +752,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel4B"
 		{
@@ -802,7 +794,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG5A"
@@ -821,7 +813,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar5A"
 		{
@@ -837,9 +829,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel5A"
 		{
@@ -875,7 +866,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar5B"
 		{
@@ -891,9 +882,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel5B"
 		{
@@ -934,7 +924,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG6A"
@@ -953,7 +943,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar6A"
 		{
@@ -969,9 +959,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel6A"
 		{
@@ -1007,7 +996,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar6B"
 		{
@@ -1023,9 +1012,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel6B"
 		{
@@ -1066,7 +1054,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG7A"
@@ -1085,7 +1073,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar7A"
 		{
@@ -1101,9 +1089,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel7A"
 		{
@@ -1139,7 +1126,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar7B"
 		{
@@ -1155,9 +1142,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel7B"
 		{
@@ -1198,7 +1184,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG8A"
@@ -1217,7 +1203,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar8A"
 		{
@@ -1233,9 +1219,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel8A"
 		{
@@ -1271,7 +1256,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar8B"
 		{
@@ -1287,9 +1272,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel8B"
 		{
@@ -1330,7 +1314,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"border"				"OrangeTransparent70"
+			"border"				"BlueTransparent70"
 		}
 		
 		"ClassBarBG9A"
@@ -1349,7 +1333,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar9A"
 		{
@@ -1365,9 +1349,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel9A"
 		{
@@ -1403,7 +1386,7 @@
 			"tabPosition"			"0"
 			"paintbackground"		"0"
 			"paintborder"			"1"
-			"border"				"BlueTransparent70"
+			"border"				"Blank"
 		}
 		"ClassBar9B"
 		{
@@ -1419,9 +1402,8 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"tabPosition"			"0"	
-			"fillcolor"				"0 0 0 255"
+			"fillcolor"				"BlueLight"
 			"PaintBackgroundType"	"0"
-			"alpha"					"50"
 		}
 		"ClassBarLabel9B"
 		{

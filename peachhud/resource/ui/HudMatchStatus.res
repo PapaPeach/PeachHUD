@@ -316,7 +316,7 @@
 			{
 				"ControlName"					"CExLabel"
 				"fieldName"						"respawntime"
-				"font"							"Size 12 Shadow"
+				"font"							"Size 11 Shadow"
 				"xpos"							"cs-0.5"
 				"ypos"							"0"
 				"zpos"							"5"
