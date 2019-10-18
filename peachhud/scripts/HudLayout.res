@@ -267,10 +267,10 @@
 	
 	"HudMenuEngyDestroy"
 	{
-		"xpos"						"0"
-		"ypos"						"c35"
-		"wide"						"150"
-		"tall"						"120"
+		"xpos"						"c-201"
+		"ypos"						"c-56"
+		"wide"						"500"
+		"tall"						"500"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -291,9 +291,9 @@
 	
 	"HudMenuTauntSelection"
 	{
-		"xpos"						"0"
-		"ypos"						"c5"
-		"wide"						"470"
+		"xpos"						"c-400"
+		"ypos"						"c0"
+		"wide"						"800"
 		"tall"						"200"
 	}
 	

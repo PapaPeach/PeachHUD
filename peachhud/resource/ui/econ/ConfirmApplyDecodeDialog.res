@@ -9,9 +9,10 @@
 		"ypos"						"c-200"
 		"wide"						"400"
 		"tall"						"240"
+		"bgcolor_override"			"BlackTransparent"
 		"settitlebarvisible"		"0"
 		"paintbackground"			"0"
-		"border"					"GrayBluBorder"
+		"border"					"BlackTransparent70"
 	}
 
 	"mouseoveritempanel"
@@ -40,7 +41,7 @@
 			"font"					"ItemFontAttribLarge"
 			"xpos"					"0"
 			"ypos"					"30"
-			"zpos"					"2"
+			"zpos"					"101"
 			"wide"					"140"
 			"tall"					"60"
 			"autoResize"			"0"
@@ -206,26 +207,6 @@
 		"fgcolor_override" 			"RedLight"
 	}
 
-	"OptionalAppendLabel"
-	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"OptionalAppendLabel"
-		"font"						"Size 15"
-		"labelText"					"%optional_append%"
-		"textAlignment"				"center"
-		"xpos"						"20"
-		"ypos"						"120"
-		"zpos"						"0"
-		"wide"						"360"
-		"tall"						"60"
-		"autoResize"				"1"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"AllCaps"					"1"
-		"fgcolor_override" 			"RedLight"
-	}
-	
 	"CancelButton"
 	{
 		"ControlName"				"CExButton"

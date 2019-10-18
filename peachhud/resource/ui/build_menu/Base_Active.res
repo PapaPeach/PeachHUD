@@ -122,7 +122,7 @@
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	
-		"NumberLabel"
+	"NumberLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"NumberLabel"
@@ -144,7 +144,6 @@
 		"pin_to_sibling"		"BuildingIcon"
 		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-		
 	}
 	
 	"ModeLabel"

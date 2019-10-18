@@ -88,7 +88,7 @@
 			"pinCorner"						"0"
 			"visible"						"1"
 			"enabled"						"1"
-			"border"						"GrayBlueBorder"
+			"border"						"BlackTransparent90"
 		}
 		
 		"InnerPanelRim"
@@ -110,7 +110,7 @@
 			"visible"						"1"
 			"PaintBackgroundType"			"0"
 			"PaintBackground"				"1"
-			"bgcolor_override"				"GrayBlue"
+			"bgcolor_override"				"Black"
 		}
 	
 		"PlayerUpgradeButton"				//INVISIBLE BUT NEEDED I THINK?
@@ -186,7 +186,7 @@
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"GrayBluDark"
+			"bgcolor_override"				"Black"
 			"PaintBackgroundType"			"0"
 		}
 		
@@ -222,7 +222,7 @@
 			"visible"						"0"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"OrangeLight"
+			"bgcolor_override"				"255 200 55 100"
 			"PaintBackgroundType"			"2"
 		}
 		

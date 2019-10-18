@@ -98,6 +98,7 @@
 		"textAlignment"				"Left"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"bgcolor_override"			"BlackLightTransparent"
 	}		
 
 	"ChargeMeter1"
@@ -117,6 +118,7 @@
 		"textAlignment"				"Left"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"bgcolor_override"			"BlackLightTransparent"
 		
 		"pin_to_sibling"			"ChargeMeter"
 	}
@@ -161,6 +163,7 @@
 		"textAlignment"				"Left"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"bgcolor_override"			"BlackLightTransparent"
 		
 		"pin_to_sibling"			"ChargeMeter2"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -184,6 +187,7 @@
 		"textAlignment"				"Left"
 		"dulltext"					"0"
 		"brighttext"				"0"
+		"bgcolor_override"			"BlackLightTransparent"
 		
 		"pin_to_sibling"			"ChargeMeter3"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
