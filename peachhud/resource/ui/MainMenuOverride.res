@@ -227,7 +227,7 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 50"
+		"fillcolor"			"0 0 0 40"
 	}
 	
 	"RightBar"

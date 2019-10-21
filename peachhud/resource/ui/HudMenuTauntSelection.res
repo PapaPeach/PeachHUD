@@ -4,7 +4,7 @@
 	{	
 		"ControlName"			"EditablePanel"
 		"fieldName"				"TitleBackground"
-		"xpos"					"c-227"
+		"xpos"					"c-214"
 		"ypos"					"10"
 		"zpos"					"0"
 		"wide"					"10"
@@ -21,7 +21,7 @@
 		"xpos"					"0"
 		"ypos"					"-11"
 		"zpos"					"50"
-		"wide"					"400"
+		"wide"					"375"
 		"tall"					"2"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -96,7 +96,7 @@
 		"xpos"					"0"
 		"ypos"					"-11"
 		"zpos"					"0"
-		"wide"					"400"
+		"wide"					"375"
 		"tall"					"36"
 		"visible"				"1"
 		"enabled"				"1"
@@ -104,59 +104,11 @@
 		"pin_to_sibling"		"TitleBackground"
 	}
 	
-	"Row2BG"
-	{	
-		"ControlName"			"EditablePanel"
-		"fieldName"				"Row2BG"
-		"xpos"					"-5"
-		"ypos"					"50"
-		"zpos"					"0"
-		"wide"					"120"
-		"tall"					"26"
-		"visible"				"0"
-		"enabled"				"0"
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"3"
-		"bgcolor_override"		"Black"
-	}
-	
-	"Row3BG"
-	{	
-		"ControlName"			"EditablePanel"
-		"fieldName"				"Row3BG"
-		"xpos"					"-5"
-		"ypos"					"78"
-		"zpos"					"0"
-		"wide"					"120"
-		"tall"					"26"
-		"visible"				"0"
-		"enabled"				"0"
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"3"
-		"bgcolor_override"		"Black"
-	}
-	
-	"Row4BG"
-	{	
-		"ControlName"			"EditablePanel"
-		"fieldName"				"Row4BG"
-		"xpos"					"-5"
-		"ypos"					"106"
-		"zpos"					"0"
-		"wide"					"120"
-		"tall"					"26"
-		"visible"				"0"
-		"enabled"				"0"
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"3"
-		"bgcolor_override"		"Black"
-	}
-	
 	"TauntModelPanel1"
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel1"
-		"xpos"					"-5"
+		"xpos"					"-6"
 		"ypos"					"-4"
 		"zpos"					"100"
 		"wide"					"40"
@@ -237,7 +189,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel2"
-		"xpos"					"10"
+		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"40"
@@ -319,7 +271,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel3"
-		"xpos"					"10"
+		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"40"
@@ -401,7 +353,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel4"
-		"xpos"					"10"
+		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"40"
@@ -483,7 +435,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel5"
-		"xpos"					"10"
+		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"40"
@@ -565,7 +517,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel6"
-		"xpos"					"10"
+		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"40"
@@ -647,7 +599,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel7"
-		"xpos"					"10"
+		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"40"
@@ -729,7 +681,7 @@
 	{
 		"ControlName"			"CItemModelPanel"
 		"fieldName"				"TauntModelPanel8"
-		"xpos"					"10"
+		"xpos"					"6"
 		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"40"
