@@ -40,7 +40,6 @@
 		"draw_corner_height" 	"0"
 		
 		"pin_to_sibling"		"TitleBackground"
-
 	}
 	
 	"TitleLabel"

@@ -72,19 +72,12 @@
 		"pin_to_sibling_corner"			"PIN_CENTER_RIGHT"
 	}
 
-	"TitleLabel"
-	{
-		"ControlName"					"CExLabel"
-		"fieldName"						"TitleLabel"
-		"xpos"							"9999"
-	}
-
 	"Stream1"
 	{
 		"ControlName"					"CTFStreamPanel"
 		"fieldName"						"Stream1"
 		"xpos"							"6"
-		"ypos"							"24"
+		"ypos"							"40"
 		"wide"							"p1"
 		"tall"							"54"
 		"autoResize"					"1"
@@ -178,4 +171,22 @@
 		"fieldName"						"Stream_URLButton"
 		"xpos"							"9999"
 	}	
+	
+		"PeachPlug"
+	{
+		"ControlName"					"CExLabel"
+		"fieldName"						"PeachPlug"
+		"font"							"Size 15"
+		"labelText"						"Twitch.tv/PeachesTV    |    Mixer.com/PeachesTV"
+		"textAlignment"					"Center"
+		"xpos"							"0"
+		"ypos"							"24"
+		"wide"							"300"
+		"tall"							"12"
+		"autoResize"					"0"
+		"pinCorner"						"0"
+		"visible"						"1"
+		"enabled"						"1"
+		"fgcolor"						"White"
+	}
 }

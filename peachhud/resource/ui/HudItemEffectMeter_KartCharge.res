@@ -1,6 +1,6 @@
 #base "HudItemEffectMeter.res"
 
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_KartCharge.res"
 {
 	HudItemEffectMeter
 	{
