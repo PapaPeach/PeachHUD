@@ -103,13 +103,27 @@
 		}
 	}
 	
+		"BlackGradient"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackGradient"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-1"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 40"
+	}
+	
 	"Sunset"							//needed as a cover
 	{
 		"ControlName"					"ImagePanel"
 		"fieldName"						"Sunset"
 		"xpos"							"0"
 		"ypos"							"-45"
-		"zpos"							"-1"
+		"zpos"							"-2"
 		"wide"							"f0"
 		"tall"							"f0"
 		"visible"						"1"

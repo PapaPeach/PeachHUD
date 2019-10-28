@@ -40,6 +40,20 @@
 		"sheetinset_bottom"					"24"
 	}
 	
+	"BlackGradient"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackGradient"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 40"
+	}
+	
 	"Sunset"
 	{
 		"ControlName"						"ImagePanel"

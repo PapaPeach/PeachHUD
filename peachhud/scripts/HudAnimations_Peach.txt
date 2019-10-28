@@ -195,6 +195,37 @@ event HudSpyDisguiseChanged
 	RunEvent HudSpyDisguiseHide					0.7
 }
 
+event HudSpyDisguiseHide
+{
+	// Animate PlayerStatusSpyOutlineImage		Position	"140 r0"		Linear 0.0 0.2
+	// Animate PlayerStatusSpyOutlineImage		Size		"0 0"			Linear 0.0 0.2
+	// Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	// RunEvent HudSpyDisguiseChanged	0
+	
+	Animate PlayerStatusSpyImage		Alpha		"255"	Linear 0.0 0.0
+	
+	 Animate classmodelpanel 			xpos		"0"		Linear 0.0 0.0
+	 Animate classmodelpanel 			ypos		"r120"	Linear 0.0 0.0
+	 Animate PlayerStatusClassImage 	xpos		"0"		Linear 0.0 0.0
+	 Animate PlayerStatusClassImage 	ypos		"r48"	Linear 0.0 0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	// RunEvent HudSpyDisguiseChanged	0
+	
+	Animate PlayerStatusSpyImage		Alpha		"0"			Linear 0.0 0.0
+	
+	 Animate classmodelpanel 			xpos		"-9999"		Linear 0.0 0.0
+	 Animate classmodelpanel 			ypos		"r0"		Linear 0.0 0.0
+	 Animate PlayerStatusClassImage 	xpos		"-9999"		Linear 0.0 0.0
+	 Animate PlayerStatusClassImage 	ypos		"r0"		Linear 0.0 0.0
+}
+
 //====================================================================================================================
 
 event ActiveTimerHighlight

@@ -29,9 +29,9 @@
 		"proportionaltoparent"	"1"
 
 		"radius"				"8"
-		"velocity"				"100"
+		"velocity"				"80"
 
-		"fgcolor_override"		"BlueLight"
+		"fgcolor_override"		"WhiteTransparent"
 	}
 
 	"QueueText"
@@ -40,13 +40,13 @@
 		"fieldName"				"QueueText"
 		"xpos"					"rs1-20"
 		"ypos"					"cs-0.5"
-		"wide"					"f35"
+		"wide"					"f25"
 		"zpos"					"100"
 		"tall"					"f0"
 		"visible"				"1"
 		"enabled"				"1"
 		"font"					"Size 12"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"WhiteTransparent"
 		"textAlignment"			"east"
 		"AllCaps"				"1"
 		"labelText"				"%queue_state%"

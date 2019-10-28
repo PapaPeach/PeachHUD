@@ -12,7 +12,7 @@
 		"bgcolor_override"			"BlackTransparent"
 		"settitlebarvisible"		"0"
 		"paintbackground"			"0"
-		"border"					"BlackTransparent70"
+		"border"					"GrayBluBorder"
 	}
 
 	"mouseoveritempanel"
@@ -207,6 +207,26 @@
 		"fgcolor_override" 			"RedLight"
 	}
 
+	"OptionalAppendLabel"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"OptionalAppendLabel"
+		"font"						"Size 15"
+		"labelText"					"%optional_append%"
+		"textAlignment"				"center"
+		"xpos"						"20"
+		"ypos"						"120"
+		"zpos"						"0"
+		"wide"						"360"
+		"tall"						"60"
+		"autoResize"				"1"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"AllCaps"					"1"
+		"fgcolor_override" 			"RedLight"
+	}
+	
 	"CancelButton"
 	{
 		"ControlName"				"CExButton"
