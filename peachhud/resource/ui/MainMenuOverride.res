@@ -810,32 +810,32 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Disconnect"
-		"xpos"							"-1"
-		"ypos"							"-5"
-		"zpos"							"50"
-		"wide"							"30"
-		"tall"							"30"
+		"xpos"							"-5"
+		"ypos"							"-3"
+		"zpos"							"16"
+		"wide"							"f0"
+		"tall"							"35"
 		"visible"						"1"
 		
 		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 		"PIN_BOTTOMRIGHT"
+		"pin_to_sibling_corner" 		"PIN_BOTTOMRIGHT"
 
 		"SubButton"
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"SubButton"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"30"
-			"tall"						"30"
+			"xpos"						"-5"
+			"ypos"						"-3"
+			"wide"						"f-10"
+			"tall"						"40"
 			"autoResize"				"0"
-			"pinCorner"					"3"
+			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
+			"font"						"Size 28"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -846,9 +846,12 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"245 70 70 180"
-			"armedFgColor_override"		"245 70 70 255"
-			"depressedFgColor_override"	"245 70 70 255"
+			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"armedFgColor_override"		"WhiteMoreTransparent"
+			"depressedFgColor_override"	"WhiteMoreTransparent"
+			
+			"border_default"			"RedTransparent90"
+			"border_armed"				"OrangeTransparent50"
 			
 			"proportionaltoparent"		"1"
 		}
@@ -933,7 +936,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldname"					"BottomLeftButtonsAnchor"
-		"xpos"						"0"
+		"xpos"						"10"
 		"ypos"						"r22"
 		"wide"						"30"
 		"tall"						"1"
@@ -1146,18 +1149,18 @@
 		"ypos"							"r256"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
-		"visible"						"1"
-		"enabled"						"1"
+		"tall"							"24"
+		"visible"						"0"
+		"enabled"						"0"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"DamageColorsLabel"
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"DamageColorsLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -1174,14 +1177,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -1189,7 +1192,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -1197,7 +1200,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"White"
-		"xpos"							"8"
+		"xpos"							"23"
 		"ypos"							"1"
 		"zpos"							"51"
 		"wide"							"15"
@@ -1486,15 +1489,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"MinmodePanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
-		"visible"						"1"
-		"enabled"						"1"
+		"tall"							"24"
+		"visible"						"0"
+		"enabled"						"0"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"DamageColorsPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1504,7 +1507,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"MinmodeLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -1521,14 +1524,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -1536,7 +1539,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -1544,7 +1547,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"MinmodeON"
-		"xpos"							"10"
+		"xpos"							"25"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"20"
@@ -1647,15 +1650,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"MatchHudPanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"MinmodePanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1665,7 +1668,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"MatchHudLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -1682,14 +1685,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -1697,7 +1700,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -1705,7 +1708,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"MatchHudON"
-		"xpos"							"10"
+		"xpos"							"25"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"20"
@@ -1808,15 +1811,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"ChatPanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"MatchHudPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1826,7 +1829,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"ChatLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -1843,14 +1846,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -1858,7 +1861,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -1866,7 +1869,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"ChatON"
-		"xpos"							"10"
+		"xpos"							"25"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"20"
@@ -1969,15 +1972,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"CaptionsPanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"ChatPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1987,7 +1990,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"CaptionsLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -2004,14 +2007,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -2019,7 +2022,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -2027,7 +2030,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"CaptionsON"
-		"xpos"							"10"
+		"xpos"							"25"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"20"
@@ -2130,15 +2133,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"NetGraphPanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"CaptionsPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -2148,7 +2151,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"NetGraphLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -2165,14 +2168,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -2180,7 +2183,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -2188,7 +2191,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"NetGraphON"
-		"xpos"							"10"
+		"xpos"							"25"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"20"
@@ -2291,15 +2294,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"InvisiblePlayersPanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"NetGraphPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -2309,7 +2312,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"InvisiblePlayersLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -2326,14 +2329,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -2341,7 +2344,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -2349,7 +2352,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"InvisiblePlayersFix"
-		"xpos"							"19"
+		"xpos"							"34"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"39"
@@ -2402,15 +2405,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"BrokenSoundPanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"InvisiblePlayersPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -2420,7 +2423,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"BrokenSoundLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -2437,14 +2440,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -2452,7 +2455,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -2460,7 +2463,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"BrokenSoundFix"
-		"xpos"							"19"
+		"xpos"							"34"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"39"
@@ -2513,15 +2516,15 @@
 		"ControlName"					"EditablePanel"
 		"fieldname"						"ReloadHudPanel"
 		"xpos"							"0"
-		"ypos"							"1"
+		"ypos"							"0.0"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"24"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"BrokenSoundPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -2531,7 +2534,7 @@
 		{
 			"ControlName"				"CExLabel"
 			"fieldname"					"ReloadHudLabel"
-			"xpos"						"8"
+			"xpos"						"18"
 			"ypos"						"0"
 			"zpos"						"50"
 			"wide"						"45"
@@ -2548,14 +2551,14 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"fgcolor"					"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 		
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
 			"fieldname"					"Separator"
-			"xpos"						"55"
+			"xpos"						"70"
 			"ypos"						"4"
 			"zpos"						"50"
 			"wide"						"1"
@@ -2563,7 +2566,7 @@
 			"visible"					"1"
 			"enabled"					"1"
 			"bgcolor_override"			"White"
-			"alpha"						"175"
+			"alpha"						"210"
 		}
 	}
 	
@@ -2571,7 +2574,7 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"ReloadHud"
-		"xpos"							"19"
+		"xpos"							"34"
 		"ypos"							"-2"
 		"zpos"							"51"
 		"wide"							"39"
@@ -2627,12 +2630,12 @@
 		"ypos"							"1"
 		"zpos"							"50"
 		"wide"							"130"
-		"tall"							"25"
+		"tall"							"40"
 		"visible"						"1"
 		"enabled"						"1"
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
-		"bgcolor_override"				"Black"
+		"bgcolor_override"				"Blank"
 		
 		"pin_to_sibling" 				"ReloadHudPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -2643,16 +2646,12 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"StreamINGAME"
-		"xpos"							"-5"
-		"ypos"							"0"
+		"xpos"							"10"
+		"ypos"							"r30"
 		"zpos"							"55"
 		"wide"							"20"
 		"tall"							"25"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"BottomButtonsPanel"
-		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 		"PIN_CENTER_LEFT"
 
 		"SubButton"
 		{
@@ -2679,7 +2678,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteMoreTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -2727,7 +2726,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteMoreTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -2775,7 +2774,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteMoreTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -2823,7 +2822,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteMoreTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			

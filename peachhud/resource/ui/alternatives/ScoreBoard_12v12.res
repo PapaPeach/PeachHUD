@@ -53,7 +53,7 @@
 		"xpos"						"0"
 		"ypos"						"-4"
 		"zpos"						"2"
-		"wide"						"258"
+		"wide"						"257"
 		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -78,7 +78,7 @@
 		"xpos"						"0"
 		"ypos"						"-4"
 		"zpos"						"2"
-		"wide"						"257"
+		"wide"						"258"
 		"tall"						"25"
 		"autoResize"				"0"
 		"pinCorner"					"0"
@@ -126,7 +126,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamLabel"
-		"font"						"Size 16"
+		"font"						"Size 20"
 		"labelText"					"%blueteamname%"
 		"textAlignment"				"center"
 		"xpos"						"0"
@@ -154,7 +154,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamPlayerCountIcon"
-		"font"						"Symbols 14"
+		"font"						"Symbols 16"
 		"fgcolor"					"White"
 		"labelText"					"Y"
 		"textAlignment"				"east"
@@ -182,7 +182,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"BlueTeamPlayerCount"
-		"font"						"Size 16"
+		"font"						"Size 20"
 		"labelText"					"%blueteamplayercount%"
 		"textAlignment"				"east"
 		"xpos"						"5"
@@ -237,7 +237,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamLabel"
-		"font"						"Size 16"
+		"font"						"Size 20"
 		"labelText"					"%redteamname%"
 		"textAlignment"				"center"
 		"xpos"						"0"
@@ -265,7 +265,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamPlayerCountIcon"
-		"font"						"Symbols 14"
+		"font"						"Symbols 16"
 		"fgcolor"					"White"
 		"labelText"					"Y"
 		"textAlignment"				"west"
@@ -291,7 +291,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"RedTeamPlayerCount"
-		"font"						"Size 16"
+		"font"						"Size 20"
 		"labelText"					"%redteamplayercount%"
 		"textAlignment"				"west"
 		"xpos"						"5"
@@ -446,11 +446,11 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"Spectators"
-		"font"						"Size 10"
+		"font"						"Size 8"
 		"labelText"					"%spectators%"
 		"textAlignment"				"west"
-		"xpos"						"3"
-		"ypos"						"-1"
+		"xpos"						"-5"
+		"ypos"						"-3"
 		"zpos"						"4"
 		"wide"						"600"
 		"tall"						"10"
@@ -458,17 +458,21 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		
+		"pin_to_sibling" 			"MainBG"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
 	
 	"SpectatorsInQueue"
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"SpectatorsInQueue"
-		"font"						"Size 10"
+		"font"						"Size 8"
 		"labelText"					"%waitingtoplay%"
 		"textAlignment"				"west"
-		"xpos"						"3"
-		"ypos"						"2"
+		"xpos"						"-5"
+		"ypos"						"-3"
 		"zpos"						"4"
 		"wide"						"600"
 		"tall"						"10"
@@ -476,6 +480,10 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		
+		"pin_to_sibling" 			"MainBG"
+		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 	"PIN_BOTTOMRIGHT"
 	}
 	
 	"ServerLabel"
@@ -485,8 +493,8 @@
 		"font"						"Size 10"
 		"labelText"					"%server%"
 		"textAlignment"				"east"
-		"xpos"						"-5"
-		"ypos"						"-1"
+		"xpos"						"-1"
+		"ypos"						"-2"
 		"zpos"						"3"
 		"wide"						"f0"
 		"tall"						"10"
@@ -494,6 +502,7 @@
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
+		"fgcolor"					"White"
 	}
 	
 	"StatsSeparator"
@@ -525,24 +534,19 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"mapname"
-		"font"						"ScoreboardVerySmall"
+		"font"						"Size 10"
 		"labelText"					"%mapname%"
-		"textAlignment"				"east"
- 		"xpos"						"315"
-		"ypos"						"385"
+		"textAlignment"				"west"
+ 		"xpos"						"1"
+		"ypos"						"-2"
 		"zpos"						"3"
-		"wide"						"265"
-		"tall"						"0"
+		"wide"						"f0"
+		"tall"						"10"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"fgcolor"					"236 227 203 255"
-
-		if_mvm
-		{
-			"visible"				"0"
-		}
+		"fgcolor"					"White"
 	}
 
 	"LocalPlayerStatsPanel"

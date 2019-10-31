@@ -73,7 +73,7 @@
 	/////INGAME ONLY/////
 	"Disconnect"
 	{
-		"label"			")"
+		"label"			"Disconnect"
 		"command"		"engine disconnect"
 		"OnlyInGame"	"1"
 	}
