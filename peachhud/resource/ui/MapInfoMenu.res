@@ -19,9 +19,9 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"MapInfoMenuAnchor"
-		"xpos"								"-5"
+		"xpos"								"c0"
 		"ypos"								"-5"
-		"wide"								"5"
+		"wide"								"0"
 		"tall"								"5"
 		"visible"							"1"
 		"enabled"							"1"
@@ -34,29 +34,13 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"1"
-		"wide"								"130"
+		"wide"								"f-6"
 		"tall"								"p1.02"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"GrayBlueBorder"
+		"border"							"Blank"
 		
 		"pin_to_sibling" 					"MapInfoMenuAnchor"
-	}
-	
-	"TitleFrame"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"TitleFrame"
-		"xpos"								"0"
-		"ypos"								"5"
-		"zpos"								"2"
-		"wide"								"130"
-		"tall"								"30"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlackTransparent50"
-		
-		"pin_to_sibling" 					"MapInfoFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
@@ -65,10 +49,10 @@
 	{
 		"ControlName"						"CExLabel"
 		"fieldName"							"MapInfoTitle"
-		"xpos"								"-5"
-		"ypos"								"-10"
+		"xpos"								"0"
+		"ypos"								"50"
 		"zpos"								"5"
-		"wide"								"120"
+		"wide"								"f-6"
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -79,35 +63,53 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
-		"fgcolor"							"WhiteTransparent"
-		
-		"pin_to_sibling" 					"TitleFrame"
+		"font"								"Size 32"
+		"fgcolor"							"White"
+	}
+	
+	"MapInfoType"
+	{
+		"ControlName"						"CExLabel"
+		"fieldName"							"MapInfoType"
+		"xpos"								"c-250"
+		"ypos"								"75"
+		"zpos"								"5"
+		"wide"								"500"
+		"tall"								"20"
+		"autoResize"						"0"
+		"pinCorner"							"0"
+		"visible"							"1"
+		"enabled"							"1"
+		"labelText"							"%gamemode%"
+		"textalignment"						"center"
+		"AllCaps"							"1"
+		"dulltext"							"0"
+		"brighttext"						"1"
+		"font"								"Size 20"
+		"fgcolor"							"White"
 	}
 	
 	"MapInfoText"
 	{
 		"ControlName"						"CExRichText"
 		"fieldName"							"MapInfoText"
-		"font"								"Size 10"
-		"xpos"								"-4"
-		"ypos"								"0"
+		"font"								"Size 12"
+		"xpos"								"0"
+		"ypos"								"-150"
 		"zpos"								"3"
-		"wide"								"114"
-		"tall"								"400"
+		"wide"								"400"
+		"tall"								"250"
 		"autoResize"						"3"
 		"pinCorner"							"0"
 		"visible"							"1"
 		"enabled"							"1"
 		"paintborder"						"0"
-		"textAlignment"						"center"
+		"textAlignment"						"west"
 		"fgcolor"							"White"
-		"paintbackground"					"0"
-		"bgcolor_override"					"BlackLightTransparent"
 		
 		"pin_to_sibling" 					"MapInfoFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 
 	"ok"
@@ -117,21 +119,21 @@
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"6"
-		"wide"								"130"
-		"tall"								"24"
+		"wide"								"f-6"
+		"tall"								"40"
 		"autoResize"						"0"
 		"pinCorner"							"2"
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		"labelText"							"Continue (&E) "
+		"labelText"							"Continue (&E)"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"0"
 		"command"							"continue"
 		"default"							"1"
-		"font"								"Size 15"
+		"font"								"Size 24"
 		
 		"paintbackground"					"0"
 		
@@ -139,27 +141,29 @@
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
 		"border_default"					"BlackTransparent50"
-		"border_armed"						"OrangeTransparent50"
+		"border_armed"						"OrangeTransparent30"
 
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"
 		"depressedFgColor_override" 		"White"
 		
 		"pin_to_sibling" 					"MapInfoFrame"
-		"pin_corner_to_sibling" 			"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
+		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
 	
+	
+	"TitleFrame"
+	{
+		"ControlName"     		  			"EditablePanel"
+		"fieldName"	        	  			"TitleFrame"
+		"xpos"								"9999"
+		
+	}
 	"MapInfoBack"
 	{
 		"ControlName"						"CExButton"
 		"fieldName"							"MapInfoBack"
-		"xpos"								"9999"
-	}
-	"MapInfoType"
-	{
-		"ControlName"						"CExLabel"
-		"fieldName"							"MapInfoType"
 		"xpos"								"9999"
 	}
 	"MapInfoContinue"
