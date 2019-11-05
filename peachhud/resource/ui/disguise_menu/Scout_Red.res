@@ -4,16 +4,16 @@
 	{	
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ItemBackground"
-		"xpos"					"-5"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"0"
-		"wide"					"120"
+		"wide"					"60"
 		"tall"					"14"
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
 		"paintbackgroundtype"	"3"
-		"bgcolor_override"		"RedLight"
+		"bgcolor_override"		"Blank"
 	}
 	
 	"TeamColoredBar"
@@ -48,24 +48,25 @@
 		"fieldName"				"NumberLabel"
 		"font"					"Size 12"
 		"fgcolor"				"White"
-		"xpos"					"-13"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"
-		"wide"					"19"
-		"tall"					"15"
+		"wide"					"83"
+		"tall"					"16"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"1"
 		"AllCaps"				"1"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"1"
 		"brighttext"			"0"
-		"pin_to_sibling"		"ItemBackground"
+		
+		"pin_to_sibling"		"ItemNameLabel"
 	}
 	
-	"NewNumberLabel"			//THIS HATES TO GET PINNED :(
+	"NewNumberLabel"			//THIS HATES TO GET PINNED :(		(This is the concise disguise menu)
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"NumberLabel"
@@ -91,22 +92,23 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemNameLabel"
-		"font"					"Size 12"
-		"xpos"					"-23"
+		"font"					"Class Symbols 72"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"1"
-		"wide"					"100"
-		"tall"					"15"
+		"wide"					"45"
+		"tall"					"45"
+		"scaleImage"			"1"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"AllCaps"				"1"
-		"labelText"				"#TF_Class_Name_Scout"
-		"textAlignment"			"west"
+		"labelText"				"a"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"fgcolor"				"White"
+		"fgcolor"				"RedLight"
+		
 		"pin_to_sibling"		"ItemBackground"
 	}
 	

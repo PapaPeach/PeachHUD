@@ -4,6 +4,22 @@
 {
 	"ItemBackground"
 	{	
-		"bgcolor_override"		"BlueLight"
+		"bgcolor_override"		"Blank"
+	}
+	
+	"ItemNameLabel"
+	{	
+		"labelText"				"a"
+		"fgcolor"				"BlueLight"
+	}
+	
+	"NewNumberLabel"
+	{	
+		"labelText"				"1"
+	}
+	
+	"NumberLabel"
+	{	
+		"labelText"				"1"
 	}
 }

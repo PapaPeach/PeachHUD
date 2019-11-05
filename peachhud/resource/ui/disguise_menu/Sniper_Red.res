@@ -8,7 +8,7 @@
 	
 	"ItemNameLabel"
 	{	
-		"labelText"				"#TF_Class_Name_Sniper"
+		"labelText"				"h"
 	}
 	
 	"NewNumberLabel"

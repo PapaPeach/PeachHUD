@@ -8,7 +8,7 @@
 	
 	"ItemNameLabel"
 	{	
-		"labelText"				"#TF_Class_Name_Soldier"
+		"labelText"				"b"
 	}
 	
 	"NewNumberLabel"
@@ -19,5 +19,6 @@
 	"NumberLabel"
 	{	
 		"labelText"				"2"
+		"pin_to_sibling"		"ItemNameLabel"
 	}
 }

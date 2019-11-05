@@ -82,6 +82,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"White"
+		
 		"pin_to_sibling"		"TitleBackground"
 	}
 	
@@ -105,6 +106,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"Shadows"
+		
 		"pin_to_sibling"		"TitleLabel"
 	}
 	

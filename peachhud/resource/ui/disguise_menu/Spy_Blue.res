@@ -4,12 +4,13 @@
 {
 	"ItemBackground"
 	{	
-		"bgcolor_override"		"BlueLight"
+		"bgcolor_override"		"Blank"
 	}
 	
 	"ItemNameLabel"
 	{	
-		"labelText"				"#TF_Class_Name_Spy"
+		"labelText"				"i"
+		"fgcolor"				"BlueLight"
 	}
 
 	"NewNumberLabel"

@@ -283,10 +283,10 @@
 	
 	"HudMenuSpyDisguise"
 	{
-		"xpos"						"0"
-		"ypos"						"c-50"
-		"wide"						"150"
-		"tall"						"400"
+		"xpos"						"c-400"
+		"ypos"						"c-80"
+		"wide"						"800"
+		"tall"						"500"
 	}
 	
 	"HudMenuTauntSelection"
