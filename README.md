@@ -1,5 +1,6 @@
 # PeachHUD
-A TF2 HUD made by Peaches, based on SunsetHUD Dark.
+A Team Fortress 2 HUD made by Peaches and streamlined for competitive, while maintaining a clean and minimalistic look.  
+Based on SunsetHUD Dark, by Hypnotize.
 
 # LINKS
 [Screenshot Album (WIP)](WIP)
@@ -30,7 +31,7 @@ All the customizations can be found inside the Customizations folder and from th
 **2)** Inside the file uncomment the line of the customization you want to apply by removing the `//` before the `#base`
 
 # Credits
-**Base HUD:** Hypnootize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud)
+**Base HUD:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud)
 
 **Inspiration:** BudHUD, RaysHUD, 7HUD, and ToonHUD
 
