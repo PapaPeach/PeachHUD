@@ -22,7 +22,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 While PeachHUD inherited minmode support from SunsetHUD, development has basically neglected minmode for the time being, because of this I recommend keeping minmode **disabled**.
 
 # CUSTIOMIZATION
-Easily accessible HUD customization is a planned feature of PeachHUD. Currently there are some customization options, though they may not be fully functional at this time.
+Easily accessible customization is a planned feature of PeachHUD. Currently there are some customization options, though they may not be fully functional at this time.
 
 All the customizations can be found inside the Customizations folder and from there all you need to do is:
 
