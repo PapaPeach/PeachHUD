@@ -13,7 +13,7 @@ A TF2 HUD made by Peaches, based on SunsetHUD Dark.
 # INSTALLATION
 **1)** Extract/Unzip the HUD
 
-**2)** Copy the * *peachhud* *  folder (**NOT** peachhud-Release, the one inside it!)
+**2)** Copy the *peachhud* folder (**NOT** peachhud-Release, the one inside it!)
 
 **3)** Paste the folder to your custom tf folder (...\Steam\SteamApps\common\Team Fortress 2\tf\custom)
 
