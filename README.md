@@ -18,8 +18,8 @@ A TF2 HUD made by Peaches, based on SunsetHUD Dark.
 **3)** Paste the folder to your custom tf folder (...\Steam\SteamApps\common\Team Fortress 2\tf\custom)
 
 **NOTES:**  
-If you are using a 4:3 or 16:10 aspect ration replace the all the files you find inside the "4x3 & 16x10 Overrides" folder over the normal hud files. **This is a totally untested feature, I don't reccomend using it**"
- 
+While PeachHUD inherited minmode support from SunsetHUD, development has basically neglected minmode for the time being, because of this I recommend keeping minmode **disabled**.
+
 # CUSTIOMIZATION
 Easily accessible HUD customization is a planned feature of PeachHUD. Currently there are some customization options, though they may not be fully functional at this time.
 
