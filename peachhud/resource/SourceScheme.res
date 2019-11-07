@@ -22,8 +22,8 @@ Scheme
 		"Title"												"235 235 235 255"
 		"CloseButton"										"235 235 235 255"
 		
-		"Button"											"100 170 225 255"
-		"ButtonArmed"										"255 200 55 255"
+		"Button"											"100 110 120 255"
+		"ButtonArmed"										"100 170 225 255"
 		"ButtonText"										"235 235 235 255"
 		"ButtonTextArmed"									"235 235 235 255"
 		
@@ -34,7 +34,7 @@ Scheme
 		
 		"TextComboBoxes"									"235 235 235 255"
 		
-		"ScrollBarFG"										"100 170 225 255"
+		"ScrollBarFG"										"100 110 120 255"
 		"ScrollBarBG"										"235 235 235 255"
 		
 		"OptionsMenuBG"										"0 0 0 100"

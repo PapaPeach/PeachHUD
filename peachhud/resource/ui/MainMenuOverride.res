@@ -871,7 +871,7 @@
 			"armedFgColor_override"		"WhiteMoreTransparent"
 			"depressedFgColor_override"	"WhiteMoreTransparent"
 			
-			"border_default"			"RedTransparent90"
+			"border_default"			"RedSolid"
 			"border_armed"				"OrangeTransparent50"
 			
 			"proportionaltoparent"		"1"
