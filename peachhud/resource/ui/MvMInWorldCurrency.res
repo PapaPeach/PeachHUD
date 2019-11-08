@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"BackgroundGood"
-		"xpos"					"-5"
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"50"
@@ -19,16 +19,16 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyGood"
-		"font"					"Size 15"
+		"font"					"Size 18"
 		"fgcolor"				"GreenLight"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"3"
-		"wide"					"40"
+		"wide"					"100"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"center"	
 		"labelText"				"%currency%"
 	}
 	
@@ -36,16 +36,16 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyBad"
-		"font"					"Size 15"
+		"font"					"Size 18"
 		"fgcolor"				"Redlight"
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"3"
-		"wide"					"40"
+		"wide"					"100"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"center"	
 		"labelText"				"%currency%"
 	}
 	
@@ -53,16 +53,16 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyShadow"
-		"font"					"Size 15"
+		"font"					"Size 18"
 		"fgcolor"				"Shadows"
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"100"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"center"	
 		"labelText"				"%currency%"
 		"pin_to_sibling"		"CurrencyGood"
 	}	

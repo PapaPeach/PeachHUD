@@ -51,11 +51,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ActionText"
-		"font"					"UltraSmall"
+		"font"					"Size 7"
 		"labelText"				"%actiontext%"
 		"textAlignment" 		"center"
 		"xpos"					"-17"
-		"ypos"					"5"
+		"ypos"					"-2"
 		"wide"					"40"
 		"tall"					"0"		//10
 		"fgcolor"				"White"
