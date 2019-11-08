@@ -164,7 +164,7 @@
 				"visible"					"1"
 				"labelText"					"%chargeamount%"
 				"textAlignment"				"east"
-				"fgcolor"					"GrayTransparent"
+				"fgcolor"					"GreenLight"
 				"pin_to_sibling"			"ClassImage"
 			}
 			
@@ -183,7 +183,7 @@
 				"visible"					"1"
 				"labelText"					"%chargeamount%"
 				"textAlignment"				"center"
-				"fgcolor"					"OrangeLight"
+				"fgcolor"					"White"
 				"pin_to_sibling"			"ClassImage"
 			}
 			

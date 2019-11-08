@@ -97,6 +97,7 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 	}
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"				"EditablePanel"

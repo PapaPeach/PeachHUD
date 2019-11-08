@@ -169,16 +169,16 @@
 
 		"max_size"								"19"
 
-		"6v6_gap"								"4"
+		"6v6_gap"								"1"
 		"12v12_gap"								"1"
 
 		"team1_grow_dir" 						"west"
 		"team1_base_x"							"c-55"
-		"team1_max_expand"						"133"
+		"team1_max_expand"						"180"
 
 		"team2_grow_dir" 						"east"
 		"team2_base_x"							"c55"
-		"team2_max_expand"						"133"
+		"team2_max_expand"						"180"
 
 		"playerpanels_kv"
 		{
@@ -195,7 +195,7 @@
 			"color_bar_health_high"				"White"
 			"color_bar_health_med"				"Gray"
 			"percentage_health_med"				"0.6"
-			"color_bar_health_low"				"Gray"
+			"color_bar_health_low"				"RedLight"
 			"percentage_health_low"				"0.3"
 			"color_portrait_blend_dead_red"		"White"
 			"color_portrait_blend_dead_blue" 	"White"
@@ -316,7 +316,7 @@
 			{
 				"ControlName"					"CExLabel"
 				"fieldName"						"respawntime"
-				"font"							"Size 11 Shadow"
+				"font"							"Size 12 Shadow"
 				"xpos"							"cs-0.5"
 				"ypos"							"0"
 				"zpos"							"5"
@@ -346,7 +346,7 @@
 				"visible"						"0"
 				"labelText"						"%chargeamount%"
 				"textAlignment"					"north"
-				"fgcolor"						"0 255 0 255"
+				"fgcolor"						"White"
 			}
 			
 			"DeathPanel"

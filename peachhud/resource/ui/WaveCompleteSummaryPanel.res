@@ -51,7 +51,7 @@
 			// Green Background
 			"PaintBackgroundType" 	"0"
 			"fgcolor_override"		"White"		
-			"bgcolor_override"		"90 140 0 255"
+			"bgcolor_override"		"GreenLight"
 		}
 		
 		"WaveCompleteLabelShadows"
