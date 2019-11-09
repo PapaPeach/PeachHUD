@@ -12,11 +12,13 @@ Based on SunsetHUD Dark, by Hypnotize.
 [Discord](https://discord.gg/HyZRVtp)
 
 # INSTALLATION
-**1)** Extract/Unzip the HUD
+**1)** Download the HUD by clicking the ![Download](https://i.imgur.com/EjYd8I5.png) button at the top right of the page
 
-**2)** Copy the *peachhud* folder (**NOT** peachhud-Release, the one inside it!)
+**2)** Extract/Unzip the HUD file
 
-**3)** Paste the folder to your custom tf folder (...\Steam\SteamApps\common\Team Fortress 2\tf\custom)
+**3)** Copy the **peachhud** folder (**NOT** peachhud-Release, the one inside it!)
+
+**4)** Paste the folder to your custom tf folder (...\Steam\SteamApps\common\Team Fortress 2\tf\custom)
 
 **NOTES:**  
 While PeachHUD inherited minmode support from SunsetHUD, development has basically neglected minmode for the time being, because of this I recommend keeping minmode **disabled**.
@@ -24,7 +26,7 @@ While PeachHUD inherited minmode support from SunsetHUD, development has basical
 # CUSTIOMIZATION
 Easily accessible customization is a planned feature of PeachHUD. Currently there are some customization options, though they may not be fully functional at this time.
 
-All the customizations can be found inside the Customizations folder and from there all you need to do is:
+All the customizations can be found inside the **customizations** folder and to enable them you will need to do:
 
 **1)** Open the customization file you would like to apply
 
@@ -37,8 +39,8 @@ All the customizations can be found inside the Customizations folder and from th
 
 **Crosshairs:** Broesel, Knuckles, Seeker, m0re
 
-**Material Design VTFS:** extracrispy & Rawsor (I still don't know who created it im sorry)
+**Material Design VTFS:** extracrispy & Rawsor
 
-**Everyone who helped me test the hud <3**
+**All Indev, Alpha, and Beta testers**
 
 **For questions and feedback, contact me in the [PeachHUD Discord](https://discord.gg/HyZRVtp)**
