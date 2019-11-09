@@ -12,11 +12,13 @@ Based on SunsetHUD Dark, by Hypnotize.
 [Discord](https://discord.gg/HyZRVtp)
 
 # INSTALLATION
-**1)** Extract/Unzip the HUD
+**1)** Download the HUD by clicking the ![Download](https://i.imgur.com/ndWvgDK.png) button above and to the right of this.
 
-**2)** Copy the **peachhud** folder (**NOT** peachhud-Release, the one inside it!)
+**2)** Extract/Unzip the HUD
 
-**3)** Paste the folder to your custom tf folder (...\Steam\SteamApps\common\Team Fortress 2\tf\custom)
+**3)** Copy the **peachhud** folder (**NOT** peachhud-Release, the one inside it!)
+
+**4)** Paste the folder to your custom tf folder (...\Steam\SteamApps\common\Team Fortress 2\tf\custom)
 
 **NOTES:**  
 While PeachHUD inherited minmode support from SunsetHUD, development has basically neglected minmode for the time being, because of this I recommend keeping minmode **disabled**.
