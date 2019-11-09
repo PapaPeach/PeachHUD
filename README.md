@@ -12,7 +12,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 [Discord](https://discord.gg/HyZRVtp)
 
 # INSTALLATION
-**1)** Download the HUD by clicking the ![Download](https://i.imgur.com/ndWvgDK.png) button at the top right of the page.
+**1)** Download the HUD by clicking the ![Download](https://i.imgur.com/hq7Be5l.png) button at the top right of the page.
 
 **2)** Extract/Unzip the HUD
 
