@@ -169,16 +169,16 @@
 
 		"max_size"								"19"
 
-		"6v6_gap"								"1"
-		"12v12_gap"								"1"
+		"6v6_gap"								"0"
+		"12v12_gap"								"0"
 
 		"team1_grow_dir" 						"west"
 		"team1_base_x"							"c-55"
-		"team1_max_expand"						"180"
+		"team1_max_expand"						"160"
 
 		"team2_grow_dir" 						"east"
 		"team2_base_x"							"c55"
-		"team2_max_expand"						"180"
+		"team2_max_expand"						"160"
 
 		"playerpanels_kv"
 		{

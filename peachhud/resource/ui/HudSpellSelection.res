@@ -2,7 +2,7 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"					"c147"
+		"xpos"					"c141"
 		"xpos_minmode"			"0"
 		"ypos"					"r120"
 		"ypos_minmode"			"r20"
@@ -54,10 +54,10 @@
 		"font"					"Size 7"
 		"labelText"				"%actiontext%"
 		"textAlignment" 		"center"
-		"xpos"					"-17"
+		"xpos"					"-16"
 		"ypos"					"-2"
 		"wide"					"40"
-		"tall"					"0"		//10
+		"tall"					"10"		//10
 		"fgcolor"				"White"
 		"visible"				"1"
 		
