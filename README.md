@@ -43,5 +43,4 @@ All the customizations can be found inside the **customizations** folder and to 
 
 **All Indev, Alpha, and Beta testers**
 
-
 **For questions and feedback, contact me in the [PeachHUD Discord](https://discord.gg/HyZRVtp)**
