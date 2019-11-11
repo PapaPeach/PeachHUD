@@ -12,20 +12,20 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"FreezePanelBase"
-		"xpos"								"2"
-		"ypos"								"r28"		
+		"xpos"								"c-145"
+		"ypos"								"c45"		
 		"wide"								"f0"		
-		"tall"								"f0"		
+		"tall"								"480"		
 		"visible"							"1"
 		
 		"WhiteBG"
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"WhiteBG"
-			"xpos"							"-5"
+			"xpos"							"0"
 			"ypos"							"0"
 			"zpos"							"0"
-			"wide"							"200"
+			"wide"							"0"
 			"tall"							"30"
 			"visible"						"0"
 			"enabled"						"1"
@@ -36,7 +36,7 @@
 		{
 			"ControlName"					"CTFImagePanel"
 			"fieldName"						"FreezePanelBG"
-			"xpos"							"-17"
+			"xpos"							"0"
 			"ypos"							"0"
 			"zpos"							"50"
 			"wide"							"20"
@@ -69,10 +69,10 @@
 		{
 			"ControlName"					"CTFFreezePanelHealth"
 			"fieldName"						"FreezePanelHealth"
-			"xpos"							"3"
+			"xpos"							"45"
 			"ypos"							"0"
 			"zpos"							"1"
-			"wide"							"40"
+			"wide"							"200"
 			"tall"							"36"
 			"visible"						"1"
 			"enabled"						"1"	
@@ -82,25 +82,78 @@
 			"HealthDeathWarningColor"		"HUDDeathWarning"
 			"TextColor"						"HudOffWhite"
 		}	
-
+	
+		"CenterLine"
+		{
+			"ControlName"					"EditablePanel"
+			"fieldName"						"CenterLine"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"100"
+			"wide"							"1"
+			"tall"							"36"
+			"visible"						"0"
+			"enabled"						"1"
+			"bgcolor_override"				"White"
+			
+			"pin_to_sibling" 			"FreezePanelHealth"
+			"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
+		}	
+	
 		"FreezeLabelKiller"
 		{	
 			"ControlName"					"Label"
 			"fieldName"						"FreezeLabelKiller"
-			"font"							"Size 24"
+			"font"							"Size 12"
 			"xpos"							"0"
-			"ypos"							"0"
+			"ypos"							"30"
 			"zpos"							"5"
-			"wide"							"300"
-			"tall"							"30"
-			"autoResize"					"0"
-			"pinCorner"						"0"
+			"wide"							"200"
+			"tall"							"10"
 			"visible"						"1"
 			"enabled"						"1"
 			"labelText"						"%killername%"
-			"textAlignment"					"west"
+			"textAlignment"					"center"
 			"fgcolor_override"				"White"
 		}
+		
+		"FreezeLabelKillerShadow"
+		{
+			"ControlName"				"Label"
+			"fieldName"					"FreezeLabelKillerShadow"
+			"xpos"						"-1"
+			"ypos"						"-1"
+			"zpos"						"4"
+			"wide"						"200"
+			"tall"						"10"
+			"visible"					"1"
+			"enabled"					"1"
+			"textAlignment"				"center"	
+			"labeltext"					"%killername%"
+			"font"						"Size 12"
+			"fgcolor_override"			"Shadows"
+		
+			"pin_to_sibling"			"FreezeLabelKiller"
+		}
+
+		"CenterLine1"
+		{
+			"ControlName"					"EditablePanel"
+			"fieldName"						"CenterLine1"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"100"
+			"wide"							"1"
+			"tall"							"10"
+			"visible"						"0"
+			"enabled"						"1"
+			"bgcolor_override"				"White"
+			
+			"pin_to_sibling" 			"FreezeLabelKiller"
+			"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
+			"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
+		}	
 
 		"AvatarImage"
 		{

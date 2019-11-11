@@ -35,6 +35,7 @@
 		"font"						"Size 24"
 		"bgcolor_override"			"Blank"
 	}
+	
 	"BuyBackLabel"
 	{
 		"ControlName"				"CExLabel"
