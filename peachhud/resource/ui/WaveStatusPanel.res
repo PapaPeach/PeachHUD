@@ -61,6 +61,21 @@
 		"draw_corner_height" 	"8"	
 	}
 	
+	"NewProgressBarBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"NewProgressBarBG"
+		"xpos"				"213"
+		"ypos"				"17"
+		"ypos_minmode"		"0"
+		"zpos"				"2"
+		"wide"				"176"
+		"tall"				"14"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"BlackLightTransparent"
+	}
+	
 	"SupportLabel"
 	{
 		"ControlName"			"CExLabel"

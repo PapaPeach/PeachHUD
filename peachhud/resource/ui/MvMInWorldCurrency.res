@@ -1,20 +1,5 @@
 "Resource/UI/MvMInWorldCurrency.res"
 {
-	"BackgroundGood"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"BackgroundGood"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"15"
-		"visible"				"0"
-		"enabled"				"0"
-		"PaintBackgroundType"	"3"
-		"bgcolor_override"		"BlueLight"
-	}
-	
 	"CurrencyGood"
 	{
 		"ControlName"			"CExLabel"

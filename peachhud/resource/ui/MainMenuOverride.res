@@ -222,10 +222,10 @@
 		}
 	}
 	
-	"Sunset"
+	"Mountain"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"Sunset"
+		"fieldName"			"Mountain"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"1"
@@ -233,7 +233,7 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/menu/Sunset"
+		"image"				"replay/thumbnails/menu/PeachMountain"
 		"scaleimage"		"1"
 	}
 	
@@ -248,20 +248,7 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 40"
-	}
-	
-	"RightBar"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"RightBar"
-		"xpos"				"r45"
-		"ypos"				"-5"
-		"zpos"				"15"
-		"wide"				"50"
-		"tall"				"p1.02"
-		"visible"			"1"
-		"border"			"BlackTransparent50"
+		"fillcolor"			"0 0 0 120"
 	}
 	
 	"InfoSeparatorLine"
@@ -664,15 +651,28 @@
 		}
 	}
 	
+	"TopBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"TopBar"
+		"xpos"				"-5"
+		"ypos"				"-3"
+		"zpos"				"15"
+		"wide"				"p1.02"
+		"tall"				"37"
+		"visible"			"1"
+		"border"			"Blank"
+	}
+	
 	"PlaySeparatorLine"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"PlaySeparatorLine"
-		"xpos"				"r40"
-		"ypos"				"35"
+		"xpos"				"r119"
+		"ypos"				"2"
 		"zpos"				"20"
-		"wide"				"37"
-		"tall"				"1"
+		"wide"				"1"
+		"tall"				"21"
 		"visible"			"1"
 		"bgcolor_override" 	"WhiteMoreTransparent"
 	}
@@ -681,28 +681,28 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"FriendsContainer"
-		"xpos"							"-1"
-		"ypos"							"-40"
+		"xpos"							"176"
+		"ypos"							"0"
 		"zpos"							"50"
-		"wide"							"37"
-		"tall"							"405"
+		"wide"							"600"
+		"tall"							"28"
 		"visible"						"1"
 		
 		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 
 		"TitleLabel"
 		{
 			"ControlName"				"CExLabel"
 			"fieldName"					"TitleLabel"
 			"font"						"Symbols 28"
-			"labelText"					"Y"
+			"labelText"					""		//Y
 			"textAlignment"				"center"
 			"xpos"						"0"
 			"ypos"						"0"
 			"wide"						"37"
-			"tall"						"30"
+			"tall"						"28"
 			"autoResize"				"0"
 			"pinCorner"					"0"
 			"visible"					"1"
@@ -715,32 +715,30 @@
 			"ControlName"				"EditablePanel"
 			"fieldname"					"SeparationLine"
 			"xpos"						"0"
-			"ypos"						"32"
+			"ypos"						"2"
 			"zpos"						"501"
-			"wide"						"37"
-			"tall"						"1"
+			"wide"						"1"
+			"tall"						"21"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"0"
 
-			"bgcolor_override" 			"White"
-			
-			"alpha"						"150"
+			"bgcolor_override" 			"WhiteMoreTransparent"
 		}
 
 		"SteamFriendsList"
 		{
 			"ControlName"				"CSteamFriendsListPanel"
 			"fieldname"					"SteamFriendsList"
-			"xpos"						"0"
-			"ypos"						"36"
+			"xpos"						"4"
+			"ypos"						"1"
 			"zpos"						"500"
-			"wide"						"37"
-			"tall"						"405"
+			"wide"						"600"
+			"tall"						"37"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 
-			"columns_count"				"1"
+			"columns_count"				"26"
 			"inset_x"					"2"
 			"inset_y"					"0"
 			"row_gap"					"0"
@@ -749,8 +747,8 @@
 
 			"friendpanel_kv"
 			{
-				"wide"					"35"
-				"tall"					"41"
+				"wide"					"21"
+				"tall"					"28"
 			}
 
 			"ScrollBar"
@@ -762,37 +760,16 @@
 		}
 	}
 	
-	"QuitSeparatorLine"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldname"						"QuitSeparatorLine"
-		"xpos"							"-1"
-		"ypos"							"-41"
-		"zpos"							"100"
-		"wide"							"37"
-		"tall"							"1"
-		"visible"						"1"
-		"bgcolor_override" 				"WhiteMoreTransparent"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
-	}
-	
 	"Quit"
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Quit"
-		"xpos"							"-1"
-		"ypos"							"-5"
+		"xpos"							"r36"
+		"ypos"							"r38"
 		"zpos"							"50"
-		"wide"							"30"
-		"tall"							"30"
+		"wide"							"36"
+		"tall"							"36"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
 
 		"SubButton"
 		{
@@ -800,15 +777,15 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"30"
-			"tall"						"30"
+			"wide"						"36"
+			"tall"						"36"
 			"autoResize"				"0"
 			"pinCorner"					"3"
 			"visible"					"1"
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Symbols 28"
+			"font"						"Symbols 40"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -819,9 +796,9 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"245 70 70 180"
-			"armedFgColor_override"		"245 70 70 255"
-			"depressedFgColor_override"	"245 70 70 255"
+			"defaultFgColor_override"	"RedLight"
+			"armedFgColor_override"		"OrangeLight"
+			"depressedFgColor_override"	"OrangeLight"
 			
 			"proportionaltoparent"		"1"
 		}
@@ -831,23 +808,19 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldname"						"Disconnect"
-		"xpos"							"-5"
-		"ypos"							"-3"
+		"xpos"							"0"
+		"ypos"							"r35"
 		"zpos"							"16"
 		"wide"							"f0"
 		"tall"							"35"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 		"PIN_BOTTOMRIGHT"
 
 		"SubButton"
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"SubButton"
-			"xpos"						"-5"
-			"ypos"						"-3"
+			"xpos"						"0"
+			"ypos"						"-2"
 			"wide"						"f-10"
 			"tall"						"40"
 			"autoResize"				"0"
@@ -856,7 +829,7 @@
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
-			"font"						"Size 28"
+			"font"						"Size 30"
 			"textAlignment"				"center"
 			"dulltext"					"0"
 			"brighttext"				"0"
@@ -872,7 +845,7 @@
 			"depressedFgColor_override"	"WhiteMoreTransparent"
 			
 			"border_default"			"RedSolid"
-			"border_armed"				"OrangeTransparent50"
+			"border_armed"				"OrangeSolid"
 			
 			"proportionaltoparent"		"1"
 		}
@@ -906,7 +879,7 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"8"
-		"wide"						"400"
+		"wide"						"326"
 		"tall"						"115"
 		"autoResize"				"0"
 		"pinCorner"					"3"
@@ -1197,8 +1170,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -1212,8 +1184,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -1544,8 +1515,7 @@
 			"wrap"						"0"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -1559,8 +1529,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -1705,8 +1674,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -1720,8 +1688,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -1866,8 +1833,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -1881,8 +1847,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -2027,8 +1992,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -2042,8 +2006,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -2188,8 +2151,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -2203,8 +2165,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -2349,8 +2310,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -2364,8 +2324,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -2460,8 +2419,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -2475,8 +2433,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -2571,8 +2528,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"White"
-			"alpha"						"210"
+			"fgcolor"					"WhiteMoreTransparent"
 		}
 		
 		"Separator"
@@ -2586,8 +2542,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"White"
-			"alpha"						"210"
+			"bgcolor_override"			"WhiteMoreTransparent"
 		}
 	}
 	
@@ -3024,8 +2979,8 @@
 	{
 		"ControlName"					"CTFStreamListPanel"
 		"fieldName"						"StreamListPanel"
-		"xpos"							"10"
-		"ypos"							"0"
+		"xpos"							"r420"
+		"ypos"							"100"
 		"zpos"							"20"
 		"wide"							"300"
 		"tall"							"310"
@@ -3033,10 +2988,6 @@
 		"PaintBackgroundType"			"0"
 		"paintbackground"				"0"
 		"border"						"BlackTransparent50"
-		
-		"pin_to_sibling"				"RightBar"
-		"pin_corner_to_sibling"			"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"			"PIN_CENTER_LEFT"
 	}
 	
 	
