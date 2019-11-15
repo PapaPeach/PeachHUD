@@ -111,13 +111,13 @@
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
-		"wrap"						"1"
+		"wrap"						"0"
 		"font"						"Size 10"
 		"fgcolor_override"			"WhiteMoreTransparent"
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"PeachHUD Indev"
+		"labelText"					"Alpha 0.0"
 	}
 	
 	//"DashboardDimmer"				//Removes the dimmer thing but you can't click out of it :/
@@ -255,10 +255,10 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"InfoSeparatorLine"
-		"xpos"				"79"
+		"xpos"				"50"
 		"ypos"				"148"
 		"zpos"				"20"
-		"wide"				"257"
+		"wide"				"281"
 		"tall"				"1"
 		"visible"			"1"
 		"bgcolor_override" 	"WhiteMoreTransparent"
@@ -683,14 +683,10 @@
 		"fieldname"						"FriendsContainer"
 		"xpos"							"176"
 		"ypos"							"0"
-		"zpos"							"50"
-		"wide"							"600"
+		"zpos"							"20000"
+		"wide"							"391"
 		"tall"							"28"
 		"visible"						"1"
-		
-		"pin_to_sibling" 				"RightBar"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 
 		"TitleLabel"
 		{
@@ -710,10 +706,10 @@
 			"fgcolor_override"			"WhiteMoreTransparent"
 		}
 
-		"SeparationLine"
+		"PartySeparationLine"
 		{
 			"ControlName"				"EditablePanel"
-			"fieldname"					"SeparationLine"
+			"fieldname"					"PartySeparationLine"
 			"xpos"						"0"
 			"ypos"						"2"
 			"zpos"						"501"
@@ -732,13 +728,13 @@
 			"fieldname"					"SteamFriendsList"
 			"xpos"						"4"
 			"ypos"						"1"
-			"zpos"						"500"
+			"zpos"						"20000"
 			"wide"						"600"
 			"tall"						"37"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 
-			"columns_count"				"26"
+			"columns_count"				"18"
 			"inset_x"					"2"
 			"inset_y"					"0"
 			"row_gap"					"0"
@@ -758,6 +754,44 @@
 				"xpos"					"9999"
 			}
 		}
+			
+		"QueuedSeparationLine"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldname"					"QueuedSeparationLine"
+			"xpos"						"390"
+			"ypos"						"2"
+			"zpos"						"501"
+			"wide"						"1"
+			"tall"						"21"
+			"visible"					"1"
+			"proportionaltoparent"		"1"
+			"mouseinputenabled"			"0"
+
+			"bgcolor_override" 			"WhiteMoreTransparent"
+		}
+	}
+	
+	"HudVersionTop"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"HudVersionTop"
+		"xpos"						"r283"
+		"ypos"						"2"
+		"zpos"						"50"
+		"wide"						"160"
+		"tall"						"21"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"mouseinputenabled"			"0"
+		"wrap"						"0"
+		"font"						"Size 37"
+		"fgcolor_override"			"WhiteMoreTransparent"
+		"textAlignment"				"center"
+		"AllCaps"					"0"
+		"use_proportional_insets"	"1"
+		"labelText"					"PeachHUD"
+		"bgcolor_override"			"Blank"
 	}
 	
 	"Quit"

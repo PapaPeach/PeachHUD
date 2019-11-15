@@ -6,7 +6,7 @@
 	{
 		"xpos"								"c-13"
 		"ypos"								"8"
-		"zpos"								"20000"
+		"zpos"								"1000"
 	}
 	
 	"character_info"

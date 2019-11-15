@@ -18,7 +18,7 @@
 		"fieldName"				"InteractButton"
 		"xpos"					"0"
 		"ypos"					"0"
-		"zpos"					"11000"
+		"zpos"					"25000"
 		"wide"					"f0"
 		"tall"					"f0"
 		"proportionaltoparent"	"1"
@@ -32,7 +32,7 @@
 		"defaultBgColor_override"	"Blank"
 		"armedBgColor_override"		"White"
 
-		"border_default"		"NoBorder"
+		"border_default"		"Blank"
 		"border_armed"			"FriendHighlightBorder"
 	}
 	

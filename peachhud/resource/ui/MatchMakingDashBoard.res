@@ -257,11 +257,11 @@
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"QueueContainer"
-			"xpos"							"cs-0.5"
+			"xpos"							"r282"
 			"ypos"							"-50"
 			"zpos"							"111"
-			"wide"							"230"
-			"tall"							"f0"
+			"wide"							"158"
+			"tall"							"30"
 			"visible"						"1"
 			"proportionaltoparent"			"1"
 
@@ -284,7 +284,7 @@
 				"visible"					"1"
 				"proportionaltoparent"		"1"
 
-				"border"					"BlackTransparent70"
+				"border"					"GrayBlueBorder"
 			}
 
 			"QueueLogoButton"
@@ -375,7 +375,7 @@
 				"ControlName"				"CExImageButton"
 				"fieldName"					"MultiQueuesManageButton"
 				"xpos"						"rs1-6"
-				"ypos"						"8"
+				"ypos"						"5"
 				"zpos"						"10"
 				"wide"						"22"
 				"tall"						"22"
@@ -411,7 +411,7 @@
 				"ControlName"				"CExImageButton"
 				"fieldName"					"CloseButton"
 				"xpos"						"rs1-6"
-				"ypos"						"8"
+				"ypos"						"5"
 				"zpos"						"10"
 				"wide"						"22"
 				"tall"						"22"
@@ -607,8 +607,8 @@
 				"zpos"						"1"
 				"wide"						"19"
 				"tall"						"19"
-				"visible"					"1"
-				"enabled"					"1"
+				"visible"					"0"
+				"enabled"					"0"
 				"scaleImage"				"1"
 				"proportionaltoparent"		"1"
 				"image"						"replay/thumbnails/menu/play"
