@@ -12,10 +12,10 @@
 		"enabled"			"1"
 	}
 	
-	"Sunset"				//needed as a cover
+	"Mountain"				//needed as a cover
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"			"Sunset"
+		"fieldName"			"Mountain"
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"0"
@@ -23,7 +23,7 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/menu/Sunset_Blur"
+		"image"				"replay/thumbnails/menu/Mountain_Blur"
 		"scaleimage"		"1"
 	}
 	

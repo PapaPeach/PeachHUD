@@ -40,10 +40,10 @@
 		"sheetinset_bottom"					"24"
 	}
 	
-	"Sunset"
+	"Mountain"
 	{
 		"ControlName"						"ImagePanel"
-		"fieldName"							"Sunset"
+		"fieldName"							"Mountain"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"0"

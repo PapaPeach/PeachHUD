@@ -103,10 +103,10 @@
 		}
 	}
 
-	"Sunset"							//needed as a cover
+	"Mountain"							//needed as a cover
 	{
 		"ControlName"					"ImagePanel"
-		"fieldName"						"Sunset"
+		"fieldName"						"Mountain"
 		"xpos"							"0"
 		"ypos"							"-48"
 		"zpos"							"-2"

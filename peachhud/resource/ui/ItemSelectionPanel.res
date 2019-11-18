@@ -48,6 +48,7 @@
 			"ControlName"				"CItemModelPanel"
 			"xpos"						"c-70"
 			"ypos"						"270"
+			"zpos"						"50"
 			"wide"						"54"
 			"tall"						"42"
 			"visible"					"0"
@@ -85,7 +86,7 @@
 			"textAlignment"				"center"
 			"wide"						"20"
 			"tall"						"15"
-			"zpos"						"1"
+			"zpos"						"10"
 			"autoResize"				"0"
 			"pinCorner"					"0"
 			"enabled"					"1"
@@ -93,19 +94,33 @@
 		}
 	}
 	
-	"Sunset"							//needed as a cover
+	"Mountain"							//needed as a cover
 	{
 		"ControlName"					"ImagePanel"
-		"fieldName"						"Sunset"
+		"fieldName"						"Mountain"
 		"xpos"							"0"
-		"ypos"							"-45"
+		"ypos"							"-48"
 		"zpos"							"-1"
 		"wide"							"f0"
 		"tall"							"f0"
 		"visible"						"1"
 		"enabled"						"1"
-		"image"							"replay/thumbnails/menu/Sunset_Blur"
+		"image"							"replay/thumbnails/menu/Mountain_Blur"
 		"scaleimage"					"1"
+	}
+	
+	"BlackGradient"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackGradient"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 120"
 	}
 	
 	"SelectionBG"
@@ -447,7 +462,7 @@
 			"font"						"ItemFontAttribLarge"
 			"xpos"						"0"
 			"ypos"						"30"
-			"zpos"						"2"
+			"zpos"						"20"
 			"wide"						"140"
 			"tall"						"60"
 			"autoResize"				"0"
