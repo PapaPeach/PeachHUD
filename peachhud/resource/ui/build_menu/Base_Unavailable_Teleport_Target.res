@@ -4,38 +4,38 @@
 {
 	"ItemBackground"
 	{	
-		"bgcolor_override"		"RedLight"
+		"bgcolor_override"		"Blank"
 	}
 	
 	"CantBuildReason"
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"CantBuildReason"
-		"font"					"Size 12"
-		"xpos"					"-10"
-		"ypos"					"0"
+		"font"					"Size 9"
+		"xpos"					"0"
+		"ypos"					"24"
 		"zpos"					"1"
-		"wide"					"150"
-		"tall"					"19"
+		"wide"					"80"
+		"tall"					"18"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"AllCaps"				"1"
 		"labelText"				"#Hud_Menu_Build_Unavailable"
-		"textAlignment"			"west"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"White"
-		"pin_to_sibling"		"ItemBackground"
-	}
-	
-	"ItemNameLabel"
-	{	
-		"xpos"					"9999"
 	}
 	
 	"NumberLabel"
+	{	
+		"xpos"					"9999"
+		"visible"				"0"
+	}
+	
+	"ItemNameLabel"
 	{	
 		"xpos"					"9999"
 	}

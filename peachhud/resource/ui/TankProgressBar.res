@@ -48,6 +48,21 @@
 		"draw_corner_height" 	"8"	
 	}
 	
+	"NewProgressBarBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"NewProgressBarBG"
+		"xpos"				"7"
+		"ypos"				"2"
+		//"ypos_minmode"		"0"
+		"zpos"				"0"
+		"wide"				"174"
+		"tall"				"14"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"BlackLightTransparent"
+	}
+	
 	"ProgressBarBG"
 	{
 		"ControlName"			"ScalableImagePanel"

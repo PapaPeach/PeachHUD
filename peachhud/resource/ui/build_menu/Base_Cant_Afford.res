@@ -35,7 +35,7 @@
 		"pin_to_sibling"		"ItemBackground"
 	}
 	
-		"CostLabel"
+	"CostLabel"
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"				"CostLabel"

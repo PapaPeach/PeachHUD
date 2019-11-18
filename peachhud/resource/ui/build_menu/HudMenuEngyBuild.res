@@ -120,6 +120,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"1"
+		
 		"pin_to_sibling"		"TitleLabel"
 	}	
 	
@@ -133,6 +134,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"1"
+		
 		"pin_to_sibling"		"active_item_1"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -148,6 +150,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"1"
+		
 		"pin_to_sibling"		"active_item_2"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -163,6 +166,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"1"
+		
 		"pin_to_sibling"		"active_item_3"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -178,6 +182,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_1"
 	}	
 	
@@ -191,6 +196,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_1"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -206,6 +212,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_2"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -221,6 +228,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_3"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -236,6 +244,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_1"
 	}	
 	
@@ -249,6 +258,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_1"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -264,6 +274,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_2"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
@@ -279,6 +290,7 @@
 		"wide"					"80"
 		"tall"					"80"
 		"visible"				"0"
+		
 		"pin_to_sibling"		"active_item_3"
 		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"

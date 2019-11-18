@@ -4,7 +4,7 @@
 	{
 		"fieldName"				"avatar"
 		"xpos"					"1"
-		"ypos"					"1"
+		"ypos"					"0"
 		"zpos"					"100"
 		"wide"					"21"
 		"tall"					"21"
@@ -56,8 +56,8 @@
 		"ControlName"			"Label"
 		"fieldName"				"NameLabel"
 		"xpos"					"1"
-		"ypos"					"22"
-		"zpos"					"100"
+		"ypos"					"17"	//22
+		"zpos"					"25000"
 		"wide"					"21"
 		"tall"					"5"
 		"textAlignment"			"center"

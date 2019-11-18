@@ -71,8 +71,8 @@
 				"visible"					"1"
 				"enabled"					"1"
 				"paintbackground"			"1"
-				"paintbackgroundType"		"3"
-				"bgcolor_override"			"Black"
+				"paintbackgroundType"		"0"
+				"bgcolor_override"			"BlackTransparent"
 				"alpha"						"255"
 			}
 			
@@ -80,7 +80,7 @@
 			{
 				"ControlName"				"CExLabel"
 				"fieldName"					"playername"
-				"font"						"UltraSmall"
+				"font"						"Size 7"
 				"xpos"						"2"
 				"ypos"						"20"
 				"zpos"						"5"
@@ -90,7 +90,7 @@
 				"pinCorner"					"0"
 				"visible"					"1"
 				"labelText"					"%playername%"
-				"textAlignment"				"west"
+				"textAlignment"				"center"
 				"fgcolor"					"White"
 			}
 			
@@ -105,8 +105,8 @@
 				"tall"						"7"
 				"visible"					"1"
 				"enabled"					"1"
-				"paintbackgroundType"		"3"
-				"bgcolor_override"			"GrayBlue"
+				"paintbackgroundType"		"0"
+				"bgcolor_override"			"BlackTransparent"
 			}
 			
 			"classimage"
@@ -171,7 +171,7 @@
 				"xpos"						"-2"
 				"ypos"						"-3"
 				"zpos"						"-1"
-				"wide"						"40"
+				"wide"						"42"
 				"tall"						"23"
 				"visible"					"0"
 				"enabled"					"1"

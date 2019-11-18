@@ -102,8 +102,24 @@
 			"depressedFgColor_override" "White"
 		}
 	}
+
+	"Sunset"							//needed as a cover
+	{
+		"ControlName"					"ImagePanel"
+		"fieldName"						"Sunset"
+		"xpos"							"0"
+		"ypos"							"-48"
+		"zpos"							"-2"
+		"wide"							"f0"
+		"tall"							"f0"
+		"visible"						"1"
+		"enabled"						"1"
+		"image"							"replay/thumbnails/menu/Mountain_Blur"
+		"scaleimage"					"1"
+	}
 	
-		"BlackGradient"
+		
+	"BlackGradient"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BlackGradient"
@@ -114,23 +130,9 @@
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"0 0 0 40"
+		"fillcolor"			"0 0 0 120"
 	}
 	
-	"Sunset"							//needed as a cover
-	{
-		"ControlName"					"ImagePanel"
-		"fieldName"						"Sunset"
-		"xpos"							"0"
-		"ypos"							"-45"
-		"zpos"							"-2"
-		"wide"							"f0"
-		"tall"							"f0"
-		"visible"						"1"
-		"enabled"						"1"
-		"image"							"replay/thumbnails/menu/Sunset_Blur"
-		"scaleimage"					"1"
-	}
 	
 	"ClassLabel"
 	{

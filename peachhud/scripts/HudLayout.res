@@ -164,7 +164,7 @@
 	
 	CSecondaryTargetID
 	{
-		"ypos"						"320"
+		"ypos"						"316"
 		"tall"	 					"28"
 		"tall_minmode"	 			"28"
 	}
@@ -275,10 +275,10 @@
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"xpos"						"0"
-		"ypos"						"c35"
-		"wide"						"150"
-		"tall"						"120"
+		"xpos"						"c-201"
+		"ypos"						"c-56"
+		"wide"						"500"
+		"tall"						"500"
 	}
 	
 	"HudMenuSpyDisguise"

@@ -727,24 +727,24 @@
 			"ControlName"				"CSteamFriendsListPanel"
 			"fieldname"					"SteamFriendsList"
 			"xpos"						"4"
-			"ypos"						"1"
+			"ypos"						"2"
 			"zpos"						"20000"
 			"wide"						"600"
-			"tall"						"37"
+			"tall"						"21"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 
 			"columns_count"				"18"
 			"inset_x"					"2"
 			"inset_y"					"0"
-			"row_gap"					"0"
+			"row_gap"					"1"
 			"column_gap"				"0"
 			"restrict_width"			"0"
 
 			"friendpanel_kv"
 			{
 				"wide"					"21"
-				"tall"					"28"
+				"tall"					"21"
 			}
 
 			"ScrollBar"

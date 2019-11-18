@@ -66,8 +66,22 @@
 		"tall"							"f0"
 		"visible"						"1"
 		"enabled"						"1"
-		"image"							"replay/thumbnails/menu/Sunset_Blur"
+		"image"							"replay/thumbnails/menu/Mountain_Blur"
 		"scaleimage"					"1"
+	}
+	
+	"BlackGradient"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"BlackGradient"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"2"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"0 0 0 120"
 	}
 	
 	"classimageoutline"
