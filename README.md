@@ -3,7 +3,7 @@ A Team Fortress 2 HUD made by Peaches and streamlined for competitive, while mai
 Based on SunsetHUD Dark, by Hypnotize.
 
 # LINKS
-[Screenshot Album](https://imgur.com/a/tIMEzly) (Work In Progress)
+[Screenshot Album](https://imgur.com/a/rVrlQes) (May be outdated)
 
 [TeamFortress.tv](WIP) (Coming Soon)
 
@@ -33,7 +33,7 @@ All the customizations can be found inside the **customizations** folder and to 
 **2)** Inside the file uncomment the line of the customization you want to apply by removing the `//` before the `#base`
 
 # Credits
-**Base HUD:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud)
+**Everything:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud) and being tremendously helpful!
 
 **Inspiration:** BudHUD, RaysHUD, 7HUD, and ToonHUD
 
