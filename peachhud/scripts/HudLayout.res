@@ -197,9 +197,9 @@
 
 		"MaxDeathNotices" 			"9"
 		"IconScale"	  				"0.35"
-		"LineHeight"	 			"10"
+		"LineHeight"	 			"12"
 		"LineSpacing"	 			"0"
-		"CornerRadius"	  			"1"
+		"CornerRadius"	  			"0"
 		"RightJustify"	  			"1"
 		
 		"TextFont"					"Size 10"

@@ -99,27 +99,6 @@
 		}
 	}
 	
-	"HudVersion"
-	{
-		"ControlName"				"Label"
-		"fieldName"					"HudVersion"
-		"xpos"						"12"
-		"ypos"						"136"
-		"zpos"						"50"
-		"wide"						"300"
-		"tall"						"24"
-		"visible"					"1"
-		"proportionaltoparent"		"1"
-		"mouseinputenabled"			"0"
-		"wrap"						"0"
-		"font"						"Size 10"
-		"fgcolor_override"			"WhiteMoreTransparent"
-		"textAlignment"				"west"
-		"AllCaps"					"0"
-		"use_proportional_insets"	"1"
-		"labelText"					"Alpha 0.0"
-	}
-	
 	//"DashboardDimmer"				//Removes the dimmer thing but you can't click out of it :/
 	//{
 	//	"ControlName"				"EditablePanel"
@@ -255,13 +234,34 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"InfoSeparatorLine"
-		"xpos"				"50"
+		"xpos"				"54"
 		"ypos"				"148"
 		"zpos"				"20"
-		"wide"				"281"
+		"wide"				"278"
 		"tall"				"1"
 		"visible"			"1"
 		"bgcolor_override" 	"WhiteMoreTransparent"
+	}
+	
+	"HudVersion"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"HudVersion"
+		"xpos"						"12"
+		"ypos"						"136"
+		"zpos"						"50"
+		"wide"						"300"
+		"tall"						"24"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"mouseinputenabled"			"0"
+		"wrap"						"0"
+		"font"						"Size 10"
+		"fgcolor_override"			"WhiteMoreTransparent"
+		"textAlignment"				"west"
+		"AllCaps"					"0"
+		"use_proportional_insets"	"1"
+		"labelText"					"Alpha 0.01"
 	}
 	
 	"Servers"
@@ -772,10 +772,10 @@
 		}
 	}
 	
-	"HudVersionTop"
+	"HudTitle"
 	{
 		"ControlName"				"Label"
-		"fieldName"					"HudVersionTop"
+		"fieldName"					"HudTitle"
 		"xpos"						"r283"
 		"ypos"						"2"
 		"zpos"						"50"
@@ -1611,7 +1611,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"BlueTransparent70"
+			"border_default"			"BlackTransparent70"
 			"border_armed"				"OrangeTransparent70"
 			
 			"proportionaltoparent"		"1"
@@ -1625,7 +1625,7 @@
 		"xpos"							"-2"
 		"ypos"							"0"
 		"zpos"							"51"
-		"wide"							"20"
+		"wide"							"80"	//20 (changed to fit comingsoon)
 		"tall"							"20"
 		"visible"						"1"
 		
@@ -1666,6 +1666,33 @@
 			"border_armed"				"OrangeTransparent70"
 			
 			"proportionaltoparent"		"1"
+		}
+		
+		"MinmodeComingSoonLabel"
+		{
+			"ControlName"					"CExLabel"
+			"fieldname"						"MinmodeComingSoonLabel"
+			"xpos"							"20"
+			"ypos"							"-2"
+			"zpos"							"50"
+			"wide"							"45"
+			"tall"							"25"
+			"visible"						"1"
+			"enabled"						"1"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"font"							"Size 6"
+			"textAlignment"					"west"
+			"labelText"						"Coming Soon!"
+			"AllCaps"						"1"
+			"wrap"							"0"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"fgcolor"						"WhiteMoreTransparent"
+		
+			"pin_to_sibling" 				"MinmodeOFF"
+			"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+			"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 		}
 	}
 	
