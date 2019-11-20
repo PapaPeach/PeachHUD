@@ -24,7 +24,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 While PeachHUD inherited minmode support from SunsetHUD, development has basically neglected minmode for the time being, because of this I recommend keeping minmode **disabled**.
 
 # CUSTIOMIZATION
-Easily accessible customization is a planned feature of PeachHUD. Currently there are some customization options, though they may not be fully functional at this time.
+Easily accessible customization is a planned feature of PeachHUD. Currently there are some customization options, though they may not recieve as much testing from me as the main aspects of the HUD. As of right now Damage and Scoreboard customization is **NOT** Supported. 
 
 All the customizations can be found inside the **customizations** folder and to enable them you will need to do:
 
