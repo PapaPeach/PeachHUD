@@ -4,10 +4,10 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"ObjectiveStatusEscort"
-		"xpos"					"c-70"
+		"xpos"					"c-125"
 		"ypos"					"r17"
 		"zpos"					"1"
-		"wide"					"140"
+		"wide"					"250"
 		"tall"					"30"
 		"visible"				"1"
 		"enabled"				"1"
@@ -266,7 +266,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CapNumPlayers"
-			"font"				"Size 8"
+			"font"				"Size 10"
 			"xpos"				"283"
 			"ypos"				"2"
 			"zpos"				"30"
@@ -280,7 +280,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"fgcolor"			"White"
+			"fgcolor"			"BlackSolid"
 			"paintbackground"	"0"
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
@@ -296,7 +296,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"RecedeTime"	
-			"font"				"Size 8"		
+			"font"				"Size 10"		
 			"xpos"				"283"
 			"ypos"				"2"
 			"zpos"				"30"
@@ -310,7 +310,7 @@
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
-			"fgcolor"			"White"
+			"fgcolor"			"BlackSolid"
 			"paintbackground"	"0"
 			"proportionaltoparent"		"1"
 			"use_proportional_insets"	"1"
@@ -342,7 +342,7 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"3"
+				"ypos"			"4"
 			}	
 			
 			"if_multiple_trains_bottom"

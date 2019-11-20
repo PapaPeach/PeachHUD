@@ -93,14 +93,12 @@
 			
 			"paintbackground"				"0"
 			
-			"FgColor"						"White"
-			"defaultFgColor_override"		"White"
+			"FgColor"						"WhiteTransparent"
+			"defaultFgColor_override"		"WhiteTransparent"
 			"armedFgColor_override"			"OrangeLight"
 			"depressedFgColor_override"		"OrangeLight"
 
 			"pin_to_sibling" 				"PartyAnchor"
-			
-			"alpha"							"125"
 		}
 
 		"PartySlot0"
@@ -586,9 +584,9 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"FgColor" 						"WhiteMoreTransparent"
-			"defaultFgColor_override" 		"WhiteMoreTransparent"
-			"armedFgColor_override" 		"WhiteMoreTransparent"
+			"FgColor" 						"WhiteTransparent"
+			"defaultFgColor_override" 		"WhiteTransparent"
+			"armedFgColor_override" 		"WhiteTransparent"
 			
 			"BgColor_override" 				"70 151 108 255"
 			"defaultBgColor_override" 		"70 151 108 255"

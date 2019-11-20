@@ -202,28 +202,85 @@ event HudSpyDisguiseHide
 	// Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
 
-event HudSpyDisguiseFadeIn
+//DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT
+event HudSpyDisguiseFadeIn		//REMOVE LEFT MOST DOUBLE SLASHES (REMEBER TO RE-COMMENT OTHERS)
 {
-	// RunEvent HudSpyDisguiseChanged	0
+	// RunEvent HudSpyDisguiseChanged		0
 	
-	Animate PlayerStatusSpyImage		Alpha		"255"	Linear 0.0 0.0
+	Animate PlayerStatusSpyImage			Alpha		"255"		Linear 0.0 0.0
 	
-	 Animate classmodelpanel 			xpos		"0"		Linear 0.0 0.0
-	 Animate classmodelpanel 			ypos		"r120"	Linear 0.0 0.0
-	 Animate PlayerStatusClassImage 	xpos		"0"		Linear 0.0 0.0
-	 Animate PlayerStatusClassImage 	ypos		"r48"	Linear 0.0 0.0
+	Animate ClassModelPanel 				xpos		"0"			Linear 0.0 0.0
+	Animate ClassModelPanel 				ypos		"r120"		Linear 0.0 0.0
+	
+	Animate PlayerStatusClassImage			xpos		"0"			Linear 0.0 0.0
+	Animate PlayerStatusClassImage			ypos		"r48"		Linear 0.0 0.0
 }
 
-event HudSpyDisguiseFadeOut
+event HudSpyDisguiseFadeOut		//REMOVE LEFT MOST DOUBLE SLASHES
 {
-	// RunEvent HudSpyDisguiseChanged	0
+	// RunEvent HudSpyDisguiseChanged		0
 	
-	Animate PlayerStatusSpyImage		Alpha		"0"			Linear 0.0 0.0
+	Animate PlayerStatusSpyImage			Alpha		"0"			Linear 0.0 0.0
 	
-	 Animate classmodelpanel 			xpos		"-9999"		Linear 0.0 0.0
-	 Animate classmodelpanel 			ypos		"r0"		Linear 0.0 0.0
-	 Animate PlayerStatusClassImage 	xpos		"-9999"		Linear 0.0 0.0
-	 Animate PlayerStatusClassImage 	ypos		"r0"		Linear 0.0 0.0
+	Animate ClassModelPanel 				xpos		"-9999"		Linear 0.0 0.0
+	Animate ClassModelPanel 				ypos		"r0"		Linear 0.0 0.0
+	
+	Animate PlayerStatusClassImage			xpos		"-9999"		Linear 0.0 0.0
+	Animate PlayerStatusClassImage			ypos		"r0"		Linear 0.0 0.0
+}
+
+//ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON
+//event HudSpyDisguiseFadeIn		//REMOVE LEFT MOST DOUBLE SLASHES (REMEBER TO RE-COMMENT OTHERS)
+{
+	// RunEvent HudSpyDisguiseChanged		0
+	
+	Animate PlayerStatusSpyImage			Alpha		"255"		Linear 0.0 0.0
+	
+	Animate ClassModelPanel 				xpos		"0"			Linear 0.0 0.0
+	Animate ClassModelPanel 				ypos		"r120"		Linear 0.0 0.0
+	
+	Animate PlayerStatusClassImage			xpos		"0"			Linear 0.0 0.0
+	Animate PlayerStatusClassImage			ypos		"r48"		Linear 0.0 0.0
+}
+
+//event HudSpyDisguiseFadeOut		//REMOVE LEFT MOST DOUBLE SLASHES
+{
+	// RunEvent HudSpyDisguiseChanged		0
+	
+	Animate PlayerStatusSpyImage			Alpha		"0"			Linear 0.0 0.0
+	
+	Animate ClassModelPanel 				xpos		"-9999"		Linear 0.0 0.0
+	Animate ClassModelPanel 				ypos		"r0"		Linear 0.0 0.0
+	
+	Animate PlayerStatusClassImage			xpos		"-9999"		Linear 0.0 0.0
+	Animate PlayerStatusClassImage			ypos		"r0"		Linear 0.0 0.0
+}
+
+//OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
+//event HudSpyDisguiseFadeIn		//REMOVE LEFT MOST DOUBLE SLASHES (REMEBER TO RE-COMMENT OTHERS)
+{
+	// RunEvent HudSpyDisguiseChanged		0
+	
+	Animate PlayerStatusSpyImage			Alpha		"255"		Linear 0.0 0.0
+	
+	Animate ClassModelPanel 				xpos		"-9999"			Linear 0.0 0.0
+	Animate ClassModelPanel 				ypos		"r0"		Linear 0.0 0.0
+	
+	Animate PlayerStatusClassImage			xpos		"-9999"			Linear 0.0 0.0
+	Animate PlayerStatusClassImage			ypos		"r0"		Linear 0.0 0.0
+}
+
+//event HudSpyDisguiseFadeOut		//REMOVE LEFT MOST DOUBLE SLASHES
+{
+	// RunEvent HudSpyDisguiseChanged		0
+	
+	Animate PlayerStatusSpyImage			Alpha		"0"			Linear 0.0 0.0
+	
+	Animate ClassModelPanel 				xpos		"-9999"		Linear 0.0 0.0
+	Animate ClassModelPanel 				ypos		"r0"		Linear 0.0 0.0
+	
+	Animate PlayerStatusClassImage			xpos		"-9999"		Linear 0.0 0.0
+	Animate PlayerStatusClassImage			ypos		"r0"		Linear 0.0 0.0
 }
 
 //====================================================================================================================
@@ -287,17 +344,17 @@ event RDNegativeScorePulse
 
 //====================================================================================================================
 
-//event CompetitiveGame_LowerChatWindow
+event CompetitiveGame_LowerChatWindow
 {
 	Animate HudChat 							ypos 		"14"								Accel 	0 		0
 }
 
-//event CompetitiveGame_RestoreChatWindow
+event CompetitiveGame_RestoreChatWindow
 {
 	Animate HudChat 							ypos 		"14" 								Accel 	0 		0
 }
 
-//event HudTournament_MoveChatWindow
+event HudTournament_MoveChatWindow
 {
 	RunEvent CompetitiveGame_LowerChatWindow 	0
 	RunEvent CompetitiveGame_RestoreChatWindow 	10

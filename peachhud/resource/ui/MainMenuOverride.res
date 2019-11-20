@@ -240,7 +240,7 @@
 		"wide"				"278"
 		"tall"				"1"
 		"visible"			"1"
-		"bgcolor_override" 	"WhiteMoreTransparent"
+		"bgcolor_override" 	"WhiteTransparent"
 	}
 	
 	"HudVersion"
@@ -257,7 +257,7 @@
 		"mouseinputenabled"			"0"
 		"wrap"						"0"
 		"font"						"Size 10"
-		"fgcolor_override"			"WhiteMoreTransparent"
+		"fgcolor_override"			"WhiteTransparent"
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
@@ -300,7 +300,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
 			
@@ -402,7 +402,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
 			
@@ -503,7 +503,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
 			
@@ -547,7 +547,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
 			
@@ -595,7 +595,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
 			
@@ -643,7 +643,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
 			
@@ -674,7 +674,7 @@
 		"wide"				"1"
 		"tall"				"21"
 		"visible"			"1"
-		"bgcolor_override" 	"WhiteMoreTransparent"
+		"bgcolor_override" 	"WhiteTransparent"
 	}
 	
 	"FriendsContainer"
@@ -703,7 +703,7 @@
 			"pinCorner"					"0"
 			"visible"					"1"
 			"enabled"					"1"
-			"fgcolor_override"			"WhiteMoreTransparent"
+			"fgcolor_override"			"WhiteTransparent"
 		}
 
 		"PartySeparationLine"
@@ -719,7 +719,7 @@
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"0"
 
-			"bgcolor_override" 			"WhiteMoreTransparent"
+			"bgcolor_override" 			"WhiteTransparent"
 		}
 
 		"SteamFriendsList"
@@ -768,7 +768,7 @@
 			"proportionaltoparent"		"1"
 			"mouseinputenabled"			"0"
 
-			"bgcolor_override" 			"WhiteMoreTransparent"
+			"bgcolor_override" 			"WhiteTransparent"
 		}
 	}
 	
@@ -786,7 +786,7 @@
 		"mouseinputenabled"			"0"
 		"wrap"						"0"
 		"font"						"Size 37"
-		"fgcolor_override"			"WhiteMoreTransparent"
+		"fgcolor_override"			"WhiteTransparent"
 		"textAlignment"				"center"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
@@ -874,9 +874,9 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
-			"armedFgColor_override"		"WhiteMoreTransparent"
-			"depressedFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
+			"armedFgColor_override"		"WhiteTransparent"
+			"depressedFgColor_override"	"WhiteTransparent"
 			
 			"border_default"			"RedSolid"
 			"border_armed"				"OrangeSolid"
@@ -902,8 +902,6 @@
 
 		"show_model"				"0"
 		"show_type"					"1"
-		
-		"alpha"						"125"
 	}
 	
 	"CycleRankTypeButton"
@@ -951,13 +949,11 @@
 		"wrap"						"1"
 
 		"font"						"Size 40"
-		"fgcolor_override"			"White"
+		"fgcolor_override"			"WhiteMoreTransparent"
 		"labelText"					"Lost connection to the steam server"
 		"textAlignment"				"west"
 		"AllCaps"					"1"
 		"use_proportional_insets"	"1"
-		
-		"alpha"						"125"
 	}
 	
 	"BottomLeftButtonsAnchor"
@@ -981,7 +977,6 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		"alpha"							"125"
 		
 		"pin_to_sibling" 				"BottomLeftButtonsAnchor"
 
@@ -1010,7 +1005,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -1028,7 +1023,6 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		"alpha"							"125"
 		
 		"pin_to_sibling" 				"Stream"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1059,7 +1053,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -1077,7 +1071,6 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		"alpha"							"125"
 		
 		"pin_to_sibling" 				"Contracker"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1108,7 +1101,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -1126,7 +1119,6 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		"alpha"							"125"
 		
 		"pin_to_sibling" 				"Console"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1157,7 +1149,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"White"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -1204,7 +1196,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -1218,7 +1210,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -1549,7 +1541,7 @@
 			"wrap"						"0"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -1563,7 +1555,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -1688,7 +1680,7 @@
 			"wrap"							"0"
 			"dulltext"						"0"
 			"brighttext"					"0"
-			"fgcolor"						"WhiteMoreTransparent"
+			"fgcolor"						"WhiteTransparent"
 		
 			"pin_to_sibling" 				"MinmodeOFF"
 			"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -1735,7 +1727,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -1749,7 +1741,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -1894,7 +1886,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -1908,7 +1900,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -2053,7 +2045,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -2067,7 +2059,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -2212,7 +2204,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -2226,7 +2218,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -2371,7 +2363,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -2385,7 +2377,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -2480,7 +2472,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -2494,7 +2486,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -2589,7 +2581,7 @@
 			"wrap"						"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
-			"fgcolor"					"WhiteMoreTransparent"
+			"fgcolor"					"WhiteTransparent"
 		}
 		
 		"Separator"
@@ -2603,7 +2595,7 @@
 			"tall"						"18"
 			"visible"					"1"
 			"enabled"					"1"
-			"bgcolor_override"			"WhiteMoreTransparent"
+			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
 	
@@ -2715,7 +2707,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -2763,7 +2755,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -2811,7 +2803,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			
@@ -2859,7 +2851,7 @@
 			
 			"paintbackground"			"0"
 			
-			"defaultFgColor_override"	"WhiteMoreTransparent"
+			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
 			

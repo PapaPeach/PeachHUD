@@ -173,8 +173,8 @@
 	{	
 		"ControlName"				"EditablePanel"
 		"fieldName"					"BuildingAnchor"
-		"xpos"						"-14"
-		"ypos"						"10"
+		"xpos"						"-15"
+		"ypos"						"86"
 		"zpos"						"0"
 		"wide"						"100"
 		"tall"						"0"
@@ -197,7 +197,7 @@
 
 		"MaxDeathNotices" 			"9"
 		"IconScale"	  				"0.35"
-		"LineHeight"	 			"12"
+		"LineHeight"	 			"11"
 		"LineSpacing"	 			"0"
 		"CornerRadius"	  			"0"
 		"RightJustify"	  			"1"
