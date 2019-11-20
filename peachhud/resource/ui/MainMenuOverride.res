@@ -261,7 +261,7 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Alpha 0.01"
+		"labelText"					"Alpha 1.00"
 	}
 	
 	"Servers"
