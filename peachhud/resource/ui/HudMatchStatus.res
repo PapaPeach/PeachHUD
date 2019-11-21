@@ -163,7 +163,7 @@
 		"ypos"									"0"
 		"zpos"									"2"
 		"wide"									"f0"
-		"tall"									"21"
+		"tall"									"75"
 		"visible"								"1"
 		"enabled"								"1"
 
@@ -318,10 +318,10 @@
 				"fieldName"						"respawntime"
 				"font"							"Size 12 Shadow"
 				"xpos"							"cs-0.5"
-				"ypos"							"0"
+				"ypos"							"20"
 				"zpos"							"5"
-				"wide"							"f0"
-				"tall"							"19"
+				"wide"							"19"		//f0
+				"tall"							"8"
 				"autoResize"					"0"
 				"pinCorner"						"0"
 				"visible"						"1"
@@ -353,7 +353,7 @@
 			{
 				"ControlName"					"ImagePanel"
 				"fieldName"						"DeathPanel"
-				"xpos"							"cs-0.5"
+				"xpos"							"-9999"
 				"ypos"							"0"
 				"zpos"							"0"
 				"wide"							"f0"

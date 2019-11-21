@@ -664,134 +664,52 @@
 		"border"			"Blank"
 	}
 	
-	"PlaySeparatorLine"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"PlaySeparatorLine"
-		"xpos"				"r119"
-		"ypos"				"2"
-		"zpos"				"20"
-		"wide"				"1"
-		"tall"				"21"
-		"visible"			"1"
-		"bgcolor_override" 	"WhiteTransparent"
-	}
-	
-	"FriendsContainer"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldname"						"FriendsContainer"
-		"xpos"							"176"
-		"ypos"							"0"
-		"zpos"							"20000"
-		"wide"							"391"
-		"tall"							"28"
-		"visible"						"1"
-
-		"TitleLabel"
-		{
-			"ControlName"				"CExLabel"
-			"fieldName"					"TitleLabel"
-			"font"						"Symbols 28"
-			"labelText"					""		//Y
-			"textAlignment"				"center"
-			"xpos"						"0"
-			"ypos"						"0"
-			"wide"						"37"
-			"tall"						"28"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"fgcolor_override"			"WhiteTransparent"
-		}
-
-		"PartySeparationLine"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldname"					"PartySeparationLine"
-			"xpos"						"0"
-			"ypos"						"2"
-			"zpos"						"501"
-			"wide"						"1"
-			"tall"						"21"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"mouseinputenabled"			"0"
-
-			"bgcolor_override" 			"WhiteTransparent"
-		}
-
-		"SteamFriendsList"
-		{
-			"ControlName"				"CSteamFriendsListPanel"
-			"fieldname"					"SteamFriendsList"
-			"xpos"						"4"
-			"ypos"						"2"
-			"zpos"						"20000"
-			"wide"						"600"
-			"tall"						"21"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-
-			"columns_count"				"18"
-			"inset_x"					"2"
-			"inset_y"					"0"
-			"row_gap"					"1"
-			"column_gap"				"0"
-			"restrict_width"			"0"
-
-			"friendpanel_kv"
-			{
-				"wide"					"21"
-				"tall"					"21"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"			"ScrollBar"
-				"FieldName"				"ScrollBar"
-				"xpos"					"9999"
-			}
-		}
-			
-		"QueuedSeparationLine"
-		{
-			"ControlName"				"EditablePanel"
-			"fieldname"					"QueuedSeparationLine"
-			"xpos"						"390"
-			"ypos"						"2"
-			"zpos"						"501"
-			"wide"						"1"
-			"tall"						"21"
-			"visible"					"1"
-			"proportionaltoparent"		"1"
-			"mouseinputenabled"			"0"
-
-			"bgcolor_override" 			"WhiteTransparent"
-		}
-	}
-	
 	"HudTitle"
 	{
 		"ControlName"				"Label"
 		"fieldName"					"HudTitle"
-		"xpos"						"r283"
+		"xpos"						"r226"
 		"ypos"						"2"
 		"zpos"						"50"
-		"wide"						"160"
-		"tall"						"21"
+		"wide"						"110"
+		"tall"						"15"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 		"wrap"						"0"
-		"font"						"Size 37"
+		"font"						"Size 26"
 		"fgcolor_override"			"WhiteTransparent"
 		"textAlignment"				"center"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
 		"labelText"					"PeachHUD"
 		"bgcolor_override"			"Blank"
+	}
+	
+	"HudSubTitle"
+	{
+		"ControlName"				"Label"
+		"fieldName"					"HudSubTitle"
+		"xpos"						"0"
+		"ypos"						"-1"
+		"zpos"						"50"
+		"wide"						"110"
+		"tall"						"7"
+		"visible"					"1"
+		"proportionaltoparent"		"1"
+		"mouseinputenabled"			"0"
+		"wrap"						"0"
+		"font"						"Size 7"
+		"fgcolor_override"			"WhiteTransparent"
+		"textAlignment"				"center"
+		"AllCaps"					"0"
+		"use_proportional_insets"	"1"
+		"labelText"					"Based on SunsetHUD by Hypnotize"
+		"bgcolor_override"			"Blank"
+		
+		"pin_to_sibling" 			"HudTitle"
+		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
 	}
 	
 	"Quit"

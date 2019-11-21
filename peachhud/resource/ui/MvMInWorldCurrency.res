@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyGood"
-		"font"					"Size 18"
+		"font"					"Size 15"
 		"fgcolor"				"GreenLight"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyBad"
-		"font"					"Size 18"
+		"font"					"Size 15"
 		"fgcolor"				"Redlight"
 		"xpos"					"0"
 		"ypos"					"0"
@@ -34,11 +34,11 @@
 		"labelText"				"%currency%"
 	}
 	
-		"CurrencyShadow"
+	"CurrencyShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CurrencyShadow"
-		"font"					"Size 18"
+		"font"					"Size 15"
 		"fgcolor"				"Shadows"
 		"xpos"					"-1"
 		"ypos"					"-1"

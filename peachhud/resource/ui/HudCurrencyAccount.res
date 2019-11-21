@@ -24,11 +24,11 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"3"
-		"wide"					"40"
+		"wide"					"100"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"center"	
 		"labelText"				"%currency%"
 	}
 	
@@ -41,11 +41,11 @@
 		"xpos"					"-1"
 		"ypos"					"-1"
 		"zpos"					"2"
-		"wide"					"40"
+		"wide"					"100"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"west"	
+		"textAlignment"			"center"	
 		"labelText"				"%currency%"
 		"pin_to_sibling"		"Currency"
 	}	
