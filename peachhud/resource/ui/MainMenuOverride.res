@@ -668,7 +668,7 @@
 	{
 		"ControlName"				"Label"
 		"fieldName"					"HudTitle"
-		"xpos"						"r226"
+		"xpos"						"r111"
 		"ypos"						"2"
 		"zpos"						"50"
 		"wide"						"110"

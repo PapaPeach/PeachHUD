@@ -5,36 +5,20 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c184"
+		"xpos"					"c182"
 		"ypos"					"r128"
 		"zpos"					"50"
 		"wide"					"100"
-		"tall"					"50"
+		"tall"					"15"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
-	}
-	
-	"WhiteBar"
-	{	
-		"ControlName"			"EditablePanel"
-		"fieldName"				"WhiteBar"
-		"xpos"					"-5"
-		"ypos"					"0"
-		"zpos"					"0"
-		"wide"					"92"
-		"tall"					"15"
-		"visible"				"0"
-		"enabled"				"1"
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"3"
-		"bgcolor_override"		"Black"
 	}
 	
 	"KillstreakLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"KillstreakLabel"
-		"xpos"					"0"
+		"xpos"					"1"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"8"
@@ -43,15 +27,20 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"]"
+		"labelText"				"H"
 		"textAlignment"			"east"
 		"AllCaps"				"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Symbols 12"
+		"font"					"Symbols 10"
+		
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"
+		"pin_corner_to_sibling"	"PIN_TOPRIGHT"
+		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
-	"KillstreakShadow"
+	"KillstreakLabelShadow"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"KillstreakLabelShadow"
@@ -62,11 +51,12 @@
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
-		"labelText"				"]"
+		"labelText"				"H"
 		"textAlignment"			"east"	
 		"AllCaps"				"1"
-		"font"					"Symbols 12"
+		"font"					"Symbols 10"
 		"fgcolor"				"Shadows"
+		
 		"pin_to_sibling"		"KillstreakLabel"
 	}
 	
@@ -74,10 +64,11 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"2"
+		"xpos"					"8"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"25"
+		"auto_wide_tocontents"	"1"
 		"tall"					"15"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -88,10 +79,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Size 15"
-		
-		"pin_to_sibling"		"KillstreakLabel"
-		"pin_corner_to_sibling"	"PIN_TOPLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -102,6 +89,7 @@
 		"ypos"					"-1"
 		"zpos"					"1"
 		"wide"					"25"
+		"auto_wide_tocontents"	"1"
 		"tall"					"15"	
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -116,10 +104,6 @@
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
-	
-	
-	
-	
 	
 	"ItemEffectMeterBG"
 	{

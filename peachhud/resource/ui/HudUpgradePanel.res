@@ -137,7 +137,7 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			//"bgcolor_override"			"142 132 121 255"
-			"alpha"	"0"
+			"alpha"							"0"
 		}
 		
 		"ClassImage"
@@ -222,7 +222,7 @@
 			"visible"						"0"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"bgcolor_override"				"255 200 55 100"
+			"bgcolor_override"				"OrangeLight"
 			"PaintBackgroundType"			"2"
 		}
 		

@@ -255,10 +255,10 @@
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"QueueContainer"
-			"xpos"							"r273"
+			"xpos"							"r304"
 			"ypos"							"-50"
 			"zpos"							"111"
-			"wide"							"158"
+			"wide"							"190"
 			"tall"							"30"
 			"visible"						"1"
 			"proportionaltoparent"			"1"
@@ -282,7 +282,7 @@
 				"visible"					"1"
 				"proportionaltoparent"		"1"
 
-				"border"					"GrayBlueBorder"
+				"border"					"BlackTransparent70"
 			}
 
 			"QueueLogoButton"

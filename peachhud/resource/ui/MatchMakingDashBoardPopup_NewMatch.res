@@ -31,7 +31,7 @@
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"BGPanel"
-			"xpos"							"r212"
+			"xpos"							"r304"
 			"ypos"							"cs-0.5"
 			"zpos"							"-1"
 			"wide"							"190"
