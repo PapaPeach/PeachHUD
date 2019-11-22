@@ -230,19 +230,6 @@
 		"fillcolor"			"0 0 0 120"
 	}
 	
-	"InfoSeparatorLine"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"InfoSeparatorLine"
-		"xpos"				"54"
-		"ypos"				"148"
-		"zpos"				"20"
-		"wide"				"278"
-		"tall"				"1"
-		"visible"			"1"
-		"bgcolor_override" 	"WhiteTransparent"
-	}
-	
 	"HudVersion"
 	{
 		"ControlName"				"Label"
@@ -261,7 +248,20 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Alpha 1.00"
+		"labelText"					"Alpha 1.1.0"
+	}
+	
+	"InfoSeparatorLine"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"InfoSeparatorLine"
+		"xpos"				"53"
+		"ypos"				"148"
+		"zpos"				"20"
+		"wide"				"279"
+		"tall"				"1"
+		"visible"			"1"
+		"bgcolor_override" 	"WhiteTransparent"
 	}
 	
 	"Servers"
