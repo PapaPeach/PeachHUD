@@ -248,17 +248,17 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Alpha 1.1.0"
+		"labelText"					"Alpha 1.1.1"
 	}
 	
 	"InfoSeparatorLine"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"InfoSeparatorLine"
-		"xpos"				"53"
+		"xpos"				"51"
 		"ypos"				"148"
 		"zpos"				"20"
-		"wide"				"279"
+		"wide"				"281"
 		"tall"				"1"
 		"visible"			"1"
 		"bgcolor_override" 	"WhiteTransparent"
@@ -810,7 +810,7 @@
 		"xpos"						"10"
 		"ypos"						"35"
 		"zpos"						"5"
-		"wide"						"400"
+		"wide"						"322"
 		"tall"						"115"
 		"visible"					"0"
 		"proportionaltoparent"		"1"
@@ -829,7 +829,7 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"8"
-		"wide"						"326"
+		"wide"						"322"
 		"tall"						"115"
 		"autoResize"				"0"
 		"pinCorner"					"3"
@@ -846,7 +846,6 @@
 		
 		"paintbackground"			"0"
 		"paintborder"				"0"
-		
 		"alpha"						"0"
 		
 		"pin_to_sibling"			"RankPanel"
