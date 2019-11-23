@@ -32,7 +32,7 @@
 		"AllCaps"				"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Symbols 10"
+		"font"					"Symbols 12"
 		
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
@@ -54,7 +54,7 @@
 		"labelText"				"H"
 		"textAlignment"			"east"	
 		"AllCaps"				"1"
-		"font"					"Symbols 10"
+		"font"					"Symbols 12"
 		"fgcolor"				"Shadows"
 		
 		"pin_to_sibling"		"KillstreakLabel"
@@ -78,7 +78,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Size 15"
+		"font"					"Size 16"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -99,7 +99,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Size 15"
+		"font"					"Size 16"
 		"fgcolor"				"Shadows"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
