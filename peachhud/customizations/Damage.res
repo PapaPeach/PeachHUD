@@ -7,5 +7,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
+#base "../resource/ui/alternatives/Damage_Last_Center.res"	// DAMAGE ABOVE THE HEALTH ENABLED
 //#base "../resource/ui/alternatives/Damage_LastOFF.res"		// DAMAGE ABOVE THE HEALTH DISABLED
-#base "../resource/ui/alternatives/Damage_LastON.res"		// DAMAGE ABOVE THE HEALTH ENABLED

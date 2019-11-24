@@ -110,7 +110,7 @@
 	"Yellow"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 230; hud_combattext_blue 60"
+		"command"		"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 235; hud_combattext_blue 0"
 		"OnlyInGame"	"1"
 	}
 	"Orange"
@@ -134,7 +134,7 @@
 	"Green"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 185; hud_combattext_green 220; hud_combattext_blue 25"
+		"command"		"engine hud_combattext 1; hud_combattext_red 40; hud_combattext_green 200; hud_combattext_blue 110"
 		"OnlyInGame"	"1"
 	}
 	
@@ -260,7 +260,7 @@
 	"ReloadHud"
 	{
 		"label"			"ã"
-		"command"		"engine snd_restart"
+		"command"		"engine hud_reloadscheme"
 		"OnlyInGame"	"1"
 	}
 	
@@ -289,7 +289,7 @@
 	"ConsoleINGAME"
 	{
 		"label"			"¤"
-		"command"		"engine con_enable 1;toggleconsole"
+		"command"		"engine con_enable 1; toggleconsole"
 		"tooltip"		"Open Console"
 		"OnlyInGame"	"1"
 	}

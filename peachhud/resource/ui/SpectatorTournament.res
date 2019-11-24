@@ -165,6 +165,7 @@
 				"labelText"					"%chargeamount%"
 				"textAlignment"				"east"
 				"fgcolor"					"GreenLight"
+				"alpha"						"180"
 				"pin_to_sibling"			"ClassImage"
 			}
 			

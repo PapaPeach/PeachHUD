@@ -7,5 +7,5 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-//#base "../resource/ui/alternatives/Health_Normal.res"		// HEALTH CROSS DISABLED
-#base "../resource/ui/alternatives/Health_CrossON.res"	// HEALTH CROSS ENABLED
+#base "../resource/ui/alternatives/Health_Cross_On.res"		// HEALTH CROSS ENABLED
+//#base "../resource/ui/alternatives/Health_Cross_Off.res"		// HEALTH CROSS DISABLED

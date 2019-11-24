@@ -445,11 +445,11 @@
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"JoinPartyLobbyContainer"
-			"xpos"							"cs-0.5"
+			"xpos"							"r494"
 			"ypos"							"-50"
 			"zpos"							"110"
-			"wide"							"230"
-			"tall"							"f0"
+			"wide"							"190"
+			"tall"							"30"
 			"visible"						"1"
 			"proportionaltoparent"			"1"
 
