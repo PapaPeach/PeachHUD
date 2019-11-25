@@ -620,7 +620,6 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"GreenLight"
-			"bgcolor_override"		"Blank"
 			
 			if_mvm
 			{
@@ -646,7 +645,6 @@
 			"enabled"				"1"
 			"AllCaps"				"1"
 			"fgcolor"				"White"
-			"bgcolor_override"		"Blank"
 			
 			"pin_to_sibling"		"Killss"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -704,7 +702,6 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"fgcolor"				"RedLight"
-			"bgcolor_override"		"Blank"
 			
 			"pin_to_sibling"		"KDLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
