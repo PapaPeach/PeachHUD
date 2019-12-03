@@ -2,9 +2,9 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"					"c141"
+		"xpos"					"c129"
 		"xpos_minmode"			"0"
-		"ypos"					"r120"
+		"ypos"					"r113"
 		"ypos_minmode"			"r20"
 		
 		"if_killstreak_visible"
@@ -34,8 +34,8 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"SpellIcon"
-		"xpos"					"5"
-		"ypos"					"7"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"7"
 		"wide"					"12"
 		"tall"					"12"
@@ -43,7 +43,7 @@
 		"enabled"				"1"
 		"scaleImage"			"1"	
 		"image"					"../signs/death_wheel_whammy"
-		"fgcolor"				"255 255 0 255"
+		"fgcolor"				"255 255 255 255"
 		"drawcolor"				"White"
 	}
 	
@@ -57,7 +57,7 @@
 		"xpos"					"-16"
 		"ypos"					"-2"
 		"wide"					"40"
-		"tall"					"10"		//10
+		"tall"					"0"		//10
 		"fgcolor"				"White"
 		"visible"				"1"
 		
@@ -70,10 +70,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountText"
-		"font"					"Size 20"
+		"font"					"Size 16"
 		"labelText"				"%counttext%"
 		"textAlignment" 		"west"
-		"xpos"					"7"
+		"xpos"					"1"
 		"ypos"					"3"
 		"zpos"					"2"	
 		"wide"					"20"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountTextShadow"
-		"font"					"Size 20"
+		"font"					"Size 16"
 		"fgcolor"				"Shadows"
 		"labelText"				"%counttext%"
 		"textAlignment" 		"west"
