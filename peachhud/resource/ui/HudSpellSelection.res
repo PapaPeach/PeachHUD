@@ -2,9 +2,9 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"					"c129"
+		"xpos"					"c139"
 		"xpos_minmode"			"0"
-		"ypos"					"r113"
+		"ypos"					"r112"
 		"ypos_minmode"			"r20"
 		
 		"if_killstreak_visible"
@@ -70,7 +70,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountText"
-		"font"					"Size 16"
+		"font"					"Size 20"
 		"labelText"				"%counttext%"
 		"textAlignment" 		"west"
 		"xpos"					"1"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountTextShadow"
-		"font"					"Size 16"
+		"font"					"Size 20"
 		"fgcolor"				"Shadows"
 		"labelText"				"%counttext%"
 		"textAlignment" 		"west"

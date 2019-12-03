@@ -5,8 +5,8 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c151"
-		"ypos"					"r115"
+		"xpos"					"c-135"
+		"ypos"					"r113"
 		"zpos"					"50"
 		"wide"					"100"
 		"tall"					"15"
@@ -32,7 +32,7 @@
 		"AllCaps"				"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Symbols 12"
+		"font"					"Symbols 14"
 		
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
@@ -54,7 +54,7 @@
 		"labelText"				"H"
 		"textAlignment"			"east"	
 		"AllCaps"				"1"
-		"font"					"Symbols 12"
+		"font"					"Symbols 14"
 		"fgcolor"				"Shadows"
 		
 		"pin_to_sibling"		"KillstreakLabel"
@@ -78,7 +78,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Size 16"
+		"font"					"Size 20"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -99,7 +99,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Size 16"
+		"font"					"Size 20"
 		"fgcolor"				"Shadows"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"

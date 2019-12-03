@@ -497,52 +497,6 @@
 			"tall"							"16"
 		}
 	}
-	
-	"TournamentInstructionsLabelShadow"
-	{	
-		"ControlName"						"CExLabel"
-		"fieldName"							"TournamentInstructionsLabelShadow"
-		"xpos"								"c-125"
-		"ypos"								"42"
-		"zpos"								"1"
-		"font"								"Size 12"
-		"wide"								"250"
-		"tall"								"13"
-		"autoResize"						"0"
-		"pinCorner"							"0"
-		"visible"							"1"
-		"enabled"							"1"
-		"wrap"								"0"
-		"labelText"							"%readylabel%"
-		"textAlignment"						"center"
-		"fgcolor"							"Shadows"
-		
-		if_mvm
-		{
-			"font"							"Size 12"
-			"xpos"							"1"
-			"ypos"							"106"
-			"wide"							"f0"
-			"tall"							"16"
-			"zpos"							"3"
-		}
-		
-		if_readymode
-		{
-			"xpos"							"1"
-			"ypos"							"43"
-			"wide"							"f0"
-		}
-		
-		if_competitive
-		{
-			"xpos"							"1"
-			"wide"							"f0"
-			"ypos"							"119"
-			"font"							"Size 12"
-			"tall"							"16"
-		}
-	}
 
 	"CountdownLabel"
 	{	
@@ -577,6 +531,13 @@
 		}
 	}
 	
+	"TournamentInstructionsLabelShadow"
+	{	
+		"ControlName"						"CExLabel"
+		"fieldName"							"TournamentInstructionsLabelShadow"
+		"xpos"								"9999"
+		"wide"								"0"
+	}
 	"HudTournamentBG"
 	{
 		"ControlName"						"ScalableImagePanel"
