@@ -691,53 +691,15 @@ Scheme
 		
 		TFFatLineBorder
 		{
-			"bordertype"			""
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Gray"
-					"offset" "0 0"
-				}		
-				"2"
-				{
-					"color" "Gray"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Gray"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Black"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		
 		TFThinLineBorder
@@ -764,53 +726,15 @@ Scheme
 		}
 		TFFatLineBorderRedBG
 		{
-			"bordertype"			""
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "RedLight"
-					"offset" "0 0"
-				}		
-				"2"
-				{
-					"color" "RedLight"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "RedLight"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"RedLight"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -847,53 +771,15 @@ Scheme
 		}
 		TFFatLineBorderBlueBG
 		{
-			"bordertype"			""
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}		
-				"2"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}
-				"3"
-				{
-					"color" "Blue"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "blank"
-					"offset" "0 0"
-				}
-			}
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Blue"
+			
+			"image"					"replay/thumbnails/panels/material_generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{

@@ -28,17 +28,17 @@
 
 		if_mvm
 		{
-			"team1_player_base_y"			"80"
+			"team1_player_base_y"			"78"
 		}
 		
 		if_competitive
 		{
-			"team1_player_base_y"			"40"
+			"team1_player_base_y"			"38"
 		}
 		
 		if_readymode
 		{
-			"team1_player_base_y"			"40"
+			"team1_player_base_y"			"38"
 		}
 
 		"ModeImage"
@@ -51,8 +51,8 @@
 		"playerpanels_kv"
 		{
 			"visible"						"0"
-			"wide"							"40"
-			"tall"							"26"
+			"wide"							"43"
+			"tall"							"31"
 			"zpos"							"1"
 			"paintborder"					"1"
 			
@@ -72,7 +72,7 @@
 				"enabled"					"1"
 				"paintbackground"			"1"
 				"paintbackgroundType"		"0"
-				"bgcolor_override"			"BlackTransparent"
+				"bgcolor_override"			"Blank"
 				"alpha"						"255"
 			}
 			
@@ -81,8 +81,8 @@
 				"ControlName"				"CExLabel"
 				"fieldName"					"playername"
 				"font"						"Size 7"
-				"xpos"						"2"
-				"ypos"						"20"
+				"xpos"						"4"
+				"ypos"						"22"
 				"zpos"						"5"
 				"wide"						"35"
 				"tall"						"6"
@@ -98,23 +98,23 @@
 			{
 				"ControlName"				"EditablePanel"
 				"fieldName"					"playernamebg"
-				"xpos"						"-2"
-				"ypos"						"20"
+				"xpos"						"-1"
+				"ypos"						"22"
 				"zpos"						"2"
 				"wide"						"45"
 				"tall"						"7"
 				"visible"					"1"
 				"enabled"					"1"
 				"paintbackgroundType"		"0"
-				"bgcolor_override"			"BlackTransparent"
+				"bgcolor_override"			"Blank"
 			}
 			
 			"classimage"
 			{
 				"ControlName"				"CTFClassImage"
 				"fieldName"					"classimage"
-				"xpos"						"9"
-				"ypos"						"0"
+				"xpos"						"11"
+				"ypos"						"2"
 				"zpos"						"2"
 				"wide"						"20"
 				"tall"						"20"
@@ -168,11 +168,11 @@
 			{
 				"ControlName"				"ImagePanel"
 				"fieldName"					"ReadyImage"
-				"xpos"						"-2"
-				"ypos"						"-3"
+				"xpos"						"3"
+				"ypos"						"3"
 				"zpos"						"-1"
-				"wide"						"42"
-				"tall"						"23"
+				"wide"						"37"
+				"tall"						"19"
 				"visible"					"0"
 				"enabled"					"1"
 				"autoResize"				"0"
