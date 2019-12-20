@@ -19,7 +19,7 @@
 		"ControlName"				"CExLabel"
 		"fieldName"					"ServerTimeLimitLabel"
 		"xpos"						"0"
-		"ypos"						"0"
+		"ypos"						"-2"
 		"zpos"						"5"
 		"wide"						"50"
 		"tall"						"12"

@@ -82,7 +82,7 @@
 	HudTournamentSetup
 	{
 		"wide"						"100"
-		"tall"						"50"
+		"tall"						"100"
 	}
 
 	HudStopWatch
@@ -120,12 +120,12 @@
 	
 	CHealthAccountPanel
 	{
-		"xpos"						"c-162"
+		"xpos"						"c-195"
 		"xpos_minmode"				"c-183"
-		"ypos"						"r110"
+		"ypos"						"r115"
 		"ypos_minmode"				"r80"
 		"wide"						"f0"
-		"tall"  					"30"
+		"tall"  					"20"
 	}
 	
 	HudDamageIndicator
@@ -242,7 +242,7 @@
 	WinPanel
 	{
 		"xpos"						"c-100"
-		"ypos"						"r58"
+		"ypos"						"r73"
 		"wide"						"200"
 		"tall"						"200"
 		"zpos"						"20"

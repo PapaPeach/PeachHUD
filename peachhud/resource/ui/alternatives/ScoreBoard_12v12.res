@@ -31,7 +31,7 @@
 		"fieldName"					"MainBG"
 		"xpos"						"c-255"
 		"ypos"						"r380"
-		"zpos"						"3"
+		"zpos"						"2"
 		"wide"						"510"
 		"tall"						"219"
 		"autoResize"				"0"

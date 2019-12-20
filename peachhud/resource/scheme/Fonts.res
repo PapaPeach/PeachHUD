@@ -1692,6 +1692,18 @@ Scheme
 			}
 		}
 		
+		"Size 40 Uber"
+		{
+			"1"
+			{
+				"name"			"Renogare Uber"
+				"tall"			"40"
+				"additive"  	"0"
+				"antialias"		"1"
+				"dropshadow"	"1"
+			}
+		}
+		
 		"Size 40 Outline"
 		{
 			"1"
@@ -6011,6 +6023,12 @@ Scheme
 		{
 			"font" "resource/scheme/fonts/Renogare Numbers.otf"
 			"name" "Renogare Numbers"
+		}
+		
+		"12"
+		{
+		"font" "resource/scheme/fonts/RenogareUber.otf"
+		"name" "Renogare Uber"
 		}
 	}
 }

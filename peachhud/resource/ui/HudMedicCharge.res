@@ -43,7 +43,7 @@
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"font"						"Size 40 Shadow"
+		"font"						"Size 40 Uber"
 		"font_minmode"				"Size 50 Shadow"
 		"fgcolor"					"White"
 		

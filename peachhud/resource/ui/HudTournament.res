@@ -459,7 +459,7 @@
 		"fieldName"							"TournamentInstructionsLabel"
 		"font"								"Size 12"
 		"xpos"								"c-125"
-		"ypos"								"42"
+		"ypos"								"38"	//42
 		"zpos"								"1"
 		"wide"								"250"
 		"tall"								"13"
@@ -484,7 +484,7 @@
 		if_readymode
 		{
 			"xpos"							"0"
-			"ypos"							"42"
+			"ypos"							"66"
 			"wide"							"f0"
 		}
 		
