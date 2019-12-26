@@ -248,7 +248,7 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Alpha 2.0.1"
+		"labelText"					"Alpha 2.1.0"
 	}
 	
 	"InfoSeparatorLine"
