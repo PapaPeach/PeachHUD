@@ -1,1 +1,1 @@
-#base "../../customizations/Scoreboards.res
+#base "../../customizations/Scoreboards.res"

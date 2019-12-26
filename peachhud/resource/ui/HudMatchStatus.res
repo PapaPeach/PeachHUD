@@ -174,11 +174,11 @@
 
 		"team1_grow_dir" 						"west"
 		"team1_base_x"							"c-53"
-		"team1_max_expand"						"155"
+		"team1_max_expand"						"218"
 
 		"team2_grow_dir" 						"east"
 		"team2_base_x"							"c53"
-		"team2_max_expand"						"155"
+		"team2_max_expand"						"218"
 
 		"playerpanels_kv"
 		{
@@ -680,23 +680,69 @@
 		}
 	}
 	
+	"RoundCounter"
+	{
+		"fieldName"								"RoundCounter"
+		"xpos"									"c-150"
+		"ypos"									"2"
+		"zpos"									"1"
+		"wide"									"300"
+		"tall"									"15"
+		"visible"								"1"
+		"enabled"								"1"
+		
+		"starting_width"						"6"
+		"width_per_round"						"6"
+		"indicator_start_offset"				"6"
+		"indicator_max_wide"					"38"
+		
+		"RoundIndicatorPanel_kv"
+		{
+			"ypos"								"0"
+			"wide"								"6"
+			"tall"								"2"
+			"zpos"								"7"
+			"image"								"../vgui/replay/thumbnails/panels/Panel_Gray"
+			"scaleimage"						"1"
+		}
+		
+		"RoundWinPanelRed_kv"
+		{
+			"ypos"								"0"
+			"wide"								"6"
+			"tall"								"2"
+			"zpos"								"8"
+			"image"								"../vgui/replay/thumbnails/panels/Panel_White"
+			"scaleimage"						"1"
+		}
+
+		"RoundWinPanelBlue_kv"
+		{
+			"ypos"								"0"
+			"wide"								"6"
+			"tall"								"2"
+			"zpos"								"8"
+			"image"								"../vgui/replay/thumbnails/panels/Panel_White"
+			"scaleimage"						"1"
+		}
+		
+		"Background"
+		{
+			"ypos"								"9999"
+		}
+	}
+	
 	"RoundSignModel"
 	{
 		"ControlName"							"CModelPanel"
 		"fieldName"								"RoundSignModel"
-		"xpos"									"999"
+		"xpos"									"9999"
 		"wide"									"0"
 	}
 	"CountdownLabelShadow"
 	{	
 		"ControlName"							"CExLabel"
 		"fieldName"								"CountdownLabelShadow"
-		"wide"									"0"
-		"tall"									"0"
-	}
-	"RoundCounter"
-	{
-		"fieldName"								"RoundCounter"
 		"wide"									"0"
 		"tall"									"0"
 	}

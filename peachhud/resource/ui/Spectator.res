@@ -32,7 +32,7 @@
 		"labelText"					"#game_respawntime_in_secs"
 		"textAlignment"				"center"
 		"textinsetx"				"20"
-		"font"						"Size 12"
+		"font"						"Size 12 Shadow"
 		"bgcolor_override"			"Blank"
 	}
 	

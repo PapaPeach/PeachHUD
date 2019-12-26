@@ -120,7 +120,7 @@
 	
 	CHealthAccountPanel
 	{
-		"xpos"						"c-195"
+		"xpos"						"c-162"
 		"xpos_minmode"				"c-183"
 		"ypos"						"r115"
 		"ypos_minmode"				"r80"
@@ -191,11 +191,11 @@
 	HudDeathNotice
 	{
 		"xpos"	 					"r634"
-		"ypos"	 					"4"
+		"ypos"	 					"19"	//4
 		"wide"						"628"
 		"tall"	 					"468"
 
-		"MaxDeathNotices" 			"9"
+		"MaxDeathNotices" 			"7"
 		"IconScale"	  				"0.35"
 		"LineHeight"	 			"11"
 		"LineSpacing"	 			"0"
