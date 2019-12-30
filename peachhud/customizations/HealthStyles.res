@@ -7,5 +7,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/alternatives/Health_Cross_On.res"		// HEALTH CROSS ENABLED
-//#base "../resource/ui/alternatives/Health_Cross_Off.res"		// HEALTH CROSS DISABLED
+//#base "../resource/ui/alternatives/HealthCross_On.res"				// HEALTH CROSS ENABLED
+//#base "../resource/ui/alternatives/HealthCross_Off.res"				// HEALTH CROSS DISABLED
+#base "../resource/ui/alternatives/HealthCross_On_Indicator.res"		// HEALTH CROSS ENABLED WITH TEAM INDICATOR
+//#base "../resource/ui/alternatives/HealthCross_Off_Indicator.res"		// HEALTH CROSS DISABLED WITH TEAM INDICATOR

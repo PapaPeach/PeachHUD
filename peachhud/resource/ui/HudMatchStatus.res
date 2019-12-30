@@ -684,45 +684,45 @@
 	{
 		"fieldName"								"RoundCounter"
 		"xpos"									"c-150"
-		"ypos"									"2"
-		"zpos"									"1"
+		"ypos"									"16"
+		"zpos"									"7"
 		"wide"									"300"
 		"tall"									"15"
 		"visible"								"1"
 		"enabled"								"1"
 		
-		"starting_width"						"6"
-		"width_per_round"						"6"
-		"indicator_start_offset"				"6"
-		"indicator_max_wide"					"38"
+		"starting_width"						"0"
+		"width_per_round"						"0"
+		"indicator_start_offset"				"2"
+		"indicator_max_wide"					"22"
 		
 		"RoundIndicatorPanel_kv"
 		{
 			"ypos"								"0"
-			"wide"								"6"
+			"wide"								"4"
 			"tall"								"2"
 			"zpos"								"7"
-			"image"								"../vgui/replay/thumbnails/panels/Panel_Gray"
+			"image"								"../vgui/replay/thumbnails/panels/Material_Transparent_Black_70"
 			"scaleimage"						"1"
 		}
 		
 		"RoundWinPanelRed_kv"
 		{
 			"ypos"								"0"
-			"wide"								"6"
+			"wide"								"3"
 			"tall"								"2"
 			"zpos"								"8"
-			"image"								"../vgui/replay/thumbnails/panels/Panel_White"
+			"image"								"../vgui/replay/thumbnails/panels/Panel_Red"
 			"scaleimage"						"1"
 		}
 
 		"RoundWinPanelBlue_kv"
 		{
 			"ypos"								"0"
-			"wide"								"6"
+			"wide"								"3"
 			"tall"								"2"
 			"zpos"								"8"
-			"image"								"../vgui/replay/thumbnails/panels/Panel_White"
+			"image"								"../vgui/replay/thumbnails/panels/Panel_Blue"
 			"scaleimage"						"1"
 		}
 		
