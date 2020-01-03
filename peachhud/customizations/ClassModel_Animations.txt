@@ -7,7 +7,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 //DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT DEFAULT
-event HudSpyDisguiseFadeIn		//FISRT LINE TO UNCOMMENT
+event HudSpyDisguiseFadeIn		//FIRST LINE TO UNCOMMENT
 {
 	// RunEvent HudSpyDisguiseChanged		0
 	
@@ -34,7 +34,7 @@ event HudSpyDisguiseFadeOut		//SECOND LINE TO UNCOMMENT
 }
 
 //ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON ON
-//event HudSpyDisguiseFadeIn		//FISRT LINE TO UNCOMMENT
+//event HudSpyDisguiseFadeIn		//FIRST LINE TO UNCOMMENT
 {
 	// RunEvent HudSpyDisguiseChanged		0
 	
@@ -61,7 +61,7 @@ event HudSpyDisguiseFadeOut		//SECOND LINE TO UNCOMMENT
 }
 
 //OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
-//event HudSpyDisguiseFadeIn		//FISRT LINE TO UNCOMMENT
+//event HudSpyDisguiseFadeIn		//FIRST LINE TO UNCOMMENT
 {
 	// RunEvent HudSpyDisguiseChanged		0
 	

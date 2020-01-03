@@ -4,5 +4,6 @@ hudanimations_manifest
 	"file" "scripts/Hudanimations_Peach.txt"
 	"file" "customizations/Crosshairs_Animations.txt"
 	"file" "customizations/ClassModel_Animations.txt"
+	"file" "customizations/ChatPositions_Animations.txt"
 	"file" "scripts/hudanimations_tf.txt"
 }

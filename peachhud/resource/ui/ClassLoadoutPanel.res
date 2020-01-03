@@ -151,8 +151,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"AllCaps"						"1"
-		"fgcolor_override"				"White"
-		"alpha"							"125"
+		"fgcolor_override"				"WhiteTransparent"
 	}
 	
 	"classmodelpanel"
@@ -160,7 +159,7 @@
 		"ControlName"					"CTFPlayerModelPanel"
 		"fieldName"						"classmodelpanel"
 		
-		"xpos"							"c-125"
+		"xpos"							"c-135"
 		"ypos"							"20"
 		"zpos"							"-1"		
 		"wide"							"270"
