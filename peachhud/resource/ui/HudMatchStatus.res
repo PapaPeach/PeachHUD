@@ -318,10 +318,10 @@
 				"fieldName"						"respawntime"
 				"font"							"Size 12 Shadow"
 				"xpos"							"cs-0.5"
-				"ypos"							"20"
+				"ypos"							"0"
 				"zpos"							"5"
-				"wide"							"19"		//f0
-				"tall"							"8"
+				"wide"							"f0"
+				"tall"							"24"
 				"autoResize"					"0"
 				"pinCorner"						"0"
 				"visible"						"1"
@@ -684,7 +684,7 @@
 	{
 		"fieldName"								"RoundCounter"
 		"xpos"									"c-150"
-		"ypos"									"16"
+		"ypos"									"15"
 		"zpos"									"7"
 		"wide"									"300"
 		"tall"									"15"
@@ -709,7 +709,7 @@
 		"RoundWinPanelRed_kv"
 		{
 			"ypos"								"0"
-			"wide"								"3"
+			"wide"								"4"
 			"tall"								"2"
 			"zpos"								"8"
 			"image"								"../vgui/replay/thumbnails/panels/Panel_Red"
@@ -719,7 +719,7 @@
 		"RoundWinPanelBlue_kv"
 		{
 			"ypos"								"0"
-			"wide"								"3"
+			"wide"								"4"
 			"tall"								"2"
 			"zpos"								"8"
 			"image"								"../vgui/replay/thumbnails/panels/Panel_Blue"

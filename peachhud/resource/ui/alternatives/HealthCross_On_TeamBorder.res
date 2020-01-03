@@ -137,27 +137,27 @@
 		"pin_to_sibling"			"PlayerStatusHealthImage"
 	}
 	
-	"TeamIndicator"
+	"HealthCrossBorder"
 	{
 		"ControlName"				"CTFImagePanel"
-		"fieldName"					"TeamIndicator"
-		"xpos"						"28"
-		"ypos"						"-37"
-		"ypos_minmode"				"-42"
-		"zpos"						"1"
-		"wide"						"58"
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
+		"fieldName"					"HealthCrossBorder"
+		"xpos"						"11"
+		"xpos_minmode"				"15"
+		"ypos"						"11"
+		"ypos_minmode"				"15"
+		"zpos"						"3"
+		"wide"						"44"
+		"wide_minmode"				"60"
+		"tall"						"44"
+		"tall_minmode"				"60"
 		"visible"					"1"
 		"enabled"					"1"
-		"image"						"replay/thumbnails/panels/Panel_Blank"
+		"image"						"replay/thumbnails/health/health_border_red"
+		"teambg_2"					"replay/thumbnails/health/health_border_red"
+		"teambg_3"					"replay/thumbnails/health/health_border_blu"
 		"scaleImage"				"1"
-		"teambg_1"					"replay/thumbnails/panels/Panel_Blank"
-		"teambg_2"					"replay/thumbnails/panels/Panel_Red"
-		"teambg_3"					"replay/thumbnails/panels/Panel_Blue"
 		
-		"pin_to_sibling"			"HealthAnchor"
+		"pin_to_sibling"			"PlayerStatusHealthImageBG"
 	}
 	
 	"StatusIconsAnchor"				//Use this to move the status icons

@@ -248,17 +248,17 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Alpha 2.1.0"
+		"labelText"					"Alpha 2.2.0"
 	}
 	
 	"InfoSeparatorLine"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"InfoSeparatorLine"
-		"xpos"				"54"
+		"xpos"				"55"
 		"ypos"				"148"
 		"zpos"				"20"
-		"wide"				"278"
+		"wide"				"277"
 		"tall"				"1"
 		"visible"			"1"
 		"bgcolor_override" 	"WhiteTransparent"

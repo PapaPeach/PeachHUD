@@ -98,29 +98,6 @@
 		"pin_to_sibling" 			"PlayerStatusHealthValue"
 	}
 	
-	"TeamIndicator"
-	{
-		"ControlName"				"CTFImagePanel"
-		"fieldName"					"TeamIndicator"
-		"xpos"						"30"
-		"ypos"						"-37"
-		"ypos_minmode"				"-42"
-		"zpos"						"1"
-		"wide"						"63"
-		"tall"						"1"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"image"						"replay/thumbnails/panels/Panel_Blank"
-		"scaleImage"				"1"
-		"teambg_1"					"replay/thumbnails/panels/Panel_Blank"
-		"teambg_2"					"replay/thumbnails/panels/Panel_Red"
-		"teambg_3"					"replay/thumbnails/panels/Panel_Blue"
-		
-		"pin_to_sibling"			"HealthAnchor"
-	}
-	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"				"ImagePanel"
@@ -133,6 +110,29 @@
 		"visible"					"0"
 		"enabled"					"0"
 		"scaleImage"				"1"	
+	}
+	
+	"TeamIndicator"
+	{
+		"ControlName"				"CTFImagePanel"
+		"fieldName"					"TeamIndicator"
+		"xpos"						"28"
+		"ypos"						"-37"
+		"ypos_minmode"				"-42"
+		"zpos"						"1"
+		"wide"						"58"
+		"tall"						"1"
+		"autoResize"				"0"
+		"pinCorner"					"0"
+		"visible"					"1"
+		"enabled"					"1"
+		"image"						"replay/thumbnails/panels/Panel_Blank"
+		"scaleImage"				"1"
+		"teambg_1"					"replay/thumbnails/panels/Panel_Blank"
+		"teambg_2"					"replay/thumbnails/panels/Panel_Red"
+		"teambg_3"					"replay/thumbnails/panels/Panel_Blue"
+		
+		"pin_to_sibling"			"HealthAnchor"
 	}
 	
 	"StatusIconsAnchor"				//Use this to move the status icons
