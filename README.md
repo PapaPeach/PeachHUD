@@ -32,6 +32,8 @@ All the customizations can be found inside the **customizations** folder and to 
 
 **2)** Inside the file uncomment the line of the customization you want to apply by removing the `//` before the `#base`
 
+**3)** Some customization options require extra steps to be enabled, those steps are detailed in their respective file
+
 # Credits
 **Everything:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud) and being tremendously helpful!
 
