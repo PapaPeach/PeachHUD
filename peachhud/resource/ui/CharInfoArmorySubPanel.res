@@ -80,16 +80,16 @@
 	
 	"BlackGradient"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BlackGradient"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"0 0 0 120"
+		"ControlName"					"ImagePanel"
+		"fieldName"						"BlackGradient"
+		"xpos"							"0"
+		"ypos"							"0"
+		"zpos"							"0"
+		"wide"							"f0"
+		"tall"							"f0"
+		"visible"						"1"
+		"enabled"						"1"
+		"fillcolor"						"0 0 0 120"
 	}
 	
 	"ItemsBG"
@@ -124,8 +124,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"AllCaps"						"1"
-		"fgcolor_override"				"White"
-		"alpha"							"125"
+		"fgcolor_override"				"WhiteTransparent"
 		
 		"pin_to_sibling" 				"ItemsBG"
 		"pin_corner_to_sibling" 		"PIN_BOTTOMLEFT"

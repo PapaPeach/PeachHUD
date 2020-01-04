@@ -86,8 +86,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"AllCaps"			"1"
-		"fgcolor_override"	"White"
-		"alpha"				"150"
+		"fgcolor_override"	"WhiteTransparent"
 	}
 	
 	"MapLabel"
@@ -107,8 +106,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"AllCaps"			"1"
-		"fgcolor_override"	"White"
-		"alpha"				"150"
+		"fgcolor_override"	"WhiteTransparent"
 	}
 	
 	

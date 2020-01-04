@@ -172,16 +172,16 @@
 	
 	"BlackGradient"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BlackGradient"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-1"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"0 0 0 120"
+		"ControlName"							"ImagePanel"
+		"fieldName"								"BlackGradient"
+		"xpos"									"0"
+		"ypos"									"0"
+		"zpos"									"-1"
+		"wide"									"f0"
+		"tall"									"f0"
+		"visible"								"1"
+		"enabled"								"1"
+		"fillcolor"								"0 0 0 120"
 	}
 	
 	"BackpackBG"
@@ -216,7 +216,7 @@
 		"visible"								"1"
 		"enabled"								"1"
 		"AllCaps"								"1"
-		"alpha"									"125"
+		"fgcolor_override"						"WhiteTransparent"
 		
 		"pin_to_sibling" 						"BackpackBG"
 		"pin_corner_to_sibling" 				"PIN_BOTTOMLEFT"

@@ -141,11 +141,11 @@
 	{
 		"ControlName"				"CTFImagePanel"
 		"fieldName"					"TeamIndicator"
-		"xpos"						"28"
+		"xpos"						"29"
 		"ypos"						"-37"
 		"ypos_minmode"				"-42"
 		"zpos"						"1"
-		"wide"						"58"
+		"wide"						"61"
 		"tall"						"1"
 		"autoResize"				"0"
 		"pinCorner"					"0"
