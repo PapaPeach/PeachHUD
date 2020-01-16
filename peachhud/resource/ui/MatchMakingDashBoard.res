@@ -445,7 +445,7 @@
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"JoinPartyLobbyContainer"
-			"xpos"							"r494"
+			"xpos"							"r304"
 			"ypos"							"-50"
 			"zpos"							"110"
 			"wide"							"190"
@@ -499,7 +499,7 @@
 				"ControlName"				"CExButton"
 				"fieldName"					"JoinNowButton"
 				"xpos"						"rs1-6"
-				"ypos"						"9"
+				"ypos"						"5"
 				"wide"						"40"
 				"zpos"						"100"
 				"tall"						"22"

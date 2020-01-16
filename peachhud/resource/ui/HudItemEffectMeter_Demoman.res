@@ -5,9 +5,9 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c128"
+		"xpos"					"c160"
 		"xpos_minmode"			"c140"
-		"ypos"					"r100"
+		"ypos"					"r134"
 		"ypos_minmode"			"r85"
 		"wide"					"100"
 		"tall"					"50"
@@ -20,7 +20,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"SkullIcon"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"25"
 		"tall"					"25"
@@ -33,7 +33,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Symbols 18"
+		"font"					"Symbols 14"
 		"fgcolor"				"White"
 	}
 	
@@ -55,7 +55,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Symbols 18"
+		"font"					"Symbols 14"
 		"fgcolor"				"Shadows"
 		"pin_to_sibling"		"SkullIcon"
 	}
@@ -64,7 +64,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"30"
+		"xpos"					"26"
 		"ypos"					"2"
 		"zpos"					"2"
 		"wide"					"40"

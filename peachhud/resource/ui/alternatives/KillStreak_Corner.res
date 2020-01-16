@@ -78,8 +78,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Size 25"
-		"bgcolor_override"		"Blank"
+		"font"					"Size 26"
 	}
 	
 	"ItemEffectMeterCountShadow"
@@ -100,7 +99,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Size 25"
+		"font"					"Size 26"
 		"fgcolor"				"Shadows"
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"
