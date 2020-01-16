@@ -43,6 +43,6 @@ All the customizations can be found inside the **customizations** folder and to 
 
 **Material Design VTFS:** extracrispy & Rawsor
 
-**All Indev, Alpha, and Beta testers**
+**All Indev, Alpha, and Beta Testers**
 
 **For questions and feedback, contact me in the [PeachHUD Discord](https://discord.gg/HyZRVtp)**
