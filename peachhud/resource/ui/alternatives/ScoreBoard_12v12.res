@@ -33,7 +33,7 @@
 		"ypos"						"r380"
 		"zpos"						"2"
 		"wide"						"510"
-		"tall"						"219"
+		"tall"						"218"
 		"autoResize"				"0"
 		"pinCorner"					"0"
 		"visible"					"1"
@@ -341,31 +341,6 @@
 		{
 			"visible"				"0"
 		}
-	}
-	
-	"Separator"
-	{
-		"ControlName"				"EditablePanel"
-		"fieldName"					"Separator"
-		"xpos"						"1"
-		"ypos"						"-13"
-		"zpos"						"10"
-		"wide"						"1"
-		"tall"						"175"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"bgcolor_override"			"Blank"
-		
-		"pin_to_sibling" 			"BluePlayerList"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-		
-		if_mvm
- 		{
- 			"visible"				"0"
- 		}
 	}
 	
 	"RedPlayerList"

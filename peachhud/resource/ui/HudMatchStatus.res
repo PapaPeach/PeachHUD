@@ -167,25 +167,24 @@
 		"visible"								"1"
 		"enabled"								"1"
 
-		"max_size"								"19"
+		"max_size"								"35"
 
 		"6v6_gap"								"0"
 		"12v12_gap"								"0"
 
 		"team1_grow_dir" 						"west"
 		"team1_base_x"							"c-53"
-		"team1_max_expand"						"218"
+		"team1_max_expand"						"230"
 
 		"team2_grow_dir" 						"east"
 		"team2_base_x"							"c53"
-		"team2_max_expand"						"218"
+		"team2_max_expand"						"230"
 
 		"playerpanels_kv"
 		{
 			"visible"							"0"
 			"wide"								"25"
 			"tall"								"50"
-			"zpos"								"1"
 			"zpos"								"1"
 
 			"color_portrait_bg_red"				"255 80 80 255"
@@ -225,10 +224,10 @@
 				"ControlName"					"CTFClassImage"
 				"fieldName"						"classimage"
 				"xpos"							"cs-0.5"
-				"ypos"							"0"
+				"ypos"							"-1"
 				"zpos"							"3"
-				"wide"							"19"
-				"tall"							"19"
+				"wide"							"23"
+				"tall"							"22"
 				"visible"						"1"
 				"enabled"						"1"
 				"image"							"../hud/class_scoutred"
@@ -244,7 +243,7 @@
 				"ypos"							"0"
 				"zpos"							"2"
 				"wide"							"f0"
-				"tall"							"19"
+				"tall"							"21"
 				"visible"						"1"
 				"enabled"						"1"
 				"PaintBackgroundType"			"0"

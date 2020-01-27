@@ -201,20 +201,32 @@
 		}
 	}
 	
-	"Mountain"
+	"MountainPanel"
 	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"Mountain"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"MountainPanel"
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"1"
 		"wide"						"f0"
 		"tall"						"f0"
-		"visible"					"1"
-		"enabled"					"1"
-		"image"						"replay/thumbnails/menu/PeachMountain"
-		"scaleimage"				"1"
-	}
+		"visible"					"0"
+		
+		"Mountain"
+		{
+			"ControlName"				"ImagePanel"
+			"fieldName"					"Mountain"
+			"xpos"						"0"
+			"ypos"						"0"
+			"zpos"						"1"
+			"wide"						"f0"
+			"tall"						"f0"
+			"visible"					"1"
+			"enabled"					"1"
+			"image"						"replay/thumbnails/menu/PeachMountain"
+			"scaleimage"				"1"
+		}
+	}	
 	
 	"BlackGradient"
 	{
@@ -652,20 +664,7 @@
 			"proportionaltoparent"		"1"
 		}
 	}
-	
-	"TopBar"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldname"			"TopBar"
-		"xpos"				"-5"
-		"ypos"				"-3"
-		"zpos"				"15"
-		"wide"				"p1.02"
-		"tall"				"37"
-		"visible"			"1"
-		"border"			"Blank"
-	}
-	
+
 	"HudTitle"
 	{
 		"ControlName"				"Label"
