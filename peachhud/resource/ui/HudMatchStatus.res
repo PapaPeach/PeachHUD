@@ -227,7 +227,7 @@
 				"ypos"							"-1"
 				"zpos"							"3"
 				"wide"							"23"
-				"tall"							"22"
+				"tall"							"21"
 				"visible"						"1"
 				"enabled"						"1"
 				"image"							"../hud/class_scoutred"
@@ -243,7 +243,7 @@
 				"ypos"							"0"
 				"zpos"							"2"
 				"wide"							"f0"
-				"tall"							"21"
+				"tall"							"20"
 				"visible"						"1"
 				"enabled"						"1"
 				"PaintBackgroundType"			"0"
@@ -693,7 +693,7 @@
 		"starting_width"						"0"
 		"width_per_round"						"0"
 		"indicator_start_offset"				"2"
-		"indicator_max_wide"					"22"
+		"indicator_max_wide"					"23"
 		
 		"RoundIndicatorPanel_kv"
 		{

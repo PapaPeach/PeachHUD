@@ -56,7 +56,7 @@
 		"ControlName"			"Label"
 		"fieldName"				"NameLabel"
 		"xpos"					"1"
-		"ypos"					"17"	//22
+		"ypos"					"17"
 		"zpos"					"25000"
 		"wide"					"21"
 		"tall"					"5"
@@ -67,7 +67,7 @@
 		"wrap"					"0"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"Size 5"
+		"font"					"Size 5 Shadow"
 		"fgcolor_override"		"White"
 		"mouseinputenabled"		"0"
 	}

@@ -1,5 +1,6 @@
 #base "../../resource/tools/ReloadMenuButton.res"
 #base "../../resource/tools/VTF Preload.res"
+#base "../../customizations/FriendsList.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -811,9 +812,9 @@
 		"xpos"						"10"
 		"ypos"						"35"
 		"zpos"						"5"
-		"wide"						"322"
+		"wide"						"400"
 		"tall"						"115"
-		"visible"					"0"
+		"visible"					"1"
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 
