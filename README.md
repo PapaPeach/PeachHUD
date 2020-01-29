@@ -37,9 +37,9 @@ All the customizations can be found inside the **customizations** folder and to 
 # Credits
 **Everything:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud) and being tremendously helpful!
 
-**Inspiration:** BudHUD, RaysHUD, 7HUD, M0reHUD, and ToonHUD
+**Inspiration:** BudHUD, RaysHUD, 7HUD, m0reHUD, and ToonHUD
 
-**Crosshairs:** Broesel, Knuckles, Seeker, M0re
+**Crosshairs:** Broesel, Knuckles, Seeker, m0re
 
 **Material Design VTFS:** extracrispy & Rawsor
 
