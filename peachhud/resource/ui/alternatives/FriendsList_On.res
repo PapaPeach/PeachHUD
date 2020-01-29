@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Demoman.res"
+"Resource/UI/MainMenuOverride.res"
 {
 	"FriendsContainer"
 	{
@@ -49,17 +49,17 @@
 		{
 			"ControlName"				"CSteamFriendsListPanel"
 			"fieldname"					"SteamFriendsList"
-			"xpos"						"4"
+			"xpos"						"0"
 			"ypos"						"2"
 			"zpos"						"20000"
-			"wide"						"158"
+			"wide"						"165"
 			"tall"						"21"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
-			"bgcolor_override"			"blank"
+			"bgcolor_override"			"Blank"
 
 			"columns_count"				"7"
-			"inset_x"					"2"
+			"inset_x"					"6"
 			"inset_y"					"0"
 			"row_gap"					"1"
 			"column_gap"				"1"
@@ -75,7 +75,18 @@
 			{
 				"ControlName"			"ScrollBar"
 				"FieldName"				"ScrollBar"
-				"xpos"					"9999"
+				"xpos"					"163"
+				"ypos"					"-3"
+				"zpos"					"21000"
+				"wide"					"2"
+				"tall"					"27"
+				"visible"				"1"
+				"proportionaltoparent"	"1"
+				
+				"Slider"
+				{
+					"fgcolor_override"	"WhiteTransparent"
+				}
 			}
 		}
 	}

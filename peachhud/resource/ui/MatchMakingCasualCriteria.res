@@ -277,7 +277,7 @@
 			"restrict_width" 				"0"
 			"paintbackground" 				"0"
 			"paintbackgroundtype" 			"0"
-			"bgcolor_override"				"WhiteMoreTransparent"
+			"bgcolor_override"				"WhiteTransparent"
 			"alpha"							"255"
 
 			"ScrollBar"
