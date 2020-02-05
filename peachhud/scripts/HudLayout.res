@@ -191,7 +191,7 @@
 	HudDeathNotice
 	{
 		"xpos"	 					"r634"
-		"ypos"	 					"19"	//4
+		"ypos"	 					"20"	//4
 		"wide"						"628"
 		"tall"	 					"468"
 
