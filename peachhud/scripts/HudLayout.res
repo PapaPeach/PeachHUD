@@ -197,12 +197,12 @@
 
 		"MaxDeathNotices" 			"7"
 		"IconScale"	  				"0.35"
-		"LineHeight"	 			"11"
+		"LineHeight"	 			"12"
 		"LineSpacing"	 			"0"
 		"CornerRadius"	  			"0"
 		"RightJustify"	  			"1"
 		
-		"TextFont"					"Size 10"
+		"TextFont"					"Size 11"
 		
 		"TeamBlue"					"Blue"
 		"TeamRed"					"RedLight"
