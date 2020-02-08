@@ -35,7 +35,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"AllCaps"		"1"
-		"fgcolor_override" "BlueLight"
+		"fgcolor_override" "White"
 	}
 	
 	"SelectModelLabel"

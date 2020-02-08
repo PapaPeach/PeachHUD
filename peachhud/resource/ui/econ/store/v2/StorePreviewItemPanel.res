@@ -108,7 +108,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"BlueTransparent70"
+			"border"		"BlackTransparent50"
 		}
 	
 		"FooterTopPanel"
@@ -319,7 +319,7 @@
 					"fieldName"		"ArmoryTextLabel"
 					"font"			"Size 10"
 					"textAlignment"	"north-west"
-					"wide"			"228"
+					"wide"			"220"
 					"tall"			"10"
 					"autoResize"	"0"
 					"pinCorner"		"0"
@@ -336,7 +336,7 @@
 					"fieldName"		"AttributesLabel"
 					"font"			"Size 10"
 					"textAlignment"	"north-west"
-					"wide"			"228"
+					"wide"			"220"
 					"tall"			"10"
 					"autoResize"	"0"
 					"pinCorner"		"0"

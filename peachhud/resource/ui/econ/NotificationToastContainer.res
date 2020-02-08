@@ -11,7 +11,7 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"BlueTransparent70"
+		"border"		"BlackTransparent70"
 	}
 
 	"HelpTextLabel"

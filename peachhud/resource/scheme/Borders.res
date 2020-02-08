@@ -115,6 +115,19 @@ Scheme
 			"draw_corner_height" 	"8"
 		}
 		
+		BlackSolid
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color"					"Black"
+			
+			"image"					"replay/thumbnails/panels/Panel_Generic"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		
 		BlackTransparentReverse50
 		{
 			"bordertype"			"scalable_image"
@@ -2371,8 +2384,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"GreenLight"
 			
-			"image"					"replay/thumbnails/panels/Material_Transparent_Green_70"
+			"image"					"replay/thumbnails/panels/Material_Transparent_White_70"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"
@@ -2866,7 +2880,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight
 					"offset" "0 1"
 				}
 
@@ -2876,7 +2890,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "1 0"
 				}
 			}
@@ -2885,7 +2899,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 0"
 				}
 			}
@@ -2894,7 +2908,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 0"
 				}
 			}
@@ -2907,12 +2921,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 1"
 				}
 			}
@@ -2921,12 +2935,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "1 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "1 0"
 				}
 			}
@@ -2935,12 +2949,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 0"
 				}
 			}
@@ -2949,12 +2963,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "CreditsGreen"
+					"color" "GreenLight"
 					"offset" "0 0"
 				}
 			}

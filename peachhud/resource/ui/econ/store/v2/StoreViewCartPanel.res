@@ -48,7 +48,7 @@
 				"wide"							"580"
 				"tall"							"58"
 				"visible"						"1"
-				"bgcolor_override"				"BlackLightTransparent"
+				"bgcolor_override"				"Blank"
 				"noitem_textcolor"				"White"
 				"PaintBackground"				"1"
 				"PaintBackgroundType"			"2"
@@ -79,13 +79,13 @@
 			{
 				"ControlName"					"Label"
 				"fieldname"						"quantitylabel"
-				"font"							"Size 11"
+				"font"							"Size 14"
 				"textAlignment"					"north-east"
 				"xpos"							"70"
-				"ypos"							"45"
+				"ypos"							"36"
 				"zpos"							"15"
-				"wide"							"16"
-				"tall"							"10"
+				"wide"							"30"
+				"tall"							"16"
 				"autoResize"					"1"
 				"pinCorner"						"0"
 				"visible"						"1"
@@ -220,20 +220,6 @@
 		"border"							"BlackTransparent50"
 	}
 	
-	"PartyCover"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"PartyCover"
-		"xpos"								"10"
-		"ypos"								"-5"
-		"zpos"								"0"
-		"wide"								"162"
-		"tall"								"30"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlueTransparent70"
-	}
-	
 	"BottomWhiteBar"
 	{
 		"ControlName"						"EditablePanel"
@@ -298,8 +284,7 @@
 			"pinCorner"						"0"
 			"visible"						"1"
 			"enabled"						"1"
-			"fgcolor"						"White"
-			"alpha"							"125"
+			"fgcolor"						"WhiteTransparent"
 		}
 		
 		"SeparatorLine"

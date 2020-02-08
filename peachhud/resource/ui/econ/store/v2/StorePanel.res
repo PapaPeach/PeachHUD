@@ -83,20 +83,6 @@
 		"border"							"BlackTransparent50"
 	}
 	
-	"PartyCover"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"PartyCover"
-		"xpos"								"6"
-		"ypos"								"-5"
-		"zpos"								"0"
-		"wide"								"169"
-		"tall"								"31"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"BlueTransparent70"
-	}
-	
 	"BottomWhiteBar"
 	{
 		"ControlName"						"EditablePanel"
@@ -121,7 +107,7 @@
 		"tabwidth"							"240"
 		"tabheight"							"18"
 		"transition_time" 					"0"
-		"yoffset"							"14"
+		"yoffset"							"17"
 		
 		"HeaderLine"
 		{
