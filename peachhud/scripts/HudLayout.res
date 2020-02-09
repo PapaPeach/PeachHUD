@@ -51,7 +51,7 @@
 	
 	HudBossHealth
 	{
-		"xpos"						"c-54"
+		"xpos"						"c-84"
 		"ypos"						"40"
 	}
 	
@@ -191,7 +191,7 @@
 	HudDeathNotice
 	{
 		"xpos"	 					"r634"
-		"ypos"	 					"20"	//4
+		"ypos"	 					"20"
 		"wide"						"628"
 		"tall"	 					"468"
 
@@ -295,6 +295,17 @@
 		"ypos"						"c0"
 		"wide"						"800"
 		"tall"						"200"
+	}
+	
+	FreezePanel
+	{
+		"fieldName"					"FreezePanel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-200"
+		"ypos"						"280"
+		"wide"						"f0"
+		"tall"						"480"
 	}
 	
 	/////////////////////////////////////////////////////////////

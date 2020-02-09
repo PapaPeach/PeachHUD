@@ -12,68 +12,21 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"FreezePanelBase"
-		"xpos"								"c-145"
-		"ypos"								"c45"		
+		"xpos"								"0"
+		"ypos"								"0"		
 		"wide"								"f0"		
-		"tall"								"480"		
+		"tall"								"f0"		
 		"visible"							"1"
-		
-		"WhiteBG"
-		{
-			"ControlName"					"EditablePanel"
-			"fieldName"						"WhiteBG"
-			"xpos"							"0"
-			"ypos"							"0"
-			"zpos"							"0"
-			"wide"							"0"
-			"tall"							"30"
-			"visible"						"0"
-			"enabled"						"1"
-			"bgcolor_override"				"BlackTransparent"
-		}
-
-		"FreezePanelBG"
-		{
-			"ControlName"					"CTFImagePanel"
-			"fieldName"						"FreezePanelBG"
-			"xpos"							"0"
-			"ypos"							"0"
-			"zpos"							"50"
-			"wide"							"20"
-			"tall"	 						"30"
-			"autoResize"					"0"
-			"pinCorner"						"0"
-			"visible"						"0"
-			"enabled"						"1"
-			"image"							"replay/thumbnails/panels/Material_Transparent_White_70"
-			"scaleImage"					"1"
-			"teambg_1"						"replay/thumbnails/panels/Material_Transparent_White_70"
-			"teambg_2"						"replay/thumbnails/panels/Material_Transparent_Red_70"
-			"teambg_3"						"replay/thumbnails/panels/Material_Transparent_Blue_70"
-			
-			"src_corner_height"				"32"
-			"src_corner_width"				"32"
-			
-			"draw_corner_width"				"0"
-			"draw_corner_height" 			"0"
-		}
-		
-		"FreezeLabel"
-		{	
-			"ControlName"					"Label"
-			"fieldName"						"FreezeLabel"
-			"xpos"							"9999"
-		}
 		
 		"FreezePanelHealth"
 		{
 			"ControlName"					"CTFFreezePanelHealth"
 			"fieldName"						"FreezePanelHealth"
-			"xpos"							"45"
-			"ypos"							"0"
+			"xpos"							"100"
+			"ypos"							"5"
 			"zpos"							"1"
-			"wide"							"200"
-			"tall"							"36"
+			"wide"							"f0"
+			"tall"							"f0"
 			"visible"						"1"
 			"enabled"						"1"	
 			"HealthBonusPosAdj"				"9"
@@ -83,58 +36,46 @@
 			"TextColor"						"HudOffWhite"
 		}	
 	
-		"CenterLine"
-		{
-			"ControlName"					"EditablePanel"
-			"fieldName"						"CenterLine"
-			"xpos"							"0"
-			"ypos"							"0"
-			"zpos"							"100"
-			"wide"							"1"
-			"tall"							"36"
-			"visible"						"0"
-			"enabled"						"1"
-			"bgcolor_override"				"White"
-			
-			"pin_to_sibling" 			"FreezePanelHealth"
-			"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
-		}	
-	
 		"FreezeLabelKiller"
 		{	
-			"ControlName"					"Label"
+			"ControlName"					"CExLabel"
 			"fieldName"						"FreezeLabelKiller"
-			"font"							"Size 12"
+			"font"							"Size 14"
 			"xpos"							"0"
-			"ypos"							"30"
+			"ypos"							"32"
 			"zpos"							"5"
-			"wide"							"200"
-			"tall"							"10"
+			"wide"							"400"
+			"tall"							"18"
+			"autoResize"					"0"
+			"pinCorner"						"0"
 			"visible"						"1"
 			"enabled"						"1"
 			"labelText"						"%killername%"
 			"textAlignment"					"center"
 			"fgcolor_override"				"White"
+			
+			"bgcolor_override"				"Blank"
 		}
 		
 		"FreezeLabelKillerShadow"
 		{
-			"ControlName"				"Label"
-			"fieldName"					"FreezeLabelKillerShadow"
-			"xpos"						"-1"
-			"ypos"						"-1"
-			"zpos"						"4"
-			"wide"						"200"
-			"tall"						"10"
-			"visible"					"1"
-			"enabled"					"1"
-			"textAlignment"				"center"	
-			"labeltext"					"%killername%"
-			"font"						"Size 12"
-			"fgcolor_override"			"Shadows"
+			"ControlName"					"CExLabel"
+			"fieldName"						"FreezeLabelKillerShadow"
+			"xpos"							"-1"
+			"ypos"							"-1"
+			"zpos"							"4"
+			"wide"							"400"
+			"tall"							"18"
+			"autoResize"					"0"
+			"pinCorner"						"0"
+			"visible"						"1"
+			"enabled"						"1"
+			"textAlignment"					"center"	
+			"labeltext"						"%killername%"
+			"font"							"Size 14"
+			"fgcolor_override"				"Shadows"
 		
-			"pin_to_sibling"			"FreezeLabelKiller"
+			"pin_to_sibling"				"FreezeLabelKiller"
 		}
 
 		"CenterLine1"
@@ -150,37 +91,46 @@
 			"enabled"						"1"
 			"bgcolor_override"				"White"
 			
-			"pin_to_sibling" 			"FreezeLabelKiller"
-			"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
-			"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
-		}	
-
-		"AvatarImage"
-		{
-			"ControlName"					"CAvatarImagePanel"
-			"fieldName"						"AvatarImage"
-			"xpos"							"45"
-			"ypos"							"5"
-			"zpos"							"0"
-			"wide"							"0"
-			"tall"							"0"
-			"visible"						"0"
-			"enabled"						"1"
-			"image"							""
-			"scaleImage"					"1"	
-			"color_outline"					"Black"
+			"pin_to_sibling" 				"FreezeLabelKiller"
+			"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+			"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
 		}	
 		
+		"FreezeLabel"
+		{	
+			"ControlName"							"Label"
+			"fieldName"								"FreezeLabel"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"AvatarImage"
+		{
+			"ControlName"							"CAvatarImagePanel"
+			"fieldName"								"AvatarImage"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+		"FreezePanelBG"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"FreezePanelBG"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}		
 		"NemesisSubPanel"
 		{
-			"ControlName"					"EditablePanel"
-			"fieldName"						"NemesisSubPanel"
-			"xpos"							"9999"
-			"ypos"							"9999"
-			"zpos"							"4"
-			"wide"							"0"
-			"tall"							"0"
-			"visible"						"1"
+			"ControlName"							"EditablePanel"
+			"fieldName"								"NemesisSubPanel"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
 		}
 	}
 	
