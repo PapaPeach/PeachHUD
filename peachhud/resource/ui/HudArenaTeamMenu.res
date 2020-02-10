@@ -34,8 +34,8 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"TeamsAnchor"
-		"xpos"								"-5"
-		"ypos"								"-5"
+		"xpos"								"c-80"
+		"ypos"								"0"
 		"wide"								"5"
 		"tall"								"5"
 		"visible"							"1"
@@ -47,12 +47,12 @@
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"TeamSelectFrame"
 		"xpos"								"0"
-		"ypos"								"0"
+		"ypos"								"-15"
 		"zpos"								"1"
-		"wide"								"130"
+		"wide"								"160"
 		"tall"								"p1.02"
-		"visible"							"1"
-		"enabled"							"1"
+		"visible"							"0"
+		"enabled"							"0"
 		"border"							"GrayBlueBorder"
 		
 		"pin_to_sibling" 					"TeamsAnchor"
@@ -65,11 +65,11 @@
 		"xpos"								"0"
 		"ypos"								"5"
 		"zpos"								"2"
-		"wide"								"130"
+		"wide"								"f-6"
 		"tall"								"30"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlueTransparent70"
+		"border"							"Blank"
 		
 		"pin_to_sibling" 					"TeamSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
@@ -80,10 +80,10 @@
 	{
 		"ControlName"						"Label"
 		"fieldName"							"mapname"
-		"xpos"								"-5"
-		"ypos"								"-10"
+		"xpos"								"0"
+		"ypos"								"-8"
 		"zpos"								"5"
-		"wide"								"120"
+		"wide"								"f-6"
 		"tall"								"20"
 		"autoResize"						"0"
 		"pinCorner"							"0"
@@ -94,7 +94,7 @@
 		"AllCaps"							"1"
 		"dulltext"							"0"
 		"brighttext"						"1"
-		"font"								"Size 14"
+		"font"								"Size 24"
 		"fgcolor_override"					"White"
 		
 		"pin_to_sibling" 					"MapNameFrame"
@@ -104,14 +104,14 @@
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"FightFrame"
-		"xpos"								"5"
-		"ypos"								"-60"
+		"xpos"								"346"
+		"ypos"								"48"
 		"zpos"								"5"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"427"
+		"tall"								"104"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"RedTransparent70"
+		"border"							"RedTransparent50"
 		
 		"pin_to_sibling" 					"TeamSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
@@ -126,7 +126,7 @@
 		"ypos"			  					"0"
 		"zpos"			  					"6"
 		"wide"			  					"135"
-		"tall"			  					"80"
+		"tall"			  					"92"
 		"autoResize"	  					"0"
 		"pinCorner"		  					"0"
 		"visible"		  					"1"
@@ -134,21 +134,23 @@
 		"AllCaps"		  					"1"
 		"labelText"		  					"Fight"
 		"textAlignment"	  					"center"
-		"font"			  					"Size 26"
+		"font"			  					"Size 32"
 		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"FightFrame"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
-	"teambutton2"
+	"teambutton2"							//FIGHT
 	{
 		"ControlName"						"CTFTeamButton"
 		"fieldName"							"teambutton2"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"7"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"427"
+		"tall"								"104"
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"visible"							"1"
@@ -165,20 +167,22 @@
 		"fgcolor"							"Blank"
 		
 		"pin_to_sibling" 					"FightFrame"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
 	"SpectateFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
 		"fieldName"	        	  			"SpectateFrame"
-		"xpos"								"5"
-		"ypos"								"60"
+		"xpos"								"-79"
+		"ypos"								"48"
 		"zpos"								"5"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"427"
+		"tall"								"104"
 		"visible"							"1"
 		"enabled"							"1"
-		"border"							"BlackTransparent70"
+		"border"							"WhiteTransparent50"
 		
 		"pin_to_sibling" 					"TeamSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
@@ -193,7 +197,7 @@
 		"ypos"			  					"0"
 		"zpos"			  					"6"
 		"wide"			  					"135"
-		"tall"			  					"80"
+		"tall"			  					"92"
 		"autoResize"	  					"0"
 		"pinCorner"		  					"0"
 		"visible"		  					"1"
@@ -201,21 +205,23 @@
 		"AllCaps"		  					"1"
 		"labelText"		  					"Spectate"
 		"textAlignment"	  					"center"
-		"font"			  					"Size 26"
+		"font"			  					"Size 32"
 		"fgcolor"		  					"White"
 		
 		"pin_to_sibling" 					"SpectateFrame"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
-	"teambutton3"
+	"teambutton3"							//SPEC
 	{
 		"ControlName"						"CTFTeamButton"
 		"fieldName"							"teambutton3"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"7"
-		"wide"								"135"
-		"tall"								"80"
+		"wide"								"427"
+		"tall"								"104"
 		"autoResize"						"0"
 		"pinCorner"							"0"
 		"visible"							"1"
@@ -232,22 +238,6 @@
 		"fgcolor"							"Blank"
 		
 		"pin_to_sibling" 					"SpectateFrame"
-	}
-	
-	"SeparationLineCenter"
-	{
-		"ControlName"     		  			"EditablePanel"
-		"fieldName"	        	  			"SeparationLineCenter"
-		"xpos"								"-15"
-		"ypos"								"0"
-		"zpos"								"5"
-		"wide"								"100"
-		"tall"								"1"
-		"visible"							"1"
-		"enabled"							"1"
-		"bgcolor_override"					"White"
-		
-		"pin_to_sibling" 					"TeamSelectFrame"
 		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
 	}
@@ -297,62 +287,7 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	//IDK WHAT THIS SHIT DOES, BUT IT'S HERE AND IT WORKS
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
