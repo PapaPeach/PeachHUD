@@ -118,7 +118,6 @@
 		"scaleimage"					"1"
 	}
 	
-		
 	"BlackGradient"
 	{
 		"ControlName"					"ImagePanel"
@@ -132,7 +131,6 @@
 		"enabled"						"1"
 		"fillcolor"						"0 0 0 120"
 	}
-	
 	
 	"ClassLabel"
 	{
@@ -266,11 +264,11 @@
 	{
 		"ControlName"					"CExButton"
 		"fieldName"						"CharacterLoadoutButton"
-		"xpos"							"c-30"
+		"xpos"							"c-58"
 		"ypos"							"25"
 		"zpos"							"2"
-		"wide"							"28"
-		"tall"							"28"
+		"wide"							"30"
+		"tall"							"29"
 		"autoResize"					"0"
 		"pinCorner"						"3"
 		"visible"						"1"
@@ -301,11 +299,11 @@
 	{
 		"ControlName"					"CExButton"
 		"fieldName"						"TauntLoadoutButton"
-		"xpos"							"c-2"
+		"xpos"							"c-30"
 		"ypos"							"25"
 		"zpos"							"2"
-		"wide"							"28"
-		"tall"							"28"
+		"wide"							"29"
+		"tall"							"29"
 		"autoResize"					"0"
 		"pinCorner"						"3"
 		"visible"						"1"
@@ -318,6 +316,72 @@
 		"brighttext"					"0"
 		"default"						"0"
 		"Command"						"tauntloadout"
+		
+		"paintbackground"				"0"
+		
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+		
+		"border_default"				"BlueTransparent70"
+		"border_armed"					"OrangeTransparent70"
+		
+		"defaultFgColor_override" 		"White"
+		"armedFgColor_override" 		"White"
+		"depressedFgColor_override" 	"White"
+	}
+	
+	"Red"
+	{
+		"ControlName"					"CExImageButton"
+		"fieldName"						"Red"
+		"xpos"							"c-2"
+		"ypos"							"25"
+		"zpos"							"12"	
+		"wide"							"29"
+		"tall"							"29"
+		"autoResize"					"1"
+		"pinCorner"						"2"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"labelText"						"R"
+		"textAlignment"					"center"
+		"font"							"Size 24"
+		"scaleImage"					"1"
+		"command"						"sv_cheats 1;r_skin 0"
+		
+		"paintbackground"				"0"
+		
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+		
+		"border_default"				"BlueTransparent70"
+		"border_armed"					"OrangeTransparent70"
+		
+		"defaultFgColor_override" 		"White"
+		"armedFgColor_override" 		"White"
+		"depressedFgColor_override" 	"White"
+	}
+	
+	"Blu"
+	{
+		"ControlName"					"CExImageButton"
+		"fieldName"						"Blu"
+		"xpos"							"c25"
+		"ypos"							"25"
+		"zpos"							"12"	
+		"wide"							"30"
+		"tall"							"29"
+		"autoResize"					"1"
+		"pinCorner"						"2"
+		"visible"						"1"
+		"enabled"						"1"
+		"tabPosition"					"0"
+		"labelText"						"B"
+		"textAlignment"					"center"
+		"font"							"Size 24"
+		"scaleImage"					"1"
+		"command"						"sv_cheats 1;r_skin 1"
 		
 		"paintbackground"				"0"
 		
