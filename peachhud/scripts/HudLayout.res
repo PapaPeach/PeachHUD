@@ -242,7 +242,7 @@
 	WinPanel
 	{
 		"xpos"						"c-100"
-		"ypos"						"r73"
+		"ypos"						"r72"
 		"wide"						"200"
 		"tall"						"200"
 		"zpos"						"20"
@@ -259,10 +259,10 @@
 	
 	"HudMenuEngyBuild"
 	{
-		"xpos"				"c-201"
-		"ypos"				"c-56"
-		"wide"				"500"
-		"tall"				"500"
+		"xpos"						"c-201"
+		"ypos"						"c-56"
+		"wide"						"500"
+		"tall"						"500"
 	}
 	
 	"HudMenuEngyDestroy"

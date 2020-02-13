@@ -7,5 +7,6 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/alternatives/Damage_Last_Center.res"	// DAMAGE ABOVE THE HEALTH ENABLED
-//#base "../resource/ui/alternatives/Damage_LastOFF.res"		// DAMAGE ABOVE THE HEALTH DISABLED
+#base "../resource/ui/alternatives/Damage_Center.res"			// DAMAGE UNDER CROSSHAIR ENABLED
+//#base "../resource/ui/alternatives/Damage_Health.res"			// DAMAGE ABOVE HEALTH ENABLED
+//#base "../resource/ui/alternatives/Damage_Off.res"			// DAMAGE DISABLED
