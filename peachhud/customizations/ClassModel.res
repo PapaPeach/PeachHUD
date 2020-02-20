@@ -7,9 +7,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/alternatives/PlayerModel_Default.res"		// (DEFAULT) ONLY SHOW PLAYERMODEL WHEN DISGUISED
+#base "../resource/ui/alternatives/PlayerModel_Off.res"			// (OFF) NEVER SHOW PLAYERMODEL
 //#base "../resource/ui/alternatives/PlayerModel_On.res"			// (ON) ALWAYS SHOW PLAYERMODEL
-//#base "../resource/ui/alternatives/PlayerModel_Default.res"		// (OFF) NEVER SHOW PLAYERMODEL
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////

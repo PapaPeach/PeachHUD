@@ -1,5 +1,6 @@
 #base "HudLayout_Default.res"
 #base "../customizations/Crosshairs.res"
+#base "../customizations/HitMarkers.res"
 #base "../resource/tools/GuideLines.res"
 
 "Resource/HudLayout.res"
@@ -174,7 +175,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"BuildingAnchor"
 		"xpos"						"-15"
-		"ypos"						"86"
+		"ypos"						"102"
 		"zpos"						"0"
 		"wide"						"100"
 		"tall"						"0"
@@ -242,7 +243,7 @@
 	WinPanel
 	{
 		"xpos"						"c-100"
-		"ypos"						"r72"
+		"ypos"						"r71"
 		"wide"						"200"
 		"tall"						"200"
 		"zpos"						"20"

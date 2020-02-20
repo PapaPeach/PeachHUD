@@ -273,6 +273,26 @@ event HudSnapShotReminderIn
 
 //====================================================================================================================
 
+event PvPRankLevelUpXPBar
+{
+	Animate ContinuousProgressBar BgColor "100 255 100 255" Linear 0.0 0.0
+	Animate ContinuousProgressBar BgColor ProgressBackground Linear 0.0 0.0
+
+	Animate LevelLabel FgColor "100 255 100 255"	Linear 0.0 0.0
+	Animate LevelLabel FgColor TanLight				Linear 0.0 0.0
+}
+
+event PvPRankLevelDownXPBar
+{
+	Animate ContinuousProgressBar FgColor "255 100 100 255" Linear 0.0 0.0
+	Animate ContinuousProgressBar FgColor CreditsGreen Linear 0.0 0.0
+
+	Animate LevelLabel FgColor "255 100 100 255"	Linear 0.0 0.0
+	Animate LevelLabel FgColor TanLight				Linear 0.0 0.0 
+}
+
+//====================================================================================================================
+
 // UBER TRACKING LABELS, PUT THIS IN TF/CUSTOM/(YOURCUSTOMFOLDER)/SCRIPTS/HUDANIMATIONS_TF.TXT
  
 event FillUber

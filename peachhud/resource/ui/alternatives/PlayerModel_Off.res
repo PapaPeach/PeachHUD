@@ -29,11 +29,10 @@
 		"alpha"					"0"
 	}
 	
-	"Classmodelpanel"
+	"classmodelpanel"
 	{
 		"ControlName"			"CTFPlayerModelPanel"
 		"fieldName"				"classmodelpanel"
-		
 		"xpos"					"-9999"
 		"ypos"					"-9999"
 		"zpos"					"2"		

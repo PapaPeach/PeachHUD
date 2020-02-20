@@ -35,7 +35,8 @@ Scheme
 
 		"Ubercharge"							"235 235 235 255"
 		"Ubercharge Full"						"150 200 220 255"
-
+		
+		"HitMarker"								"245 70 70 255"
 		"Heal Numbers"							"40 200 110 255"
 		"Last Damage Done"						"235 235 235 255"
 		
