@@ -5,7 +5,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 # LINKS
 [Screenshot Album](https://imgur.com/a/j6d9TjP) (Updated February 14)
 
-[TeamFortress.tv](WIP) (Coming Soon)
+[TeamFortress.tv](https://www.teamfortress.tv/55139/peachhud)
 
 [Changelogs](https://github.com/PapaPeach/PeachHUD/commits/master/peachhud)
 
