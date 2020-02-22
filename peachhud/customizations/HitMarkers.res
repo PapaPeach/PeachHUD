@@ -34,7 +34,7 @@
 	
 	"BracketsHitmarker"
 	{
-		"visible"    								"1"
+		"visible"    								"0"
 		"drawcolor"									"HitMarker"
 		
 		"xpos"      								"c-16"

@@ -1,4 +1,4 @@
-#base "../../customizations/TeamStatus.res"
+#base "../../customizations/TeamHealth.res"
 
 "Resource/UI/HudMatchStatus.res"
 {

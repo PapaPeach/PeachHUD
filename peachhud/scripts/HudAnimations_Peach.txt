@@ -265,30 +265,10 @@ event RDNegativeScorePulse
 
 event HudSnapShotReminderIn
 {
-    RunEvent HudHealthDyingPulseStop 			10.0
-    RunEvent HudHealthBonusPulseStop 			10.0
-    RunEvent HudLowAmmoPulseStop 				10.0
-    RunEvent HudMedicChargedStop 				10.0
-}
-
-//====================================================================================================================
-
-event PvPRankLevelUpXPBar
-{
-	Animate ContinuousProgressBar BgColor "100 255 100 255" Linear 0.0 0.0
-	Animate ContinuousProgressBar BgColor ProgressBackground Linear 0.0 0.0
-
-	Animate LevelLabel FgColor "100 255 100 255"	Linear 0.0 0.0
-	Animate LevelLabel FgColor TanLight				Linear 0.0 0.0
-}
-
-event PvPRankLevelDownXPBar
-{
-	Animate ContinuousProgressBar FgColor "255 100 100 255" Linear 0.0 0.0
-	Animate ContinuousProgressBar FgColor CreditsGreen Linear 0.0 0.0
-
-	Animate LevelLabel FgColor "255 100 100 255"	Linear 0.0 0.0
-	Animate LevelLabel FgColor TanLight				Linear 0.0 0.0 
+    RunEvent HudHealthDyingPulseStop 			0.1
+    RunEvent HudHealthBonusPulseStop 			0.1
+    RunEvent HudLowAmmoPulseStop 				0.1
+    RunEvent HudMedicChargedStop 				0.1
 }
 
 //====================================================================================================================
