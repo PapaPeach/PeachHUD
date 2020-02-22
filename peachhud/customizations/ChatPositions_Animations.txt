@@ -39,4 +39,3 @@ event HudTournament_MoveChatWindow		//THIRD LINE TO UNCOMMENT
 	RunEvent CompetitiveGame_LowerChatWindow 	0
 	RunEvent CompetitiveGame_RestoreChatWindow 	10
 }
-}

@@ -265,18 +265,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
-		"Blocks 64"
-		{
-			"1"
-			{
-				"name"			"Blocks"
-				"tall"			"64"
-				"additive"		"0"
-				"antialias"		"0"
-			}
-		}
-		
+
 		"Class Symbols 10"
 		{
 			"1"
@@ -538,17 +527,6 @@ Scheme
 				"tall"			"72"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		
-		"Blocks 64"
-		{
-			"1"
-			{
-				"name"			"Blocks"
-				"tall"			"64"
-				"additive"		"0"
-				"antialias"		"0"
 			}
 		}
 		
@@ -857,12 +835,6 @@ Scheme
 		{
 			"font" "resource/scheme/fonts/ReadyUp Symbols.otf"
 			"name" "ReadyUp Symbols"
-		}
-		
-		"23"
-		{
-			"font" "resource/scheme/fonts/Blocks.ttf"
-			"name" "Blocks"
 		}
 	}
 }

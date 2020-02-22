@@ -595,23 +595,6 @@
 			"pin_to_sibling" 				"DashboardAnchor"
 			"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
 			"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
-			
-			"SubImage"
-			{
-				"ControlName"				"ImagePanel"
-				"fieldName"					"SubImage"
-				"xpos"						"7"
-				"ypos"						"7"
-				"zpos"						"1"
-				"wide"						"19"
-				"tall"						"19"
-				"visible"					"0"
-				"enabled"					"0"
-				"scaleImage"				"1"
-				"proportionaltoparent"		"1"
-				"image"						"replay/thumbnails/menu/play"
-				"drawcolor_override" 		"White"
-			}
 		}
 		
 		
