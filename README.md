@@ -14,9 +14,9 @@ Based on SunsetHUD Dark, by Hypnotize.
 # INSTALLATION
 **1)** Download the HUD by clicking the ![Download](https://i.imgur.com/EjYd8I5.png) button at the top right of the page
 
-**2)** Open the downloaded file
+**2)** Open the downloaded **PeachHUD-Release.zip** folder and the **PeachHUD-Release** folder inside of that
 
-**3)** Copy the **peachhud** folder (**NOT** peachhud-Release, the one inside it!)
+**3)** Copy the **peachhud** folder (**NOT** PeachHUD-Release, the one inside it!)
 
 **4)** Paste it into your **custom** folder (C:\Program Files (x86)\Steam\steamapps\common\Team Fortress 2\tf\custom)
 
@@ -39,7 +39,7 @@ All the customizations can be found inside the **customizations** folder and to 
 # Credits
 **Everything:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud) and being tremendously helpful!
 
-**Inspiration:** BudHUD, RaysHUD, 7HUD, m0reHUD, and ToonHUD
+**Inspiration:** BudHUD, RaysHUD, 7HUD, m0reHUD, HypnotizeHUD, and ToonHUD
 
 **Crosshairs:** Broesel, Knuckles, Seeker, m0re
 
