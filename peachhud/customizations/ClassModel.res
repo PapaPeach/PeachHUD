@@ -7,5 +7,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/alternatives/PlayerModel_Off.res"			// (OFF) NEVER SHOW PLAYERMODEL
-//#base "../resource/ui/alternatives/PlayerModel_On.res"			// (ON) ALWAYS SHOW PLAYERMODEL
+#base "../resource/ui/alternatives/ClassModel_Off.res"			// (OFF) NEVER SHOW CLASSMODEL
+//#base "../resource/ui/alternatives/ClassModel_On.res"			// (ON) ALWAYS SHOW CLASSMODEL
+
+//TO ALWAYS/NEVER SHOW CLASSMODEL YOU MUST FOLLOW THE INSTRUCTIONS INSIDE ClassModel_Animations.txt
