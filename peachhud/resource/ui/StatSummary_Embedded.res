@@ -2107,31 +2107,11 @@
 	{
 		"ControlName"				"CExButton"
 		"fieldName"					"ResetStatsButton2"
-		"xpos"						"r20"
-		"ypos"						"0"
-		"zpos"						"20"
-		"wide"						"18"
-		"tall"						"18"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"1"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"labelText"					"%"
-		"font"						"Symbols 14"
-		"textAlignment"				"center"
-		"AllCaps"					"1"
-		"dulltext"					"0"
-		"brighttext"				"0"
-		"Command"					"resetstatsbutton"
-		
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		
-		"paintbackground" 			"0"
-		
-		"border_default"			"BlueTransparent70"
-		"border_armed"				"OrangeTransparent70"
+		"xpos"						"9999"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 	
 	

@@ -705,7 +705,7 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"AllCaps"				"1"
-			"fgcolor"				"White"
+			"fgcolor"				"OrangeLight"
 			
 			"pin_to_sibling"		"Killss"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -732,7 +732,7 @@
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			"fgcolor"				"White"
+			"fgcolor"				"OrangeLight"
 			
 			"pin_to_sibling"		"DamageLabel"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
