@@ -38,7 +38,7 @@ All the customizations can be found inside the **customizations** folder and to 
 
 **3)** Save the file(s) and reload your HUD or restart TF2
 
-# Credits
+# CREDITS
 **Everything:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud) and being tremendously helpful!
 
 **Inspiration:** BudHUD, RaysHUD, 7HUD, m0reHUD, HypnotizeHUD, and ToonHUD
