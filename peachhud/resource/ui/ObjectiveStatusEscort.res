@@ -107,7 +107,7 @@
 		"xpos"					"0"
 		"ypos"					"2"
 		"zpos"					"25"
-		"wide"					"9"
+		"wide"					"2"
 		"tall"					"11"
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -115,7 +115,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				""
-		"image"					"../hud/cart_home_blue"
+		"image"					"../vgui/replay/thumbnails/panels/Panel_Blue"
 		"scaleImage"			"1"	
 		
 		"proportionaltoparent"	"1"
@@ -126,11 +126,45 @@
 		}
 		"if_multiple_trains_red"
 		{
-			"image"				"../hud/cart_home_red"
+			"image"				"../vgui/replay/thumbnails/panels/Panel_Red"
 		}
 		"if_multiple_trains_blue"
 		{
-			"image"				"../hud/cart_home_blue"
+			"image"				"../vgui/replay/thumbnails/panels/Panel_Blue"
+		}
+	}
+	
+	"EndCPIcon"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"EndCPIcon"
+		"xpos"					"248"
+		"ypos"					"2"
+		"zpos"					"25"
+		"wide"					"2"
+		"tall"					"11"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				""
+		"image"					"../vgui/replay/thumbnails/panels/Panel_Red"
+		"scaleImage"			"1"	
+		
+		"proportionaltoparent"	"1"
+		
+		"if_multiple_trains_bottom"
+		{
+			"ypos"				"0"
+		}
+		"if_multiple_trains_red"
+		{
+			"image"				"../vgui/replay/thumbnails/panels/Panel_Blue"
+		}
+		"if_multiple_trains_blue"
+		{
+			"image"				"../vgui/replay/thumbnails/panels/Panel_Red"
 		}
 	}
 	
@@ -338,7 +372,7 @@
 			"tabPosition"		"0"
 			"labelText"			""
 			"image"				"../hud/cart_arrow_left"
-			"scaleImage"		"1"	
+			"scaleImage"		"1"
 			
 			"if_multiple_trains_top"
 			{

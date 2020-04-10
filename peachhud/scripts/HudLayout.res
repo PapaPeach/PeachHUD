@@ -125,7 +125,7 @@
 		"xpos"						"c-162"
 		"xpos_minmode"				"c-183"
 		"ypos"						"r115"
-		"ypos_minmode"				"r80"
+		"ypos_minmode"				"r54"
 		"wide"						"f0"
 		"tall"  					"20"
 	}
