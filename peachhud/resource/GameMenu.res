@@ -6,29 +6,29 @@
 	"Custom1"
 	{
 		"label"			"1"
-		"command"		"engine command1"		//REPLACE command1 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
-		"OnlyAtMenu"	"1"		//1=MAIN MENU ONLY		0=ALWAYS SHOW
+		"command"		"engine command1"	//REPLACE command1 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
+		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
 	
 	"Custom2"
 	{
 		"label"			"2"
-		"command"		"engine command2"		//REPLACE command2 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
-		"OnlyAtMenu"	"1"		//1=MAIN MENU ONLY		0=ALWAYS SHOW
+		"command"		"engine command2"	//REPLACE command2 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
+		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
 	
 	"Custom3"
 	{
 		"label"			"3"
-		"command"		"engine command3"		//REPLACE command3 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
-		"OnlyAtMenu"	"1"		//1=MAIN MENU ONLY		0=ALWAYS SHOW
+		"command"		"engine command3"	//REPLACE command3 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
+		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
 	
 	"Custom4"
 	{
 		"label"			"4"
-		"command"		"engine command4"		//REPLACE command4 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
-		"OnlyAtMenu"	"1"		//1=MAIN MENU ONLY		0=ALWAYS SHOW
+		"command"		"engine command4"	//REPLACE command4 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
+		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
 	
 	

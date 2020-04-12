@@ -1,9 +1,9 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 //****************************************INSTRUCTIONS**************************************//
 //																							//
-//	UNCOMMENT (REMOVE THE // BEFORE #BASE) FROM THE CUSTOMIZATION LINE YOU WANT TO ACTIVATE	//
+//			 SET MARKED "visible" LINES TO "1" TO ENABLE THEIR RESPECTIVE BUTTONS			//
 //																							//
-//			   ***IMPORTANT: ASSIGN THE BUTTONS COMMANDS IN Resource/GameMenu***			//
+//			  ***IMPORTANT: ASSIGN THE BUTTONS COMMANDS IN Resource/GameMenu***				//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -30,7 +30,7 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"1"
+			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 1
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
@@ -82,7 +82,7 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"1"
+			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 2
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
@@ -134,7 +134,7 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"1"
+			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 3
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
@@ -186,7 +186,7 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"1"
+			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 4
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
