@@ -1,6 +1,7 @@
 #base "../../resource/tools/ReloadMenuButton.res"
 #base "../../resource/tools/VTF Preload.res"
 #base "../../customizations/FriendsList.res"
+#base "../../customizations/CustomMenuButtons.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -1522,7 +1523,7 @@
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
 			
-			"border_default"			"BlackTransparent70"
+			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
 			
 			"proportionaltoparent"		"1"
@@ -1536,7 +1537,7 @@
 		"xpos"							"-2"
 		"ypos"							"0"
 		"zpos"							"51"
-		"wide"							"80"	//20 (changed to fit comingsoon)
+		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
 		
@@ -1577,33 +1578,6 @@
 			"border_armed"				"OrangeTransparent70"
 			
 			"proportionaltoparent"		"1"
-		}
-		
-		"MinmodeComingSoonLabel"
-		{
-			"ControlName"					"CExLabel"
-			"fieldname"						"MinmodeComingSoonLabel"
-			"xpos"							"20"
-			"ypos"							"-2"
-			"zpos"							"50"
-			"wide"							"45"
-			"tall"							"25"
-			"visible"						"1"
-			"enabled"						"1"
-			"autoResize"					"0"
-			"pinCorner"						"3"
-			"font"							"Size 6"
-			"textAlignment"					"west"
-			"labelText"						"Coming In Beta!"
-			"AllCaps"						"1"
-			"wrap"							"0"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"fgcolor"						"WhiteTransparent"
-		
-			"pin_to_sibling" 				"MinmodeOFF"
-			"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-			"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
 		}
 	}
 	
