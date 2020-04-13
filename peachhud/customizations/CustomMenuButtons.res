@@ -22,6 +22,8 @@
 
 		"SubButton"
 		{
+			"visible"					"0"		//LINE FOR CUSTOM BUTTON 1
+			
 			"ControlName"				"CExImageButton"
 			"fieldName"					"SubButton"
 			"xpos"						"0"
@@ -30,7 +32,6 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 1
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
@@ -74,6 +75,8 @@
 
 		"SubButton"
 		{
+			"visible"					"0"		//LINE FOR CUSTOM BUTTON 2		
+		
 			"ControlName"				"CExImageButton"
 			"fieldName"					"SubButton"
 			"xpos"						"0"
@@ -82,7 +85,6 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 2
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
@@ -126,6 +128,8 @@
 
 		"SubButton"
 		{
+			"visible"					"0"		//LINE FOR CUSTOM BUTTON 3		
+		
 			"ControlName"				"CExImageButton"
 			"fieldName"					"SubButton"
 			"xpos"						"0"
@@ -134,7 +138,6 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 3
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
@@ -178,6 +181,8 @@
 
 		"SubButton"
 		{
+			"visible"					"0"		//LINE FOR CUSTOM BUTTON 4		
+		
 			"ControlName"				"CExImageButton"
 			"fieldName"					"SubButton"
 			"xpos"						"0"
@@ -186,7 +191,6 @@
 			"tall"						"15"
 			"autoResize"				"0"
 			"pinCorner"					"3"
-			"visible"					"0"			//VISIBLE LINE FOR CUSTOM BUTTON 4
 			"enabled"					"1"
 			"tabPosition"				"0"
 			"use_proportional_insets" 	"1"
