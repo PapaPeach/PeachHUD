@@ -2891,7 +2891,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "GreenLight
+					"color" "GreenLight"
 					"offset" "0 1"
 				}
 
