@@ -12,16 +12,16 @@ Based on SunsetHUD Dark, by Hypnotize.
 [Discord](https://discord.gg/HyZRVtp)
 
 # INSTALLATION
-**1)** Download the HUD by clicking the ![Download](https://i.imgur.com/EjYd8I5.png) button at the top right of the page
+**1)** Download the HUD by clicking the ![Download](https://i.imgur.com/EjYd8I5.png) button at the top right of the page.
 
-**2)** Open the downloaded **PeachHUD-Release.zip** folder and the **PeachHUD-Release** folder inside of that
+**2)** Open the downloaded **PeachHUD-Release.zip** folder and the **PeachHUD-Release** folder inside of that.
 
-**3)** Copy the **peachhud** folder (**NOT** **PeachHUD-Release**, the one inside it!)
+**3)** Copy the **peachhud** folder (**NOT** **PeachHUD-Release**, the one inside it).
 
-**4)** Paste it into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom)  
-**Tip:** Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage > Browse local files**
+**4)** Paste it into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).  
+**Tip:** Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage > Browse local files**.
 
-**5)** For 4:3 or 16:10 aspect ratios, drag and replace the files inside **customizations/4x3 & 16x10 Overrides** to **resource/ui**
+**5)** For 4:3 or 16:10 aspect ratios, drag and replace the files inside **customizations/4x3 & 16x10 Overrides** to **resource/ui**.
 
 **NOTES:**  
 While PeachHUD inherited minmode support from SunsetHUD, development has basically neglected minmode for the time being. Because of this, upon loading PeachHUD for the first time **minmode will be automatically disabled**, I recommend keeping it this way.
@@ -31,12 +31,12 @@ PeachHUD enables easy customization of certain aspects of the HUD through the **
 
 All the customizations can be found inside the **customizations** folder and to enable them you will need to do:
 
-**1)** Open the customization file you would like to apply
+**1)** Open the customization file you would like to apply (I recommend [Notepad++](https://notepad-plus-plus.org) for this).
 
-**2)** Remove the `//` before `#base` from the line you **WANT** to apply and ensure all other lines have `//` before them  
-**Tip:** Some customization options require extra steps to enable, those steps are detailed in their respective file
+**2)** Remove the `//` before `#base` from the line you **WANT** to apply and ensure all other lines have `//` before them.  
+**Tip:** Some customization options require extra steps to enable, those steps are detailed in their respective file.
 
-**3)** Save the file(s) and reload your HUD or restart TF2
+**3)** Save the file(s) and reload your HUD or restart TF2.
 
 # CREDITS
 **Everything:** Hypnotize for creating [SunsetHUD](https://github.com/Hypnootize/Sunset-Hud) and being tremendously helpful!
