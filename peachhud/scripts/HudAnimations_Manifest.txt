@@ -5,6 +5,6 @@ hudanimations_manifest
 	"file" "customizations/ClassModel_Animations.txt"
 	"file" "customizations/ChatPositions_Animations.txt"
 	"file" "customizations/UberCounter_Animations.txt"
-	"file" "scripts/Hudanimations_Peach.txt"
+	"file" "scripts/hudanimations_peach.txt"
 	"file" "scripts/hudanimations_tf.txt"
 }

@@ -1,4 +1,4 @@
-#base "Base_Active_Teleport_Target.res"
+#base "base_active_teleport_target.res"
 
 "Resource/UI/build_menu/base_unavailable.res"
 {

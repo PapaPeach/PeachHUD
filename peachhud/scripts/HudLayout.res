@@ -1,4 +1,4 @@
-#base "HudLayout_Default.res"
+#base "hudlayout_default.res"
 #base "../customizations/Crosshairs.res"
 #base "../customizations/HitMarkers.res"
 #base "../customizations/TransparentViewmodels.res"
@@ -166,7 +166,7 @@
 	
 	CSecondaryTargetID
 	{
-		"ypos"						"310"
+		"ypos"						"310"	//340
 		"tall"	 					"28"
 		"tall_minmode"	 			"28"
 	}
