@@ -1,0 +1,41 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+//****************************************INSTRUCTIONS**************************************//
+//											    //
+//	  UNCOMMENT (REMOVE THE // BEFORE EVENT) FROM THE SECTION YOU WANT TO ENABLE	    //
+//											    //
+// ***IMPORTANT: ONLY 1 OPTION CAN BE UNCOMMENTED, EACH OPTION HAS 3 LINES TO UNCOMMENT***  //
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+//LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER LOWER
+event CompetitiveGame_LowerChatWindow		//FIRST LINE TO UNCOMMENT
+{
+	Animate HudChat 							ypos 		"r115"								Accel 	0 		0
+}
+
+event CompetitiveGame_RestoreChatWindow		//SECOND LINE TO UNCOMMENT
+{
+	Animate HudChat 							ypos 		"r115" 								Accel 	0 		0
+}
+
+event HudTournament_MoveChatWindow		//THIRD LINE TO UNCOMMENT
+{
+	RunEvent CompetitiveGame_LowerChatWindow 	0
+	RunEvent CompetitiveGame_RestoreChatWindow 	10
+}
+
+//UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER UPPER
+//event CompetitiveGame_LowerChatWindow		//FIRST LINE TO UNCOMMENT
+{
+	Animate HudChat 							ypos 		"22"								Accel 	0 		0
+}
+
+//event CompetitiveGame_RestoreChatWindow	//SECOND LINE TO UNCOMMENT	
+{
+	Animate HudChat 							ypos 		"22" 								Accel 	0 		0
+}
+
+//event HudTournament_MoveChatWindow		//THIRD LINE TO UNCOMMENT
+{
+	RunEvent CompetitiveGame_LowerChatWindow 	0
+	RunEvent CompetitiveGame_RestoreChatWindow 	10
+}

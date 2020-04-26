@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/menu/Mountain_Blur"
+	"$translucent" 1
+	"$vertexcolor" 1
+}
