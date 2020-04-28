@@ -6003,13 +6003,15 @@ Scheme
 		
 		"10"
 		{
-			"font" "resource/scheme/fonts/Renogare.ttf"
+			"font" "resource/scheme/fonts/Renogare.ttf" [$WINDOWS]
+			"font" "resource/scheme/fonts/linux/RenogareSoft-Regular-Linux.otf" [$LINUX]
 			"name" "Renogare Soft"
 		}
 		
 		"11"
 		{
-			"font" "resource/scheme/fonts/Renogare Numbers.otf"
+			"font" "resource/scheme/fonts/Renogare Numbers.otf" [$WINDOWS]
+			"font" "resource/scheme/fonts/linux/RenogareNumbersLinux.otf" [$LINUX]
 			"name" "Renogare Numbers"
 		}
 	}

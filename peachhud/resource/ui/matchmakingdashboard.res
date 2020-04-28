@@ -447,7 +447,7 @@
 			"fieldName"						"JoinPartyLobbyContainer"
 			"xpos"							"r304"
 			"ypos"							"-50"
-			"zpos"							"110"
+			"zpos"							"1000"
 			"wide"							"190"
 			"tall"							"30"
 			"visible"						"1"
@@ -501,7 +501,7 @@
 				"xpos"						"rs1-6"
 				"ypos"						"5"
 				"wide"						"40"
-				"zpos"						"100"
+				"zpos"						"10000"
 				"tall"						"22"
 
 				if_queued

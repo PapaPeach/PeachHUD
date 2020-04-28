@@ -821,19 +821,22 @@ Scheme
 	{
 		"20"
 		{
-			"font" "resource/scheme/fonts/Hypnotize Icons.otf"
+			"font" "resource/scheme/fonts/Hypnotize Icons.otf" [$WINDOWS]
+			"font" "resource/scheme/fonts/linux/HypnotizeIconsLinux.otf" [$LINUX]
 			"name" "Hypnotize Icons"
 		}
 		
 		"21"
 		{
-			"font" "resource/scheme/fonts/TF2 Class Icons.otf"
+			"font" "resource/scheme/fonts/TF2 Class Icons.otf" [$WINDOWS]
+			"font" "resource/scheme/fonts/linux/TF2ClassIconsLinux.otf" [$LINUX]
 			"name" "TF2 Class Icons"
 		}
 		
 		"22"
 		{
-			"font" "resource/scheme/fonts/ReadyUp Symbols.otf"
+			"font" "resource/scheme/fonts/ReadyUp Symbols.otf" [$WINDOWS]
+			"font" "resource/scheme/fonts/linux/ReadyUpSymbolsLinux.otf" [$LINUX]
 			"name" "ReadyUp Symbols"
 		}
 	}
