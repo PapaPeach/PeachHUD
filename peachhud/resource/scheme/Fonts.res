@@ -6004,14 +6004,14 @@ Scheme
 		"10"
 		{
 			"font" "resource/scheme/fonts/Renogare.ttf" [$WINDOWS]
-			"font" "resource/scheme/fonts/linux/RenogareSoft-Regular-Linux.otf" [$LINUX]
+			"font" "resource/scheme/fonts/linux/RenogareSoft-Regular-Linux.otf" [$POSIX]
 			"name" "Renogare Soft"
 		}
 		
 		"11"
 		{
 			"font" "resource/scheme/fonts/Renogare Numbers.otf" [$WINDOWS]
-			"font" "resource/scheme/fonts/linux/RenogareNumbersLinux.otf" [$LINUX]
+			"font" "resource/scheme/fonts/linux/RenogareNumbersLinux.otf" [$POSIX]
 			"name" "Renogare Numbers"
 		}
 	}

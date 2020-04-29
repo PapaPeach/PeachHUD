@@ -822,21 +822,21 @@ Scheme
 		"20"
 		{
 			"font" "resource/scheme/fonts/Hypnotize Icons.otf" [$WINDOWS]
-			"font" "resource/scheme/fonts/linux/HypnotizeIconsLinux.otf" [$LINUX]
+			"font" "resource/scheme/fonts/linux/HypnotizeIconsLinux.otf" [$POSIX]
 			"name" "Hypnotize Icons"
 		}
 		
 		"21"
 		{
 			"font" "resource/scheme/fonts/TF2 Class Icons.otf" [$WINDOWS]
-			"font" "resource/scheme/fonts/linux/TF2ClassIconsLinux.otf" [$LINUX]
+			"font" "resource/scheme/fonts/linux/TF2ClassIconsLinux.otf" [$POSIX]
 			"name" "TF2 Class Icons"
 		}
 		
 		"22"
 		{
 			"font" "resource/scheme/fonts/ReadyUp Symbols.otf" [$WINDOWS]
-			"font" "resource/scheme/fonts/linux/ReadyUpSymbolsLinux.otf" [$LINUX]
+			"font" "resource/scheme/fonts/linux/ReadyUpSymbolsLinux.otf" [$POSIX]
 			"name" "ReadyUp Symbols"
 		}
 	}
