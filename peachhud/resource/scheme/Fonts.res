@@ -6003,8 +6003,8 @@ Scheme
 		
 		"10"
 		{
-			"font" "resource/scheme/fonts/Renogare.ttf" [$POSIX]
-			"font" "resource/scheme/fonts/linux/Renogare Linux.otf" [$WINDOWS]
+			"font" "resource/scheme/fonts/Renogare.ttf" [$WINDOWS]
+			"font" "resource/scheme/fonts/linux/Renogare Linux.otf" [$POSIX]
 			"name" "Renogare Soft"
 		}
 		
