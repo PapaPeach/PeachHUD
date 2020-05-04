@@ -500,13 +500,13 @@
 		"visible" 									"0"
 		
 		"xpos" 		 								"c-25"
-		"ypos" 		 								"c-24"
+		"ypos" 		 								"c-25"
 		"wide" 		 								"50"
 		"tall" 		 								"50"
 		
 		"fgcolor" 									"Crosshair"
-		"labelText"									"a"						//You can change this to use a different crosshair, see the list of crosshairs in Crosshairs.png
-		"font"										"size:26,outline:off"
+		"labelText"									"o"						//You can change this to use a different crosshair, see the list of crosshairs in Crosshairs.png
+		"font"										"size:15,outline:on"
 		
 		"controlName"								"CExLabel"
 		"fieldName"	 								"Knuckles Crosshairs"
