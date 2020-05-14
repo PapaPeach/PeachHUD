@@ -218,7 +218,7 @@
 		
 		"fgcolor"									"Crosshair"
 		"labelText"									"b"
-		"font"										"size: 14, outline: on"
+		"font"										"size: 13, outline: on"
 		
 		"controlName"								"CExLabel"
 		"fieldName"									"Hollow Cross"
@@ -506,7 +506,7 @@
 		
 		"fgcolor" 									"Crosshair"
 		"labelText"									"o"						//You can change this to use a different crosshair, see the list of crosshairs in Crosshairs.png
-		"font"										"size:15,outline:on"
+		"font"										"size:13,outline:on"
 		
 		"controlName"								"CExLabel"
 		"fieldName"	 								"Knuckles Crosshairs"
