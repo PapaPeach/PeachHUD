@@ -262,7 +262,7 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Beta 2.0.0"
+		"labelText"					"Beta 3.0.0"
 	}
 	
 	"InfoSeparatorLine"
