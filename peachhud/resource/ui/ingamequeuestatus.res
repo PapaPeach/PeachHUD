@@ -15,6 +15,24 @@
 		"mouseinputenabled"		"0"
 		"alpha"					"100"
 	}
+	
+	"CTFLogoPanel"
+	{
+		"ControlName"			"CTFLogoPanel"
+		"fieldname"				"CTFLogoPanel"
+		"xpos"					"rs1"
+		"ypos"					"cs-0.5"
+		"zpos"					"5"
+		"wide"					"o1"
+		"tall"					"f0"
+		"visible"				"1"
+		"proportionaltoparent"	"1"
+
+		"radius"				"8"
+		"velocity"				"80"
+
+		"fgcolor_override"		"WhiteTransparent"
+	}
 
 	"QueueText"
 	{
@@ -34,12 +52,5 @@
 		"labelText"				"%queue_state%"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
-	}
-	
-	"CTFLogoPanel"
-	{
-		"ControlName"			"CTFLogoPanel"
-		"fieldname"				"CTFLogoPanel"
-		"xpos"					"-9999"
 	}
 }

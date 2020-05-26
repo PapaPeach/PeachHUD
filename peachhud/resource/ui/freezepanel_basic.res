@@ -13,7 +13,7 @@
 		"ControlName"						"EditablePanel"
 		"fieldName"							"FreezePanelBase"
 		"xpos"								"0"
-		"ypos"								"0"		
+		"ypos"								"280"		
 		"wide"								"f0"		
 		"tall"								"f0"		
 		"visible"							"1"
@@ -53,8 +53,6 @@
 			"labelText"						"%killername%"
 			"textAlignment"					"center"
 			"fgcolor_override"				"White"
-			
-			"bgcolor_override"				"Blank"
 		}
 		
 		"FreezeLabelKillerShadow"
@@ -89,7 +87,7 @@
 			"tall"							"10"
 			"visible"						"0"
 			"enabled"						"1"
-			"bgcolor_override"				"White"
+			"bgcolor_override"				"RedLight"
 			
 			"pin_to_sibling" 				"FreezeLabelKiller"
 			"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
@@ -138,7 +136,7 @@
 	{
 		"ControlName"						"CItemModelPanel"
 		"fieldName"							"itempanel"
-		"xpos"								"9999"		//0
+		"xpos"								"9999"		//set to: "r430" to enable (not perfect but as good as it can get, thanks Valve)
 		"ypos"								"0"
 		"zpos"								"10"
 		"wide"								"190"
