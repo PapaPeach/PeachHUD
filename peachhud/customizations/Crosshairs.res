@@ -218,7 +218,7 @@
 		
 		"fgcolor"									"Crosshair"
 		"labelText"									"b"
-		"font"										"size: 13, outline: on"
+		"font"										"size: 14, outline: on"
 		
 		"controlName"								"CExLabel"
 		"fieldName"									"Hollow Cross"
