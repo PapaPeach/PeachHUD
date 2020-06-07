@@ -126,6 +126,13 @@
 		"OnlyInGame"	"1"
 	}
 	
+	"Report"
+	{
+		"label"			"Report"
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+	}
+	
 	///////////////////////////////////////////////////////////////////
 	///////////////////////////TOOLS SECTION///////////////////////////
 	///////////////////////////////////////////////////////////////////
@@ -333,14 +340,6 @@
 		"label"			"I"
 		"command"		"opentf2options"
 		"tooltip"		"Advanced Options"
-		"OnlyInGame"	"1"
-	}
-	
-	"Report"
-	{
-		"label"			"Report"
-		"command"		"OpenReportPlayerDialog"
-		"tooltip"		"Report Players"
 		"OnlyInGame"	"1"
 	}
 	

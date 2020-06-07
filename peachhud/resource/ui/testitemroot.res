@@ -33,20 +33,6 @@
 		"scaleimage"			"1"
 	}
 	
-	"BlackGradient"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"BlackGradient"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"f0"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"0 0 0 120"
-	}
-	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
