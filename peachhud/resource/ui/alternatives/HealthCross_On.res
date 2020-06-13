@@ -67,8 +67,8 @@
 		"enabled"					"1"
 		"labelText"					"%Health%"
 		"textAlignment"				"center"	
-		"font"						"Size 40"
-		"font_minmode"				"Size 50"
+		"font"						"Health Regular"
+		"font_minmode"				"Health Minmode"
 		"fgcolor"					"Health"
 		
 		"pin_to_sibling"			"HealthAnchor"
@@ -91,8 +91,8 @@
 		"enabled"					"1"
 		"labelText"					"%Health%"
 		"textAlignment"				"center"	
-		"font"						"Size 40"
-		"font_minmode"				"Size 50"
+		"font"						"Health Regular"
+		"font_minmode"				"Health Minmode"
 		"fgcolor"					"Shadows"
 		
 		"pin_to_sibling" 			"PlayerStatusHealthValue"

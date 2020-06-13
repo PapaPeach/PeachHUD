@@ -13,6 +13,7 @@
 ///////////////////FONTS///////////////////
 ///////////////////////////////////////////
 
+#base "../customizations/FontSizes.res"
 #base "../resource/scheme/Fonts.res"
 #base "../resource/scheme/Symbols.res"
 

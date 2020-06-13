@@ -248,20 +248,53 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Beta 3.0.0"
+		"labelText"					"Beta 3.1.0"
 	}
 	
 	"InfoSeparatorLine"
 	{
 		"ControlName"				"EditablePanel"
 		"fieldname"					"InfoSeparatorLine"
-		"xpos"						"52"
-		"ypos"						"148"	//148
+		"xpos"						"50"
+		"ypos"						"148"		//148
 		"zpos"						"20"
-		"wide"						"280"		//xpos+wide=232
+		"wide"						"282"		//xpos+wide=232
 		"tall"						"1"
 		"visible"					"1"
 		"bgcolor_override" 			"WhiteTransparent"
+	}
+	
+	"Release"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Release"
+		"xpos"							"12"
+		"ypos"							"145"
+		"zpos"							"100"
+		"wide"							"18"
+		"tall"							"5"
+		"visible"						"1"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"18"
+			"tall"						"5"
+			"visible"					"1"
+			"enabled"					"1"
+			
+			"paintbackground"			"0"
+			"alpha"						"0"
+			
+			"defaultFgColor_override"	"Blank"
+			"armedFgColor_override"		"Blank"
+			"depressedFgColor_override"	"Blank"
+			
+			"proportionaltoparent"		"1"
+		}
 	}
 	
 	"Servers"
@@ -819,7 +852,7 @@
 		"ypos"						"0"
 		"zpos"						"8"
 		"wide"						"322"
-		"tall"						"115"
+		"tall"						"110"
 		"autoResize"				"0"
 		"pinCorner"					"3"
 		"visible"					"1"

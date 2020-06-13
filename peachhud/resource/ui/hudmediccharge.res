@@ -43,8 +43,8 @@
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"font"						"Size 40 Shadow"
-		"font_minmode"				"Size 50 Shadow"
+		"font"						"Uber Regular"
+		"font_minmode"				"Uber Minmode"
 		"fgcolor"					"White"
 		
 		"pin_to_sibling"			"UberAnchor"
@@ -72,8 +72,8 @@
 		"textAlignment"				"center"
 		"dulltext"					"0"
 		"brighttext"				"0"
-		"font"						"Size 40 Shadow"
-		"font_minmode"				"Size 50 Shadow"
+		"font"						"Uber Regular"
+		"font_minmode"				"Uber Minmode"
 		"fgcolor"					"White"
 		
 		"pin_to_sibling"			"UberAnchor"

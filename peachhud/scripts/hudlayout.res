@@ -132,8 +132,8 @@
 	
 	HudDamageIndicator
 	{
-		"MinimumWidth"				"15"
-		"MaximumWidth"				"15"
+		"MinimumWidth"				"12"
+		"MaximumWidth"				"12"
 		"StartRadius"				"80"
 		"EndRadius"					"80"
 		"MinimumHeight"				"30"
