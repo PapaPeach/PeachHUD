@@ -3,7 +3,7 @@
 //																							//
 //			 SET MARKED "visible" LINES TO "1" TO ENABLE THEIR RESPECTIVE BUTTONS			//
 //																							//
-//			  ***IMPORTANT: ASSIGN THE BUTTONS COMMANDS IN Resource/GameMenu***				//
+//			  ***IMPORTANT: ASSIGN THE BUTTONS COMMANDS IN resource/gamemenu***				//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
