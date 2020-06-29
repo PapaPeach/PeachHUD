@@ -27,4 +27,5 @@
 ////////////////CROSSHAIRS/////////////////
 ///////////////////////////////////////////
 
-#base "../resource/scheme/Crosshairs.res"
+#base "../customizations/Crosshair_Scheme.res"
+#base "../resource/scheme/crosshairs/Crosshair_Files.res"
