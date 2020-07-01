@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 //****************************************INSTRUCTIONS**************************************//
 //																							//
-//	UNCOMMENT (REMOVE THE // BEFORE #BASE) FROM THE CUSTOMIZATION LINE YOU WANT TO ACTIVATE	//
+//	  UNCOMMENT (REMOVE THE // BEFORE #BASE) THE CUSTOMIZATION LINE YOU WISH TO ACTIVATE	//
 //																							//
 // 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
 //////////////////////////////////////////////////////////////////////////////////////////////

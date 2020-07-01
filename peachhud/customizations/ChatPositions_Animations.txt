@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 //****************************************INSTRUCTIONS**************************************//
 //											    //
-//	  UNCOMMENT (REMOVE THE // BEFORE EVENT) FROM THE SECTION YOU WANT TO ENABLE	    //
+//          UNCOMMENT (REMOVE THE // BEFORE EVENT) THE SECTION YOU WANT TO ENABLE           //
 //											    //
 // ***IMPORTANT: ONLY 1 OPTION CAN BE UNCOMMENTED, EACH OPTION HAS 3 LINES TO UNCOMMENT***  //
 //////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //*****************************************INSTRUCTIONS*****************************************//
 //																								//
-//			TO ENABLE CUSTOM MEDIGUN NAMES, OPEN THE resource/chat_english.txt FILE				//
+//			TO ENABLE CUSTOM MEDIGUN NAMES, OPEN THE RESOURCE/CHAT_ENGLISH.TXT FILE				//
 //																								//
 //										INSIDE LOOK FOR:										//
 //																								//

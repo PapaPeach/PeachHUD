@@ -1,9 +1,15 @@
-// To prevent longer loading times when starting up your game or clicking the Find A Game button,
-// Only uncomment one of these Crosshair Size packs at a time, unless you are not concerned by loading times.
-
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//*****************************************INSTRUCTIONS*****************************************//
+//																								//
+//		UNCOMMENT (REMOVE THE // BEFORE #BASE) THE CROSSHAIR GROUP YOU WISH TO ACTIVATE			//
+//																								//
+//				 TO REDUCE START UP TIME AND STUTTERING WHEN CLICKING FIND GAME,				// 
+//			  ONLY UNCOMMENT THE LINES NEEDED TO ENABLE YOUR DESIRED CROSSHAIR GROUP			//
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Easy Crosshairs
 //#base "../resource/scheme/crosshairs/Crosshairs_Easy.res"
+
 
 
 // Broesel Small Crosshair Sizes: 10 - 19
@@ -14,6 +20,7 @@
 
 // Broesel Large Crosshair Sizes: 30 - 40
 //#base "../resource/scheme/crosshairs/Crosshairs_Large_Broesel.res"
+
 
 
 // Knuckles Small Crosshair Sizes: 10 - 19
