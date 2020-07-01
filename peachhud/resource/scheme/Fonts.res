@@ -4260,12 +4260,5 @@ Scheme
 			"font" "resource/scheme/fonts/linux/Renogare Linux.otf" [$POSIX]
 			"name" "Renogare Soft"
 		}
-		
-		"11"
-		{
-			"font" "resource/scheme/fonts/Renogare Numbers.otf" [$WINDOWS]
-			"font" "resource/scheme/fonts/linux/Renogare Numbers Linux.otf" [$POSIX]
-			"name" "Renogare Numbers"
-		}
 	}
 }
