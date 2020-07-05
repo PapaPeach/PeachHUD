@@ -44,7 +44,7 @@
 	{
 		"label"			""
 		"command"		"engine play vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_bonusducks_01.mp3"
-		"tooltip"		"Released June 12, 2020"
+		"tooltip"		"Released July 5, 2020"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////
