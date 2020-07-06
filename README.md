@@ -19,12 +19,9 @@ Based on SunsetHUD Dark, by Hypnotize.
 **3)** Copy the **peachhud** folder (**NOT** **PeachHUD-Release**, the one inside it).
 
 **4)** Paste it into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).  
-**Tip:** Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage > Browse local files**.
+Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
 
 **5)** For 4:3 or 16:10 aspect ratios, drag and replace the files inside **customizations/4x3 & 16x10 Overrides** to **resource/ui**.
-
-**NOTES:**  
-While PeachHUD inherited minmode support from SunsetHUD, development has basically neglected minmode for the time being. Because of this, upon loading PeachHUD for the first time **minmode will be automatically disabled**, I recommend keeping it this way.
 
 # CUSTIOMIZATION
 PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities. Customization presets are also a planned feature of PeachHUD for later down the road.
@@ -34,7 +31,7 @@ All the customizations can be found inside the **customizations** folder and to 
 **1)** Open the customization file you would like to apply (I recommend [Notepad++](https://notepad-plus-plus.org) for this).
 
 **2)** Remove the `//` before `#base` from the line you **WANT** to apply and ensure all other lines have `//` before them.  
-**Tip:** Some customization options require extra steps to enable, those steps are detailed in their respective file.
+Some customization options require extra steps to enable, those steps are detailed in their respective file.
 
 **3)** Save the file(s) and reload your HUD or restart TF2.
 
