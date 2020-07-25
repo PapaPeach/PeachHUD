@@ -832,7 +832,7 @@
 		"xpos"						"10"
 		"ypos"						"35"
 		"zpos"						"5"
-		"wide"						"400"
+		"wide"						"570"
 		"tall"						"115"
 		"visible"					"1"
 		"proportionaltoparent"		"1"
