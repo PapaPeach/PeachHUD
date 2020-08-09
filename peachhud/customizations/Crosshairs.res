@@ -251,7 +251,7 @@
 	"Hollow Cross"
 	{
 		"visible"									"0"
-		"font"										"size: 14, outline: on"
+		"font"										"size: 13, outline: on"
 		
 		"xpos"										"c-25"
 		"ypos"										"c-25"
