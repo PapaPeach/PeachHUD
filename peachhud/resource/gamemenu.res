@@ -43,8 +43,8 @@
 	"Release"
 	{
 		"label"			""
-		"command"		"engine play vo/halloween_merasmus/sf14_merasmus_minigame_duckhunt_bonusducks_01.mp3"
-		"tooltip"		"Released July 5, 2020"
+		"command"		"engine play ambient_mp3/bumper_car_quack11.mp3"
+		"tooltip"		"Released August 11, 2020"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////

@@ -248,17 +248,17 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Beta 3.2.0"
+		"labelText"					"Beta 4.0.0"
 	}
 	
 	"InfoSeparatorLine"
 	{
 		"ControlName"				"EditablePanel"
 		"fieldname"					"InfoSeparatorLine"
-		"xpos"						"51"
+		"xpos"						"52"
 		"ypos"						"148"		//148
 		"zpos"						"20"
-		"wide"						"281"		//xpos+wide=232
+		"wide"						"280"		//xpos+wide=232
 		"tall"						"1"
 		"visible"					"1"
 		"bgcolor_override" 			"WhiteTransparent"
@@ -271,7 +271,7 @@
 		"xpos"							"12"
 		"ypos"							"145"
 		"zpos"							"100"
-		"wide"							"37"
+		"wide"							"39"	//Button Width
 		"tall"							"5"
 		"visible"						"1"
 
@@ -281,7 +281,7 @@
 			"fieldName"					"SubButton"
 			"xpos"						"0"
 			"ypos"						"0"
-			"wide"						"37"
+			"wide"						"50"
 			"tall"						"5"
 			"visible"					"1"
 			"enabled"					"1"
@@ -2809,11 +2809,11 @@
 		{
 			"ControlName"				"CExImageButton"
 			"fieldName"					"Notifications_ShowButtonPanel_SB"
-			"xpos"						"5"
-			"ypos"						"0"
+			"xpos"						"2"
+			"ypos"						"2"
 			"zpos"						"110"
-			"wide"						"95"
-			"tall"						"24"
+			"wide"						"96"
+			"tall"						"20"
 			"autoResize"				"0"
 			"pinCorner"					"3"
 			"visible"					"1"
@@ -2822,7 +2822,7 @@
 			"labelText"					"Notification"
 			"font"						"Size 12"
 			"textAlignment"				"west"
-			"textinsetx"				"48"
+			"textinsetx"				"51"
 			"AllCaps"					"1"
 			"dulltext"					"0"
 			"brighttext"				"0"
