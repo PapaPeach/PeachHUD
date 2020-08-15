@@ -248,17 +248,17 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Beta 4.0.0"
+		"labelText"					"Beta 4.0.1"
 	}
 	
 	"InfoSeparatorLine"
 	{
 		"ControlName"				"EditablePanel"
 		"fieldname"					"InfoSeparatorLine"
-		"xpos"						"52"
+		"xpos"						"50"
 		"ypos"						"148"		//148
 		"zpos"						"20"
-		"wide"						"280"		//xpos+wide=232
+		"wide"						"282"		//xpos+wide=232
 		"tall"						"1"
 		"visible"					"1"
 		"bgcolor_override" 			"WhiteTransparent"
@@ -271,8 +271,8 @@
 		"xpos"							"12"
 		"ypos"							"145"
 		"zpos"							"100"
-		"wide"							"39"	//Button Width
-		"tall"							"5"
+		"wide"							"37"	//Button Width
+		"tall"							"6"
 		"visible"						"1"
 
 		"SubButton"
@@ -282,12 +282,12 @@
 			"xpos"						"0"
 			"ypos"						"0"
 			"wide"						"50"
-			"tall"						"5"
+			"tall"						"6"
 			"visible"					"1"
 			"enabled"					"1"
 			
-			"paintbackground"			"0"
-			"alpha"						"0"
+			"paintbackground"			"0"		//Button Visibility
+			"alpha"						"120"
 			
 			"defaultFgColor_override"	"Blank"
 			"armedFgColor_override"		"Blank"

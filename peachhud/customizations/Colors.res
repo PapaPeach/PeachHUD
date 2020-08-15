@@ -25,6 +25,7 @@ Scheme
 		"Health Hurt Target"					"235 235 235 255"
 		"Health Hurt Spec"						"245 70 70 255"
 		
+		
 		"Ammo In Clip"							"235 235 235 255"
 		"Ammo In Reserve"						"235 235 235 255"
 		"Ammo No Clip"							"235 235 235 255"
@@ -33,14 +34,18 @@ Scheme
 		"Ammo In Reserve Low"					"245 70 70 255"
 		"Ammo No Clip Low"						"245 70 70 255"
 
+
 		"Ubercharge"							"235 235 235 255"
 		"Ubercharge Full"						"150 200 220 255"
+		
+		
+		"Shadows"								"0 0 0 150"
+		
 		
 		"Heal Numbers"							"40 200 110 255"
 		"Last Damage Done"						"235 235 235 255"
 		"HitMarker"								"245 70 70 255"
 		
-		"Shadows"								"0 0 0 150"
 		
 		"Crosshair"								"255 255 255 255"
 		"Crosshair Pulse"						"245 70 70 255"
