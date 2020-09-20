@@ -89,7 +89,7 @@
 	
 	"Stream"
 	{
-		"label"			"à"
+		"label"			"`"
 		"command"		"watch_stream"
 		"tooltip"		"Streams"
 		"OnlyAtMenu"	"1"
@@ -105,7 +105,7 @@
 	
 	"Console"
 	{
-		"label"			"¤"
+		"label"			"}"
 		"command"		"engine con_enable 1;toggleconsole"
 		"tooltip"		"Open Console"
 		"OnlyAtMenu"	"1"
