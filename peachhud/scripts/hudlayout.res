@@ -252,8 +252,8 @@
 	
 	ArenaWinPanel
 	{
-		"xpos"						"c-200"
-		"ypos"						"r60"
+		"xpos"						"c-198"
+		"ypos"						"r57"
 		"wide"						"400"
 		"tall"						"62"
 		"zpos"						"20"

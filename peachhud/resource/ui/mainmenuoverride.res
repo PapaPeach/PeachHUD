@@ -248,7 +248,7 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Beta 4.0.1"
+		"labelText"					"Beta 4.1.0"
 	}
 	
 	"InfoSeparatorLine"
