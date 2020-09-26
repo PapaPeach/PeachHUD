@@ -177,7 +177,7 @@
 		"ControlName"					"CExLabel"
 		"fieldName"						"PeachPlug"
 		"font"							"Size 15"
-		"labelText"						"Twitch.tv/PeachesTV    |    Mixer.com/PeachesTV"
+		"labelText"						"Twitch.tv/PeachesTV"
 		"textAlignment"					"Center"
 		"xpos"							"0"
 		"ypos"							"24"

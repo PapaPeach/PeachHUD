@@ -38,32 +38,6 @@
 		"bgcolor_override"		"BlackTransparent"
 	}
 	
-	"TeamColoredBar"
-	{
-		"ControlName"			"CTFImagePanel"
-		"fieldName"				"TeamColoredBar"
-		"xpos"					"-17"
-		"ypos"					"0"
-		"zpos"					"50"
-		"wide"					"20"
-		"tall"	 				"29"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"image"					"replay/thumbnails/panels/Material_Transparent_White_70"
-		"scaleImage"			"1"
-		"teambg_1"				"replay/thumbnails/panels/Material_Transparent_White_70"
-		"teambg_2"				"replay/thumbnails/panels/Material_Transparent_Red_70"
-		"teambg_3"				"replay/thumbnails/panels/Material_Transparent_Blue_70"
-		
-		"src_corner_height"		"32"
-		"src_corner_width"		"32"
-		
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"
-	}
-	
 	"Icon_Dispenser"
 	{
 		"ControlName"			"CIconPanel"
@@ -76,7 +50,7 @@
 		"enabled"				"1"
 		"scaleImage"			"1"	
 		"icon"					"obj_status_sentrygun_1"
-		"iconColor"				"255 255 255 255"
+		"iconColor"				"White"
 		"pin_to_sibling"		"WhiteGradient"
 	}
 	
@@ -139,7 +113,7 @@
 			"enabled"			"1"
 			"scaleImage"		"1"	
 			"icon"				"obj_status_upgrade_1"
-			"iconColor"			"OrangeLight"
+			"iconColor"			"GreenLight"
 		}
 	
 		"AlertTray"

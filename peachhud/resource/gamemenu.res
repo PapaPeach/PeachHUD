@@ -58,7 +58,7 @@
 	
 	"Create"
 	{
-		"label"			"¿"
+		"label"			"V"
 		"command"		"OpenCreateMultiplayerGameDialog"
 	}
 	
@@ -70,7 +70,7 @@
 	
 	"Store"
 	{
-		"label"			"Ò"
+		"label"			"y"
 		"command"		"engine open_store"
 	}
 	
@@ -315,7 +315,7 @@
 	}
 	"ReloadHud"
 	{
-		"label"			"ã"
+		"label"			"6"
 		"command"		"engine hud_reloadscheme"
 		"OnlyInGame"	"1"
 	}
@@ -328,7 +328,7 @@
 	
 	"StreamINGAME"
 	{
-		"label"			"à"
+		"label"			"`"
 		"command"		"watch_stream"
 		"tooltip"		"Streams"
 		"OnlyInGame"	"1"
@@ -344,7 +344,7 @@
 	
 	"ConsoleINGAME"
 	{
-		"label"			"¤"
+		"label"			"}"
 		"command"		"engine con_enable 1; toggleconsole"
 		"tooltip"		"Open Console"
 		"OnlyInGame"	"1"

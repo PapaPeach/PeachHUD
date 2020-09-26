@@ -295,7 +295,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"tabPosition"					"0"
-		"labelText"						"Ï"
+		"labelText"						"="
 		"font"							"Symbols 18"
 		"textAlignment"					"center"
 		"dulltext"						"0"
