@@ -243,22 +243,22 @@
 		"proportionaltoparent"		"1"
 		"mouseinputenabled"			"0"
 		"wrap"						"0"
-		"font"						"Size 10"
+		"font"						"Size 9"
 		"fgcolor_override"			"WhiteTransparent"
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Beta 4.1.0"
+		"labelText"					"Version 0.0.0"
 	}
 	
 	"InfoSeparatorLine"
 	{
 		"ControlName"				"EditablePanel"
 		"fieldname"					"InfoSeparatorLine"
-		"xpos"						"50"
+		"xpos"						"58"
 		"ypos"						"148"		//148
 		"zpos"						"20"
-		"wide"						"282"		//xpos+wide=232
+		"wide"						"274"		//xpos+wide=232
 		"tall"						"1"
 		"visible"					"1"
 		"bgcolor_override" 			"WhiteTransparent"
@@ -271,7 +271,7 @@
 		"xpos"							"12"
 		"ypos"							"145"
 		"zpos"							"100"
-		"wide"							"37"	//Button Width
+		"wide"							"45"	//Button Width
 		"tall"							"6"
 		"visible"						"1"
 
