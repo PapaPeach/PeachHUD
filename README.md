@@ -40,9 +40,9 @@ Some customization options require extra steps to enable, those steps are detail
 
 **Inspiration:** BudHUD, RaysHUD, 7HUD, m0reHUD, HypnotizeHUD, and ToonHUD
 
-**Crosshairs:** Broesel, Knuckles, Seeker, m0re
+**Crosshairs:** Broesel, Knuckles, Seeker, and m0re
 
-**Material Design VTFS:** extracrispy & Rawsor
+**Material Design VTFs:** extracrispy and Rawsor
 
 **All Indev, Alpha, and Beta Testers**
 
