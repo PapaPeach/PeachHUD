@@ -3,7 +3,7 @@ A Team Fortress 2 HUD made by Peaches and streamlined for competitive, while mai
 Based on SunsetHUD Dark, by Hypnotize.
 
 # LINKS
-[Screenshot Album](https://imgur.com/a/j6d9TjP) (Updated February 14)
+[Screenshot Album](https://imgur.com/a/j6d9TjP) (Updated October 3)
 
 [TeamFortress.tv](https://www.teamfortress.tv/55139/peachhud)
 
@@ -21,7 +21,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 **4)** Paste it into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).  
 Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
 
-**5)** For 4:3 or 16:10 aspect ratios, drag and replace the files inside **customizations/4x3 & 16x10 Overrides** to **resource/ui**.
+**5)** For 4:3, 5:4, or 16:10 aspect ratios, drag and replace the files inside **customizations/Aspect Ratio Overrides** to **resource/ui**.
 
 # CUSTIOMIZATION
 PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities. Customization presets are also a planned feature of PeachHUD for later down the road.
