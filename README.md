@@ -12,16 +12,14 @@ Based on SunsetHUD Dark, by Hypnotize.
 [Discord](https://discord.gg/HyZRVtp)
 
 # INSTALLATION
-**1)** Download the HUD by clicking the ![Download](https://i.imgur.com/EjYd8I5.png) button at the top right of the page.
+**1)** Download the HUD by clicking the green "Code" button at the top right of the page.
 
-**2)** Open the downloaded **PeachHUD-Release.zip** folder and the **PeachHUD-Release** folder inside of that.
-
-**3)** Copy the **peachhud** folder (**NOT** **PeachHUD-Release**, the one inside it).
-
-**4)** Paste it into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).  
+**2)** Extract the contents of the downloaded **PeachHUD-Release.zip** into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom). 
 Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
 
-**5)** For 4:3, 5:4, or 16:10 aspect ratios, drag and replace the files inside **customizations/Aspect Ratio Overrides** to **resource/ui**.
+**3)** For 4:3, 5:4, or 16:10 aspect ratios, drag and replace the files inside **customizations/Aspect Ratio Overrides** to **resource/ui**.
+
+**Note:** PeachHUD was developed for Windows computers, Linux is *mostly* supported and Mac is theoritcally supported but untested.
 
 # CUSTIOMIZATION
 PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities. Customization presets are also a planned feature of PeachHUD for later down the road.
