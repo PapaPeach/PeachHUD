@@ -14,7 +14,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 # INSTALLATION
 **1)** Download the HUD by clicking the green "Code" button at the top right of the page.
 
-**2)** Extract the contents **PeachHUD-Release.zip** into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom). 
+**2)** Extract the contents **PeachHUD-Release.zip** into your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).   
 Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
 
 **3)** For 4:3, 5:4, or 16:10 aspect ratios, drag and replace the files inside **customizations/Aspect Ratio Overrides** to **resource/ui**.
