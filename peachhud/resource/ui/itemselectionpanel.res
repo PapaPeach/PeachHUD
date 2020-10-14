@@ -82,11 +82,11 @@
 		
 		"duplicatelabels_kv"
 		{
-			"font"						"Size 10"
+			"font"						"Size 11"
 			"textAlignment"				"center"
 			"wide"						"20"
 			"tall"						"15"
-			"zpos"						"10"
+			"zpos"						"100"
 			"autoResize"				"0"
 			"pinCorner"					"0"
 			"enabled"					"1"
