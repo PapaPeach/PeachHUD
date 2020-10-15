@@ -16,19 +16,19 @@ Based on SunsetHUD Dark, by Hypnotize.
 # INSTALLATION
 **1)** Download the HUD by clicking the green "Code" button at the top right of the page.
 
-**2)** Extract the contents of **PeachHUD-Release** to your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).   
+**2)** Extract the **peachhud** folder from **PeachHUD-Release** to your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).   
 Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
 
 **3)** For non-16:9 aspect ratios, drag and replace the files inside **customizations/Aspect Ratio Overrides** to **resource/ui**.
 
-**Note:** PeachHUD was developed for Windows, but Linux is *mostly* supported and Mac is *theoritcally* supported but untested.
+**Note:** PeachHUD was developed for Windows, but Linux is *mostly* supported and Mac is *theoritcally* supported.
 
 # CUSTIOMIZATION
 PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities. Customization presets are also a planned feature of PeachHUD for later down the road.
 
 All the customizations can be found inside the **customizations** folder and to enable them you will need to do:
 
-**1)** Open the customization file you would like to apply (I recommend [Notepad++](https://notepad-plus-plus.org) for this).
+**1)** Open the customization file you would like to apply (I recommend [Notepad++](https://notepad-plus-plus.org) for this or formatting will be messed up).
 
 **2)** Remove the `//` before `#base` from the line you **WANT** to apply and ensure all other lines have `//` before them.  
 Some customization options require extra steps to enable, those steps are detailed in their respective file.
@@ -40,9 +40,11 @@ Some customization options require extra steps to enable, those steps are detail
 
 **Inspiration:** BudHUD, RaysHUD, 7HUD, m0reHUD, HypnotizeHUD, and ToonHUD
 
+**Material Design VTFs:** extracrispy and Rawsor
+
 **Crosshairs:** Broesel, Knuckles, Seeker, and m0re
 
-**Material Design VTFs:** extracrispy and Rawsor
+**Menu Background:** [GMK Fuyu Deskmat Render](https://www.reddit.com/r/MechanicalKeyboards/comments/dqfll4/a_fitting_beginning_for_the_season/)
 
 **All Indev, Alpha, and Beta Testers**
 
