@@ -1,12 +1,33 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 //****************************************INSTRUCTIONS**************************************//
 //																							//
-//							TO ENABLE A CROSSHAIR, SET VISIBLE TO '1'						//
-//			THEN YOU MUST ENABLE THE CROSSHAIR GROUP INSIDE CROSSHAIR_SCHEME.RES			//
+//STEP 1: LOCATE THE CROSSHAIR YOU WOULD LIKE, TAKE NOTE OF WHAT GROUP IT IS IN				//
 //																							//
-//  EACH CROSSHAIR CAN BE ANIMATED TO PULSE ON DAMAGE INSIDE THE CROSSHAIR_ANIMATIONS FILE! //
+//STEP 2: CHANGE THE VALUE OF "visible" FROM "0" to "1"										//
+//*NOTE*: CERTAIN CROSSHAIRS REQUIRED A SHADOW, THOSE WILL BE NOTED AND MUST BE ENABLED		//
 //																							//
-//		THE CROSSHAIR COLOR AND PULSE ON DAMAGE COLOR CAN BE SET INSIDE THE COLORS FILE!	//
+//STEP 3: SET SIZE OF CROSSHAIR BY CHANGING VALUE OF "font", TAKE NOTE OF THIS VALUE  		//
+//*NOTE*: CERTAIN FONTS HAVE AN OUTLINE ATTACHED TO THEIR SIZE AND CAN BE SET TO on OR off	//
+//*NOTE*: IF "font" IS NOT DIRECTLY UNDER "visible" THAT MEANS SIZE IS NOT ADJUSTABLE  		//
+//																							//
+//STEP 4: IN Crosshair_Groups.res, ENABLE THE GROUP AND SIZE OF THE CROSSHAIR YOU ENABLED	//
+//																							//
+//TIP: IT MAY HELP WITH CHOOSING TO ENABLE ALL CROSSHAIR GROUPS IN Crosshair_Groups.res		//
+//THIS WILL ALLOW YOU TO SEE A CROSSHAIR IN GAME BY ENABLING IT, SAVING, AND RELOADING HUD	//
+//																							//
+//********************************ADDITIONAL CUSTOMIZATIONS*********************************//
+//																							//
+//EACH CROSSHAIR CAN BE ANIMATED TO PULSE ON DAMAGE INSIDE Crosshair_animations.txt			//
+//YOU CAN CHOOSE CROSSHAIR AND PULSE COLOR IN Colors.res, DON'T ADJUST "fgcolor" VALUE		//
+//																							//
+//**************************************DEVELOPER NOTE**************************************//
+//																							//
+//HUD CROSSHAIRS ARE NOT PERFECT, THEY ARE LIMITED BY WHAT SOURCE ENGINE CAN DO WITH FONTS.	//
+//VTF CROSSHAIRS ARE MILES BETTER, YOU CAN GOOGLE VTF CROSSHAIR PACKS IF YOU WOULD LIKE.	//
+//I INCLUDE HUD CROSSHAIRS AS A (RELATIVELY) CONVENIENT "GOOD ENOUGH" OPTION.				//
+//																							//
+//ADDITIONALLY, CROSSHAIR CUSTOMIZATION IS COMPLICATED AS I WOULD LIKE TO OFFER FLEXIBILITY	//
+//WITHOUT COMPRIMISING PERFORMANCE FOR THE MAJORITY OF USERS WHO DON'T USE HUD CROSSHAIRS.	//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 "Resource/HudLayout.res"
@@ -19,10 +40,10 @@
 	///////////////////////////////////////////////////////////////////////////////
 	
 	
-	"SeekerCrosshair"
+	"SeekerCrosshair"								//SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL SEEKER
 	{
 		"visible"    								"0"
-		"font"      								"seeker11"				//Alternative Sizes: Seeker9-10-11-12-SeekerShadow
+		"font"      								"seeker11"				//ALTERNATIVE SIZES: 9-10-11-12
 		
 		"xpos"      								"c-14"
 		"ypos"      								"c-12"
@@ -39,10 +60,10 @@
 		"zpos"      								"1"
     }
 	
-	"SeekerCrosshairShadow"							//SEEKER BLUR SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL SEEKER
+	"SeekerCrosshairShadow"							//SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL SEEKER
 	{
 		"visible"    								"0"
-		"font"      								"seeker11Blur"
+		"font"      								"seeker11Blur"			//ALTERNATIVE SIZES: 9-10-11-12(SET TO SAME AS NORMAL SEEKER)
 		
 		"xpos"      								"c-14"
 		"ypos"      								"c-12"
@@ -66,7 +87,7 @@
 	//		BE SURE TO ENABLE 'EASY CROSSHAIRS' INSIDE CROSSHAIR_SCHEME.RES		 //
 	///////////////////////////////////////////////////////////////////////////////
 	
-	"CrossHairTLR"
+	"CrossHairTLR"									//SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL CROSSHAIRTLR
     {
 		"visible"               					"0"
 		
@@ -86,7 +107,7 @@
 		"zpos"                  					"1"
 	}	
 	
-	"CrossHairTLRShadow"							//TLR BLUR SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL CROSSHAIRTLR
+	"CrossHairTLRShadow"							//SHADOW NEEDS TO BE USED TOGETHER WITH THE NORMAL CROSSHAIRTLR
     {
 		"visible"               					"0"
 		
@@ -511,7 +532,8 @@
 	///////////////////////////////////////////////////////////////////////////////
 	//****************************KNUCKLES CROSSHAIRS****************************//
 	//																			 //
-	//			 CROSSHAIRS GROUPED BY SIZE, RANGING FROM 10 TO 40				 //
+	//					PREVIEW IMAGES IN Crosshairs_Knuckles.png				 //
+	//				CROSSHAIRS GROUPED BY SIZE, RANGING FROM 10 TO 40			 //
 	// ENABLE THE APPROPRIATELY-SIZED KNUCKLES GROUP INSIDE CROSSHAIR_SCHEME.RES //
 	///////////////////////////////////////////////////////////////////////////////
 	

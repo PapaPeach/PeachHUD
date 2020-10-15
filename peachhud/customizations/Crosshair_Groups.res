@@ -12,22 +12,22 @@
 
 
 
-// Broesel Small Crosshair Sizes: 10 - 19
+// Broesel Crosshair Sizes: 10 - 19
 //#base "../resource/scheme/crosshairs/Crosshairs_Small_Broesel.res"
 
-// Broesel Medium Crosshair Sizes: 20 - 29
+// Broesel Crosshair Sizes: 20 - 29
 //#base "../resource/scheme/crosshairs/Crosshairs_Medium_Broesel.res"
 
-// Broesel Large Crosshair Sizes: 30 - 40
+// Broesel Crosshair Sizes: 30 - 40
 //#base "../resource/scheme/crosshairs/Crosshairs_Large_Broesel.res"
 
 
 
-// Knuckles Small Crosshair Sizes: 10 - 19
+// Knuckles Crosshair Sizes: 10 - 19
 //#base "../resource/scheme/crosshairs/Crosshairs_Small_Knuckles.res"
 
-// Knuckles Medium Crosshair Sizes: 20 - 29
+// Knuckles Crosshair Sizes: 20 - 29
 //#base "../resource/scheme/crosshairs/Crosshairs_Medium_Knuckles.res"
 
-// Knuckles Large Crosshair Sizes: 30 - 40
+// Knuckles Crosshair Sizes: 30 - 40
 //#base "../resource/scheme/crosshairs/Crosshairs_Large_Knuckles.res"
