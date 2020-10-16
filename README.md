@@ -16,21 +16,21 @@ Based on SunsetHUD Dark, by Hypnotize.
 # INSTALLATION
 **1)** Download the HUD by clicking the green "Code" button at the top right of the page.
 
-**2)** Extract/Unzip the downloaded **PeachHUD-Release.zip** file and open the **PeachHUD-Release** folder.
+**2)** Unzip the downloaded **PeachHUD-Release.zip** file and open the identically-named **PeachHUD-Release** folder.
 
 **3)** Move the **peachhud** folder to your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).   
 Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
 
 **4)** For non-16:9 aspect ratios, drag and replace the files inside **customizations/Aspect Ratio Overrides** to **resource/ui**.
 
-**5)** If fonts or crosshairs look wrong, you may need to install the fonts from **resource/scheme/fonts** (not usually needed).
+**5)** If fonts or crosshairs look wrong in game, you may need to install the fonts from **resource/scheme/fonts**.
 
 **Note:** PeachHUD was developed for Windows, but Linux is *mostly* supported and Mac is *theoritcally* supported.
 
 # CUSTIOMIZATION
-PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities. Customization presets are also a planned feature of PeachHUD for later down the road.
+PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities.
 
-All the customizations can be found inside the **customizations** folder and to enable them you will need to do:
+All customization options can be found inside the **customizations** folder and to enable them you will need to:
 
 **1)** Open the customization file you would like to apply (I recommend [Notepad++](https://notepad-plus-plus.org) for this or formatting will be ugly).
 
@@ -50,4 +50,4 @@ Some customization options require extra steps to enable, those steps are detail
 
 **Crosshairs:** Broesel, Knuckles, Seeker, and m0re
 
-**All the wonderful people in the [PeachHUD Discord](https://discord.gg/HyZRVtp), where you can ask me questions and give feedback**
+**All the wonderful people in the [PeachHUD Discord](https://discord.gg/HyZRVtp), where you can also ask me questions and give feedback :)**
