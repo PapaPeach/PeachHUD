@@ -7,7 +7,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 
-#base "../resource/ui/alternatives/ClassModel_Off.res"			// (OFF) NEVER SHOW CLASSMODEL
+#base "../resource/ui/alternatives/ClassModel_Off.res"			// (OFF) NEVER SHOW CLASSMODEL / ONLY SHOW CLASSMODEL WHEN DISGUISED (KINDA BUGGY)
 //#base "../resource/ui/alternatives/ClassModel_On.res"			// (ON) ALWAYS SHOW CLASSMODEL
 
-//TO ALWAYS/NEVER SHOW CLASSMODEL YOU MUST FOLLOW THE INSTRUCTIONS INSIDE ClassModel_Animations.txt
+//TO ALWAYS OR NEVER SHOW CLASSMODEL, REGARDLESS OF DISGUISE, FOLLOW THE INSTRUCTIONS INSIDE ClassModel_Animations.txt
