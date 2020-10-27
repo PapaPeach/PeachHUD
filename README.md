@@ -3,7 +3,7 @@ A Team Fortress 2 HUD made by Peaches and streamlined for competitive, while mai
 Based on SunsetHUD Dark, by Hypnotize.
 
 # LINKS
-[Screenshot Album](https://imgur.com/a/j6d9TjP) (Updated October 3)
+[Screenshot Album](https://imgur.com/a/j6d9TjP) (Updated October 27)
 
 [TeamFortress.tv](https://www.teamfortress.tv/55139/peachhud)
 
