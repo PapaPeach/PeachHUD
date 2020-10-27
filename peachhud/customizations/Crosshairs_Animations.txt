@@ -2,8 +2,9 @@
 //****************************************INSTRUCTIONS**************************************//
 //																							//
 //	UNCOMMENT (REMOVE THE // BEFORE ANIMATE) FROM THE CROSSHAIR LINES YOU WANT TO ANIMATE	//
+//	*NOTE*: BOTH LINES OF A PAIR MUST BE UNCOMMENTED OR YOUR HITMARKER WON'T WORK PROPERLY	//
 //																							//
-// 						***IMPORTANT: ONLY 1 LINE CAN BE UNCOMMENTED***						//
+//		*NOTE*: YOU MUST HAVE A CROSSHAIR ENABLED IN CROSSHAIRS.RES TO ENABLE IT HERE!		//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 event DamagedPlayer
