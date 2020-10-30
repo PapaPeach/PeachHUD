@@ -43,8 +43,8 @@
 	"Release"
 	{
 		"label"			""
-		"command"		"engine play ambient_mp3/bumper_car_quack11.mp3"
-		"tooltip"		"Released October 27, 2020"
+		"command"		"engine play misc/halloween/skeletons/skelly_small_18.wav"
+		"tooltip"		"Released October 30, 2020"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////
