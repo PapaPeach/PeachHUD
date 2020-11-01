@@ -87,7 +87,7 @@
 		"fieldName"					"ChargeMeter"
 		"font"						"Default"
 		"xpos"						"c-105"
-		"xpos_minmode"				"c-427"
+		"xpos_minmode"				"cs-0.5"
 		"ypos"						"r110"
 		"ypos_minmode"				"r4"
 		"zpos"						"2"
