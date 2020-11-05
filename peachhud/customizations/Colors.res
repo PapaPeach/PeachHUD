@@ -44,10 +44,9 @@ Scheme
 		
 		"Heal Numbers"							"40 200 110 255"
 		"Last Damage Done"						"235 235 235 255"
-		"HitMarker"								"245 70 70 255"
-		
-		
-		"Crosshair"								"255 255 255 255"
-		"Crosshair Pulse"						"245 70 70 255"
 	}
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//  CROSSHAIR RELATED COLORS HAVE BEEN MOVED TO THE CROSSHAIR FILES FOR THE SAKE OF SIMPLICITY  //
+//////////////////////////////////////////////////////////////////////////////////////////////////

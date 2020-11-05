@@ -1,5 +1,5 @@
 #base "hudlayout_default.res"
-#base "../customizations/Crosshairs.res"
+#base "../customizations/Crosshair.res"
 #base "../customizations/HitMarkers.res"
 #base "../customizations/TransparentViewmodels.res"
 #base "../resource/tools/GuideLines.res"
