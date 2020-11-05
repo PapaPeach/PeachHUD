@@ -119,6 +119,14 @@
 		"OnlyAtMenu"	"1"
 	}
 	
+	"HUDCredits"
+	{
+		"label"			"<"
+		"command"		"engine echo ;echo ;echo ***************************************;echo * ------------ PeachHUD ------------- *;echo * ------ A HUD made by Peaches ------ *;echo * ------- Twitch.tv/PeachesTV ------- *;echo ***************************************;echo ;echo ***************************************;echo * ------- Based on SunsetHUD -------- *;echo * -------- Made by Hypnotize -------- *;echo * ------ Github.com/Hypnootize ------ *;echo ***************************************;echo ;echo ***************************************;echo * -------- Background Image --------- *;echo * ----- GMK Fuyu Deskmat Render ----- *;echo * --------- Link on Github ---------- *;echo ***************************************;echo ;echo ***************************************;echo * -- Complete credits available at -- *;echo * -- Github.com/PapaPeach/PeachHUD -- *;echo ***************************************;echo ;echo ;"
+		"tooltip"		"HUD Credits"
+		"OnlyAtMenu"	"1"
+	}
+	
 	/////INGAME ONLY/////
 	"Disconnect"
 	{

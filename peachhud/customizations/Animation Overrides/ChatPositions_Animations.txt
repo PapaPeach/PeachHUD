@@ -1,15 +1,15 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
-//***********************THIS IS THE FILE FOR THE LOWER CHAT POSITION***********************//
+//***********************THIS IS THE FILE FOR THE UPPER CHAT POSITION***********************//
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat 							ypos		"r115"		Accel 		0 		0
+	Animate HudChat 							ypos		"22"		Accel 		0 		0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat 							ypos 		"r115"		Accel	 	0 		0
+	Animate HudChat 							ypos 		"22"		Accel	 	0 		0
 }
 
 event HudTournament_MoveChatWindow

@@ -1,8 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
-//**************************************INSTRUCTIONS***************************************//
-//											   											   //
-//COMMENT (ADD // BEFORE EVENTS) TO ALWAYS OR NEVER SHOW CLASSMODEL, REGARDLESS OF DISGUISE//
-//											    										   //
+//****************THIS IS THE FILE TO ONLY SHOW CLASS MODEL WHEN DISGUISED*****************//
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 event HudSpyDisguiseFadeIn
