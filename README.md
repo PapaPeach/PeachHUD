@@ -44,10 +44,10 @@ Some customization options require extra steps to enable, those steps are detail
 
 **Inspiration:** BudHUD, RaysHUD, 7HUD, m0reHUD, HypnotizeHUD, and ToonHUD
 
+**Crosshairs:** Hypnotize's [TF2 HUD Crosshairs](https://github.com/Hypnootize/TF2-Hud-Crosshairs)
+
 **Material Design VTFs:** extracrispy and Rawsor
 
 **Menu Background:** [GMK Fuyu Deskmat Render](https://www.reddit.com/r/MechanicalKeyboards/comments/dqfll4/a_fitting_beginning_for_the_season/)
-
-**Crosshairs:** Hypnotize's [TF2 HUD Crosshairs](https://github.com/Hypnootize/TF2-Hud-Crosshairs)
 
 **All the wonderful people in the [PeachHUD Discord](https://discord.gg/HyZRVtp), where you can also ask me questions and give feedback :)**
