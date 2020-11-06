@@ -2991,38 +2991,6 @@
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
