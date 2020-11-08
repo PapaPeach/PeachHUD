@@ -720,10 +720,10 @@ Scheme
 			"color"					"Black"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		
 		TFThinLineBorder
@@ -755,10 +755,10 @@ Scheme
 			"color"					"RedLight"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -800,10 +800,10 @@ Scheme
 			"color"					"Blue"
 			
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
