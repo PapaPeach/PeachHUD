@@ -44,7 +44,7 @@
 	{
 		"label"			""
 		"command"		"engine play misc/halloween/skeletons/skelly_small_18.wav"
-		"tooltip"		"Released October 30, 2020"
+		"tooltip"		"Released November 7, 2020"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////
