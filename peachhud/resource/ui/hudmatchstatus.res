@@ -1,3 +1,4 @@
+#base "../../customizations/Streaming/hudmatchstatus.res"
 #base "../../customizations/TeamHealth.res"
 
 "Resource/UI/HudMatchStatus.res"
