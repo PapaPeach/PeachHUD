@@ -1,2 +1,0 @@
-I was unable to develop for 5:4 as TF2 doesn't support the resolution and will revert non-native 5:4 screens to 4:3. 
-Because of this, the 5:4 overrides are a combination of 4:3 and 16:10 overrides which should be close enough to provide a pleasant experience. 
