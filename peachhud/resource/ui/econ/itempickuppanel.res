@@ -1,5 +1,3 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/ItemPickupPanel.res"
 {
 	"item_pickup"

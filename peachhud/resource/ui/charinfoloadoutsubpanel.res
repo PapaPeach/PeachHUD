@@ -1,14 +1,5 @@
-#base "../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"xpos"							"r18"
-		"ypos"							"20"
-		"zpos"							"20000"
-	}
-	
 	"CharInfoLoadoutSubPanel"
 	{
 		"ControlName"					"Frame"

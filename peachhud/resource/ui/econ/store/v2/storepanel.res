@@ -1,14 +1,5 @@
-#base "../../../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/StorePanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"xpos"								"c-13"
-		"ypos"								"8"
-		"zpos"								"20000"
-	}
-	
 	"store_panel"
 	{
 		"ControlName"						"EditablePanel"

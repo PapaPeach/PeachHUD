@@ -1,5 +1,3 @@
-#base "../../../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/StorePage.res"
 {
 	"StorePage"

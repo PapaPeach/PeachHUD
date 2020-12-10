@@ -1,5 +1,3 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/econ/QuestEditorPanel.res"
 {
 	"Mountain"										//needed as a cover

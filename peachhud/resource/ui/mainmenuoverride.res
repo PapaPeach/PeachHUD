@@ -1,5 +1,4 @@
-#base "../../resource/tools/ReloadMenuButton.res"
-#base "../../resource/tools/VTF Preload.res"
+#base "VTF Preload.res"
 #base "../../customizations/FriendsList.res"
 #base "../../customizations/CustomMenuButtons.res"
 

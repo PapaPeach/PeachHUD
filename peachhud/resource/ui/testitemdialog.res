@@ -1,5 +1,3 @@
-#base "../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/TestItemDialog.res"
 {
 	"TestItemDialog"
@@ -658,11 +656,5 @@
 		
 		"border_default"			"BlueTransparent70"
 		"border_armed"				"OrangeTransparent70"
-	}
-	
-	"ReloadSchemeButton"
-	{
-		"xpos"			"10"
-		"ypos"			"260"
 	}
 }

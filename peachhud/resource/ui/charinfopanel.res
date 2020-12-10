@@ -1,14 +1,5 @@
-#base "../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/CharInfoPanel.res"
 {
-	"ReloadSchemeButton"
-	{
-		"xpos"								"c-13"
-		"ypos"								"8"
-		"zpos"								"1000"
-	}
-	
 	"character_info"
 	{
 		"ControlName"						"EditablePanel"

@@ -1,5 +1,3 @@
-#base "../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/CraftingPanel.res"
 {
 	"crafting_panel"

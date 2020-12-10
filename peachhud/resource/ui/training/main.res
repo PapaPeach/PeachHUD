@@ -1,5 +1,3 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/training/main.res"
 {
 	"TrainingDialog"

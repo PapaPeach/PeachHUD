@@ -1,5 +1,3 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"backpack_panel"

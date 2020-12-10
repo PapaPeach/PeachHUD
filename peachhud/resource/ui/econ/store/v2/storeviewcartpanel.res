@@ -1,5 +1,3 @@
-#base "../../../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/StoreViewCartPanel.res"
 {
 	"store_viewcart_panel"
