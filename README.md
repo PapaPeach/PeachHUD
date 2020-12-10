@@ -14,12 +14,13 @@ Based on SunsetHUD Dark, by Hypnotize.
 [Changelogs](https://github.com/PapaPeach/PeachHUD/commits/master/peachhud)
 
 # INSTALLATION
+**Note:** As of Update 2.0.0, the installation process has been updated to be simpler and more in line with other HUDs.  
+
 **1)** Download the HUD by clicking the green "Code" button at the top right of the page.
 
-**2)** Unzip the downloaded **PeachHUD-Release.zip** and open the identically-named **PeachHUD-Release** folder.  
-**To clarify:** Open .zip > open folder > you should be looking at a folder named **peachhud** (no capital letters or dashes).
+**2)** Unzip/Extract the downloaded **PeachHUD-Release.zip** inside you'll see the **PeachHUD-Release** folder you'll be working with.  
 
-**3)** Move the **peachhud** folder to your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).   
+**3)** Move the **PeachHUD-Release** folder to your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).   
 Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
 
 **4)** For non-16:9 aspect ratios, drag and replace the files inside **customizations/Aspect Ratio Overrides** to **resource/ui**.
