@@ -1,0 +1,10 @@
+hudanimations_manifest
+{
+	"file" "scripts/hudanimations.txt"
+	"file" "customizations/Crosshair_Animations.txt"
+	"file" "customizations/ClassModel_Animations.txt"
+	"file" "customizations/ChatPositions_Animations.txt"
+	"file" "customizations/UberCounter_Animations.txt"
+	"file" "scripts/hudanimations_peach.txt"
+	"file" "scripts/hudanimations_tf.txt"
+}

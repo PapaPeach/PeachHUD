@@ -1,0 +1,19 @@
+//////////////////////////////////////////////////////////////////////////////////////////////
+//***********************THIS IS THE FILE FOR THE LOWER CHAT POSITION***********************//
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+event CompetitiveGame_LowerChatWindow
+{
+	Animate HudChat 							ypos		"r115"		Accel 		0 		0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat 							ypos 		"r115"		Accel	 	0 		0
+}
+
+event HudTournament_MoveChatWindow
+{
+	RunEvent CompetitiveGame_LowerChatWindow 	0
+	RunEvent CompetitiveGame_RestoreChatWindow 	10
+}
