@@ -18,7 +18,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 
 **1)** Download the HUD by clicking the green "Code" button at the top right of the page.
 
-**2)** Unzip/Extract the downloaded **PeachHUD-Release.zip** inside you'll see the **PeachHUD-Release** folder you'll be working with.  
+**2)** Unzip/Extract the downloaded **PeachHUD-Release.zip**, inside you'll see the **PeachHUD-Release** folder you'll be working with.  
 
 **3)** Move the **PeachHUD-Release** folder to your **custom** folder (...\Steam\steamapps\common\Team Fortress 2\tf\custom).   
 Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam library and select **Manage** > **Browse local files**.
