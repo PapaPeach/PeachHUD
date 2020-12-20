@@ -43,8 +43,8 @@
 	"Release"
 	{
 		"label"			""
-		"command"		"engine play misc/halloween/skeletons/skelly_small_18.wav"
-		"tooltip"		"Released November 7, 2020"
+		"command"		"engine play misc/jingle_bells/jingle_bells_nm_01.wav"
+		"tooltip"		"Released December 20, 2020"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////

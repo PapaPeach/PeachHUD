@@ -6,8 +6,6 @@
 		{
 			"BlueTeamPanel"
 			{
-				"alpha"								"0"
-				
 				"BluePlayerListParent"
 				{
 					BluePlayerList
@@ -19,8 +17,6 @@
 			
 			"RedTeamPanel"
 			{
-				"alpha"								"0"
-				
 				"RedPlayerListParent"
 				{
 					RedPlayerListParent

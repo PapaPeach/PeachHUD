@@ -7,7 +7,7 @@
 		"xpos"							"176"
 		"ypos"							"0"
 		"zpos"							"20000"
-		"wide"							"391"
+		"wide"							"170"
 		"tall"							"28"
 		"visible"						"1"
 
