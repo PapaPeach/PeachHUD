@@ -5,28 +5,28 @@
 	///////////////////////////////////////////////////////////////////
 	"Custom1"
 	{
-		"label"			"1"
+		"label"			"1"					//THIS IS THE TEXT FOR THE BUTTON, THE BUTTONS ARE SMALL SO KEEP THAT IN MIND
 		"command"		"engine command1"	//REPLACE command1 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
 	
 	"Custom2"
 	{
-		"label"			"2"
+		"label"			"2"					//THIS IS THE TEXT FOR THE BUTTON, THE BUTTONS ARE SMALL SO KEEP THAT IN MIND
 		"command"		"engine command2"	//REPLACE command2 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
 	
 	"Custom3"
 	{
-		"label"			"3"
+		"label"			"3"					//THIS IS THE TEXT FOR THE BUTTON, THE BUTTONS ARE SMALL SO KEEP THAT IN MIND
 		"command"		"engine command3"	//REPLACE command3 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
 	
 	"Custom4"
 	{
-		"label"			"4"
+		"label"			"4"					//THIS IS THE TEXT FOR THE BUTTON, THE BUTTONS ARE SMALL SO KEEP THAT IN MIND
 		"command"		"engine command4"	//REPLACE command4 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
