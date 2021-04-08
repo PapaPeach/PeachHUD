@@ -43,8 +43,8 @@
 	"Release"
 	{
 		"label"			""
-		"command"		"engine play misc/jingle_bells/jingle_bells_nm_01.wav"
-		"tooltip"		"Released December 20, 2020"
+		"command"		"engine play items/samurai/tf_samurai_noisemaker_setb_02.wav"
+		"tooltip"		"Released April 7, 2020"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////

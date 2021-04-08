@@ -89,6 +89,27 @@
 		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
 	}
 	
+	"HTMLMessage"
+	{
+		"ControlName"						"HTML"
+		"fieldName"							"HTMLMessage"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"1"
+		"wide"								"400"
+		"tall"								"308"
+		"autoResize"						"1"
+		"pinCorner"							"0"
+		"visible"							"1"
+		"enabled"							"1"
+		"tabPosition"						"0"
+		"paintborder"						"0"
+		
+		"pin_to_sibling" 					"TFTextMessage"
+		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
+	}
+	
 	"ok"
 	{
 		"ControlName"						"CExButton"
@@ -138,12 +159,6 @@
 		"pin_to_sibling" 					"ok"
 	}
 	
-	"HTMLMessage"
-	{
-		"ControlName"						"HTML"
-		"fieldName"							"HTMLMessage"
-		"xpos"								"c9999"
-	}
 	"TitleFrame"
 	{
 		"ControlName"     		  			"EditablePanel"
