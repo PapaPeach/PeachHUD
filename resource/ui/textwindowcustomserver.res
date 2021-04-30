@@ -71,8 +71,8 @@
 		"ControlName"						"CExRichText"
 		"fieldName"							"TFTextMessage"
 		"font"								"Size 12"
-		"xpos"								"c0"
-		"ypos"								"c0"
+		"xpos"								"-10"
+		"ypos"								"-100"
 		"zpos"								"3"
 		"wide"								"160"
 		"tall"								"300"
@@ -85,8 +85,8 @@
 		"fgcolor"							"WhiteTransparent"
 		
 		"pin_to_sibling" 					"TextWindowFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 			"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
 	}
 
 	"HTMLMessage"
