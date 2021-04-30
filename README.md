@@ -11,7 +11,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 
 [Discord](https://discord.gg/HyZRVtp)
 
-[Changelogs](https://github.com/PapaPeach/PeachHUD/commits/master/peachhud)
+[Changelogs](https://github.com/PapaPeach/PeachHUD/commits/master)
 
 # INSTALLATION
 **Note:** As of Update 2.0.0, the installation process has been updated to be simpler and more in line with other HUDs.  
