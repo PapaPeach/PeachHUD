@@ -117,12 +117,10 @@
 		"ControlName"						"CExButton"
 		"fieldName"							"ok"
 		"xpos"								"0"
-		"ypos"								"0"
+		"ypos"								"r35"
 		"zpos"								"6"
-		"wide"								"f-6"
-		"tall"								"40"
-		"autoResize"						"0"
-		"pinCorner"							"2"
+		"wide"								"f0"
+		"tall"								"35"
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
@@ -135,23 +133,19 @@
 		"default"							"1"
 		"font"								"Size 24"
 		
-		"paintbackground"					"0"
+		"paintbackground"					"1"
 		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
-		"border_default"					"BlackTransparent50"
-		"border_armed"						"OrangeTransparent30"
-
+		"defaultBgColor_override"			"0 0 0 127"
+		"armedBgColor_override"				"255 200 55 77"
+		"depressedBgColor_override" 		"255 200 55 77"
+		
 		"defaultFgColor_override"			"White"
 		"armedFgColor_override"				"White"
 		"depressedFgColor_override" 		"White"
-		
-		"pin_to_sibling" 					"MapInfoFrame"
-		"pin_corner_to_sibling" 			"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 			"PIN_CENTER_BOTTOM"
 	}
-	
 	
 	"TitleFrame"
 	{
