@@ -22,7 +22,7 @@
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"0"
 		"ypos"			"50"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"f-6"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -64,16 +64,14 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"415"
-		"tall"			"295"
+		"wide"			"f0"
+		"tall"			"445"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"paintborder"	"0"
-		
-		"pin_to_sibling" "TFTextMessage"
 	}
 	
 	"ok"
