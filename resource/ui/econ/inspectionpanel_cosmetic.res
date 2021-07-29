@@ -50,7 +50,7 @@
 			"ui_fadeout_time"					"3.0"
 			"ui_fadeout_duration"				"2.0"
 			
-			"Sunset"							//needed as a cover
+			"Mountain"
 			{
 				"ControlName"					"ImagePanel"
 				"fieldName"						"Sunset"
@@ -58,10 +58,10 @@
 				"ypos"							"-48"
 				"zpos"							"-1"
 				"wide"							"f0"
-				"tall"							"f0"
+				"tall"							"480"
 				"visible"						"1"
 				"enabled"						"1"
-				"image"							"replay/thumbnails/menu/Sunset_Blur"
+				"image"							"replay/thumbnails/menu/Mountain_Blur"
 				"scaleimage"					"1"
 			}
 
@@ -236,7 +236,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"BlueTransparent70"
+			"border"		"BlackTransparent50"
 		}
 		
 		"ItemNameLabel"
