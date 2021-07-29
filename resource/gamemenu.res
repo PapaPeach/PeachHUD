@@ -122,7 +122,7 @@
 	"HUDCredits"
 	{
 		"label"			"<"
-		"command"		"engine con_enable 1;toggleconsole;echo ;echo ;echo ***************************************;echo * ------------ PeachHUD ------------- *;echo * ------ A HUD made by Peaches ------ *;echo * ------- Twitch.tv/PeachesTV ------- *;echo ***************************************;echo ;echo ***************************************;echo * ------- Based on SunsetHUD -------- *;echo * ---------- By Hypnotize ----------- *;echo * ------ Github.com/Hypnootize ------ *;echo ***************************************;echo ;echo ***************************************;echo * --------- HUD Crosshairs ---------- *;echo * ---------- By Hypnotize ----------- *;echo * ------ Github.com/Hypnootize ------ *;echo ***************************************;echo ;echo ***************************************;echo * ------ Material Design VTFs ------- *;echo * ---- By extracrispy and Rawsor ---- *;echo * -- Probably somewhere on the web -- *;echo ***************************************;echo ;echo ***************************************;echo * --------- Menu Background --------- *;echo * ----- GMK Fuyu Deskmat Render ----- *;echo * --------- Link on Github ---------- *;echo ***************************************;echo ;echo ***************************************;echo * -- Complete credits available at -- *;echo * -- Github.com/PapaPeach/PeachHUD -- *;echo ***************************************;echo ;echo ;"
+		"command"		"engine con_enable 1;showconsole;echo ;echo ;echo ***************************************;echo * ------------ PeachHUD ------------- *;echo * ------ A HUD made by Peaches ------ *;echo * ------- Twitch.tv/PeachesTV ------- *;echo ***************************************;echo ;echo ***************************************;echo * ------- Based on SunsetHUD -------- *;echo * ---------- By Hypnotize ----------- *;echo * ------ Github.com/Hypnootize ------ *;echo ***************************************;echo ;echo ***************************************;echo * --------- HUD Crosshairs ---------- *;echo * ---------- By Hypnotize ----------- *;echo * ------ Github.com/Hypnootize ------ *;echo ***************************************;echo ;echo ***************************************;echo * ------ Material Design VTFs ------- *;echo * ---- By extracrispy and Rawsor ---- *;echo * -- Probably somewhere on the web -- *;echo ***************************************;echo ;echo ***************************************;echo * --------- Menu Background --------- *;echo * ----- GMK Fuyu Deskmat Render ----- *;echo * --------- Link on Github ---------- *;echo ***************************************;echo ;echo ***************************************;echo * -- Complete credits available at -- *;echo * -- Github.com/PapaPeach/PeachHUD -- *;echo ***************************************;echo ;echo ;"
 		"tooltip"		"HUD Credits"
 		"OnlyAtMenu"	"1"
 	}
@@ -202,6 +202,44 @@
 		"OnlyInGame"	"1"
 	}
 	
+	"ChatPanel"
+	{
+		"command"		"engine"
+		"OnlyInGame"	"1"
+	}
+	"ChatText"
+	{
+		"label"			"a"
+		"command"		"engine toggle cl_enable_text_chat 1 0; showconsole"
+		"tooltip"		"Toggle Text Chat"
+		"OnlyInGame"	"1"
+	}
+	"ChatVoice"
+	{
+		"label"			"l"
+		"command"		"engine toggle voice_modenable 1 0; showconsole"
+		"tooltip"		"Toggle Voice Chat"
+		"OnlyInGame"	"1"
+	}
+	
+	"NotificationsPanel"
+	{
+		"command"		"engine"
+		"OnlyInGame"	"1"
+	}
+	"NotificationsON"
+	{
+		"label"			"J"
+		"command"		"engine cl_notifications_show_ingame 1; cl_notifications_show_ingame; showconsole"
+		"OnlyInGame"	"1"
+	}
+	"NotificationsOFF"
+	{
+		"label"			"W"
+		"command"		"engine cl_notifications_show_ingame 0; cl_notifications_show_ingame; showconsole"
+		"OnlyInGame"	"1"
+	}
+	
 	"MinmodePanel"
 	{
 		"command"		"engine"
@@ -210,13 +248,13 @@
 	"MinmodeON"
 	{
 		"label"			"J"
-		"command"		"engine cl_hud_minmode 1"
+		"command"		"engine cl_hud_minmode 1; cl_hud_minmode; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"MinmodeOFF"
 	{
 		"label"			"W"
-		"command"		"engine cl_hud_minmode 0"
+		"command"		"engine cl_hud_minmode 0; cl_hud_minmode; showconsole"
 		"OnlyInGame"	"1"
 	}
 	
@@ -228,31 +266,13 @@
 	"MatchHudON"
 	{
 		"label"			"J"
-		"command"		"engine tf_use_match_hud  1"
+		"command"		"engine tf_use_match_hud  ; tf_use_match_hud; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"MatchHudOFF"
 	{
 		"label"			"W"
-		"command"		"engine tf_use_match_hud  0"
-		"OnlyInGame"	"1"
-	}
-	
-	"ChatPanel"
-	{
-		"command"		"engine"
-		"OnlyInGame"	"1"
-	}
-	"ChatON"
-	{
-		"label"			"J"
-		"command"		"engine hud_saytext_time 6"
-		"OnlyInGame"	"1"
-	}
-	"ChatOFF"
-	{
-		"label"			"W"
-		"command"		"engine hud_saytext_time 0"
+		"command"		"engine tf_use_match_hud  0; tf_use_match_hud; showconsole"
 		"OnlyInGame"	"1"
 	}
 	
@@ -264,13 +284,13 @@
 	"CaptionsON"
 	{
 		"label"			"J"
-		"command"		"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
+		"command"		"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0; closecaption; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"CaptionsOFF"
 	{
 		"label"			"W"
-		"command"		"engine closecaption 0; cc_predisplay_time 0"
+		"command"		"engine closecaption 0; cc_predisplay_time 0; closecaption; showconsole"
 		"OnlyInGame"	"1"
 	}
 	
@@ -282,37 +302,33 @@
 	"NetGraphON"
 	{
 		"label"			"J"
-		"command"		"engine net_graph 1"
+		"command"		"engine net_graph 1; net_graph; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"NetGraphOFF"
 	{
 		"label"			"W"
-		"command"		"engine net_graph 0"
+		"command"		"engine net_graph 0; net_graph; showconsole"
 		"OnlyInGame"	"1"
 	}
 	
-	"InvisiblePlayersPanel"
+	"MiscFixesPanel"
 	{
 		"command"		"engine"
 		"OnlyInGame"	"1"
 	}
 	"InvisiblePlayersFix"
 	{
-		"label"			"Fix"
+		"label"			"Q"
 		"command"		"engine stop; record fix"
-		"OnlyInGame"	"1"
-	}
-	
-	"BrokenSoundPanel"
-	{
-		"command"		"engine"
+		"tooltip"		"Invisible Players"
 		"OnlyInGame"	"1"
 	}
 	"BrokenSoundFix"
 	{
-		"label"			"Fix"
+		"label"			"£"
 		"command"		"engine snd_restart"
+		"tooltip"		"Broken Sound"
 		"OnlyInGame"	"1"
 	}
 	
