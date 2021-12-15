@@ -29,7 +29,7 @@ Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam libr
 
 **Note:** PeachHUD was developed for Windows, but Linux is *mostly* supported and Mac is *theoritcally* supported.
 
-# CUSTIOMIZATION
+# CUSTOMIZATION
 PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities.
 
 All customization options can be found inside the **customizations** folder and to enable them you will need to:
