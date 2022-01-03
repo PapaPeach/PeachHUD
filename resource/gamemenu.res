@@ -44,7 +44,7 @@
 	{
 		"label"			""
 		"command"		"engine play items/samurai/tf_samurai_noisemaker_setb_02.wav"
-		"tooltip"		"Released July 13, 2020"
+		"tooltip"		"Released January 3, 2022"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////
@@ -168,37 +168,37 @@
 	"White"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 235; hud_combattext_green 235; hud_combattext_blue 235"
+		"command"		"engine hud_combattext 1; hud_combattext_red 235; hud_combattext_green 235; hud_combattext_blue 235; echo - Damage color set to White.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"Yellow"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 235; hud_combattext_blue 0"
+		"command"		"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 235; hud_combattext_blue 0; echo - Damage color set to Yellow.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"Orange"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 200; hud_combattext_blue 55"
+		"command"		"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 200; hud_combattext_blue 55; echo - Damage color set to Orange.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"Red"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 245; hud_combattext_green 70; hud_combattext_blue 70"
+		"command"		"engine hud_combattext 1; hud_combattext_red 245; hud_combattext_green 70; hud_combattext_blue 70; echo - Damage color set to Red.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"Blue"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 200; hud_combattext_blue 220"
+		"command"		"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 200; hud_combattext_blue 220; echo - Damage color set to Blue.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"Green"
 	{
 		"label"			"0"
-		"command"		"engine hud_combattext 1; hud_combattext_red 40; hud_combattext_green 200; hud_combattext_blue 110"
+		"command"		"engine hud_combattext 1; hud_combattext_red 40; hud_combattext_green 200; hud_combattext_blue 110; echo - Damage color set to Green.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	
@@ -266,13 +266,13 @@
 	"MatchHudON"
 	{
 		"label"			"J"
-		"command"		"engine tf_use_match_hud  ; tf_use_match_hud; showconsole"
+		"command"		"engine tf_use_match_hud 1; tf_use_match_hud; echo - Enable the player list at the top of the screen.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	"MatchHudOFF"
 	{
 		"label"			"W"
-		"command"		"engine tf_use_match_hud  0; tf_use_match_hud; showconsole"
+		"command"		"engine tf_use_match_hud  0; tf_use_match_hud; echo - Enable the player list at the top of the screen.; showconsole"
 		"OnlyInGame"	"1"
 	}
 	
