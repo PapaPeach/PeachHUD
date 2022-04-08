@@ -256,8 +256,8 @@
 		"fieldname"					"InfoSeparatorLine"
 		"xpos"						"55"		//xpos
 		"ypos"						"148"		//148
-		"zpos"						"20"
-		"wide"						"277"		//xpos+wide=232
+		"zpos"						"2"
+		"wide"						"277"		//xpos+wide=332
 		"tall"						"1"
 		"visible"					"1"
 		"bgcolor_override" 			"WhiteTransparent"

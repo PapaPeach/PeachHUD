@@ -313,15 +313,11 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"StatsContainer"
-			"xpos"					"2"
-			"ypos"					"1"
-			"wide"					"322"
-			"tall"					"20"
+			"xpos"					"45"					//xpos+ProgressBarsContainer wide=322
+			"ypos"					"rs1"
+			"wide"					"300"
+			"tall"					"40"
 			"proportionaltoparent"	"1"
-			
-			"pin_to_sibling" 		"DescLine2"
-			"pin_corner_to_sibling" "PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" "PIN_CENTER_RIGHT"
 
 			if_mini
 			{
@@ -368,8 +364,8 @@
 					"proportionaltoparent"	"1"
 					
 					"pin_to_sibling" 			"NextLevelXPLabel"
-					"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-					"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
+					"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
+					"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 					
 					if_mini
 					{
@@ -382,7 +378,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
 					"xpos"			"0"
-					"ypos"			"rs1"
+					"ypos"			"0"
 					"zpos"			"1"
 					"wide"			"0"
 					"auto_wide_tocontents" "1"
@@ -395,10 +391,28 @@
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
 					
+					"pin_to_sibling" 			"XPPin"
+					"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
+					"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
+					
 					if_mini
 					{
 						"tall"			"20"
 					}
+				}
+				
+				"XPPin"
+				{
+					"ControlName"				"Label"
+					"fieldName"					"XPPin"
+					"xpos"						"r23"
+					"ypos"						"r9"
+					"zpos"						"0"
+					"wide"						"0"
+					"tall"						"7"
+					"proportionaltoparent"		"1"
+					"visible"					"0"
+					"enabled"					"1"
 				}
 
 				"ProgressBarsContainer"
@@ -406,9 +420,9 @@
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
-					"ypos"			"0"
-					"wide"			"p1"
-					"tall"			"0"
+					"ypos"			"r2"
+					"wide"			"277"					//xpos+ProgressBarsContainer wide=322
+					"tall"			"1"
 					"proportionaltoparent"	"1"
 					
 					if_mini
@@ -421,15 +435,12 @@
 						"ControlName"	"ProgressBar"
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
-						"ypos"			"cs-0.5"
+						"ypos"			"0"
 						"wide"			"0"
-						"tall"			"f-2"
-						"zpos"			"1"
-						"proportionaltoparent"	"1"
-						"progress"		"1"
+						"tall"			"0"
+						"zpos"			"0"
 
-						"fgcolor_override"	"20 20 20 180"
-						"bgcolor_override"	"0 0 0 0"
+						"fgcolor_override"	"Blank"
 						
 						if_mini
 						{
@@ -441,14 +452,15 @@
 					{
 						"ControlName"	"ContinuousProgressBar"
 						"fieldName"		"ContinuousProgressBar"
-						"xpos"			"cs-0.5"
-						"ypos"			"cs-0.5"
-						"wide"			"f2"
-						"tall"			"f2"
+						"xpos"			"0"
+						"ypos"			"0"
+						"wide"			"f0"
+						"tall"			"f0"
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
 						"fgcolor_override"	"BlueLight"
+						"bgcolor_override"	"Blank"
 					}
 
 					"Frame"
@@ -461,7 +473,7 @@
 						"tall"			"f0"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		"InnerShadowBorderThin"
+						"border"		"Blank"
 						
 						if_mini
 						{
