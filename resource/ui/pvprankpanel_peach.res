@@ -313,7 +313,7 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"StatsContainer"
-			"xpos"					"45"					//xpos+ProgressBarsContainer wide=322
+			"xpos"					"45"					//StatsContainer xpos + ProgressBarsContainer wide=322
 			"ypos"					"rs1"
 			"wide"					"300"
 			"tall"					"40"
@@ -421,13 +421,15 @@
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
 					"ypos"			"r2"
-					"wide"			"277"					//xpos+ProgressBarsContainer wide=322
+					"wide"			"277"					//StatsContainer xpos + ProgressBarsContainer wide=322
 					"tall"			"1"
 					"proportionaltoparent"	"1"
 					
 					if_mini
 					{
 						"ypos"		"rs1-10"
+						"wide"		"f0"
+						"tall"		"7"
 					}
 
 					"ProgressBar"
@@ -461,6 +463,11 @@
 
 						"fgcolor_override"	"BlueLight"
 						"bgcolor_override"	"Blank"
+						
+						if_mini
+						{
+							"bgcolor_override"	"GrayDark"
+						}
 					}
 
 					"Frame"
