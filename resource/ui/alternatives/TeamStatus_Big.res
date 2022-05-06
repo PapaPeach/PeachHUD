@@ -50,7 +50,7 @@
 				"fieldName"						"playername"
 				"xpos"							"0"
 				"ypos"							"21"
-				"zpos"							"5"
+				"zpos"							"0"
 				"wide"							"f0"
 				"tall"							"7"
 				"autoResize"					"0"
