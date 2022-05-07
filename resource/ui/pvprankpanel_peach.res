@@ -313,7 +313,7 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"StatsContainer"
-			"xpos"					"45"					//StatsContainer xpos + ProgressBarsContainer wide=322
+			"xpos"					"47"					//StatsContainer xpos + ProgressBarsContainer wide=322
 			"ypos"					"rs1"
 			"wide"					"300"
 			"tall"					"40"
@@ -344,84 +344,14 @@
 					"wide"		"p1"
 					"tall"		"30"
 				}
-
-				"CurrentXPLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"CurrentXPLabel"
-					"xpos"			"0"
-					"ypos"			"-1"
-					"zpos"			"1"
-					"wide"			"0"
-					"auto_wide_tocontents" "1"
-					"tall"			"7"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"Size 9"
-					"fgcolor_override"	"WhiteTransparent"
-					"textAlignment"	"east"
-					"labelText"		"%current_xp%"
-					"proportionaltoparent"	"1"
-					
-					"pin_to_sibling" 			"NextLevelXPLabel"
-					"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
-					"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
-					
-					if_mini
-					{
-						"tall"			"20"
-					}
-				}
-
-				"NextLevelXPLabel"
-				{
-					"ControlName"	"Label"
-					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"0"
-					"auto_wide_tocontents" "1"
-					"tall"			"7"
-					"visible"		"1"
-					"enabled"		"1"
-					"font"			"Size 9"
-					"fgcolor_override"	"WhiteTransparent"
-					"textAlignment"	"east"
-					"labelText"		"%next_level_xp%"
-					"proportionaltoparent"	"1"
-					
-					"pin_to_sibling" 			"XPPin"
-					"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
-					"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
-					
-					if_mini
-					{
-						"tall"			"20"
-					}
-				}
 				
-				"XPPin"
-				{
-					"ControlName"				"Label"
-					"fieldName"					"XPPin"
-					"xpos"						"r23"
-					"ypos"						"r9"
-					"zpos"						"0"
-					"wide"						"0"
-					"tall"						"7"
-					"proportionaltoparent"		"1"
-					"visible"					"0"
-					"enabled"					"1"
-				}
-
 				"ProgressBarsContainer"
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
 					"ypos"			"r2"
-					"wide"			"277"					//StatsContainer xpos + ProgressBarsContainer wide=322
+					"wide"			"275"					//StatsContainer xpos + ProgressBarsContainer wide=322
 					"tall"			"1"
 					"proportionaltoparent"	"1"
 					
@@ -487,6 +417,76 @@
 							"wide"	"f0"
 						}
 					}
+				}
+
+				"CurrentXPLabel"
+				{
+					"ControlName"	"Label"
+					"fieldName"		"CurrentXPLabel"
+					"xpos"			"0"
+					"ypos"			"-1"
+					"zpos"			"1"
+					"wide"			"0"
+					"auto_wide_tocontents" "1"
+					"tall"			"7"
+					"visible"		"1"
+					"enabled"		"1"
+					"font"			"Size 9"
+					"fgcolor_override"	"WhiteTransparent"
+					"textAlignment"	"east"
+					"labelText"		"%current_xp%"
+					"proportionaltoparent"	"1"
+					
+					"pin_to_sibling" 			"NextLevelXPLabel"
+					"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
+					"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
+					
+					if_mini
+					{
+						"tall"			"20"
+					}
+				}
+
+				"NextLevelXPLabel"
+				{
+					"ControlName"	"Label"
+					"fieldName"		"NextLevelXPLabel"
+					"xpos"			"0"
+					"ypos"			"0"
+					"zpos"			"1"
+					"wide"			"0"
+					"auto_wide_tocontents" "1"
+					"tall"			"7"
+					"visible"		"1"
+					"enabled"		"1"
+					"font"			"Size 9"
+					"fgcolor_override"	"WhiteTransparent"
+					"textAlignment"	"east"
+					"labelText"		"%next_level_xp%"
+					"proportionaltoparent"	"1"
+					
+					"pin_to_sibling" 			"XPPin"
+					"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
+					"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
+					
+					if_mini
+					{
+						"tall"			"20"
+					}
+				}
+				
+				"XPPin"
+				{
+					"ControlName"				"Label"
+					"fieldName"					"XPPin"
+					"xpos"						"r24"
+					"ypos"						"r9"
+					"zpos"						"0"
+					"wide"						"0"
+					"tall"						"7"
+					"proportionaltoparent"		"1"
+					"visible"					"0"
+					"enabled"					"1"
 				}
 			}
 
