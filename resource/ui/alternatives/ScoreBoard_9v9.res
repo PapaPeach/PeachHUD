@@ -318,8 +318,8 @@
 	{
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"BluePlayerList"
-		"xpos"						"-4"
-		"ypos"						"-2"
+		"xpos"						"c-251"
+		"ypos"						"132"
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"135"
@@ -333,10 +333,6 @@
 		"fgcolor"					"blue"
 		"show_columns"				"0"
 		
-		"pin_to_sibling" 			"MainBG"
-		"pin_corner_to_sibling" 	"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 	"PIN_TOPLEFT"
-		
 		if_mvm
 		{
 			"visible"				"0"
@@ -347,8 +343,8 @@
 	{
 		"ControlName"				"SectionedListPanel"
 		"fieldName"					"RedPlayerList"
-		"xpos"						"-4"
-		"ypos"						"-2"
+		"xpos"						"c1"
+		"ypos"						"132"
 		"zpos"						"20"
 		"wide"						"250"
 		"tall"						"135"
@@ -361,10 +357,6 @@
 		"linegap"					"0"
 		"fgcolor"					"red"
 		"show_columns"				"0"
-		
-		"pin_to_sibling" 			"MainBG"
-		"pin_corner_to_sibling" 	"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 	"PIN_TOPRIGHT"
 
  		if_mvm
  		{
