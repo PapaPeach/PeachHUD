@@ -4,13 +4,26 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HudPlayerClass"
-		"xpos"					"0"
+		"xpos"					"-200"
 		"ypos"					"0"
 		"zpos"					"1"
-		"wide"					"f0"
+		"wide"					"0"
 		"tall"					"480"
 		"visible"				"1"
 		"enabled"				"1"		
+	}
+	
+	"ModelPin"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"ModelPin"
+		"xpos"					"200"
+		"ypos"					"r120"
+		"zpos"					"2"
+		"wide"					"1"
+		"tall"					"1"
+		"visible"				"1"
+		"enabled"				"1"
 	}
 	
 	"PlayerStatusClassImage"
@@ -34,14 +47,16 @@
 		"ControlName"			"CTFPlayerModelPanel"
 		"fieldName"				"ClassModelPanel"
 		"xpos"					"0"
-		"ypos"					"r120"
+		"ypos"					"0"
 		"zpos"					"2"		
-		"wide"					"0"
+		"wide"					"88"
 		"tall"					"140"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
+		
+		"pin_to_sibling"		"ModelPin"
 		
 		"render_texture"		"0"
 		"fov"					"27"
@@ -162,9 +177,6 @@
 			}
 		}
 	}
-	
-	
-	
 	
 	"ClassModelPanelBG"
 	{
