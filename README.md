@@ -27,10 +27,10 @@ Can't find your **Steam** folder? Right-click Team Fortress 2 in your Steam libr
 
 **5)** If fonts or crosshairs look wrong in game, you may need to install the fonts from **resource/scheme/fonts**.
 
-**Note:** PeachHUD was developed for Windows, but Linux is *mostly* supported and Mac is *theoritcally* supported.
+**Note:** PeachHUD was developed for Windows, but Linux is *mostly* supported and Mac is *theoritcally* supported. For both OSs you will need to rename the hud file to lower case to be loaded by the game. Example from **PeachHUD-Release** to **peachhud-release**.
 
-# CUSTIOMIZATION
-PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I recieve suggestions or think of more possibilities.
+# CUSTOMIZATION
+PeachHUD enables easy customization of certain aspects of the HUD through the **customizations** folder. These customization options are planned to be expanded upon as I receive suggestions or think of more possibilities.
 
 All customization options can be found inside the **customizations** folder and to enable them you will need to:
 
