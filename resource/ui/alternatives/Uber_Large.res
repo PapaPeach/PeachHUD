@@ -49,7 +49,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"IndividualChargesLabel"
-		"xpos"						"0"
+		"xpos"						"-8"
 		"ypos"						"0"
 		"zpos"						"2"
 		"wide"						"100"
@@ -203,7 +203,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"ResistIconAnchor"
-		"xpos"						"-22"
+		"xpos"						"-40"
 		"ypos"						"-14"
 		"wide"						"1"
 		"tall"						"50"
@@ -211,7 +211,7 @@
 		"enabled"					"1"
 		
 		"pin_to_sibling"			"IndividualChargesLabel"
-		"pin_corner_to_sibling"		"PIN_TOPLEFT"
+		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 	}
 	

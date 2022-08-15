@@ -313,7 +313,7 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"StatsContainer"
-			"xpos"					"47"					//StatsContainer xpos + ProgressBarsContainer wide=322
+			"xpos"					"45"					//StatsContainer xpos + ProgressBarsContainer wide=322
 			"ypos"					"rs1"
 			"wide"					"300"
 			"tall"					"40"
@@ -351,7 +351,7 @@
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
 					"ypos"			"r2"
-					"wide"			"275"					//StatsContainer xpos + ProgressBarsContainer wide=322
+					"wide"			"277"					//StatsContainer xpos + ProgressBarsContainer wide=322
 					"tall"			"1"
 					"proportionaltoparent"	"1"
 					
@@ -424,7 +424,7 @@
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"0"
-					"ypos"			"-1"
+					"ypos"			"0"
 					"zpos"			"1"
 					"wide"			"0"
 					"auto_wide_tocontents" "1"
