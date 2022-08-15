@@ -15,4 +15,17 @@ event DamagedPlayer
 {
 	//Animate "CustomCrosshair"		FgColor     "255 0 0 255"			Linear 	0.0 	0.00001 	// Crosshair color on hit
 	//Animate "CustomCrosshair"		FgColor     "255 255 255 255"		Linear 	0.10 	0.10001 	// Should match your crosshair color in crosshair.res
+
+
+
+
+
+
+
+
+
+
+	//Do not edit these lines please :)
+	StopEvent HudSpyDisguiseFadeOut 0.0
+	RunEvent HudSpyDisguiseFadeOut 0.001
 }
