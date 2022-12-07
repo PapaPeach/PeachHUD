@@ -247,17 +247,17 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Version 3.3.1"
+		"labelText"					"Version 3.3.2"
 	}
 	
 	"InfoSeparatorLine"
 	{
 		"ControlName"				"EditablePanel"
 		"fieldname"					"InfoSeparatorLine"
-		"xpos"						"55"		//xpos
+		"xpos"						"56"		//xpos
 		"ypos"						"148"		//148
 		"zpos"						"2"
-		"wide"						"277"		//xpos+wide=332
+		"wide"						"276"		//xpos+wide=332
 		"tall"						"1"
 		"visible"					"1"
 		"bgcolor_override" 			"WhiteTransparent"
@@ -270,7 +270,7 @@
 		"xpos"							"12"
 		"ypos"							"145"
 		"zpos"							"100"
-		"wide"							"42"	//Button Width
+		"wide"							"43"	//Button Width
 		"tall"							"6"
 		"visible"						"1"
 
