@@ -7,7 +7,7 @@ Based on SunsetHUD Dark, by Hypnotize.
 
 [TeamFortress.tv](https://www.teamfortress.tv/55139/peachhud)
 
-[HUDs.tf](https://huds.tf/forum/showthread.php?tid=2352)
+[Comfig HUDs](https://comfig.app/huds/page/peachhud/)
 
 [Discord](https://discord.gg/HyZRVtp)
 
