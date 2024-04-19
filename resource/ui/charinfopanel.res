@@ -13,7 +13,7 @@
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
-		"settitlebarvisible"				"0"
+		"settitlebarvisible"				"1"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"Blank"
 		"infocus_bgcolor_override"			"Blank"
@@ -98,7 +98,7 @@
 		"tabwidth"							"240"
 		"tabheight"							"18"
 		"transition_time" 					"0"
-		"yoffset"							"30"
+		"yoffset"							"14"
 		
 		"HeaderLine"
 		{
