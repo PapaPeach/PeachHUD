@@ -313,7 +313,7 @@
 		{
 			"ControlName"			"EditablePanel"
 			"fieldName"				"StatsContainer"
-			"xpos"					"45"					//StatsContainer xpos + ProgressBarsContainer wide=322
+			"xpos"					"46"					//StatsContainer xpos + ProgressBarsContainer wide=322
 			"ypos"					"rs1"
 			"wide"					"300"
 			"tall"					"40"
@@ -351,7 +351,7 @@
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
 					"ypos"			"r2"
-					"wide"			"277"					//StatsContainer xpos + ProgressBarsContainer wide=322
+					"wide"			"276"					//StatsContainer xpos + ProgressBarsContainer wide=322
 					"tall"			"1"
 					"proportionaltoparent"	"1"
 					
