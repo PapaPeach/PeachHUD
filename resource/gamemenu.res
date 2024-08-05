@@ -44,7 +44,7 @@
 	{
 		"label"			""
 		"command"		"engine play items/samurai/tf_samurai_noisemaker_setb_02.wav"
-		"tooltip"		"Released April 30, 2024"
+		"tooltip"		"Released August 4, 2024"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////

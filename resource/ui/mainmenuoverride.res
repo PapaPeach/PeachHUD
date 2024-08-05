@@ -100,13 +100,6 @@
 		}
 	}
 	
-	//"DashboardDimmer"				//Removes the dimmer thing but you can't click out of it :/
-	//{
-	//	"ControlName"				"EditablePanel"
-	//	"fieldName"					"DashboardDimmer"
-	//	"zpos"						"-1"
-	//}
-	
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -247,7 +240,7 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Version 3.3.4"
+		"labelText"					"Version 3.3.5"
 	}
 	
 	"InfoSeparatorLine"
