@@ -7,7 +7,7 @@
 		"fieldName"						"MVMCriteria"
 		"xpos"							"r0"
 		"ypos"							"10"
-		"zpos"							"1002"
+		"zpos"							"1003"
 		"wide"							"420"
 		"tall"							"f70"
 		"visible"						"1"
@@ -53,7 +53,6 @@
 		"AllCaps"						"1"
 		"mouseinputenabled"				"1"
 		"keyboardinputenabled"			"0"
-		//"actionsignallevel"			"1"
 
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
@@ -204,7 +203,6 @@
 		"AllCaps"						"1"
 		"mouseinputenabled"				"1"
 		"keyboardinputenabled"			"0"
-		//"actionsignallevel"			"1"
 
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
