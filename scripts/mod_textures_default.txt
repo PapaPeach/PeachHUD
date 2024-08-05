@@ -1,4 +1,3 @@
-#base	"mod_textures_default.txt"
 "sprites/640_hud"
 {
 
@@ -286,8 +285,8 @@
 
 		"skull_tf"
 		{
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"116"
 				"y"		"288"
 				"width"		"52"
@@ -295,8 +294,8 @@
 		}
 		"obj_sentrygun"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"160"
 				"width"		"64"
@@ -304,8 +303,8 @@
 		}
 		"obj_sentrygun2"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"256"
 				"y"		"0"
 				"width"		"96"
@@ -313,8 +312,8 @@
 		}
 		"obj_sentrygun3"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"256"
 				"y"		"32"
 				"width"		"96"
@@ -322,8 +321,8 @@
 		}
 		"bat"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"0"
 				"width"		"96"
@@ -331,8 +330,8 @@
 		}
 		"pistol"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"32"
 				"width"		"96"
@@ -340,8 +339,8 @@
 		}
 		"pistol_scout"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"32"
 				"width"		"96"
@@ -349,8 +348,8 @@
 		}
 		"nailgun"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"64"
 				"width"		"64"
@@ -358,8 +357,8 @@
 		}
 		"sniperrifle"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"16"
 				"y"		"96"
 				"width"		"32"
@@ -367,8 +366,8 @@
 		}
 		"smg"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"128"
 				"width"		"96"
@@ -376,8 +375,8 @@
 		}
 		"club"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"160"
 				"width"		"96"
@@ -385,8 +384,8 @@
 		}
 		"shovel"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"192"
 				"width"		"96"
@@ -394,8 +393,8 @@
 		}
 		"tf_projectile_rocket"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"224"
 				"width"		"96"
@@ -403,8 +402,8 @@
 		}
 		"shotgun_primary"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
@@ -412,8 +411,8 @@
 		}
 		"shotgun_soldier"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
@@ -421,8 +420,8 @@
 		}
 		"shotgun_hwg"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
@@ -430,8 +429,8 @@
 		}
 		"shotgun_pyro"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
@@ -439,8 +438,8 @@
 		}
 		"tf_projectile_pipe"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"288"
 				"width"		"96"
@@ -448,8 +447,8 @@
 		}
 		"bottle"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"320"
 				"width"		"96"
@@ -457,8 +456,8 @@
 		}
 		"syringegun_medic"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"352"
 				"width"		"96"
@@ -466,8 +465,8 @@
 		}
 		"minigun"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"384"
 				"width"		"96"
@@ -475,8 +474,8 @@
 		}
 		"pipe"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"448"
 				"width"		"96"
@@ -484,8 +483,8 @@
 		}
 		"flamethrower"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"416"
 				"width"		"96"
@@ -493,8 +492,8 @@
 		}
 		"fists"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"191"
 				"y"		"446"
 				"width"		"64"
@@ -502,8 +501,8 @@
 		}
 		"fireaxe"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"480"
 				"width"		"96"
@@ -511,8 +510,8 @@
 		}
 		"bonesaw"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"128"
 				"width"		"96"
@@ -520,8 +519,8 @@
 		}
 		"knife"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"0"
 				"width"		"96"
@@ -529,8 +528,8 @@
 		}
 		"revolver"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"32"
 				"width"		"96"
@@ -538,8 +537,8 @@
 		}
 		"flaregun"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"64"
 				"width"		"96"
@@ -547,8 +546,8 @@
 		}
 		"wrench"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"96"
 				"width"		"96"
@@ -556,8 +555,8 @@
 		}
 		"scattergun"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"192"
 				"width"		"96"
@@ -565,8 +564,8 @@
 		}
 		"tf_projectile_pipe_remote"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"224"
 				"width"		"96"
@@ -574,8 +573,8 @@
 		}
 		"vehicle"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"256"
 				"width"		"96"
@@ -583,8 +582,8 @@
 		}
 		"skull"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"288"
 				"width"		"96"
@@ -592,8 +591,8 @@
 		}
 		"headshot"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"120"
 				"y"		"352"
 				"width"		"42"
@@ -601,8 +600,8 @@
 		}
 		"backstab"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"116"
 				"y"		"384"
 				"width"		"48"
@@ -610,8 +609,8 @@
 		}
 		"ubersaw"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"416"
 				"width"		"96"
@@ -619,8 +618,8 @@
 		}
 		"axtinguisher"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"448"
 				"width"		"96"
@@ -628,8 +627,8 @@
 		}
 		"taunt_pyro"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"96"
 				"y"		"480"
 				"width"		"96"
@@ -637,8 +636,8 @@
 		}
 		"bluedefend"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"0"
 				"width"		"32"
@@ -646,8 +645,8 @@
 		}
 		"bluecapture"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"32"
 				"width"		"32"
@@ -655,8 +654,8 @@
 		}
 		"reddefend"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"226"
 				"y"		"0"
 				"width"		"32"
@@ -664,8 +663,8 @@
 		}
 		"redcapture"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"226"
 				"y"		"32"
 				"width"		"32"
@@ -673,8 +672,8 @@
 		}
 		"obj_attachment_sapper"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"64"
 				"width"		"96"
@@ -682,8 +681,8 @@
 		}
 		"deflect_promode"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"64"
 				"width"		"64"
@@ -691,8 +690,8 @@
 		}
 		"deflect_sticky"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"96"
 				"width"		"64"
@@ -700,8 +699,8 @@
 		}
 		"deflect_rocket"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"128"
 				"width"		"64"
@@ -709,8 +708,8 @@
 		}
 		"deflect_flare"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"194"
 				"y"		"160"
 				"width"		"64"
@@ -718,8 +717,8 @@
 		}
 		"bat_wood"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"0"
 				"width"		"96"
@@ -727,8 +726,8 @@
 		}
 		"ball"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"192"
 				"y"		"192"
 				"width"		"64"
@@ -736,8 +735,8 @@
 		}
 		"taunt_heavy"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"191"
 				"y"		"479"
 				"width"		"64"
@@ -745,8 +744,8 @@
 		}
 		"taunt_scout"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"192"
 				"y"		"224"
 				"width"		"64"
@@ -754,8 +753,8 @@
 		}
 		"gloves"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"0"
 				"y"		"448"
 				"width"		"96"
@@ -763,8 +762,8 @@
 		}
 		"crit"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"192"
 				"y"		"409"
 				"width"		"64"
@@ -772,8 +771,8 @@
 		}
 		"ambassador"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"67"
 				"width"		"92"
@@ -781,8 +780,8 @@
 		}
 		"huntsman"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"98"
 				"width"		"96"
@@ -790,8 +789,8 @@
 		}
 		"huntsman_burning"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"190"
 				"width"		"68"
@@ -799,8 +798,8 @@
 		}
 		"huntsman_flyingburn"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"223"
 				"width"		"103"
@@ -808,8 +807,8 @@
 		}
 		"taunt_spy"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"129"
 				"width"		"92"
@@ -817,8 +816,8 @@
 		}
 		"huntsman_headshot"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"192"
 				"y"		"289"
 				"width"		"64"
@@ -826,8 +825,8 @@
 		}
 		"ambassador_headshot"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"192"
 				"y"		"322"
 				"width"		"64"
@@ -835,8 +834,8 @@
 		}
 		"taunt_sniper"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"161"
 				"width"		"94"
@@ -844,8 +843,8 @@
 		}
 		"saw_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"192"
 				"y"		"359"
 				"width"		"64"
@@ -853,8 +852,8 @@
 		}
 		"deflect_arrow"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"360"
 				"y"		"0"
 				"width"		"64"
@@ -862,8 +861,8 @@
 		}
 		"firedeath"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"256"
 				"width"		"64"
@@ -871,8 +870,8 @@
 		}
 		"pumpkindeath"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"263"
 				"y"		"358"
 				"width"		"96"
@@ -880,8 +879,8 @@
 		}
 		"taunt_soldier"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"323"
 				"y"		"446"
 				"width"		"64"
@@ -889,8 +888,8 @@
 		}
 		"taunt_demoman"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"323"
 				"y"		"479"
 				"width"		"64"
@@ -898,8 +897,8 @@
 		}
 		"sword"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"258"
 				"y"		"464"
 				"width"		"64"
@@ -907,8 +906,8 @@
 		}
 		"demoshield"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"258"
 				"y"		"398"
 				"width"		"64"
@@ -916,8 +915,8 @@
 		}
 		"pickaxe"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"258"
 				"y"		"431"
 				"width"		"64"
@@ -925,8 +924,8 @@
 		}
 		"rocketlauncher_directhit"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"263"
 				"width"		"92"
@@ -934,8 +933,8 @@
 		}
 		"sticky_resistance"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"323"
 				"y"		"413"
 				"width"		"64"
@@ -943,8 +942,8 @@
 		}
 		"player_sentry"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"388"
 				"y"		"446"
 				"width"		"64"
@@ -952,8 +951,8 @@
 		}
 		"battleaxe"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"164"
 				"width"		"64"
@@ -961,8 +960,8 @@
 		}
 		"tribalkukri"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"65"
 				"width"		"92"
@@ -970,8 +969,8 @@
 		}
 		"sledgehammer"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"98"
 				"width"		"64"
@@ -979,8 +978,8 @@
 		}
 		"paintrain"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"131"
 				"width"		"64"
@@ -988,8 +987,8 @@
 		}
 		"deflect_huntsman_headshot"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"258"
 				"y"		"289"
 				"width"		"64"
@@ -997,8 +996,8 @@
 		}
 		"huntsman_flyingburn_headshot"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"32"
 				"width"		"64"
@@ -1006,8 +1005,8 @@
 		}
 		"taunt_medic"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"197"
 				"width"		"128"
@@ -1015,8 +1014,8 @@
 		}
 		"samrevolver"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"230"
 				"width"		"98"
@@ -1024,8 +1023,8 @@
 		}
 		"natascha"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"297"
 				"width"		"98"
@@ -1033,8 +1032,8 @@
 		}
 		"maxgun"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"330"
 				"width"		"98"
@@ -1042,8 +1041,8 @@
 		}
 		"force_a_nature"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"368"
 				"y"		"363"
 				"width"		"128"
@@ -1051,8 +1050,8 @@
 		}
 		"deflect_huntsman_flyingburn_headshot"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"404"
 				"y"		"396"
 				"width"		"98"
@@ -1060,8 +1059,8 @@
 		}
 		"deflect_huntsman_flyingburn"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"433"
 				"y"		"32"
 				"width"		"64"
@@ -1069,8 +1068,8 @@
 		}
 		"deflect_ball"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
 				"x"		"433"
 				"y"		"131"
 				"width"		"64"
@@ -1078,8 +1077,8 @@
 		}
 		"building_carried_destroyed"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"768"
 				"width"		"96"
@@ -1087,8 +1086,8 @@
 		}
 		"taunt_guitar_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"704"
 				"width"		"96"
@@ -1096,8 +1095,8 @@
 		}
 		"frontier_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"96"
 				"width"		"128"
@@ -1105,8 +1104,8 @@
 		}
 		"wrench_golden"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"736"
 				"width"		"96"
@@ -1114,8 +1113,8 @@
 		}
 		"southern_comfort_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"992"
 				"width"		"64"
@@ -1123,8 +1122,8 @@
 		}
 		"bleed_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"928"
 				"width"		"32"
@@ -1132,8 +1131,8 @@
 		}
 		"wrangler_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"960"
 				"width"		"64"
@@ -1141,8 +1140,8 @@
 		}
 		"robot_arm_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"800"
 				"width"		"96"
@@ -1150,8 +1149,8 @@
 		}
 		"robot_arm_combo_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"832"
 				"width"		"96"
@@ -1159,8 +1158,8 @@
 		}
 		"robot_arm_blender_kill"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"864"
 				"width"		"96"
@@ -1168,8 +1167,8 @@
 		}
 		"degreaser"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"896"
 				"width"		"96"
@@ -1177,8 +1176,8 @@
 		}
 		"powerjack"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"928"
 				"width"		"96"
@@ -1186,8 +1185,8 @@
 		}
 		"eternal_reward"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"960"
 				"width"		"96"
@@ -1195,8 +1194,8 @@
 		}
 		"letranger"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"0"
 				"y"		"992"
 				"width"		"96"
@@ -1204,8 +1203,8 @@
 		}
 		"shortstop"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"896"
 				"width"		"64"
@@ -1213,8 +1212,8 @@
 		}
 		"holymackerel"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"992"
 				"width"		"96"
@@ -1222,8 +1221,8 @@
 		}
 		"headtaker"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"128"
 				"width"		"128"
@@ -1231,8 +1230,8 @@
 		}
 		"fryingpan"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"768"
 				"width"		"96"
@@ -1240,8 +1239,8 @@
 		}
 		"back_scratcher"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"800"
 				"width"		"96"
@@ -1249,8 +1248,8 @@
 		}
 		"boston_basher"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"832"
 				"width"		"96"
@@ -1258,8 +1257,8 @@
 		}
 		"claidheamohmor"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"864"
 				"width"		"96"
@@ -1267,8 +1266,8 @@
 		}
 		"steel_fists"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"896"
 				"width"		"96"
@@ -1276,8 +1275,8 @@
 		}
 		"ullapool_caber_explosion"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"928"
 				"width"		"96"
@@ -1285,8 +1284,8 @@
 		}
 		"ullapool_caber"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"96"
 				"y"		"960"
 				"width"		"96"
@@ -1294,8 +1293,8 @@
 		}
 		"candy_cane"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"768"
 				"width"		"96"
@@ -1303,8 +1302,8 @@
 		}
 		"amputator"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"800"
 				"width"		"96"
@@ -1312,8 +1311,8 @@
 		}
 		"blackbox"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"160"
 				"width"		"128"
@@ -1321,8 +1320,8 @@
 		}
 		"wrench_jag"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"864"
 				"width"		"64"
@@ -1330,8 +1329,8 @@
 		}
 		"warrior_spirit"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"832"
 				"width"		"96"
@@ -1339,8 +1338,8 @@
 		}
 		"loch_n_load"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"736"
 				"width"		"96"
@@ -1348,8 +1347,8 @@
 		}
 		"iron_curtain"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"704"
 				"width"		"96"
@@ -1357,8 +1356,8 @@
 		}
 		"crusaders_crossbow"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"672"
 				"width"		"96"
@@ -1366,8 +1365,8 @@
 		}
 		"battleneedle"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"640"
 				"width"		"96"
@@ -1375,8 +1374,8 @@
 		}
 		"sydney_sleeper"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"192"
 				"width"		"128"
@@ -1384,8 +1383,8 @@
 		}
 		"cow_mangler"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"224"
 				"width"		"128"
@@ -1393,8 +1392,8 @@
 		}
 		"righteous_bison"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"256"
 				"width"		"128"
@@ -1402,8 +1401,8 @@
 		}
 		"bushwacka"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"608"
 				"width"		"96"
@@ -1411,8 +1410,8 @@
 		}
 		"taunt_soldier_lumbricus"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"320"
 				"y"		"864"
 				"width"		"64"
@@ -1420,8 +1419,8 @@
 		}
 		"brass_beast"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"576"
 				"width"		"96"
@@ -1429,8 +1428,8 @@
 		}
 		"gloves_running_urgently"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"544"
 				"width"		"96"
@@ -1438,8 +1437,8 @@
 		}
 		"blutsauger"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"512"
 				"width"		"96"
@@ -1447,8 +1446,8 @@
 		}
 		"sandman"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"480"
 				"width"		"96"
@@ -1456,8 +1455,8 @@
 		}
 		"backburner"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"448"
 				"width"		"96"
@@ -1465,8 +1464,8 @@
 		}
 		"lava_bat"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"0"
 				"width"		"96"
@@ -1474,8 +1473,8 @@
 		}
 		"lava_axe"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"32"
 				"width"		"96"
@@ -1483,8 +1482,8 @@
 		}
 		"obj_minisentry"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"416"
 				"width"		"96"
@@ -1492,8 +1491,8 @@
 		}
 		"kunai"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"64"
 				"width"		"96"
@@ -1501,8 +1500,8 @@
 		}
 		"warfan"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"96"
 				"width"		"64"
@@ -1510,8 +1509,8 @@
 		}
 		"demokatana"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"128"
 				"width"		"96"
@@ -1519,8 +1518,8 @@
 		}
 		"scout_sword"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"192"
 				"width"		"128"
@@ -1529,7 +1528,7 @@
 
 		"obj_status_sentrygun_1"
 		{
-			"file"	"vgui/logos/build icons/hud_obj_status_sentry_1"
+			"file"	"HUD/hud_obj_status_sentry_1"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1538,7 +1537,7 @@
 
 		"obj_status_sentrygun_2"
 		{
-			"file"	"vgui/logos/build icons/hud_obj_status_sentry_2"
+			"file"	"HUD/hud_obj_status_sentry_2"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1547,7 +1546,7 @@
 
 		"obj_status_sentrygun_3"
 		{
-			"file"	"vgui/logos/build icons/hud_obj_status_sentry_3"
+			"file"	"HUD/hud_obj_status_sentry_3"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1556,7 +1555,7 @@
 
 		"obj_status_dispenser"
 		{
-			"file"	"vgui/logos/build icons/hud_obj_status_dispenser"
+			"file"	"HUD/hud_obj_status_dispenser"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1575,7 +1574,7 @@
 
 		"obj_status_tele_entrance"
 		{
-			"file"	"vgui/logos/build icons/hud_obj_status_tele_entrance"
+			"file"	"HUD/hud_obj_status_tele_entrance"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1583,7 +1582,7 @@
 		}
 		"obj_status_tele_exit"
 		{
-			"file"	"vgui/logos/build icons/hud_obj_status_tele_exit"
+			"file"	"HUD/hud_obj_status_tele_exit"
 			"x"		"0"
 			"y"		"0"
 			"width"		"128"
@@ -1616,7 +1615,7 @@
 		}
 		"obj_status_sapper"
 		{
-			"file"	"vgui/logos/build icons/hud_obj_status_sapper"
+			"file"	"HUD/hud_obj_status_sapper"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
@@ -1803,8 +1802,7 @@
 
 		"leaderboard_dominated"
 		{
-			"file"		"vgui/logos/killstreaks/whitedom"
-			"negfile"		"vgui/logos/killstreaks/blackdom"
+			"file"		"hud/leaderboard_dominated"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
@@ -1813,8 +1811,8 @@
 
 		"leaderboard_streak"
 		{
-			"file"		"vgui/logos/killstreaks/blackks"
-			"negfile"	"vgui/logos/killstreaks/blackks"
+			"file"		"hud/leaderboard_streak"
+			"negfile"	"HUD/dneg_leaderboard_streak"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
@@ -1823,7 +1821,7 @@
 
 		"leaderboard_streak_dneg"
 		{
-			"file"		"vgui/logos/killstreaks/whiteks"
+			"file"		"hud/dneg_leaderboard_streak"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
@@ -2193,7 +2191,7 @@
 
 		"ico_notify_golden_wrench"
 		{
-			"file"	"vgui/logos/killfeed icons white/d_images_v2"
+			"file"	"HUD/d_images_v2"
 			"x"		"0"
 			"y"		"736"
 			"width"		"96"
@@ -2229,8 +2227,8 @@
 
 		"the_maul"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"224"
 				"width"		"96"
@@ -2239,8 +2237,8 @@
 
 		"saxxy"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"256"
 				"width"		"96"
@@ -2249,8 +2247,8 @@
 
 		"market_gardener"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"288"
 				"width"		"96"
@@ -2259,8 +2257,8 @@
 
 		"the_winger"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"320"
 				"width"		"96"
@@ -2269,8 +2267,8 @@
 
 		"tomislav"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"352"
 				"width"		"96"
@@ -2279,8 +2277,8 @@
 
 		"soda_popper"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"384"
 				"width"		"96"
@@ -2289,8 +2287,8 @@
 
 		"atomizer"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"416"
 				"width"		"96"
@@ -2299,8 +2297,8 @@
 
 		"bazaar_bargain"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"448"
 				"width"		"96"
@@ -2309,8 +2307,8 @@
 
 		"big_earner"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"480"
 				"width"		"96"
@@ -2319,8 +2317,8 @@
 
 		"detonator"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"512"
 				"width"		"96"
@@ -2329,8 +2327,8 @@
 
 		"eviction_notice"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"544"
 				"width"		"96"
@@ -2339,8 +2337,8 @@
 
 		"family_business"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"576"
 				"width"		"96"
@@ -2349,8 +2347,8 @@
 
 		"liberty_launcher"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"608"
 				"width"		"96"
@@ -2359,8 +2357,8 @@
 
 		"proto_syringe"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"640"
 				"width"		"96"
@@ -2369,8 +2367,8 @@
 
 		"persian_persuader"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"672"
 				"width"		"96"
@@ -2379,8 +2377,8 @@
 
 		"reserve_shooter"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"704"
 				"width"		"96"
@@ -2389,8 +2387,8 @@
 
 		"shahanshah"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"736"
 				"width"		"96"
@@ -2399,8 +2397,8 @@
 
 		"enforcer"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"768"
 				"width"		"96"
@@ -2409,8 +2407,8 @@
 
 		"disciplinary_action"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"800"
 				"width"		"96"
@@ -2419,8 +2417,8 @@
 
 		"splendid_screen"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"832"
 				"width"		"96"
@@ -2429,8 +2427,8 @@
 
 		"mantreads"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"864"
 				"width"		"64"
@@ -2439,8 +2437,8 @@
 
 		"solemn_vow"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"896"
 				"width"		"96"
@@ -2449,8 +2447,8 @@
 
 		"nessieclub"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"928"
 				"width"		"128"
@@ -2459,8 +2457,8 @@
 
 		"mailbox"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"960"
 				"width"		"128"
@@ -2469,8 +2467,8 @@
 
 		"quake_rl"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"992"
 				"width"		"128"
@@ -2479,8 +2477,8 @@
 
 		"diamondback"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"320"
 				"y"		"896"
 				"width"		"64"
@@ -2489,8 +2487,8 @@
 
 		"widowmaker"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"320"
 				"y"		"960"
 				"width"		"64"
@@ -2499,8 +2497,8 @@
 
 		"short_circuit"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"320"
 				"y"		"928"
 				"width"		"64"
@@ -2508,8 +2506,8 @@
 		}
 		"machina"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"288"
 				"width"		"128"
@@ -2517,8 +2515,8 @@
 		}
 		"player_penetration"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"320"
 				"width"		"128"
@@ -2526,8 +2524,8 @@
 		}
 		"headshot_player_penetration"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"256"
 				"y"		"352"
 				"width"		"128"
@@ -2535,8 +2533,8 @@
 		}
 		"nonnonviolent_protest"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"0"
 				"width"		"96"
@@ -2544,8 +2542,8 @@
 		}
 		"scotland_shard"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"32"
 				"width"		"96"
@@ -2553,8 +2551,8 @@
 		}
 		"baleful_beacon"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"64"
 				"width"		"96"
@@ -2562,8 +2560,8 @@
 		}
 		"unarmed_combat"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"96"
 				"width"		"96"
@@ -2571,8 +2569,8 @@
 		}
 		"voodoo_pin"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"128"
 				"width"		"96"
@@ -2580,8 +2578,8 @@
 		}
 		"eyeball_rocket"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"160"
 				"width"		"96"
@@ -2589,8 +2587,8 @@
 		}
 		"purgatory"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"192"
 				"width"		"96"
@@ -2598,8 +2596,8 @@
 		}
 		"apocofists"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"256"
 				"width"		"96"
@@ -2607,8 +2605,8 @@
 		}
 		"sharp_dresser"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"288"
 				"width"		"96"
@@ -2616,8 +2614,8 @@
 		}
 		"sharp_dresser_backstab"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"320"
 				"width"		"96"
@@ -2625,8 +2623,8 @@
 		}
 		"phlogistinator"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"0"
 				"width"		"128"
@@ -2634,8 +2632,8 @@
 		}
 		"manmelter"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"32"
 				"width"		"128"
@@ -2643,8 +2641,8 @@
 		}
 		"thirddegree"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"352"
 				"width"		"96"
@@ -2652,8 +2650,8 @@
 		}
 		"eureka_effect"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"416"
 				"width"		"96"
@@ -2661,8 +2659,8 @@
 		}
 		"pomson"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"64"
 				"width"		"128"
@@ -2670,8 +2668,8 @@
 		}
 		"holiday_punch"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"448"
 				"width"		"96"
@@ -2679,8 +2677,8 @@
 		}
 		"spy_cicle"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"512"
 				"width"		"96"
@@ -2688,8 +2686,8 @@
 		}
 		"wrap_assassin"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"96"
 				"width"		"128"
@@ -2697,8 +2695,8 @@
 		}
 		"black_rose"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"576"
 				"width"		"96"
@@ -2706,8 +2704,8 @@
 		}
 		"lollichop"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"608"
 				"width"		"96"
@@ -2715,8 +2713,8 @@
 		}
 		"scorch_shot"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"640"
 				"width"		"96"
@@ -2724,8 +2722,8 @@
 		}
 		"rainblower"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"672"
 				"width"		"96"
@@ -2733,8 +2731,8 @@
 		}
 		"pro_smg"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"705"
 				"width"		"64"
@@ -2742,8 +2740,8 @@
 		}
 		"pep_pistol"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"737"
 				"width"		"48"
@@ -2751,8 +2749,8 @@
 		}
 		"armageddon"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"769"
 				"width"		"96"
@@ -2760,8 +2758,8 @@
 		}
 		"pro_rifle"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"128"
 				"width"		"128"
@@ -2769,8 +2767,8 @@
 		}
 		"pep_brawlerblaster"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"160"
 				"width"		"128"
@@ -2778,8 +2776,8 @@
 		}
 		"dumpster_device"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"192"
 				"width"		"128"
@@ -2787,8 +2785,8 @@
 		}
 		"long_heatmaker"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"800"
 				"width"		"96"
@@ -2796,8 +2794,8 @@
 		}
 		"annihilator"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"832"
 				"width"		"96"
@@ -2805,8 +2803,8 @@
 		}
 		"guillotine"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"864"
 				"width"		"96"
@@ -2814,8 +2812,8 @@
 		}
 		"recorder"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"896"
 				"width"		"96"
@@ -2823,8 +2821,8 @@
 		}
 		"loose_cannon_impact"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"0"
 				"y"		"928"
 				"width"		"96"
@@ -2832,8 +2830,8 @@
 		}
 		"freedom_staff"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"224"
 				"width"		"128"
@@ -2841,8 +2839,8 @@
 		}
 		"merasmus_decap"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"256"
 				"width"		"128"
@@ -2850,8 +2848,8 @@
 		}
 		"merasmus_zap"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"288"
 				"width"		"128"
@@ -2859,8 +2857,8 @@
 		}
 		"merasmus_grenade"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"320"
 				"width"		"128"
@@ -2868,8 +2866,8 @@
 		}
 		"merasmus_player_bomb"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"352"
 				"width"		"128"
@@ -2877,8 +2875,8 @@
 		}
 		"loose_cannon_explosion"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"384"
 				"width"		"128"
@@ -2886,8 +2884,8 @@
 		}
 		"rescue_ranger"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"416"
 				"width"		"128"
@@ -2895,8 +2893,8 @@
 		}
 		"memory_maker"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"0"
 				"width"		"64"
@@ -2904,8 +2902,8 @@
 		}
 		"loose_cannon_reflect"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"32"
 				"width"		"64"
@@ -2913,8 +2911,8 @@
 		}
 		"rescue_ranger_reflect"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"64"
 				"width"		"64"
@@ -2922,8 +2920,8 @@
 		}
 		"ham_shank"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"96"
 				"width"		"64"
@@ -2931,8 +2929,8 @@
 		}
 		"psapper"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"480"
 				"width"		"128"
@@ -2940,8 +2938,8 @@
 		}
 		"spellbook_teleport"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"192"
 				"width"		"64"
@@ -2949,8 +2947,8 @@
 		}
 		"spellbook_skeleton"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"224"
 				"width"		"64"
@@ -2958,8 +2956,8 @@
 		}
 		"spellbook_mirv"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"256"
 				"width"		"64"
@@ -2967,8 +2965,8 @@
 		}
 		"spellbook_meteor"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"288"
 				"width"		"64"
@@ -2976,8 +2974,8 @@
 		}
 		"spellbook_lightning"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"320"
 				"width"		"64"
@@ -2985,8 +2983,8 @@
 		}
 		"spellbook_fireball"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"352"
 				"width"		"64"
@@ -2994,8 +2992,8 @@
 		}
 		"spellbook_boss"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"384"
 				"width"		"64"
@@ -3003,8 +3001,8 @@
 		}
 		"spellbook_blastjump"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"416"
 				"width"		"64"
@@ -3012,8 +3010,8 @@
 		}
 		"spellbook_bats"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"448"
 				"width"		"64"
@@ -3021,8 +3019,8 @@
 		}
 		"spellbook_athletic"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"480"
 				"width"		"64"
@@ -3030,8 +3028,8 @@
 		}
 		"golden_fryingpan"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"96"
 				"y"		"0"
 				"width"		"96"
@@ -3039,8 +3037,8 @@
 		}
 		"australium"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"512"
 				"width"		"64"
@@ -3092,8 +3090,8 @@
 		}
 		"the_classic"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"577"
 				"width"		"128"
@@ -3101,8 +3099,8 @@
 		}
 		"tide_turner"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"545"
 				"width"		"64"
@@ -3110,8 +3108,8 @@
 		}
 		"bread_bite"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"577"
 				"width"		"64"
@@ -3119,8 +3117,8 @@
 		}
 		"snack_attack"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"608"
 				"width"		"128"
@@ -3128,8 +3126,8 @@
 		}
 		"back_scatter"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"512"
 				"width"		"128"
@@ -3137,8 +3135,8 @@
 		}
 		"airstrike"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"545"
 				"width"		"128"
@@ -3146,8 +3144,8 @@
 		}
 		"ai_flamethrower"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"256"
 				"y"		"640"
 				"width"		"128"
@@ -3155,8 +3153,8 @@
 		}
 		"necro_smasher"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"608"
 				"width"		"64"
@@ -3164,8 +3162,8 @@
 		}
 		"bumper_kart"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+				"dfile"	"HUD/d_images_v3"
+				"dnegfile"	"HUD/dneg_images_v3"
 				"x"		"192"
 				"y"		"640"
 				"width"		"64"
@@ -3190,8 +3188,8 @@
 		}
 		"crossing_guard"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"0"
 			"y"		"960"
 			"width"		"96"
@@ -3199,8 +3197,8 @@
 		}
 		"iron_bomber"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"672"
 			"width"		"128"
@@ -3208,8 +3206,8 @@
 		}
 		"quickiebomb_launcher"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"704"
 			"width"		"128"
@@ -3217,8 +3215,8 @@
 		}
 		"panic_attack"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"736"
 			"width"		"128"
@@ -3227,8 +3225,8 @@
 		// Mannpower
 		"mannpower_agility"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"32"
 			"width"		"35"
@@ -3236,8 +3234,8 @@
 		}
 		"mannpower_vamp"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"64"
 			"width"		"35"
@@ -3245,8 +3243,8 @@
 		}
 		"mannpower_resist"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"96"
 			"width"		"35"
@@ -3254,8 +3252,8 @@
 		}
 		"mannpower_haste"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"128"
 			"width"		"35"
@@ -3263,8 +3261,8 @@
 		}
 		"mannpower_fist"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"160"
 			"width"		"35"
@@ -3272,8 +3270,8 @@
 		}
 		"mannpower_reflect"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"128"
 			"y"		"160"
 			"width"		"40"
@@ -3281,8 +3279,8 @@
 		}
 		"mannpower_precision"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"224"
 			"width"		"35"
@@ -3290,8 +3288,8 @@
 		}
 		"mannpower_strength"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"256"
 			"width"		"35"
@@ -3299,8 +3297,8 @@
 		}
 		"mannpower_regen"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"288"
 			"width"		"35"
@@ -3308,8 +3306,8 @@
 		}
 		"mannpower_king"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"128"
 			"y"		"96"
 			"width"		"40"
@@ -3317,8 +3315,8 @@
 		}
 		"mannpower_plague"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"128"
 			"y"		"32"
 			"width"		"40"
@@ -3326,8 +3324,8 @@
 		}
 		"mannpower_supernova"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"128"
 			"y"		"64"
 			"width"		"40"
@@ -3338,8 +3336,8 @@
 		// Passtime
 		"passtime_intercept"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"704"
 			"width"		"96"
@@ -3347,8 +3345,8 @@
 		}
 		"passtime_steal"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"192"
 			"y"		"704"
 			"width"		"64"
@@ -3356,8 +3354,8 @@
 		}
 		"passtime_pass"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"736"
 			"width"		"96"
@@ -3365,8 +3363,8 @@
 		}
 		"passtime_score_blue"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"192"
 			"y"		"736"
 			"width"		"64"
@@ -3374,8 +3372,8 @@
 		}
 		"passtime_score_red"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"192"
 			"y"		"800"
 			"width"		"64"
@@ -3392,8 +3390,8 @@
 		// END Passtime
 		"batsaber"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"768"
 			"width"		"128"
@@ -3401,8 +3399,8 @@
 		}
 		"the_capper"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"800"
 			"width"		"128"
@@ -3410,8 +3408,8 @@
 		}
  		"shooting_star"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"832"
 			"width"		"128"
@@ -3419,8 +3417,8 @@
 		}
  		"giger_counter"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"192"
 			"y"		"896"
 			"width"		"64"
@@ -3428,8 +3426,8 @@
 		}
  		"prinny_machete"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"96"
 			"y"		"864"
 			"width"		"96"
@@ -3438,8 +3436,8 @@
 
 		"crocodile"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"864"
 			"width"		"128"
@@ -3448,8 +3446,8 @@
 
  		"dragons_fury"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"0"
 			"y"		"992"
 			"width"		"96"
@@ -3458,8 +3456,8 @@
 
  		"dragons_fury_bonus"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"992"
 			"width"		"128"
@@ -3468,8 +3466,8 @@
 
 		"hot_hand"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"928"
 			"width"		"64"
@@ -3478,8 +3476,8 @@
 
 		"gas_blast"
 		{
-			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
 			"x"		"256"
 			"y"		"960"
 			"width"		"64"
@@ -3488,12 +3486,92 @@
 
 		"rocketpack_stomp"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+				"dfile"	"HUD/d_images_v2"
+				"dnegfile"	"HUD/dneg_images_v2"
 				"x"		"384"
 				"y"		"864"
 				"width"		"64"
 				"height"	"32"
+		}
+
+		"shark"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"864"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"salmann"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"832"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"resurfacer"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"896"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"krampus_melee"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"928"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"krampus_ranged"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"960"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"helicopter"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"768"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"piranha"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"800"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"megaton"
+		{
+			"dfile"	"HUD/d_images_v3"
+			"dnegfile"	"HUD/dneg_images_v3"
+			"x"		"384"
+			"y"		"736"
+			"width"		"128"
+			"height"	"32"
 		}
 	}
 }
