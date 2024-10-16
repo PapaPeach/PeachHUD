@@ -2,6 +2,7 @@
 {
 	"scores"
 	{
-		"medal_width"				"20"
+		"medal_width"				"28"
+        "medal_column_width"		18"
 	}
 }

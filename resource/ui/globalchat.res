@@ -17,8 +17,8 @@
 		"bgcolor_override"							"BlackTransparent"
 		"paintborder"								"0"
 
-		"log_font_small"							"Size 22"
-		"log_font_medium"							"Size 22"
+		"log_font_small"							"Size 14"
+		"log_font_medium"							"Size 10"
 		"log_font_large"							"Size 22"
 
 		"chat_color_default"						"White"
@@ -34,7 +34,6 @@
 
 	"chatlog"
 	{
-		// "ControlName"							"richtext"
 		"fieldName"									"chatlog"
 		"xpos"										"5"
 		"ypos"										"5"
