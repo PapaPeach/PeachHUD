@@ -9,28 +9,28 @@
 		"command"		"engine command1"	//REPLACE command1 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
-	
+
 	"Custom2"
 	{
 		"label"			"2"					//THIS IS THE TEXT FOR THE BUTTON, THE BUTTONS ARE SMALL SO KEEP THAT IN MIND
 		"command"		"engine command2"	//REPLACE command2 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
-	
+
 	"Custom3"
 	{
 		"label"			"3"					//THIS IS THE TEXT FOR THE BUTTON, THE BUTTONS ARE SMALL SO KEEP THAT IN MIND
 		"command"		"engine command3"	//REPLACE command3 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
-	
+
 	"Custom4"
 	{
 		"label"			"4"					//THIS IS THE TEXT FOR THE BUTTON, THE BUTTONS ARE SMALL SO KEEP THAT IN MIND
 		"command"		"engine command4"	//REPLACE command4 WITH DESIRED COMMAND, **DO NOT REPLACE engine**
 		"OnlyAtMenu"	"1"					//1=MAIN MENU ONLY		0=ALWAYS SHOW
 	}
-	
+
 	///////////////////////////////////////////////////////////////////
 	//////////////////////////Menu Background//////////////////////////
 	///////////////////////////////////////////////////////////////////
@@ -39,12 +39,12 @@
 		"command"		"engine"
 		"OnlyAtMenu"	"1"
 	}
-	
+
 	"Release"
 	{
 		"label"			""
 		"command"		"engine play items/samurai/tf_samurai_noisemaker_setb_02.wav"
-		"tooltip"		"Released October 16, 2024"
+		"tooltip"		"Released October 30, 2024"
 		"OnlyAtMenu"	"1"
 	}
 	///////////////////////////////////////////////////////////////////
@@ -55,38 +55,38 @@
 		"label"			"Servers"
 		"command"		"OpenServerBrowser"
 	}
-	
+
 	"Create"
 	{
 		"label"			"V"
 		"command"		"OpenCreateMultiplayerGameDialog"
 	}
-	
+
 	"Items"
 	{
 		"label"			"Inventory"
 		"command"		"engine open_charinfo"
 	}
-	
+
 	"Store"
 	{
 		"label"			"y"
 		"command"		"engine open_store"
 	}
-	
+
 	"Options"
 	{
 		"label"			"Options"
 		"command"		"OpenOptionsDialog"
 	}
-	
+
 	"Quit"
 	{
 		"label"			")"
 		"command"		"engine replay_confirmquit"
 		"OnlyAtMenu"	"1"
 	}
-	
+
 	"Stream"
 	{
 		"label"			"`"
@@ -94,7 +94,7 @@
 		"tooltip"		"Streams"
 		"OnlyAtMenu"	"1"
 	}
-	
+
 	"Contracker"
 	{
 		"label"			"1"
@@ -102,7 +102,7 @@
 		"tooltip"		"Contracker"
 		"OnlyAtMenu"	"1"
 	}
-	
+
 	"Console"
 	{
 		"label"			"}"
@@ -110,7 +110,7 @@
 		"tooltip"		"Open Console"
 		"OnlyAtMenu"	"1"
 	}
-	
+
 	"AdvancedOptions"
 	{
 		"label"			"I"
@@ -118,7 +118,7 @@
 		"tooltip"		"Advanced Options"
 		"OnlyAtMenu"	"1"
 	}
-	
+
 	"HUDCredits"
 	{
 		"label"			"<"
@@ -126,7 +126,7 @@
 		"tooltip"		"HUD Credits"
 		"OnlyAtMenu"	"1"
 	}
-	
+
 	/////INGAME ONLY/////
 	"Disconnect"
 	{
@@ -134,32 +134,32 @@
 		"command"		"engine disconnect"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"Vote"
 	{
 		"label"			"Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"Mute"
 	{
 		"label"			"Mute"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"Report"
 	{
 		"label"			"Report"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 	}
-	
+
 	///////////////////////////////////////////////////////////////////
 	///////////////////////////TOOLS SECTION///////////////////////////
 	///////////////////////////////////////////////////////////////////
-	
+
 	"DamageColorsPanel"
 	{
 		"command"		"engine"
@@ -201,7 +201,7 @@
 		"command"		"engine hud_combattext 1; hud_combattext_red 40; hud_combattext_green 200; hud_combattext_blue 110; echo - Damage color set to Green.; showconsole"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"ChatPanel"
 	{
 		"command"		"engine"
@@ -221,7 +221,7 @@
 		"tooltip"		"Toggle Voice Chat"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"NotificationsPanel"
 	{
 		"command"		"engine"
@@ -239,7 +239,7 @@
 		"command"		"engine cl_notifications_show_ingame 0; cl_notifications_show_ingame; showconsole"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"MinmodePanel"
 	{
 		"command"		"engine"
@@ -257,7 +257,7 @@
 		"command"		"engine cl_hud_minmode 0; cl_hud_minmode; showconsole"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"MatchHudPanel"
 	{
 		"command"		"engine"
@@ -275,7 +275,7 @@
 		"command"		"engine tf_use_match_hud  0; tf_use_match_hud; echo - Enable the player list at the top of the screen.; showconsole"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"CaptionsPanel"
 	{
 		"command"		"engine"
@@ -293,7 +293,7 @@
 		"command"		"engine closecaption 0; cc_predisplay_time 0; closecaption; showconsole"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"NetGraphPanel"
 	{
 		"command"		"engine"
@@ -311,7 +311,7 @@
 		"command"		"engine net_graph 0; net_graph; showconsole"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"MiscFixesPanel"
 	{
 		"command"		"engine"
@@ -331,7 +331,7 @@
 		"tooltip"		"Broken Sound"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"ReloadHudPanel"
 	{
 		"command"		"engine"
@@ -343,13 +343,13 @@
 		"command"		"engine hud_reloadscheme"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"BottomButtonsPanel"
 	{
 		"command"		"engine"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"StreamINGAME"
 	{
 		"label"			"`"
@@ -357,7 +357,7 @@
 		"tooltip"		"Streams"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"ContrackerINGAME"
 	{
 		"label"			"1"
@@ -365,7 +365,7 @@
 		"tooltip"		"Contracker"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"ConsoleINGAME"
 	{
 		"label"			"}"
@@ -373,7 +373,7 @@
 		"tooltip"		"Open Console"
 		"OnlyInGame"	"1"
 	}
-	
+
 	"AdvancedOptionsINGAME"
 	{
 		"label"			"I"
@@ -381,5 +381,5 @@
 		"tooltip"		"Advanced Options"
 		"OnlyInGame"	"1"
 	}
-	
+
 }

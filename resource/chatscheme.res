@@ -46,7 +46,7 @@ Scheme
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
-		
+
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
@@ -216,54 +216,18 @@ Scheme
 	// describes all the fonts
 	Fonts
 	{
-
 		"Default"
 		{
-            "isproportional" "only"
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
+				"name"		"Renogare Soft XHud"
 				"tall"		"7"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
 			}
 		}
-		
+
 		// this is the symbol font
 		"Marlett"
 		{
@@ -309,7 +273,7 @@ Scheme
 				"symbol"	"1"
 			}
 		}
-		
+
 		"MarlettSmall"
 		{
 			"1"
@@ -356,54 +320,15 @@ Scheme
 
 		"ChatFont"
 		{
-            "isproportional" "only"
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"12"	[$WIN32]
-				"tall"		"15"	[$X360]
-				"weight"	"700"
-				"yres"		"480 599"
-				"dropshadow"	"1"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"14"	[$WIN32]
-				"tall"		"17"	[$X360]
-				"weight"	"700"
-				"yres"		"600 767"
-				"dropshadow"	"1"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"15"	[$WIN32]
-				"tall"		"18"	[$X360]
-				"weight"	"700"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"17"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"700"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
-			}
-			"5"
-			{
-				"name"		"Verdana"
+				"name"		"Renogare Soft XHud"
 				"tall"		"8"
-				"weight"	"300"
+				"weight"	"0"
 				"dropshadow"	"1"
-                "antialias" "1"
+				"antialias"		"1"
 			}
 		}
-
-
 	}
 
 	//
@@ -503,7 +428,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
 			"backgroundtype" "0"
@@ -558,7 +483,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
@@ -809,6 +734,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
+		"2"		"resource/HL2EP2.ttf"
 	}
 }

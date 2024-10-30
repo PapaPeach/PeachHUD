@@ -14,14 +14,14 @@
 		"zpos"						"0"
 		"wide"						"f0"
 		"tall"						"480"
-		
+
 		"update_url"				"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"					"http://www.teamfortress.com/"
-		
+
 		"button_x_offset"			"-285"
 		"button_y"					"120"
 		"button_y_delta"			"5"
-		
+
 		"button_kv"
 		{
 			"xpos"					"0"
@@ -50,45 +50,45 @@
 				"dulltext"			"0"
 				"brighttext"		"0"
 				"default"			"1"
-				
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-			}		
+			}
 		}
-		
+
 		"SaxxySettings"
 		{
 			"xpos"					"0"
 			"ypos"					"0"
-			"zpos"					"-101"		
+			"zpos"					"-101"
 			"wide"					"f0"
 			"tall"					"480"
-			
+
 			"autoResize"			"0"
 			"pinCorner"				"0"
 			"visible"				"1"
 			"enabled"				"1"
-			
+
 			"flashbounds_x"			"50"
 			"flashbounds_y"			"65"
 			"flashbounds_w"			"250"
 			"flashbounds_h"			"120"
-			
+
 			"flashstartsize_min"	"8"
 			"flashstartsize_max"	"12"
-			
+
 			"flash_maxscale"		"4"
-			
+
 			"flash_lifelength_min"	".1"
 			"flash_lifelength_max"	".2"
-			
+
 			"curtain_anim_duration"	"4.0"
 			"curtain_open_time"		"2.8"
 			"flash_start_time"		"4.0"
-			
+
 			"initial_freakout_duration"	"15.0"
 			"clap_sound_duration"	"10.0"
-			
+
 			"CameraFlashSettings"
 			{
 				"visible"			"1"
@@ -99,7 +99,7 @@
 			}
 		}
 	}
-	
+
 	"mouseoveritempanel"
 	{
 		"ControlName"				"CItemModelPanel"
@@ -115,13 +115,13 @@
 		"PaintBackgroundType"		"2"
 		"paintborder"				"1"
 		"border"					"BlackTransparent50"
-		
+
 		"text_ypos"					"20"
 		"text_center"				"1"
 		"model_hide"				"1"
 		"resize_to_text"			"1"
 		"padding_height"			"15"
-		
+
 		"attriblabel"
 		{
 			"font"					"ItemFontAttribLarge"
@@ -140,7 +140,7 @@
 			"centerwrap"			"1"
 		}
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -153,7 +153,7 @@
 		"visible"					"0"
 		"PaintBackgroundType"		"2"
 		"border"					"BlackTransparent70"
-		
+
 		"TipSubLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -173,7 +173,7 @@
 			"fgcolor"				"White"
 			"wrap"					"1"
 		}
-		
+
 		"TipLabel"
 		{
 			"ControlName"			"CExLabel"
@@ -194,7 +194,7 @@
 			"auto_wide_tocontents" 	"1"
 		}
 	}
-	
+
 	"MountainPanel"
 	{
 		"ControlName"				"EditablePanel"
@@ -205,7 +205,7 @@
 		"wide"						"f0"
 		"tall"						"f0"
 		"visible"					"0"
-		
+
 		"Mountain"
 		{
 			"ControlName"				"ImagePanel"
@@ -220,8 +220,8 @@
 			"image"						"replay/thumbnails/menu/Mountain"
 			"scaleimage"				"1"
 		}
-	}	
-	
+	}
+
 	"HudVersion"
 	{
 		"ControlName"				"Label"
@@ -240,9 +240,9 @@
 		"textAlignment"				"west"
 		"AllCaps"					"0"
 		"use_proportional_insets"	"1"
-		"labelText"					"Version 3.3.6"
+		"labelText"					"Version 3.3.7"
 	}
-	
+
 	"InfoSeparatorLine"
 	{
 		"ControlName"				"EditablePanel"
@@ -255,7 +255,7 @@
 		"visible"					"1"
 		"bgcolor_override" 			"WhiteTransparent"
 	}
-	
+
 	"Release"
 	{
 		"ControlName"					"EditablePanel"
@@ -277,18 +277,18 @@
 			"tall"						"6"
 			"visible"					"1"
 			"enabled"					"1"
-			
+
 			"paintbackground"			"0"		//Button Visibility
 			"alpha"						"120"
-			
+
 			"defaultFgColor_override"	"Blank"
 			"armedFgColor_override"		"Blank"
 			"depressedFgColor_override"	"Blank"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Servers"
 	{
 		"ControlName"					"EditablePanel"
@@ -319,20 +319,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Create"
 	{
 		"ControlName"					"EditablePanel"
@@ -343,7 +343,7 @@
 		"wide"							"16"
 		"tall"							"16"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Servers"
 		"pin_corner_to_sibling" 		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -369,25 +369,25 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
 			"paintborder"				"1"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border"					"BlueTransparent70"
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Items"
 	{
 		"ControlName"					"EditablePanel"
@@ -398,7 +398,7 @@
 		"wide"							"120"
 		"tall"							"30"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Servers"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
@@ -422,20 +422,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Store"
 	{
 		"ControlName"					"EditablePanel"
@@ -446,7 +446,7 @@
 		"wide"							"16"
 		"tall"							"16"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Items"
 		"pin_corner_to_sibling" 		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -471,25 +471,25 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
 			"paintborder"				"1"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border"					"BlueTransparent70"
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Options"
 	{
 		"ControlName"					"EditablePanel"
@@ -500,7 +500,7 @@
 		"wide"							"100"
 		"tall"							"30"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Items"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
@@ -524,20 +524,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Vote"
 	{
 		"ControlName"					"EditablePanel"
@@ -568,20 +568,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Report"
 	{
 		"ControlName"					"EditablePanel"
@@ -592,7 +592,7 @@
 		"wide"							"85"
 		"tall"							"30"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Vote"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
@@ -616,20 +616,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Mute"
 	{
 		"ControlName"					"EditablePanel"
@@ -640,7 +640,7 @@
 		"wide"							"65"
 		"tall"							"30"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Report"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
@@ -664,16 +664,16 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
@@ -699,7 +699,7 @@
 		"labelText"					"PeachHUD"
 		"bgcolor_override"			"Blank"
 	}
-	
+
 	"HudSubTitle"
 	{
 		"ControlName"				"Label"
@@ -720,12 +720,12 @@
 		"use_proportional_insets"	"1"
 		"labelText"					"Based on SunsetHUD by Hypnotize"
 		"bgcolor_override"			"Blank"
-		
+
 		"pin_to_sibling" 			"HudTitle"
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
 	}
-	
+
 	"Quit"
 	{
 		"ControlName"					"EditablePanel"
@@ -756,20 +756,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"RedLight"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Disconnect"
 	{
 		"ControlName"					"EditablePanel"
@@ -800,23 +800,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"WhiteTransparent"
 			"depressedFgColor_override"	"WhiteTransparent"
-			
+
 			"border_default"			"RedSolid"
 			"border_armed"				"OrangeSolid"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"RankPanel"
 	{
 		"ControlName"				"CPvPRankPanel"
@@ -835,7 +835,7 @@
 		"show_model"				"0"
 		"show_type"					"1"
 	}
-	
+
 	"CycleRankTypeButton"
 	{
 		"ControlName"				"CExImageButton"
@@ -857,14 +857,14 @@
 		"default"					"1"
 		"actionsignallevel"			"1"
 		"proportionaltoparent"		"1"
-		
+
 		"paintbackground"			"0"
 		"paintborder"				"0"
 		"alpha"						"0"
-		
+
 		"pin_to_sibling"			"RankPanel"
 	}
-	
+
 	"NoGCMessage"
 	{
 		"ControlName"				"Label"
@@ -886,7 +886,7 @@
 		"AllCaps"					"1"
 		"use_proportional_insets"	"1"
 	}
-	
+
 	"BottomLeftButtonsAnchor"
 	{
 		"ControlName"				"EditablePanel"
@@ -897,7 +897,7 @@
 		"tall"						"1"
 		"visible"					"0"
 	}
-	
+
 	"Stream"
 	{
 		"ControlName"					"EditablePanel"
@@ -908,7 +908,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"BottomLeftButtonsAnchor"
 
 		"SubButton"
@@ -930,20 +930,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Contracker"
 	{
 		"ControlName"					"EditablePanel"
@@ -954,7 +954,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Stream"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -978,20 +978,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Console"
 	{
 		"ControlName"					"EditablePanel"
@@ -1002,7 +1002,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Contracker"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -1026,20 +1026,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"AdvancedOptions"
 	{
 		"ControlName"					"EditablePanel"
@@ -1050,7 +1050,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Console"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -1074,20 +1074,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"HUDCredits"
 	{
 		"ControlName"					"EditablePanel"
@@ -1098,7 +1098,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"AdvancedOptions"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -1122,24 +1122,24 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	///////////////////////////////////////////////////////////////////
 	///////////////////////////TOOLS SECTION///////////////////////////
 	///////////////////////////////////////////////////////////////////
-	
+
 	"DamageColorsPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -1154,7 +1154,7 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"DamageColorsLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -1177,7 +1177,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -1192,7 +1192,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"White"
 	{
 		"ControlName"					"EditablePanel"
@@ -1203,7 +1203,7 @@
 		"wide"							"15"
 		"tall"							"15"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"DamageColorsPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -1227,20 +1227,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Yellow"
 	{
 		"ControlName"					"EditablePanel"
@@ -1251,7 +1251,7 @@
 		"wide"							"15"
 		"tall"							"15"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"White"
 		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -1275,20 +1275,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"255 230 60 255"
 			"armedFgColor_override"		"255 230 60 255"
 			"depressedFgColor_override"	"255 230 60 255"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Orange"
 	{
 		"ControlName"					"EditablePanel"
@@ -1299,7 +1299,7 @@
 		"wide"							"15"
 		"tall"							"15"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Yellow"
 		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -1323,20 +1323,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"OrangeLight"
 			"armedFgColor_override"		"OrangeLight"
 			"depressedFgColor_override"	"OrangeLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Red"
 	{
 		"ControlName"					"EditablePanel"
@@ -1347,7 +1347,7 @@
 		"wide"							"15"
 		"tall"							"15"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"White"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
@@ -1371,20 +1371,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"RedLight"
 			"armedFgColor_override"		"RedLight"
 			"depressedFgColor_override"	"RedLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Blue"
 	{
 		"ControlName"					"EditablePanel"
@@ -1395,7 +1395,7 @@
 		"wide"							"15"
 		"tall"							"15"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Red"
 		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -1419,20 +1419,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"BlueLight"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Green"
 	{
 		"ControlName"					"EditablePanel"
@@ -1443,7 +1443,7 @@
 		"wide"							"15"
 		"tall"							"15"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"Blue"
 		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -1467,20 +1467,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"GreenLight"
 			"armedFgColor_override"		"GreenLight"
 			"depressedFgColor_override"	"GreenLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"ChatPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -1495,11 +1495,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"DamageColorsPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"ChatLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -1522,7 +1522,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -1537,7 +1537,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"ChatText"
 	{
 		"ControlName"					"EditablePanel"
@@ -1548,7 +1548,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"ChatPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -1572,23 +1572,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"ChatVoice"
 	{
 		"ControlName"					"EditablePanel"
@@ -1599,7 +1599,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"ChatText"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -1623,23 +1623,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"NotificationsPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -1654,11 +1654,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"ChatPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"NotificationsLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -1681,7 +1681,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -1696,7 +1696,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"NotificationsON"
 	{
 		"ControlName"					"EditablePanel"
@@ -1707,7 +1707,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"NotificationsPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -1731,23 +1731,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"NotificationsOFF"
 	{
 		"ControlName"					"EditablePanel"
@@ -1758,7 +1758,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"NotificationsON"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -1782,23 +1782,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"MinmodePanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -1813,11 +1813,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"NotificationsPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"MinmodeLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -1840,7 +1840,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -1855,7 +1855,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"MinmodeON"
 	{
 		"ControlName"					"EditablePanel"
@@ -1866,7 +1866,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"MinmodePanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -1890,23 +1890,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"MinmodeOFF"
 	{
 		"ControlName"					"EditablePanel"
@@ -1917,7 +1917,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"MinmodeON"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -1941,23 +1941,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"MatchHudPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -1972,11 +1972,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"MinmodePanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"MatchHudLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -1999,7 +1999,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -2014,7 +2014,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"MatchHudON"
 	{
 		"ControlName"					"EditablePanel"
@@ -2025,7 +2025,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"MatchHudPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -2049,23 +2049,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"MatchHudOFF"
 	{
 		"ControlName"					"EditablePanel"
@@ -2076,7 +2076,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"MatchHudON"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -2100,23 +2100,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"CaptionsPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -2131,11 +2131,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"MatchHudPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"CaptionsLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -2158,7 +2158,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -2173,7 +2173,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"CaptionsON"
 	{
 		"ControlName"					"EditablePanel"
@@ -2184,7 +2184,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"CaptionsPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -2208,23 +2208,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"CaptionsOFF"
 	{
 		"ControlName"					"EditablePanel"
@@ -2235,7 +2235,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"CaptionsON"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -2259,23 +2259,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"NetGraphPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -2290,11 +2290,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"CaptionsPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"NetGraphLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -2317,7 +2317,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -2332,7 +2332,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"NetGraphON"
 	{
 		"ControlName"					"EditablePanel"
@@ -2343,7 +2343,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"NetGraphPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -2367,23 +2367,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"NetGraphOFF"
 	{
 		"ControlName"					"EditablePanel"
@@ -2394,7 +2394,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"NetGraphON"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -2418,23 +2418,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"MiscFixesPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -2449,11 +2449,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"NetGraphPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"MiscFixesLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -2476,7 +2476,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -2491,7 +2491,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"InvisiblePlayersFix"
 	{
 		"ControlName"					"EditablePanel"
@@ -2502,7 +2502,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"MiscFixesPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -2526,23 +2526,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"BrokenSoundFix"
 	{
 		"ControlName"					"EditablePanel"
@@ -2553,7 +2553,7 @@
 		"wide"							"20"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"InvisiblePlayersFix"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -2577,23 +2577,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"ReloadHudPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -2608,11 +2608,11 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"MiscFixesPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
-		
+
 		"ReloadHudLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -2635,7 +2635,7 @@
 			"brighttext"				"0"
 			"fgcolor"					"WhiteTransparent"
 		}
-		
+
 		"Separator"
 		{
 			"ControlName"				"EditablePanel"
@@ -2650,7 +2650,7 @@
 			"bgcolor_override"			"WhiteTransparent"
 		}
 	}
-	
+
 	"ReloadHud"
 	{
 		"ControlName"					"EditablePanel"
@@ -2661,7 +2661,7 @@
 		"wide"							"39"
 		"tall"							"20"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"ReloadHudPanel"
 		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
@@ -2686,23 +2686,23 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"BlueTransparent70"
 			"border_armed"				"OrangeTransparent70"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"BottomButtonsPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -2717,12 +2717,12 @@
 		"paintbackground"				"1"
 		"paintbackgroundtype"			"3"
 		"bgcolor_override"				"Blank"
-		
+
 		"pin_to_sibling" 				"ReloadHudPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
 	}
-	
+
 	"StreamINGAME"
 	{
 		"ControlName"					"EditablePanel"
@@ -2753,20 +2753,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"ContrackerINGAME"
 	{
 		"ControlName"					"EditablePanel"
@@ -2777,7 +2777,7 @@
 		"wide"							"20"
 		"tall"							"25"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"StreamINGAME"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -2801,20 +2801,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"ConsoleINGAME"
 	{
 		"ControlName"					"EditablePanel"
@@ -2825,7 +2825,7 @@
 		"wide"							"20"
 		"tall"							"25"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"ContrackerINGAME"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -2849,20 +2849,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"AdvancedOptionsINGAME"
 	{
 		"ControlName"					"EditablePanel"
@@ -2873,7 +2873,7 @@
 		"wide"							"20"
 		"tall"							"25"
 		"visible"						"1"
-		
+
 		"pin_to_sibling" 				"ConsoleINGAME"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
@@ -2897,20 +2897,20 @@
 			"dulltext"					"0"
 			"brighttext"				"0"
 			"default"					"1"
-			
+
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-			
+
 			"defaultFgColor_override"	"WhiteTransparent"
 			"armedFgColor_override"		"BlueLight"
 			"depressedFgColor_override"	"BlueLight"
-			
+
 			"proportionaltoparent"		"1"
 		}
 	}
-	
+
 	"Notifications_ShowButtonPanel"
 	{
 		"ControlName"					"EditablePanel"
@@ -2925,7 +2925,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"border"						"BlackTransparent50"
-		
+
 		"Icon"
 		{
 			"ControlName"				"CExLabel"
@@ -2944,7 +2944,7 @@
 			"pinCorner"					"0"
 			"fgcolor_override"			"White"
 		}
-		
+
 		"Notifications_ShowButtonPanel_SB"
 		{
 			"ControlName"				"CExImageButton"
@@ -2973,15 +2973,15 @@
 
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"paintbackground" 			"0"
 		}
 	}
-	
+
 	"Notifications_Panel"
 	{
 		"ControlName"					"EditablePanel"
@@ -2992,14 +2992,14 @@
 		"wide"							"210"
 		"tall"							"80"
 		"visible"						"0"
-		
+
 		"paintbackground"				"0"
 		"border"						"BlackTransparent50"
-		
+
 		"pin_to_sibling" 				"Notifications_ShowButtonPanel"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
-		
+
 		"Notifications_CloseButton"
 		{
 			"ControlName"				"CExImageButton"
@@ -3026,17 +3026,17 @@
 
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
-			
+
 			"paintbackground"			"0"
-		
+
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
 			"depressedFgColor_override"	"White"
-			
+
 			"border_default"			"RedTransparent70"
 			"border_armed"				"OrangeTransparent70"
-		}		
-	
+		}
+
 		"Notifications_TitleLabel"
 		{
 			"ControlName"				"CExLabel"
@@ -3055,7 +3055,7 @@
 			"fgcolor"					"White"
 			"wrap"						"1"
 		}
-		
+
 		"Notifications_Scroller"
 		{
 			"ControlName"				"ScrollableEditablePanel"
@@ -3066,7 +3066,7 @@
 			"tall"						"135"
 			"PaintBackgroundType"		"2"
 			"fgcolor_override"			"117 107 94 255"
-			
+
 			"Notifications_Control"
 			{
 				"ControlName"			"CMainMenuNotificationsControl"
@@ -3079,17 +3079,17 @@
 			}
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"9999"
 	}
-	
+
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
