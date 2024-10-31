@@ -1596,14 +1596,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Renogare Soft XHud"
+				"name"		"Renogare Soft"
 				"tall"		"8"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"Renogare Soft XHud"
+				"name"		"Renogare Soft"
 				"tall"		"13"
 				"range"		"0x0000 0x00FF"
 			}
@@ -1648,7 +1648,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Renogare Soft XHud"
+				"name"		"Renogare Soft"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"0"

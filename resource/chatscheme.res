@@ -220,7 +220,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Renogare Soft XHud"
+				"name"		"Renogare Soft"
 				"tall"		"7"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -322,7 +322,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Renogare Soft XHud"
+				"name"		"Renogare Soft"
 				"tall"		"8"
 				"weight"	"0"
 				"dropshadow"	"1"
