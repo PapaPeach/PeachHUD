@@ -1,1 +1,1 @@
-#base "../../customizations/DamagePositions.res
+#base "../../customizations/DamagePositions.res"
